@@ -1,96 +1,62 @@
+Hemorrhage (auto-attack)
 
-    Rogue:
-
-
-
-    Hemorrhage (auto-attack)
-
-    #showtooltip Hemorrhage(Rank 4)
-    /startattack
-    /cast Hemorrhage(Rank 4)
+#showtooltip Hemorrhage
+/startattack
+/cast Hemorrhage
 
 
-    Mutilate (auto-attack)
+Mutilate (auto-attack)
 
-    #showtooltip Mutilate(Rank 4)
-    /startattack
-    /cast Mutilate(Rank 4)
+#showtooltip Mutilate
+/startattack
+/cast Mutilate
 
 
-    Sap
+Sap
 
-    #showtooltip Sap
-    /console targetNearestDistance 10.000000
-    /targetenemy [noharm][dead]
-    /console targetNearestDistance 41.000000
-    /cast [harm,nodead] Sap
+#showtooltip Sap
+/console targetNearestDistance 10.000000
+/targetenemy [noharm][dead]
+/console targetNearestDistance 41.000000
+/cast [harm,nodead] Sap
 
 
 
 
 
-    Mouseover Throw (e.g. to destroy totems without switching)
+Mouseover Throw (e.g. to destroy totems without switching)
 
-    #showtooltip
-    /cast [target=mouseover] !Throw
-
-
+#showtooltip
+/cast [target=mouseover] !Throw
 
 
-    Wound Poison Weapon Switch
-
-    #showtooltip
-    /equipslot 17 Brutal Gladiator's Bonecracker
-    /cast Shiv(Rank 1)
 
 
-    Mind-numbing Poison Weapon Switch
-
-    #showtooltip
-    /equipslot 17 Brutal Gladiator's Quickblade
-    /cast Shiv(Rank 1)
 
 
-    Focus Mind-numbing Poison Weapon Switch
+Ambush Weapon Switch
 
-    #showtooltip
-    /equipslot 17 Brutal Gladiator's Quickblade
-    /cast [target=focus] Shiv(Rank 1)
-
-
-    Deadly Poison Weapon Switch
-
-    #showtooltip
-    /equipslot 17 Brutal Gladiator's Left Ripper
-    /cast Shiv(Rank 1)
+#showtooltip Ambush
+/equip Weapon
+/cast Ambush
 
 
-    Ambush Weapon Switch (if you want to switch back to your 2.60 weapon, use /equip Hand of Deceiver in your Hemorrhage macro)
+Stop Attack Vanish
 
-    #showtooltip Ambush(Rank 7)
-    /equip Crux of the Apocalypse
-    /cast Ambush(Rank 7)
-
-
-    Stop Attack Vanish
-
-    #showtooltip Vanish(Rank 3)
-    /stopattack
-    /cast Vanish
-    /stopattack
+#showtooltip Vanish
+/stopattack
+/cast Vanish
+/stopattack
 
 
-    Stop Attack Kidney Shot (e.g. for vanishing/restealth -> Sap after a Kidney Shot)
+Stop Attack Kidney Shot
 
-    #showtooltip
-    /cast Kidney Shot
-    /stopattack
+#showtooltip
+/cast Kidney Shot
+/stopattack
 
 
-    Vanish-every-instant-spell-macro (e.g. Blind, Death Coil, Cheap Shot, Hammer of Justice)
+Vanish-every-instant-spell-macro
 
-    #showtooltip Vanish
-    /cast [exists, harm] Vanish
-
-    Remember: you are not allowed to have anybody in your target, otherwise it will instantly cast vanish.
-    This macro is perfect for vanishing another rogue's Cheap shot for example.
+#showtooltip Vanish
+/cast [exists, harm] Vanish

@@ -1,178 +1,164 @@
- [Guide] Combat Rogue Macro Guide - Advance
+No GCD
 
-
-    1. No GCD
-
-    /cast <spell 1>
-    /cast <spell 2>
+/cast <spell 1>
+/cast <spell 2>
 
    
-    2. Cast sequences
+Cast sequences
 
-    /castsequence [condition] reset=4,target <spell 1>, <spell 2>, <spell 3>
+/castsequence [condition] reset=4,target <spell 1>, <spell 2>, <spell 3>
 
    
-    3. Modifier macros
+Modifier macros
 
-    /cast [nomod] <spell 1>
-    /cast [mod:shift] <spell 2>
-    /cast [mod:alt] <spell 3>
-    /cast [mod:ctrl] <spell 4>
+/cast [nomod] <spell 1>
+/cast [mod:shift] <spell 2>
+/cast [mod:alt] <spell 3>
+/cast [mod:ctrl] <spell 4>
 
   
-    3. Rotation based macro
+Rotation based macro
 
-    /castsequence reset=0.3 0,0,0,<spell 4>
-    /castsequence reset=0.3 0,0,<spell 3>
-    /castsequence reset=0.3 0,<spell 2>
-    /castsequence reset=0.3 <spell 1>
+/castsequence reset=0.3 0,0,0,<spell 4>
+/castsequence reset=0.3 0,0,<spell 3>
+/castsequence reset=0.3 0,<spell 2>
+/castsequence reset=0.3 <spell 1>
 
 
-    So this is what happens on each click (try to see the macro above as columns of spells rather than rows!):
+So this is what happens on each click (try to see the macro above as columns of spells rather than rows!):
 
-    1st click (first column of spells): cast 0, cast 0, cast 0, cast <spell 1>
-    2nd click (second column of spells): cast 0, cast 0, cast <spell 2>
-    3rd click (third column of spells): cast 0, cast <spell 3>
-    4th click (fourth column of spells): cast <spell 4>
-
-   
-
-    SAP :
-
-    #showtooltip [mod:shift] Blind; Sap
-    /castsequence [nomod] reset=target 0,Redirect
-    /castsequence [nomod] reset=target Sap
-    /cast [mod:shift] Blind
+1st click (first column of spells): cast 0, cast 0, cast 0, cast <spell 1>
+2nd click (second column of spells): cast 0, cast 0, cast <spell 2>
+3rd click (third column of spells): cast 0, cast <spell 3>
+4th click (fourth column of spells): cast <spell 4>
 
    
-    OPEN :
 
-    Casters/Healers -
+SAP :
 
-    /castsequence [nomod] reset=target garrote, expose armor, slice and dice
-    /cast [mod:shift] Revealing strike
+#showtooltip [mod:shift] Blind; Sap
+/castsequence [nomod] reset=target 0,Redirect
+/castsequence [nomod] reset=target Sap
+/cast [mod:shift] Blind
 
-    Melee -
+   
+OPEN :
 
-    /castsequence [nomod] reset=target Cheap shot, expose armor, slice and dice
+Casters/Healers -
+
+/castsequence [nomod] reset=target garrote, expose armor, slice and dice
+
+
+Melee -
+
+/castsequence [nomod] reset=target Cheap shot, expose armor, slice and dice
     
 
-    Like I mentioned before, the rogue opener is usually the one thing that can't be avoided (in most cases, especially when you have subterfuge talent). What you do is cast the above spells to apply combo points, revealing strike debuff AND consume combo points on slice and dice. Just spam the above marco :D
+BURST :
 
-    Different rogues have different openers. See what works for you and edit the above sequence.
-
-    On modifier shift, it casts revealing strike in case i need only the debuff for a followup kidney shot.
-
-
-    BURST :
-
-    #showtooltip [mod:shift] Adrenaline Rush; Sinister Strike
-    /cast Sinister Strike
-    /cast Adrenaline Rush
-    /use 13
+#showtooltip [mod:shift] Adrenaline Rush; Sinister Strike
+/cast Sinister Strike
+/cast Adrenaline Rush
+/use 13
 
 
-    Note : 13 = slot id for first trinket and 14 = slot id for second trinket.
+Note : 13 = slot id for first trinket and 14 = slot id for second trinket.
 
 
-    SPAM :
+SPAM :
 
-    /cast [nomod] Sinister Strike
-    /cast [mod:shift] Eviscerate
+/cast [nomod] Sinister Strike
+/cast [mod:shift] Eviscerate
 
-    Simple macro, build up points and consume with eviscerate. Or you can just build up points and then use kidney shot (in COUNTER macro below) for stun locking.
+VANISH :
 
-
-    VANISH :
-
-    #showtooltip [mod:shift] Vanish; Stealth
-    /stopattack
-    /stopcasting
-    /dismount [mounted]
-    /cast [nocombat] !Stealth
-    /cast [nocombat,stealth] Pick pocket
-    /castsequence [mod:shift] reset=6 Vanish, feint
-    /cast [mod:shift] Cloak of Shadows
-    /cast [mod:shift] Sprint
-    /cast [mod:shift] Preparation
+#showtooltip [mod:shift] Vanish; Stealth
+/stopattack
+/stopcasting
+/dismount [mounted]
+/cast [nocombat] !Stealth
+/cast [nocombat,stealth] Pick pocket
+/castsequence [mod:shift] reset=6 Vanish, feint
+/cast [mod:shift] Cloak of Shadows
+/cast [mod:shift] Sprint
+/cast [mod:shift] Preparation
 
     
+SPRINT :
 
-    SPRINT :
-
-    /cast [nomod] Burst of speed
-    /cast [mod:shift] Sprint
-
+/cast [nomod] Burst of speed
+/cast [mod:shift] Sprint
 
 
 
-    COUNTER :
 
-    /cast [nomod] Kidney shot
-    /cast [mod:shift] kick
+COUNTER :
+
+/cast [nomod] Kidney shot
+/cast [mod:shift] kick
   
 
 
-    CLEANSE :
+CLEANSE :
 
-    /cast [nomod] 14
-    /cast [mod:shift] Will of the forsaken
-
-
-
-    Set max camera distance (lets you scroll your view to max distance!)
-
-    /script SetCVar("cameraDistanceMax",30)
+/cast [nomod] 14
+/cast [mod:shift] Will of the forsaken
 
 
-    Teleport out of dungeon!
 
-    /run LFGTeleport(true)
+Set max camera distance (lets you scroll your view to max distance!)
+
+/script SetCVar("cameraDistanceMax",30)
+
+
+Teleport out of dungeon!
+
+/run LFGTeleport(true)
 
     
 
-    Delete all grey items from bag, cuz i am a professional!
+Delete all grey items from bag, cuz i am a professional!
 
-    /run for bag = 0, 4 do for slot = 1, GetContainerNumSlots(bag) do local name = GetContainerItemLink(bag,slot) if name and string.find(name,"ff9d9d9d") then PickupContainerItem(bag,slot) DeleteCursorItem() end end end
+/run for bag = 0, 4 do for slot = 1, GetContainerNumSlots(bag) do local name = GetContainerItemLink(bag,slot) if name and string.find(name,"ff9d9d9d") then PickupContainerItem(bag,slot) DeleteCursorItem() end end end
 
 
-    SECTION 4: Macro Conditionals (added section) :
+SECTION 4: Macro Conditionals (added section) :
 
    
-    Source : http://wow.gamepedia.com/Macro_conditionals
+Source : http://wow.gamepedia.com/Macro_conditionals
 
-    actionbar:1/.../6 or bar:1/.../6 — Given action bar page is selected.
-    bonusbar:1/... — a (specific) bonus action bar is currently overriding the player's main action bar.
-    button:1/.../5/<virtual click> or btn:1/.../5/<virtual click> — Macro activated with the given mouse button.
-    canexitvehicle — Player is in a vehicle and can exit it at will.
-    channeling:<spell name> — Player is channeling the given spell.
-    cursor — The mouse cursor is currently holding an item/ability/macro/etc.
-    combat — Player is in combat.
-    dead — Conditional target exists and is dead.
-    equipped:<item type> or worn:<item type> — item type is equipped (item type can be an inventory slot, item type, or item subtype).
-    exists — Conditional target exists.
-    extrabar — Player currently has an extra action bar/button.
-    flyable — The player can use a flying mount in this zone (though incorrect in Wintergrasp during a battle).
-    flying — Mounted or in flight form AND in the air.
-    form:0/1/2/.../n or stance:0/.../n — In a form or stance such as [Bear Form], [Shadowform], [Metamorphosis], [Battle Stance], etc.
-    group:party/raid — Player is in the given type of group (if argument is omitted, defaults to party).
-    harm — Conditional target exists and can be targeted by harmful spells (e.g. [Fireball]).
-    help — Conditional target exists and can be targeted by helpful spells (e.g. [Heal]).
-    indoors — Player is indoors.
-    modifier:shift/ctrl/alt or mod:shift/ctrl/alt — Holding the given key.
-    mounted — Player is mounted.
-    outdoors — Player is outdoors.
-    overridebar — Player's main action bar is currently replaced by the override action bar.
-    party — Conditional target exists and is in your party.
-    pet:<pet name or type> — The given pet is out.
-    petbattle — Currently participating in a pet battle.
-    possessbar — Player's main action bar is currently replaced by the possess action bar.
-    raid — Conditional target exists and is in your raid/party.
-    resting — Player is currently resting.
-    shapeshift — Player's main action bar is currently replaced by a temporary shapeshift action bar.
-    spec:1/2 — Player's active specialization group (spec, talents and glyphs).
-    stealth — Player is stealthed.
-    swimming — Player is swimming.
-    talent:<row#>/<column#> — Conditional talent activated.
-    unithasvehicleui — Conditional target has vehicle UI.
-    vehicleui — Player has vehicle UI.
+actionbar:1/.../6 or bar:1/.../6 — Given action bar page is selected.
+bonusbar:1/... — a (specific) bonus action bar is currently overriding the player's main action bar.
+button:1/.../5/<virtual click> or btn:1/.../5/<virtual click> — Macro activated with the given mouse button.
+canexitvehicle — Player is in a vehicle and can exit it at will.
+channeling:<spell name> — Player is channeling the given spell.
+cursor — The mouse cursor is currently holding an item/ability/macro/etc.
+combat — Player is in combat.
+dead — Conditional target exists and is dead.
+equipped:<item type> or worn:<item type> — item type is equipped (item type can be an inventory slot, item type, or item subtype).
+exists — Conditional target exists.
+extrabar — Player currently has an extra action bar/button.
+flyable — The player can use a flying mount in this zone (though incorrect in Wintergrasp during a battle).
+flying — Mounted or in flight form AND in the air.
+form:0/1/2/.../n or stance:0/.../n — In a form or stance such as [Bear Form], [Shadowform], [Metamorphosis], [Battle Stance], etc.
+group:party/raid — Player is in the given type of group (if argument is omitted, defaults to party).
+harm — Conditional target exists and can be targeted by harmful spells (e.g. [Fireball]).
+help — Conditional target exists and can be targeted by helpful spells (e.g. [Heal]).
+indoors — Player is indoors.
+modifier:shift/ctrl/alt or mod:shift/ctrl/alt — Holding the given key.
+mounted — Player is mounted.
+outdoors — Player is outdoors.
+overridebar — Player's main action bar is currently replaced by the override action bar.
+party — Conditional target exists and is in your party.
+pet:<pet name or type> — The given pet is out.
+petbattle — Currently participating in a pet battle.
+possessbar — Player's main action bar is currently replaced by the possess action bar.
+raid — Conditional target exists and is in your raid/party.
+resting — Player is currently resting.
+shapeshift — Player's main action bar is currently replaced by a temporary shapeshift action bar.
+spec:1/2 — Player's active specialization group (spec, talents and glyphs).
+stealth — Player is stealthed.
+swimming — Player is swimming.
+talent:<row#>/<column#> — Conditional talent activated.
+unithasvehicleui — Conditional target has vehicle UI.
+vehicleui — Player has vehicle UI.
