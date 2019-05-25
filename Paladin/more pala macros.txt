@@ -1,7 +1,3 @@
-  Paladin:
-
-
-
 /cast [noharm] [noharm,target=targettarget][] Righteous Defense 
 
 /cast Judgement 
@@ -18,154 +14,133 @@
 
 
 
-    Flash of Light
+Flash of Light
 
-    #showtooltip Flash of Light(Rank 7)
-    /equip Libram of Light
-    /cast Flash of Light(Rank 7)
+#showtooltip Flash of Light
+/cast Flash of Light
 
 
-    Holy Light
+Holy Light
 
-    #showtooltip Holy Light(Rank 11)
-    /equip Libram of Mending
-    /cast Holy Light(Rank 11)
+#showtooltip Holy Light
+/cast Holy Light
 
 
-    Rank 1 Holy Light (for mana regen)
+Rank 1 Holy Light (for mana regen)
 
-    #showtooltip Holy Light(Rank 1)
-    /equip Libram of Mending
-    /cast Holy Light(Rank 1)
+#showtooltip Holy Light(Rank 1)
+/cast Holy Light(Rank 1)
 
 
-    (Self) Cleanse (casts Cleanse if no modifiers are pressed, casts Cleanse on yourself if modifier (CTRL) is pressed)
+(Self) Cleanse (casts Cleanse if no modifiers are pressed, casts Cleanse on yourself if modifier (CTRL) is pressed)
 
-    #showtooltip
-    /equip Libram of Grace
-    /cast [no modifier] Cleanse
-    /cast [target=player][modifier:ctrl] Cleanse
+#showtooltip
+/cast [no modifier] Cleanse
+/cast [target=player][modifier:ctrl] Cleanse
 
 
+Mouseover Cleanse
 
+#showtooltip
+/cast [target=mouseover] Cleanse
 
-    Mouseover Cleanse
 
-    #showtooltip
-    /equip Libram of Grace
-    /cast [target=mouseover] Cleanse
+Party 1 Cleanse
 
+#showtooltip
+/cast [target=party1] Cleanse
 
-    Party 1 Cleanse
 
-    #showtooltip
-    /equip Libram of Grace
-    /cast [target=party1] Cleanse
+Party 1 Blessing of Protection
 
+/cast [target=party1] Blessing of Protection
 
-    Party 1 Blessing of Protection
 
-    /cast [target=party1] Blessing of Protection
+Party 1 Blessing of Freedom
 
+/cast [target=party1]Blessing of Freedom
 
-    Party 1 Blessing of Freedom
 
-    /cast [target=party1]Blessing of Freedom
+Party 1 Holy Shock
 
+/cast [target=party1]]Holy Shock
 
-    Party 1 Holy Shock
 
-    /cast [target=party1]]Holy Shock
+Self Holy Shock
 
+#showtooltip Holy Shock
+/cast [target=player] Holy Shock
 
-    Self Holy Shock
 
-    #showtooltip Holy Shock(Rank 5)
-    /cast [target=player] Holy Shock(Rank 5)
 
 
+Judgement
 
+#showtooltip Judgement
+/startattack
+/cast Judgement
 
-    Judgement
 
-    #showtooltip Judgement
-    /equip Libram of Divine Purpose
-    /startattack
-    /cast Judgement
 
 
 
+Mouseover Turn Evil
 
+#showtooltip
+/cast [target=mouseover] Turn Evil
 
-    Mouseover Turn Evil
 
-    #showtooltip
-    /cast [target=mouseover] Turn Evil
+1H + Shield (Retribution)
 
+/equip Weapon
+/equip Shield
 
-    Crusader Strike (auto-attack)
 
-    #showtooltip Crusader Strike
-    /equip Libram of Righteous Power
-    /startattack
-    /cast Crusader Strike
+Consecration
 
+#showtooltip Consecration
+/cast Consecration
 
-    1H + Shield (Retribution)
 
-    /equip Brutal Gladiator's Pummeler
-    /equip Brutal Gladiator's Shield Wall
+Rank 1 Consecration
 
+#showtooltip Consecration(Rank 1)
+/cast Consecration(Rank 1)
 
-    Consecration
 
-    #showtooltip Consecration(Rank 6)
-    /equip Libram of the Eternal Rest
-    /cast Consecration(Rank 6)
+Judgement (Retribution)
 
+#showtooltip Judgement
+/startattack
+/cast Judgement
 
-    Rank 1 Consecration
 
-    #showtooltip Consecration(Rank 1)
-    /equip Libram of the Eternal Rest
-    /cast Consecration(Rank 1)
+Normal Shockadin Macro
 
+#showtooltip
+/cast Divine Favor
+/use 13
+/cast Holy Shock
+/cast Judgement
 
-    Judgement (Retribution)
 
-    #showtooltip Judgement
-    /equip Libram of Divine Judgement
-    /startattack
-    /cast Judgement
+Shockadin Macro with consumables
 
+#showtooltip Holy Shock(Rank 5)
+/use Potion
+/cast Divine Favor
+/use 13
+/use Sapper Charge
+/cast Holy Shock
+/cast Judgement
 
-    Normal Shockadin Macro
 
-    #showtooltip
-    /cast Divine Favor
-    /use Hex Shrunken Head
-    /cast Holy Shock(Rank 5)
-    /cast Judgement
+Shockadin Macro with (more) consumables
 
-
-    Shockadin Macro with consumables
-
-    #showtooltip Holy Shock(Rank 5)
-    /use Destruction Potion
-    /cast Divine Favor
-    /use Hex Shrunken Head
-    /use Super Sapper Charge
-    /cast Holy Shock(Rank 5)
-    /cast Judgement
-
-
-    Shockadin Macro with (more) consumables and Avenging Wrath
-
-    /cast Avenging Wrath
-    /use Hex Shrunken Head
-    /use Destruction Potion
-    /use Super Sapper Charge
-    /cast Judgement
-    /cast Divine Favor
-    /cast Holy Shock
-    /use Oil of Immolation
+/use 13
+/use Destruction Potion
+/use Sapper Charge
+/cast Judgement
+/cast Divine Favor
+/cast Holy Shock
+/use Oil of Immolation
