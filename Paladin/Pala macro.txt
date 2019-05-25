@@ -1,0 +1,124 @@
+Macro Guide
+
+Here is a list of helpful macros I found in WoW forums and various other websites. If one you use is not listed, let me know I will add it.
+
+Individual Player Holy Light
+Cast Holy Light/Flash of Light on a player in your party, or yourself, only.
+
+/cast [help] Holy Light; [target=”x”] Holy Light
+“x” is Party(1-4), thus 5 individual Macros must be made with “Player” replacing “x” to target yourself. You can always replace the spell name with a different spell, i.e Flash of Light.
+
+Easy Seal and Judgement
+Judge an enemy with one button or recast a Seal. Important: A seal must already be activated to achieve the Judgment effect.
+
+/cast Judgement
+/stopcasting
+/cast Seal of X
+“X” is the name of the Seal, i.e. Wisdom, Crusader etc.
+
+One touch Bubble-Bandage
+/cast Divine Shield
+/stopcasting
+/useitem Heavy Runecloth Bandage, [target=player,help]
+Cast Divine Shield and bandage yourself. This conserves mana when doing this rather than casting Holy Light.
+
+Seal of Command
+/castsequence reset=30 Seal of Command, Judgement
+
+Seal of the Crusader
+/castsequence reset=30,target/combat Seal of the Crusader, Judgement
+
+Seal of Light
+/castsequence reset=30 Seal of Light, Judgement
+
+Seal of Justice
+/castsequence reset=30 Seal of Justice, Judgement
+
+Seal of Wisdom
+/castsequence reset=30 Seal of Wisdom, Judgement
+
+Seal of Righteousness
+/castsequence reset=30 Seal of Righteousness, Judgement
+
+
+
+Heal Macros
+
+
+Divine Light Divine Favor & Holy Light Combo
+/cast [combat] Divine Favor
+/stopcasting
+/cast [help] Holy Light; [target=targettarget] Holy Light
+
+
+
+Divine Shock Divine Favor & Holy Shock Combo
+/cast [combat] Divine Favor
+/stopcasting
+/cast [help] Holy Shock; [target=targettarget] Holy Shock
+
+
+
+Special Flash of Light Cast Flash of Light on a friend or target’s target
+/cast [help] Flash of Light; [target=targettarget] Flash of Light
+
+
+
+Self Casting
+/cast [target=player] Flash of Light
+This will also cast Flash of Light on yourself, regardless of target. You will also not lose your current target.
+
+
+
+/cast [help] Flash of Light; [target=player] Flash of Light
+This will cast Flash of Light if the target is friendly. In any other case (enemy or no target selected), it will cast it on you. You will also not lose your current target. Note that there are several ways of making this macro:
+
+
+
+/cast [target=player, harm] Flash of Light; [help] Flash of Light – is another example
+
+
+
+Defensive Macros
+These following macros are for Instance/Raid oriented situations.
+
+
+
+Cast BoP under the gaze of an enemy Another snoozer to “taunt” mobs with very little hassle
+/cast [help,target=target] Blessing of Protection; [target=targettarget,help] Blessing of Protection
+
+
+
+Bless Specific Macros
+These macros bless players depending on pre-set Blessing in the marco.
+
+GBL Cast Great Blessing of Light for the raid
+/cast [raid] Greater Blessing of Light; [help] Blessing of Light; [target=player] Greater Blessing of Light
+
+
+
+Other Macros
+These are miscellaneous macros for combat or non-combat situations.
+
+
+
+Bubble Hearth Macro ‘Nuff said
+/castsequence reset=3600 Divine Shield, cast Hearthstone
+
+
+
+Bubble Bandage Macro Bandage while under Divine Shield
+/castsequence reset=300 Divine Shield, [target=player] Heavy Runecloth Bandage
+
+
+
+Bubble Heal Macro Heal with Holy Light while under Divine Shield
+/castsequence reset=300 Divine Shield, [target=player] Holy Light
+
+
+
+Avoidance Macro
+Here is a great macro that will calculate your avoidance with and without buffs.
+
+/script DEFAULT_CHAT_FRAME:AddMessage(”Need 102.4 combined avoidance. Currently at:”,0.8,0.8,1)
+/script DEFAULT_CHAT_FRAME:AddMessage(GetDodgeChance()+GetBlockChance()+GetParryChance()+5+(GetCombatRating(CR_DEFENSE_SKILL)*150/355 + 20)*0.04,1,0.5,0)
