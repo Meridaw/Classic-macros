@@ -1,170 +1,134 @@
- Warrior:
+Mortal Strike (auto-attack)
 
+#showtooltip
+/startattack
+/cast Mortal Strike
 
 
-    Mortal Strike (auto-attack)
+Heroic Strike (auto-attack)
 
-    #showtooltip Mortal Strike(Rank 6)
-    /startattack
-    /cast Mortal Strike(Rank 6)
+#showtooltip
+/startattack
+/cast Heroic Strike
 
 
-    Heroic Strike (auto-attack)
+Harmstring (auto-attack)
 
-    #showtooltip
-    /startattack
-    /cast Heroic Strike(Rank 11)
+#showtooltip
+/startattack
+/cast Hamstring
 
 
-    Harmstring (auto-attack)
+Overpower (auto-attack)
 
-    #showtooltip
-    /startattack
-    /cast Hamstring(Rank 4)
+#showtooltip
+/startattack
+/cast Overpower
 
+Battle Shout (casts Battle Shout if no modifiers are pressed
 
-    Overpower (auto-attack)
+#showtooltip
+/cast [no modifier] Battle Shout
 
-    #showtooltip
-    /startattack
-    /cast Overpower(Rank 4)
 
+Pummel
 
-    Battle / Commanding Shout (casts Battle Shout if no modifiers are pressed, casts Commanding Shout if modifier (CTRL) is pressed)
+#showtooltip
+/cast Berserker Stance
+/cast Pummel
 
-    #showtooltip
-    /cast [no modifier] Battle Shout(Rank 8)
-    #showtooltip
-    /cast [modifier:ctrl] Commanding Shout(Rank 1)
 
+Shield Bash
 
-    Pummel
+#showtooltip
+/cast Battle Stance
+/cast Shield Bash
 
-    #showtooltip Pummel(Rank 2)
-    /cast Berserker Stance
-    /cast Pummel(Rank 2)
 
+Disarm
 
+#showtooltip
+/cast Defensive Stance
+/cast Disarm
 
 
-    Shield Bash
+Stop Attack Intimidating Shout (otherwise you would auto-attack)
 
-    #showtooltip Shield Bash(Rank 4)
-    /cast Battle Stance
-    /equip Brutal Gladiator's Pummeler
-    /equip Brutal Gladiator's Shield Wall
-    /cast Shield Bash(Rank 4)
+#showtooltip
+/stopattack
+/cast Intimidating Shout
 
 
+Shield Block (e.g. to counter Kidney Shot)
 
+#showtooltip
+/cast Defensive Stance
+/equip Weapon
+/equip Shield
+/cast Shield Block
 
 
+Berserker Rage
 
+#showtooltip
+/cast Berserker Stance
+/cast Berserker Rage
 
 
+Battle Stance + 2H
 
+#showtooltip
+/cast Battle Stance
+/equip 2hand weapon
 
-    Intervene -> Intercept
 
-    #showtooltip Intervene
-    /cast Defensive Stance
-    /target PLAYERNAME
-    /cast Intervene
-    /targetlasttarget
-    /cast Berserker Stance
-    /cast Intercept(Rank 5)
+Battle Stance + 1H/Shield
 
+#showtooltip
+/cast Battle Stance
+/equip Weapon
+/equip Shield
 
 
+Berserker Stance + 2H
 
+#showtooltip
+/cast Berserker Stance
+/equip 2hand weapon
 
-    Disarm
 
-    #showtooltip Disarm
-    /cast Defensive Stance
-    /cast Disarm
 
+Berserker Stance + 1H/Shield
 
+#showtooltip
+/cast Berserker Stance
+/equip Weapon
+/equip Shield
 
-    Stop Attack Intimidating Shout (otherwise you would auto-attack)
 
-    #showtooltip
-    /stopattack
-    /cast Intimidating Shout
+Defensive Stance + 2H
 
+/cast Defensive Stance
+/equip 2hand weapon
 
 
+Defensive Stance + 1H/Shield
 
+/cast Defensive Stance
+/equip weapon
+/equip shield
 
-    Shield Block (e.g. to counter Kidney Shot)
 
-    #showtooltip Shield Block
-    /cast Defensive Stance
-    /equip Brutal Gladiator's Pummeler
-    /equip Brutal Gladiator's Shield Wall
-    /cast Shield Block
+Shield Macro
 
+#showtooltip
+/equip weapon
+/equip shield
 
-    Berserker Rage
 
-    #showtooltip Berserker Rage
-    /cast Berserker Stance
-    /cast Berserker Rage
 
 
-    Battle Stance + 2H
+Mouseover Throw (e.g. to destroy totems without switching)
 
-    #showtooltip
-    /cast Battle Stance
-    /equip Brutal Gladiator's Bonegrinder
-
-
-    Battle Stance + 1H/Shield
-
-    #showtooltip
-    /cast Battle Stance
-    /equip Brutal Gladiator's Pummeler
-    /equip Brutal Gladiator's Shield Wall
-
-
-    Berserker Stance + 2H
-
-    #showtooltip
-    /cast Berserker Stance
-    /equip Brutal Gladiator's Bonegrinder
-
-
-    Berserker Stance + 1H/Shield
-
-    #showtooltip
-    /cast Berserker Stance
-    /equip Brutal Gladiator's Pummeler
-    /equip Brutal Gladiator's Shield Wall
-
-
-    Defensive Stance + 2H
-
-    /cast Defensive Stance
-    /equip Brutal Gladiator's Bonegrinder
-
-
-    Defensive Stance + 1H/Shield
-
-    /cast Defensive Stance
-    /equip Brutal Gladiator's Pummeler
-    /equip Brutal Gladiator's Shield Wall
-
-
-    Shield Macro
-
-    #showtooltip Brutal Gladiator's Shield Wall
-    /equip Brutal Gladiator's Pummeler
-    /equip Brutal Gladiator's Shield Wall
-
-
-
-
-    Mouseover Throw (e.g. to destroy totems without switching)
-
-    #showtooltip
-    /cast [target=mouseover] !Throw
+#showtooltip
+/cast [target=mouseover] !Throw
