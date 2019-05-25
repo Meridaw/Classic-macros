@@ -1,71 +1,66 @@
-Warlock:
+Spammable Drain Life
 
-
-    Spammable Drain Life
-
-    #showtooltip
-    /stopmacro [channeling]
-    /cast [no modifier] Drain Life(Rank 8)
+#showtooltip
+/stopmacro [channeling]
+/cast [no modifier] Drain Life
 
 
 
-    Buff Macro
+Buff Macro
 
-    #showtooltip
-    /castsequence reset=target/combat Fel Armor(Rank 2), Detect Invisibility, Unending Breath
+#showtooltip
+/castsequence reset=target/combat Fel Armor, Detect Invisibility, Unending Breath
 
 
-    Pet
+Pet
 
-    #showtooltip [pet:voidwalker] Sacrifice; [pet:felhunter] Spell Lock; [pet:succubus] Seduction
-    /use [pet:voidwalker] Sacrifice; [pet:felhunter] Spell Lock; [pet:succubus] Seduction
+#showtooltip [pet:voidwalker] Sacrifice; [pet:felhunter] Spell Lock; [pet:succubus] Seduction
+/use [pet:voidwalker] Sacrifice; [pet:felhunter] Spell Lock; [pet:succubus] Seduction
 
 
 
 
-    Pet Totem (pet destroys these totems, switch them if you would like to)
+Pet Totem (pet destroys these totems, switch them if you would like to)
 
-    /petattack [target=Grounding Totem]
-    /petattack [target=Tremor Totem]
-    /petattack [target=Earthbind Totem]
-    /petattack [target=Healing Stream Totem]
-    /petattack [target=Windfury Totem]
-    /petattack [target=Mana Spring Totem]
-    /petattack [target=Stoneskin Totem]
-
-
-    Felhunter Player Dispell (dispells yourself)
-
-    #showtooltip
-    /petfollow
-    /cast [target=player] Devour Magic
+/petattack [target=Grounding Totem]
+/petattack [target=Tremor Totem]
+/petattack [target=Earthbind Totem]
+/petattack [target=Healing Stream Totem]
+/petattack [target=Windfury Totem]
+/petattack [target=Mana Spring Totem]
+/petattack [target=Stoneskin Totem]
 
 
-    Felhunter Mouseover Dispell (dispells your mouseouver target)
+Felhunter Player Dispell (dispells yourself)
 
-    #showtooltip
-    /cast [target=mouseover] Devour Magic
-
-
-    Fel Domination -> Summon Voidwalker -> Sacrifice
-
-    #showtooltip
-    /castsequence reset=target/combat Fel Domination, Summon Voidwalker(Summon), Sacrifice(Rank 7)
+#showtooltip
+/petfollow
+/cast [target=player] Devour Magic
 
 
+Felhunter Mouseover Dispell (dispells your mouseouver target)
+
+#showtooltip
+/cast [target=mouseover] Devour Magic
 
 
-    Mouseover Banish
+Fel Domination -> Summon Voidwalker -> Sacrifice
 
-    #showtooltip
-    /cast [target=mouseover] Banish(Rank 2)
-
-
-    Pet Follow
-
-    /petfollow
+#showtooltip
+/castsequence reset=target/combat Fel Domination, Summon Voidwalker(Summon), Sacrifice(Rank 7)
 
 
-    Change name of your pet
+Mouseover Banish
 
-    /script PetAbandon()
+#showtooltip
+/cast [target=mouseover] Banish(Rank 2)
+
+
+Pet Follow
+
+/petfollow
+
+
+Change name of your pet
+
+/script PetAbandon()
