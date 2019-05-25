@@ -1,0 +1,91 @@
+ Shaman:
+
+
+
+    Lesser Healing Wave
+
+    #showtooltip Lesser Healing Wave(Rank 7)
+    /equip Brutal Gladiator's Totem of the Third Wind
+    /cast Lesser Healing Wave(Rank 7)
+
+
+    Healing Wave
+
+    #showtooltip Healing Wave(Rank 12)
+    /equip Totem of Spontaneous Regrowth
+    /cast Healing Wave(Rank 12)
+
+
+    Chain Heal
+
+    #showtooltip Chain Heal(Rank 5)
+    /equip Totem of Healing Rains
+    /cast Chain Heal(Rank 5)
+
+
+    Lightning Bolt
+
+    #showtooltip Lightning Bolt(Rank 12)
+    /equip Skycall Totem
+    /startattack
+    /cast Lightning Bolt(Rank 12)
+
+
+    Rank 1 Lightning Bolt (against Spell Reflection from warriors)
+
+    #showtooltip Lightning Bolt(Rank 1)
+    /equip Skycall Totem
+    /cast Lightning Bolt(Rank 1)
+
+
+    Chain Lightning
+
+    #showtooltip Chain Lightning(Rank 6)
+    /equip Totem of Ancestral Guidance
+    /cast Chain Lightning(Rank 6)
+
+
+    Frost Shock
+
+    #showtooltip Frost Shock(Rank 5)
+    /equip Totem of Impact
+    /cast Frost Shock(Rank 5)
+
+
+
+    Earth Shock
+
+    #showtooltip Earth Shock(Rank 6)
+    /equip Totem of Impact
+    /cast Earth Shock(Rank 6)
+
+
+
+    Flame Shock
+
+    #showtooltip Flame Shock(Rank 7)
+    /equip Totem of Impact
+    /cast Flame Shock(Rank 7)
+
+
+    Stormstrike
+
+    #showtooltip Stormstrike
+    /equip Totem of the Astral Winds
+    /startattack
+    /cast Stormstrike
+
+
+    Nature's Swiftness + Healing Wave
+
+    #showtooltip Nature's Swiftness
+    /stopcasting
+    /cast Nature's Swiftness
+    /equip Totem of Spontaneous Regrowth
+    /cast Healing Wave(Rank 12)
+
+
+    Buff Macro
+
+    #showtooltip
+    /castsequence reset=target/combat Water Shield(Rank 2), Water Breathing, Water Walking

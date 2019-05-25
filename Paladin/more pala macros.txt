@@ -1,0 +1,171 @@
+  Paladin:
+
+
+
+/cast [noharm] [noharm,target=targettarget][] Righteous Defense 
+
+/cast Judgement 
+/stopcasting 
+/cast Seal of Righteousness 
+
+
+/cast Divine Shield 
+/cancelaura Divine Shield 
+
+
+#showtooltip Cleanse 
+/cast [target=mouseover, exists] [help] [target=player] Cleanse 
+
+
+
+    Flash of Light
+
+    #showtooltip Flash of Light(Rank 7)
+    /equip Libram of Light
+    /cast Flash of Light(Rank 7)
+
+
+    Holy Light
+
+    #showtooltip Holy Light(Rank 11)
+    /equip Libram of Mending
+    /cast Holy Light(Rank 11)
+
+
+    Rank 1 Holy Light (for mana regen)
+
+    #showtooltip Holy Light(Rank 1)
+    /equip Libram of Mending
+    /cast Holy Light(Rank 1)
+
+
+    (Self) Cleanse (casts Cleanse if no modifiers are pressed, casts Cleanse on yourself if modifier (CTRL) is pressed)
+
+    #showtooltip
+    /equip Libram of Grace
+    /cast [no modifier] Cleanse
+    /cast [target=player][modifier:ctrl] Cleanse
+
+
+
+
+    Mouseover Cleanse
+
+    #showtooltip
+    /equip Libram of Grace
+    /cast [target=mouseover] Cleanse
+
+
+    Party 1 Cleanse
+
+    #showtooltip
+    /equip Libram of Grace
+    /cast [target=party1] Cleanse
+
+
+    Party 1 Blessing of Protection
+
+    /cast [target=party1] Blessing of Protection
+
+
+    Party 1 Blessing of Freedom
+
+    /cast [target=party1]Blessing of Freedom
+
+
+    Party 1 Holy Shock
+
+    /cast [target=party1]]Holy Shock
+
+
+    Self Holy Shock
+
+    #showtooltip Holy Shock(Rank 5)
+    /cast [target=player] Holy Shock(Rank 5)
+
+
+
+
+    Judgement
+
+    #showtooltip Judgement
+    /equip Libram of Divine Purpose
+    /startattack
+    /cast Judgement
+
+
+
+
+
+    Mouseover Turn Evil
+
+    #showtooltip
+    /cast [target=mouseover] Turn Evil
+
+
+    Crusader Strike (auto-attack)
+
+    #showtooltip Crusader Strike
+    /equip Libram of Righteous Power
+    /startattack
+    /cast Crusader Strike
+
+
+    1H + Shield (Retribution)
+
+    /equip Brutal Gladiator's Pummeler
+    /equip Brutal Gladiator's Shield Wall
+
+
+    Consecration
+
+    #showtooltip Consecration(Rank 6)
+    /equip Libram of the Eternal Rest
+    /cast Consecration(Rank 6)
+
+
+    Rank 1 Consecration
+
+    #showtooltip Consecration(Rank 1)
+    /equip Libram of the Eternal Rest
+    /cast Consecration(Rank 1)
+
+
+    Judgement (Retribution)
+
+    #showtooltip Judgement
+    /equip Libram of Divine Judgement
+    /startattack
+    /cast Judgement
+
+
+    Normal Shockadin Macro
+
+    #showtooltip
+    /cast Divine Favor
+    /use Hex Shrunken Head
+    /cast Holy Shock(Rank 5)
+    /cast Judgement
+
+
+    Shockadin Macro with consumables
+
+    #showtooltip Holy Shock(Rank 5)
+    /use Destruction Potion
+    /cast Divine Favor
+    /use Hex Shrunken Head
+    /use Super Sapper Charge
+    /cast Holy Shock(Rank 5)
+    /cast Judgement
+
+
+    Shockadin Macro with (more) consumables and Avenging Wrath
+
+    /cast Avenging Wrath
+    /use Hex Shrunken Head
+    /use Destruction Potion
+    /use Super Sapper Charge
+    /cast Judgement
+    /cast Divine Favor
+    /cast Holy Shock
+    /use Oil of Immolation

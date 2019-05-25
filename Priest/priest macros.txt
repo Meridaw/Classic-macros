@@ -1,0 +1,123 @@
+Priest:
+
+
+
+    (Self) Dispell (casts Dispell if no modifiers are pressed, casts Dispell on yourself if modifier (CTRL) is pressed)
+
+    #showtooltip
+    /cast [no modifier] Dispel Magic(Rank 2)
+    /cast [target=player][modifier:ctrl] Dispel Magic(Rank 2)
+
+
+
+    Mouseover Dispell
+
+    #showtooltip
+    /cast [target=mouseover] Dispel Magic(Rank 2)
+
+
+    Party 1 Dispell
+
+    #showtooltip Dispel Magic(Rank 2)
+    /cast [target=party1] Dispel Magic(Rank 2)
+
+
+
+
+    Self Fear Ward
+
+
+    #showtooltip
+    /stopcasting
+    /cast [target=player] Fear Ward
+
+
+    Party 1 Fear Ward
+
+    #showtooltip
+    /stopcasting
+    /cast [target=party1] Fear Ward
+
+
+
+
+    Buff Macro
+
+    #showtooltip
+    /castsequence reset=target/combat Power Word: Fortitude(Rank 7), Divine Spirit(Rank 5), Shadow Protection(Rank 4), Inner Fire(Rank 7), Touch of Weakness(Rank 7)
+
+
+    Prayer Buff Macro
+
+    #showtooltip
+    /castsequence reset=target/combat Prayer of Fortitude(Rank 3), Prayer of Spirit(Rank 2), Prayer of Shadow Protection(Rank 2), Inner Fire(Rank 7), Touch of Weakness(Rank 7)
+
+
+    Rank 1 Buff Macro (e.g. for dispells)
+
+    #showtooltip
+    /castsequence reset=target/combat Power Word: Fortitude(Rank 1), Divine Spirit(Rank 1), Shadow Protection(Rank 1), Abolish Disease
+
+
+    Power Infusion (casts Power Infusion on yourself if no modifiers are pressed, casts Power Infusion on your current target if modifier (CTRL) is pressed)
+
+    #showtooltip
+    /cast [modifier:ctrl,target=target][target=player] Power Infusion
+
+
+    Mind Soothe (against Spell Reflection from warriors)
+
+    #showtooltip
+    /stopcasting
+    /cast Mind Soothe(Rank 1)
+
+
+    Spammable Mind Flay
+
+    #showtooltip
+    /stopmacro [channeling]
+    /cast Mind Flay(Rank 7)
+
+
+
+
+    Shadowform
+
+    #showtooltip
+    /cast !Shadowform
+
+
+    Holy Nova (casts Holy Nova Rank 7 if no modifiers are pressed, casts Holy Nova Rank 1 if modifier (CTRL) is pressed)
+
+    #showtooltip
+    /cast [mod:ctrl]Holy Nova(Rank 1);Holy Nova(Rank 7)
+
+
+    Party 1 Power Word: Shield
+
+    #showtooltip Power Word: Shield
+    /cast [target=party1] Power Word: Shield(Rank 12)
+
+
+    Party 1 Prayer of Mending
+
+    #showtooltip Prayer of Mending(Rank 1)
+    /cast [target=player1] Prayer of Mending(Rank 1)
+
+
+    Party 1 Flash Heal
+
+    #showtooltip Flash Heal(Rank 9)
+    /cast [target=player1] Flash Heal(Rank 9)
+
+
+    Party 1 Greater Heal
+
+    #showtooltip Greater Heal(Rank 7)
+    /cast [target=player1] Greater Heal(Rank 7)
+
+
+    Party 1 Renew
+
+    #showtooltip Renew(Rank 12)
+    /cast [target=player1] Renew(Rank 12)
