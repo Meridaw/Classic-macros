@@ -1,62 +1,57 @@
-Hunter:
+Scatter Shot
+
+#showtooltip Scatter Shot
+/petpassive
+/petfollow
+/stopcasting
+/cast Scatter Shot
+
+
+
+Freezing Trap
+
+#showtooltip
+/petpassive
+/petstay
+/stopcasting
+/cast Freezing Trap
+/stopattack
 
 
 
 
-    Scatter Shot
+Mouseover Scare Beast
 
-    #showtooltip Scatter Shot
-    /petpassive
-    /petfollow
-    /stopcasting
-    /cast Scatter Shot
+#showtooltip Scare Beast
+/cast [target=mouseover] Scare Beast
 
 
+Flare
 
-    Freezing Trap
-
-    #showtooltip Freezing Trap(Rank 3)
-    /petpassive
-    /petstay
-    /stopcasting
-    /cast Freezing Trap(Rank 3)
-    /stopattack
-
-
-
-
-    Mouseover Scare Beast
-
-    #showtooltip Scare Beast
-    /cast [target=mouseover] Scare Beast(Rank 3)
-
-
-    Flare
-
-    #showtooltip
-    /cast !Flare
+#showtooltip
+/cast !Flare
 
 
 
 
 
-    Call/Dismiss Pet (if your pet is up it'll dismiss it, if your pet doesnt exist, it'll call it)
+Call/Dismiss Pet (if your pet is up it'll dismiss it, if your pet doesnt exist, it'll call it)
 
-    #showtooltip
-    /cast [pet] Dismiss Pet; Call Pet
-
-
-    Pet Totem (pet destroys these totems, switch them if you would like to)
-
-    /petattack [target=Grounding Totem]
-    /petattack [target=Tremor Totem]
-    /petattack [target=Earthbind Totem]
-    /petattack [target=Healing Stream Totem]
-    /petattack [target=Windfury Totem]
-    /petattack [target=Mana Spring Totem]
-    /petattack [target=Stoneskin Totem]
+#showtooltip
+/cast [pet] Dismiss Pet; Call Pet
 
 
-    Pet Follow
+Pet Totem (pet destroys these totems, switch them if you would like to)
 
-    /petfollow
+/petattack [target=Grounding Totem]
+/petattack [target=Tremor Totem]
+/petattack [target=Earthbind Totem]
+/petattack [target=Healing Stream Totem]
+/petattack [target=Windfury Totem]
+/petattack [target=Mana Spring Totem]
+/petattack [target=Stoneskin Totem]
+
+
+Pet Follow
+
+/petfollow

@@ -1,17 +1,23 @@
-Macros
-
-
 Pet Macro
-#showtooltip /cast [target=pet,dead][mod:shift] Revive Pet /cast [nopet] Call Pet /cast [pet,nomod,button:1] Mend Pet /cast [pet,nomod,button:2] Dismiss Pet /cast [pet,mod:alt] Feed Pet /use [pet,mod:alt] Clefthoof Ribs
+
+#showtooltip 
+/cast [target=pet,dead][mod:shift] Revive Pet 
+/cast [nopet] Call Pet 
+/cast [pet,nomod,button:1] Mend Pet 
+/cast [pet,nomod,button:2] Dismiss Pet 
+/cast [pet,mod:alt] Feed Pet 
+/use [pet,mod:alt] Clefthoof Ribs
 
 
 
 Alternate Pet Macro
+
 /cast [target=pet, dead] Revive Pet;[nopet] Call Pet; Mend Pet
 
 
 
 Totem Killer
+
 /petattack [target=Earthbind Totem ] [harm] 
 /petattack [target=Windfury Totem ] [harm] 
 /petattack [target=Mana Tide Totem ] [harm] 
@@ -20,16 +26,19 @@ Totem Killer
 
 
 Pet Interrupt
+
 #showtooltip 
 /cast Intimidate
 
 
 Scare Beast
+
 #showtooltip Scare Beast 
 /cast [harm] Scare Beast
 
 
 Burst
+
 #showtooltip Bestial Wrath 
 /cast Rapid Fire 
 /use 13 
@@ -39,12 +48,15 @@ Burst
 
 
 Cold Traps
+
 #showtooltip 
 /cast [button:2] Frost Trap 
 /stopmacro [button:2] 
 /cast [mod:ctrl] Frost Trap; Freezing Trap
 
+
 Warm Traps
+
 #showtooltip 
 /cast [button:2] Explosive Trap 
 /stopmacro [button:2] 
@@ -53,29 +65,32 @@ Warm Traps
 
 
 Aspect
+
 #showtooltip
 /cast [mod:ctrl] Aspect of the Cheetah; [mod:ctrl, button:2] Aspect of the Pack; [mod:shift] Aspect of the Monkey; [button:1, nomod] Aspect of the Hawk
 
-Pet attack toggle macro: If your pet does not have a target it will attack your current target. If it does have a target it will set it to passive. Requires two presses to change the pet's target.
-
 
 PvP CC Macro - concussive shot if ranged, wing clip if melee
+
 #showtooltip 
 /castrandom [nomod] concussive shot, wing clip 
 /castrandom [nomod] wing clip, concussive shot
 
 
-I personally use ctrl+1 to attack with my pet and ctrl+3 to set it to passive. This macro will allow you to reuse at least one of those binds.
+This macro will allow you to reuse at least one of those binds.
+
 /petattack 
 /petpassive [target=pettarget,exists] 
 
  
  
 All in one pet macro
+
 /cast [target=pet, dead] Revive Pet;[nopet] Call Pet; Mend Pet
  
  
 Totem Stomp Macro
+
 /petattack [target=Earthbind Totem ] [harm]
 /petattack [target=Windfury Totem ] [harm]
 /petattack [target=Mana Tide Totem ] [harm]
