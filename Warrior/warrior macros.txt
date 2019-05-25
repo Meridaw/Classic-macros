@@ -127,6 +127,11 @@ Shield Macro
 
 
 
+Mouseover Sunder
+
+/cast [@mouseover,harm,nodead][]Sunder Armor
+
+
 
 Mouseover Throw (e.g. to destroy totems without switching)
 
