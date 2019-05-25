@@ -52,14 +52,14 @@ Disarm
 /cast Disarm
 
 
-Stop Attack Intimidating Shout (otherwise you would auto-attack)
+Stop Attack Intimidating Shout
 
 #showtooltip
 /stopattack
 /cast Intimidating Shout
 
 
-Shield Block (e.g. to counter Kidney Shot)
+Shield Block
 
 #showtooltip
 /cast Defensive Stance
@@ -73,6 +73,12 @@ Berserker Rage
 #showtooltip
 /cast Berserker Stance
 /cast Berserker Rage
+
+
+Charge out of combat, Berserk Stance in combat then Intercept
+
+/cast [nocombat,nostance:1] Battle Stance; Charge
+/cast [combat,nostance:3] Berserker Stance; Intercept
 
 
 Battle Stance + 2H
