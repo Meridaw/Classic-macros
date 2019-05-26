@@ -1,17 +1,3 @@
-Spammable Drain Life
-
-#showtooltip
-/stopmacro [channeling]
-/cast [no modifier] Drain Life
-
-
-
-Buff Macro
-
-#showtooltip
-/castsequence reset=target/combat Fel Armor, Detect Invisibility, Unending Breath
-
-
 Pet
 
 #showtooltip [pet:voidwalker] Sacrifice; [pet:felhunter] Spell Lock; [pet:succubus] Seduction
@@ -47,13 +33,7 @@ Felhunter Mouseover Dispell (dispells your mouseouver target)
 Fel Domination -> Summon Voidwalker -> Sacrifice
 
 #showtooltip
-/castsequence reset=target/combat Fel Domination, Summon Voidwalker(Summon), Sacrifice(Rank 7)
-
-
-Mouseover Banish
-
-#showtooltip
-/cast [target=mouseover] Banish(Rank 2)
+/castsequence reset=target/combat Fel Domination, Summon Voidwalker(Summon), Sacrifice
 
 
 Pet Follow

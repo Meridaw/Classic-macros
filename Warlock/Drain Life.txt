@@ -1,0 +1,5 @@
+Spammable Drain Life
+
+#showtooltip
+/stopmacro [channeling]
+/cast [no modifier] Drain Life

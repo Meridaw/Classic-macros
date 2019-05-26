@@ -1,0 +1,4 @@
+Buff Macro
+
+#showtooltip
+/castsequence reset=target/combat Fel Armor, Detect Invisibility, Unending Breath
