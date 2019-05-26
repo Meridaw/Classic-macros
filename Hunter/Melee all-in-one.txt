@@ -1,0 +1,8 @@
+Melee all-in-one (excluding wingclip):
+
+#showtooltip
+/attacktarget [nocombat]
+/cast Raptor Strike
+/cast Counterattack
+/cast Mongoose Bite
+Alternatively, /cast Wing Clip instead of mongoose/counterattack

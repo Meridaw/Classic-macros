@@ -40,6 +40,42 @@ Call/Dismiss Pet
 /cast [pet] Dismiss Pet; Call Pet
 
 
-Pet Follow
+Scatter Shot+Pet Passive:
+#showtooltip Scatter Shot
+/petstay [pettarget=target]
+/petpassive [pettarget=target]
+/cast Scatter Shot
 
+
+Pet Follow:
+#showtooltip
 /petfollow
+/petpassive
+/cast Dash
+
+
+Pet Attack:
+#showtooltip
+/petfollow
+/petpassive
+/petattack
+/cast Dive
+/cast Dash
+
+
+Pet Feed:
+#showtooltip
+/cast Feed Pet
+/use nameoffood or /use <bag> <slot>
+
+
+Pet Revive/Call Pet/Dismiss:
+#show
+/cast [pet=dead] Revive Pet; [nopet] Call Pet; Dismiss Pet
+
+
+Feign Trap+pet Passive:
+#showtooltip
+/cast Freezing Trap
+/cast [combat] Feign Death
+/petpassive [pettarget=target]

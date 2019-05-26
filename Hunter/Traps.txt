@@ -1,5 +1,12 @@
 Cold Traps
 
+Feign Trap+pet Passive:
+#showtooltip
+/cast Freezing Trap
+/cast [combat] Feign Death
+/petpassive [pettarget=target]
+
+
 #showtooltip 
 /cast [button:2] Frost Trap 
 /stopmacro [button:2] 
