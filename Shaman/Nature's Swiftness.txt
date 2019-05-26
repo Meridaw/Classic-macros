@@ -1,0 +1,7 @@
+Nature's Swiftness + Healing Wave
+
+#showtooltip
+/cancelaura Ghost Wolf
+/stopcasting
+/cast Nature's Swiftness
+/cast Healing Wave

@@ -1,0 +1,20 @@
+Frost Shock
+
+#showtooltip
+/cancelaura Ghost Wolf
+/cast Frost Shock
+
+
+
+Earth Shock
+
+#showtooltip
+/cancelaura Ghost Wolf
+/cast Earth Shock
+
+
+Flame Shock
+
+#showtooltip
+/cancelaura Ghost Wolf
+/cast Flame Shock

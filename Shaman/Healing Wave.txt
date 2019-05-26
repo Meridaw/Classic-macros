@@ -1,0 +1,12 @@
+Lesser Healing Wave
+
+#showtooltip
+/cancelaura Ghost Wolf
+/cast Lesser Healing Wave
+
+
+Healing Wave
+
+#showtooltip
+/cancelaura Ghost Wolf
+/cast Healing Wave

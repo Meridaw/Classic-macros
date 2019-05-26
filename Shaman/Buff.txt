@@ -1,0 +1,4 @@
+Buff Macro
+
+#showtooltip
+/castsequence reset=target/combat Water Breathing, Water Walking

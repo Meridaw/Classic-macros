@@ -1,0 +1,6 @@
+Lightning Bolt
+
+#showtooltip
+/cancelaura Ghost Wolf
+/startattack
+/cast Lightning Bolt

@@ -1,0 +1,5 @@
+Chain Lightning
+
+#showtooltip
+/cancelaura Ghost Wolf
+/cast Chain Lightning

@@ -1,0 +1,6 @@
+Stormstrike
+
+#showtooltip
+/cancelaura Ghost Wolf
+/startattack
+/cast Stormstrike
