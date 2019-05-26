@@ -1,0 +1,10 @@
+Trash buffs for anti dispel.
+
+#showtooltip Mark of the Wild(Rank 1)
+/castsequence reset=30 Thorns(Rank 1), Mark of the Wild(Rank 1)
+
+
+Trash dots to cover roots or make enemy waste some mana.
+
+#showtooltip Insect Swarm(Rank 1)
+/castsequence reset=30 Moonfire(Rank 1), Insect Swarm(Rank 1)

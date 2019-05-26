@@ -1,0 +1,49 @@
+#showtooltip Cat Form
+/use !Cat Form
+
+
+#showtooltip Cat Form
+/cancelaura Cat Form
+/cast [nomodifier] Cat Form
+
+
+#showtooltip
+/startattack
+/cast !Maul
+
+
+#showtooltip
+/cast [stealth] Pounce; [nostealth] Claw
+
+
+#showtooltip
+/cast [stealth] Ravage; [nostealth] Shred
+
+
+#showtooltip
+/cast Tiger’s Fury
+/use 13
+/use 14
+
+
+#showtooltip Rip
+/cast Rip
+
+
+#showtooltip Rake
+/cast Rake
+
+
+#showtooltip [stealth] Ravage; [nostealth] Shred
+/cast [stealth] Ravage; [nostealth] Shred
+
+
+#showtooltip Prowl
+/cancelaura [stance:1] Dire Bear Form; [stance:2] Aquatic Form; [stance:4] Travel Form; [stance:5] Moonkin Form
+/cast [nostance] Cat Form; [stance:3] Prowl
+
+
+secure stealth macro
+
+#show Prowl
+/cast [nostealth] Prowl

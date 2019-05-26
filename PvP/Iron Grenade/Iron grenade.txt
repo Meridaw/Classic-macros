@@ -1,0 +1,2 @@
+/castsequence reset=1 iron grenade
+/stopcasting

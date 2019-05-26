@@ -1,0 +1,4 @@
+#showtooltip Hibernate
+/stopcasting
+/cast [target=mouseover,exists] Hibernate
+/cast Hibernate

@@ -1,0 +1,4 @@
+Moonkin Form with powershifting
+
+#showtooltip Moonkin Form(Shapeshift)
+/cast !Moonkin Form(Shapeshift)

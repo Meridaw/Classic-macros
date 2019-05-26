@@ -1,0 +1,6 @@
+Rogue-on-my-back macro for PvP trinket, living action potion and free action potion in one button.
+
+#showtooltip
+/cast [nomodifier] Medallion of the Horde
+/cast [modifier:shift] Living Action Potion
+/cast [modifier:ctrl] Free Action Potion

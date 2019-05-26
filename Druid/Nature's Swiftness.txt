@@ -1,0 +1,6 @@
+#showtooltip Nature's Swiftness
+/cast Nature's Swiftness
+/stopcasting
+/cast [help] Healing Touch; [target=player] Healing Touch
+
+

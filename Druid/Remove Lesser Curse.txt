@@ -1,0 +1,3 @@
+#showtooltip
+/cast [target=mouseover,exists]Remove Lesser Curse
+/cast [target=player]Remove Lesser Curse

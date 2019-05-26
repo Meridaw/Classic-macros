@@ -1,0 +1,2 @@
+#showtooltip
+/cast [form:1] [form:3] Faerie Fire (Feral)(Rank 5); [noform] Faerie Fire

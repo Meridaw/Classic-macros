@@ -1,0 +1,10 @@
+Totem killing macro. You can modify it by changing /targetexact to /tar and add more totems instead.
+
+/targetexact Searing Totem VII
+/targetexact Grounding Totem
+/targetexact Mana Spring Totem V
+/targetexact Tremor Totem
+/targetexact Windfury Totem V
+/targetexact Earthbind Totem
+/targetexact Mana Tide Totem
+/use [harm] Moonfire(Rank 1)

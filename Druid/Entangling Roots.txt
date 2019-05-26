@@ -1,0 +1,4 @@
+#showtooltip Entangling Roots(Rank 1)
+/stopcasting
+/cast [target=mouseover,exists] Entangling Roots(Rank 1)
+/cast Entangling Roots(Rank 1)

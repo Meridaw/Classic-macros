@@ -1,0 +1,3 @@
+#show Regrowth
+/stopcasting
+/cast [mod:alt,target=player] Regrowth; [target=mouseover,exists] Regrowth; Regrowth;

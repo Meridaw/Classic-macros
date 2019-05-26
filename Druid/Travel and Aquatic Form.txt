@@ -1,0 +1,5 @@
+Travel Form and Aquatic Form in one button (+ powershifting).
+
+/cancelaura Travel Form, Aquatic Form
+/cast [noswimming] !Travel Form
+/cast [swimming] !Aquatic Form

@@ -1,0 +1,21 @@
+Self Innervate Macro
+
+#showtooltip Innervate
+/cast [target=player] Innervate
+
+
+Innervate
+
+#showtooltip
+/target mouseover
+/cast [exists,help][target=player] Innervate
+/stopmacro [noexists][harm]
+/run SendChatMessage("You've been INNERVATED!", "whisper", nil, GetUnitName("mouseover"))
+/targetlasttarget
+
+
+Weapon swapping macro to boost mana regen(just change item names).
+
+/equipslot 16 Weapon
+/equipslot 17 Offhand
+/equip Staff

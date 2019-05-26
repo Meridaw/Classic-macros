@@ -1,0 +1,5 @@
+Food and drink in one button.
+
+#showtooltip
+/use Roasted Quail
+/use Morning Glory Dew
