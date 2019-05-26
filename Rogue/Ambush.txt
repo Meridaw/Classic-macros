@@ -1,0 +1,5 @@
+Ambush Weapon Switch
+
+#showtooltip Ambush
+/equip Weapon
+/cast Ambush

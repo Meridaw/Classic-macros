@@ -1,0 +1,4 @@
+Holy Nova (casts Holy Nova max rank if no modifiers are pressed, casts Holy Nova Rank 1 if modifier (CTRL) is pressed)
+
+#showtooltip
+/cast [mod:ctrl]Holy Nova(Rank 1);Holy Nova

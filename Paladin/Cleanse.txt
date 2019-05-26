@@ -7,3 +7,9 @@
 #showtooltip
 /cast [no modifier] Cleanse
 /cast [target=player][modifier:ctrl] Cleanse
+
+
+Mouseover Cleanse
+
+#showtooltip
+/cast [target=mouseover] Cleanse

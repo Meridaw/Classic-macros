@@ -1,0 +1,11 @@
+Stop Attack Kidney Shot
+
+#showtooltip
+/cast Kidney Shot
+/stopattack
+
+
+Kidney shot
+
+/cast [nomod] Kidney shot
+/cast [mod:shift] kick

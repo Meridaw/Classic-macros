@@ -1,0 +1,15 @@
+Sap
+
+#showtooltip [mod:shift] Blind; Sap
+/castsequence [nomod] reset=target 0,Redirect
+/castsequence [nomod] reset=target Sap
+/cast [mod:shift] Blind
+
+
+Sap
+
+#showtooltip Sap
+/console targetNearestDistance 10.000000
+/targetenemy [noharm][dead]
+/console targetNearestDistance 41.000000
+/cast [harm,nodead] Sap

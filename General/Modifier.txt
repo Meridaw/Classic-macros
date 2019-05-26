@@ -1,0 +1,6 @@
+Modifier macros
+
+/cast [nomod] <spell 1>
+/cast [mod:shift] <spell 2>
+/cast [mod:alt] <spell 3>
+/cast [mod:ctrl] <spell 4>

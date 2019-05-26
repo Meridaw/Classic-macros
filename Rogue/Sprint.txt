@@ -1,0 +1,3 @@
+Sprint
+
+/cast [nomod] Burst of speed

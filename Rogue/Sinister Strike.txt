@@ -1,0 +1,15 @@
+Sinister Strike
+
+/cast [nomod] Sinister Strike
+/cast [mod:shift] Eviscerate
+
+
+Burst
+
+#showtooltip [mod:shift] Adrenaline Rush; Sinister Strike
+/cast Sinister Strike
+/cast Adrenaline Rush
+/use 13
+
+
+Note : 13 = slot id for first trinket and 14 = slot id for second trinket.

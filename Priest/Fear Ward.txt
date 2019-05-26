@@ -1,0 +1,5 @@
+Self Fear Ward
+
+#showtooltip
+/stopcasting
+/cast [target=player] Fear Ward

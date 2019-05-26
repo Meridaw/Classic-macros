@@ -1,0 +1,10 @@
+OPEN :
+
+Casters/Healers -
+
+/castsequence [nomod] reset=target garrote, expose armor, slice and dice
+
+
+Melee -
+
+/castsequence [nomod] reset=target Cheap shot, expose armor, slice and dice

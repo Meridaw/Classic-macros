@@ -1,0 +1,4 @@
+Cleanse
+
+/cast [nomod] 14
+/cast [mod:shift] Will of the forsaken

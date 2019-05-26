@@ -1,0 +1,3 @@
+Cast sequences
+
+/castsequence [condition] reset=4,target <spell 1>, <spell 2>, <spell 3>

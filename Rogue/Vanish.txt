@@ -1,0 +1,25 @@
+Stop Attack Vanish
+
+#showtooltip Vanish
+/stopattack
+/cast Vanish
+/stopattack
+
+
+Vanish
+
+#showtooltip [mod:shift] Vanish; Stealth
+/stopattack
+/stopcasting
+/dismount [mounted]
+/cast [nocombat] !Stealth
+/cast [nocombat,stealth] Pick pocket
+/castsequence [mod:shift] reset=6 Vanish, feint
+/cast [mod:shift] Sprint
+/cast [mod:shift] Preparation
+
+
+Vanish-every-instant-spell-macro
+
+#showtooltip Vanish
+/cast [exists, harm] Vanish

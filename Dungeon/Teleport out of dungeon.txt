@@ -1,0 +1,3 @@
+Teleport out of dungeon!
+
+/run LFGTeleport(true)

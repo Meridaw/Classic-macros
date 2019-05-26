@@ -1,0 +1,4 @@
+Spammable Wand
+
+#showtooltip
+/cast !Shoot

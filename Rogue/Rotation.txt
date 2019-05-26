@@ -1,0 +1,14 @@
+Rotation based macro
+
+/castsequence reset=0.3 0,0,0,<spell 4>
+/castsequence reset=0.3 0,0,<spell 3>
+/castsequence reset=0.3 0,<spell 2>
+/castsequence reset=0.3 <spell 1>
+
+
+So this is what happens on each click (try to see the macro above as columns of spells rather than rows!):
+
+1st click (first column of spells): cast 0, cast 0, cast 0, cast <spell 1>
+2nd click (second column of spells): cast 0, cast 0, cast <spell 2>
+3rd click (third column of spells): cast 0, cast <spell 3>
+4th click (fourth column of spells): cast <spell 4>

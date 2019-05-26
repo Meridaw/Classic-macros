@@ -1,0 +1,5 @@
+Mutilate (auto-attack)
+
+#showtooltip Mutilate
+/startattack
+/cast Mutilate

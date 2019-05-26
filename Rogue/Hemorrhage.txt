@@ -1,0 +1,5 @@
+Hemorrhage (auto-attack)
+
+#showtooltip Hemorrhage
+/startattack
+/cast Hemorrhage
