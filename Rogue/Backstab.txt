@@ -1,0 +1,3 @@
+#showtooltip Backstab
+/startattack
+/cast Backstab

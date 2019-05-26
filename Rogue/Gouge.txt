@@ -1,0 +1,5 @@
+Gouge out of stealth 
+Sap in stealth
+
+/cast [stance:0] Gouge
+/cast [stance:1] sap

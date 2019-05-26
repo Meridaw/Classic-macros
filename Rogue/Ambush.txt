@@ -3,3 +3,9 @@ Ambush Weapon Switch
 #showtooltip Ambush
 /equip Weapon
 /cast Ambush
+
+
+Swapping to dagger in mainhand for Ambush 
+
+/equipslot 16 [Weapon name here]
+/cast Ambush

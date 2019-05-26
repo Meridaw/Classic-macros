@@ -1,0 +1,5 @@
+Mousover examples
+
+/cast [target=mouseover] Blind 
+/cast [target=mouseover] Kick
+/cast [target=mouseover] gouge

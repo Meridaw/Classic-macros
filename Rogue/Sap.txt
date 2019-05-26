@@ -1,3 +1,11 @@
+Spammable Sap for stealthed units
+
+#showtooltip Sap
+/cleartarget
+/targetenemyplayer
+/cast Sap
+
+
 Sap
 
 #showtooltip [mod:shift] Blind; Sap
