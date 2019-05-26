@@ -1,4 +1,4 @@
-Source : http://wow.gamepedia.com/Macro_conditionals
+﻿Source : http://wow.gamepedia.com/Macro_conditionals
 
 actionbar:1/.../6 or bar:1/.../6 — Given action bar page is selected.
 bonusbar:1/... — a (specific) bonus action bar is currently overriding the player's main action bar.
@@ -11,8 +11,6 @@ dead — Conditional target exists and is dead.
 equipped:<item type> or worn:<item type> — item type is equipped (item type can be an inventory slot, item type, or item subtype).
 exists — Conditional target exists.
 extrabar — Player currently has an extra action bar/button.
-flyable — The player can use a flying mount in this zone (though incorrect in Wintergrasp during a battle).
-flying — Mounted or in flight form AND in the air.
 form:0/1/2/.../n or stance:0/.../n — In a form or stance such as [Bear Form], [Shadowform], [Metamorphosis], [Battle Stance], etc.
 group:party/raid — Player is in the given type of group (if argument is omitted, defaults to party).
 harm — Conditional target exists and can be targeted by harmful spells (e.g. [Fireball]).
