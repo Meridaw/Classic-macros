@@ -1,0 +1,5 @@
+Berserker Rage
+
+#showtooltip
+/cast Berserker Stance
+/cast Berserker Rage

@@ -1,0 +1,5 @@
+Heroic Strike (auto-attack)
+
+#showtooltip
+/startattack
+/cast Heroic Strike

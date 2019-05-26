@@ -1,0 +1,5 @@
+Stop Attack Intimidating Shout
+
+#showtooltip
+/stopattack
+/cast Intimidating Shout

@@ -1,0 +1,5 @@
+Harmstring (auto-attack)
+
+#showtooltip
+/startattack
+/cast Hamstring

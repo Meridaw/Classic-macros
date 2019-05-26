@@ -1,0 +1,3 @@
+Mouseover Sunder
+
+/cast [@mouseover,harm,nodead][]Sunder Armor

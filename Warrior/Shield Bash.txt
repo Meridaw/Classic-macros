@@ -1,0 +1,5 @@
+Shield Bash
+
+#showtooltip
+/cast Battle Stance
+/cast Shield Bash

@@ -1,0 +1,4 @@
+Charge out of combat, Berserk Stance in combat then Intercept
+
+/cast [nocombat,nostance:1] Battle Stance; Charge
+/cast [combat,nostance:3] Berserker Stance; Intercept

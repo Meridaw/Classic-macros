@@ -1,0 +1,7 @@
+Shield Block
+
+#showtooltip
+/cast Defensive Stance
+/equip Weapon
+/equip Shield
+/cast Shield Block

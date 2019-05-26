@@ -1,0 +1,5 @@
+Pummel
+
+#showtooltip
+/cast Berserker Stance
+/cast Pummel

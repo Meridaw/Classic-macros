@@ -1,0 +1,4 @@
+Mouseover Throw (e.g. to destroy totems without switching)
+
+#showtooltip
+/cast [target=mouseover] !Throw

@@ -1,0 +1,4 @@
+Battle Shout (casts Battle Shout if no modifiers are pressed
+
+#showtooltip
+/cast [no modifier] Battle Shout

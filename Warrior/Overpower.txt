@@ -1,0 +1,5 @@
+Overpower (auto-attack)
+
+#showtooltip
+/startattack
+/cast Overpower
