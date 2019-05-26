@@ -1,0 +1,10 @@
+Scare Beast
+
+#showtooltip Scare Beast 
+/cast [harm] Scare Beast
+
+
+Mouseover Scare Beast
+
+#showtooltip Scare Beast
+/cast [target=mouseover] Scare Beast

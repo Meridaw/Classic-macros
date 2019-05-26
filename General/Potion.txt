@@ -1,0 +1,10 @@
+Major Healing/Mana Potion (uses Major Healing Potion if no modifiers are pressed, uses Major Mana Potion if modifier (CTRL) is pressed)
+
+/cast [no modifier] Major Healing Potion
+/cast [modifier:ctrl] Major Mana Potion
+
+
+Swim Speed / Swiftness Potion (uses Swiftness Potion if no modifiers are pressed, uses Swim Speed Potion if modifier (CTRL) is pressed)
+
+#showtooltip
+/use [modifier:ctrl] Swim Speed Potion; Swiftness Potion

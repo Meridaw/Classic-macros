@@ -1,0 +1,7 @@
+Scatter Shot
+
+#showtooltip Scatter Shot
+/petpassive
+/petfollow
+/stopcasting
+/cast Scatter Shot

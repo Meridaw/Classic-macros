@@ -1,0 +1,4 @@
+Flare
+
+#showtooltip
+/cast !Flare

@@ -1,0 +1,13 @@
+Macro to move Player Frame
+
+/run local f=PlayerFrame; f:SetMovable(true); f:EnableMouse(true); f:SetUserPlaced(true); f:SetScript("OnMouseDown", f.StartMoving); f:SetScript("OnMouseUp", f.StopMovingOrSizing);
+
+
+
+Macro to move Target Frame
+
+/run local f=TargetFrame; f:SetMovable(true); f:EnableMouse(true); f:SetUserPlaced(true); f:SetScript("OnMouseDown", f.StartMoving); f:SetScript("OnMouseUp", f.StopMovingOrSizing);
+
+
+/reload (will save them)
+

@@ -1,0 +1,9 @@
+Trinket #1 (upper)
+#showtooltip
+/use 13
+
+
+Trinket #2 (lower)
+
+#showtooltip
+/use 14

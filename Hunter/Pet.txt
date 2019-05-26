@@ -1,0 +1,45 @@
+#showtooltip 
+/cast [target=pet,dead][mod:shift] Revive Pet 
+/cast [nopet] Call Pet 
+/cast [pet,nomod,button:1] Mend Pet 
+/cast [pet,nomod,button:2] Dismiss Pet 
+/cast [pet,mod:alt] Feed Pet 
+/use [pet,mod:alt] Roasted Quail
+
+
+Alternate Pet Macro
+
+/cast [target=pet, dead] Revive Pet;[nopet] Call Pet; Mend Pet
+
+
+Totem Killer
+
+/petattack [target=Earthbind Totem ] [harm] 
+/petattack [target=Windfury Totem ] [harm] 
+/petattack [target=Mana Tide Totem ] [harm] 
+/petattack [target=Tremor Totem] [harm] 
+/petattack [target=Grounding Totem] [harm]
+
+
+#showtooltip 
+/cast Intimidate
+
+
+/petattack 
+/petpassive [target=pettarget,exists] 
+
+
+All in one pet macro
+
+/cast [target=pet, dead] Revive Pet;[nopet] Call Pet; Mend Pet
+
+
+Call/Dismiss Pet
+
+#showtooltip
+/cast [pet] Dismiss Pet; Call Pet
+
+
+Pet Follow
+
+/petfollow

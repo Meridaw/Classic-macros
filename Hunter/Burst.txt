@@ -1,0 +1,8 @@
+Burst
+
+#showtooltip Bestial Wrath 
+/cast Rapid Fire 
+/use 13 
+/use 14 
+/cast Bestial Wrath 
+/script UIErrorsFrame:Clear()
