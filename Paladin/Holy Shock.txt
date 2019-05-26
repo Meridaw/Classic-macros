@@ -1,0 +1,42 @@
+Divine Shock Divine Favor/Holy Shock Combo
+
+/cast [combat] Divine Favor
+/stopcasting
+/cast [help] Holy Shock; [target=targettarget] Holy Shock
+
+
+Self Holy Shock
+
+#showtooltip Holy Shock
+/cast [target=player] Holy Shock
+
+
+Normal Shockadin Macro
+
+#showtooltip
+/cast Divine Favor
+/use 13
+/cast Holy Shock
+/cast Judgement
+
+
+Shockadin Macro with consumables
+
+#showtooltip Holy Shock(Rank 5)
+/use Potion
+/cast Divine Favor
+/use 13
+/use Sapper Charge
+/cast Holy Shock
+/cast Judgement
+
+
+Shockadin Macro with (more) consumables
+
+/use 13
+/use Destruction Potion
+/use Sapper Charge
+/cast Judgement
+/cast Divine Favor
+/cast Holy Shock
+/use Oil of Immolation

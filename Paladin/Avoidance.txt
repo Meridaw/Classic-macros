@@ -1,0 +1,4 @@
+Avoidance
+
+/script DEFAULT_CHAT_FRAME:AddMessage(”Need 102.4 combined avoidance. Currently at:”,0.8,0.8,1)
+/script DEFAULT_CHAT_FRAME:AddMessage(GetDodgeChance()+GetBlockChance()+GetParryChance()+5+(GetCombatRating(CR_DEFENSE_SKILL)*150/355 + 20)*0.04,1,0.5,0)

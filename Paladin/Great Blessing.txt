@@ -1,0 +1,3 @@
+Great Blessing of Light for the raid
+
+/cast [raid] Greater Blessing of Light; [help] Blessing of Light; [target=player] Greater Blessing of Light

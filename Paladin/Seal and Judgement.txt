@@ -1,0 +1,48 @@
+Judgement/startattack
+
+#showtooltip Judgement
+/startattack
+/cast Judgement
+
+
+Easy Seal and Judgement
+
+/cast Judgement
+/stopcasting
+/cast Seal of X
+“X” is the name of the Seal, i.e. Wisdom, Crusader etc.
+
+
+Seal of Command
+
+/castsequence reset=30 Seal of Command, Judgement
+
+
+Seal of the Crusader
+
+/castsequence reset=30,target/combat Seal of the Crusader, Judgement
+
+
+Seal of Light
+
+/castsequence reset=30 Seal of Light, Judgement
+
+
+Seal of Justice
+
+/castsequence reset=30 Seal of Justice, Judgement
+
+
+Seal of Wisdom
+
+/castsequence reset=30 Seal of Wisdom, Judgement
+
+
+Seal of Righteousness
+
+/castsequence reset=30 Seal of Righteousness, Judgement
+
+
+/cast Judgement 
+/stopcasting 
+/cast Seal of Righteousness

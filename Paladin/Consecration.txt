@@ -1,0 +1,10 @@
+Consecration
+
+#showtooltip Consecration
+/cast Consecration
+
+
+Rank 1 Consecration
+
+#showtooltip Consecration(Rank 1)
+/cast Consecration(Rank 1)

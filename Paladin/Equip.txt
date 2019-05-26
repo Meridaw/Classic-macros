@@ -1,0 +1,4 @@
+1H + Shield (Retribution)
+
+/equip Weapon
+/equip Shield

@@ -1,0 +1,4 @@
+Mouseover Turn Evil
+
+#showtooltip
+/cast [target=mouseover] Turn Evil

@@ -1,0 +1,3 @@
+Cast BoP under the gaze of an enemy Another snoozer to “taunt” mobs with very little hassle
+
+/cast [help,target=target] Blessing of Protection; [target=targettarget,help] Blessing of Protection

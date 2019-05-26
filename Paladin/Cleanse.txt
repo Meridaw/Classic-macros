@@ -1,0 +1,9 @@
+#showtooltip Cleanse 
+/cast [target=mouseover, exists] [help] [target=player] Cleanse 
+
+
+(Self) Cleanse (casts Cleanse if no modifiers are pressed, casts Cleanse on yourself if modifier (CTRL) is pressed)
+
+#showtooltip
+/cast [no modifier] Cleanse
+/cast [target=player][modifier:ctrl] Cleanse
