@@ -1,0 +1,4 @@
+Arcane Explosion (casts Arcane Explosion Rank 1 if no modifiers are pressed, casts Arcane Explosion max rank if modifier (CTRL) is pressed)
+
+#showtooltip
+/cast [mod:ctrl]Arcane Explosion;Arcane Explosion(Rank 1)

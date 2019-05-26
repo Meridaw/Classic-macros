@@ -1,0 +1,4 @@
+Blizzard (casts Blizzard Rank 1 if no modifiers are pressed, casts Blizzard max rank if modifier (CTRL) is pressed)
+
+#showtooltip
+/cast [mod:ctrl]!Blizzard;!Blizzard(Rank 1)

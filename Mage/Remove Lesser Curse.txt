@@ -1,0 +1,3 @@
+Mouseover Decurse
+
+/cast [target=mouseover] Remove Lesser Curse

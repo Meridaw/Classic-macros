@@ -1,0 +1,6 @@
+Ice Block (removes Ice Block on seond press/click)
+
+#showtooltip Ice Block
+/stopcasting
+/cancelaura Ice Block
+/cast Ice Block

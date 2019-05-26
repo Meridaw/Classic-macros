@@ -1,0 +1,4 @@
+Frostbolt (casts Frostbolt max rank if no modifiers are pressed, casts Frostbolt Rank 1 if modifier (CTRL) is pressed)
+
+#showtooltip
+/cast [mod:ctrl]Frostbolt(Rank 1);Frostbolt

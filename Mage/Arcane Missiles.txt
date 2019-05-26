@@ -1,0 +1,5 @@
+Spammable Arcane Missiles
+
+#showtooltip
+/stopmacro [channeling]
+/cast Arcane Missiles
