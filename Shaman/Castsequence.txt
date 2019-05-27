@@ -1,0 +1,1 @@
+/castsequence reset=10 Strength of Earth Totem, Searing Totem, Mana Spring Totem, Windfury Totem
