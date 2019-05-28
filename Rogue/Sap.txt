@@ -2,6 +2,14 @@ Spammable Sap for stealthed units
 
 #showtooltip Sap
 /cleartarget
+/targetenemy
+/cast Sap
+
+
+Spammable Sap for stealthed player
+
+#showtooltip Sap
+/cleartarget
 /targetenemyplayer
 /cast Sap
 

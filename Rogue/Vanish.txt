@@ -1,3 +1,13 @@
+Stealth/Vanish
+
+#showtooltip Vanish
+/stopattack
+/cleartarget
+/cast [nocombat, nostealth] Stealth
+/cast [combat, nostealth] Vanish
+/targetlasttarget
+
+
 Stop Attack Vanish
 
 #showtooltip Vanish

@@ -1,0 +1,2 @@
+#showtooltip Blind
+/cast [@mouseover,harm,exists,nodead][@target,harm,exists,nodead] Blind

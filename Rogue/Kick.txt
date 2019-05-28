@@ -1,0 +1,2 @@
+#showtooltip Kick
+/cast [@mouseover,harm,exists,nodead][@target,harm,exists,nodead] Kick

@@ -1,0 +1,4 @@
+#showtooltip Pickpocket
+/cleartarget
+/targetenemy
+/cast Pickpocket

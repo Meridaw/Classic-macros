@@ -4,6 +4,14 @@ Sinister Strike
 /cast [mod:shift] Eviscerate
 
 
+Start attack, Sinister strike/Riposte
+
+#showtooltip Sinister Strike
+/startattack
+/cast Riposte
+/cast Sinister Strike
+
+
 Burst
 
 #showtooltip [mod:shift] Adrenaline Rush; Sinister Strike

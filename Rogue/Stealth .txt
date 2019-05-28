@@ -4,6 +4,13 @@ Spammable stealth
 /cast !Stealth
 
 
+Spammable stealth and food
+
+#showtooltip FOOD
+/cast FOOD
+/cast !Stealth
+
+
 Cancel Stealth
 
 /cancelaura stealth 
