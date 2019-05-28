@@ -21,7 +21,7 @@
 
 
 #showtooltip
-/cast Tiger’s Fury
+/cast Tiger's Fury
 /use 13
 /use 14
 
@@ -32,6 +32,9 @@
 
 #showtooltip Rake
 /cast Rake
+
+#showtooltip [stealth] Pounce; [nostealth] Rake
+/cast [stealth] Pounce; [nostealth] Rake
 
 
 #showtooltip [stealth] Ravage; [nostealth] Shred
