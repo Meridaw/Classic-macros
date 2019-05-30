@@ -1,0 +1,6 @@
+#showtooltip Sinister Strike
+/startattack
+/cast Riposte
+/cast Sinister Strike
+
+***Basic riposte macro.  Cast Riposte when active instead of Sinister strike.

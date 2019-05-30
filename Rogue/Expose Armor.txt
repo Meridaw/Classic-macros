@@ -1,0 +1,7 @@
+#showtooltip Expose Armor
+/cleartarget [target=target,dead] 
+/cleartarget [target=target,noexists] 
+/target [target=target,noexists] 
+/cast [target=target] Expose Armor
+
+***Used for dueling.  Expose armor without breaking Sap, Blind, or Gouge.  Easy use with Premeditation, etc.

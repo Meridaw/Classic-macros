@@ -1,4 +1,4 @@
-Mouseover Gouge
+***You lose combo points on your target (if any), but do not drop from attacking your target.
 
 #showtooltip Gouge
 /cast [@mouseover,harm,exists,nodead][@target,harm,exists,nodead] Gouge

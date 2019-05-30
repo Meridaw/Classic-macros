@@ -1,4 +1,23 @@
+***Note:  Do not move while casting Pick Pocket.
+
 #showtooltip Pickpocket
 /cleartarget
 /targetenemy
 /cast Pickpocket
+
+
+#showtooltip sinister strike
+/cast pick pocket
+/cast sinister strike
+/startattack
+
+
+#showtooltip ambush
+/cast pick pocket
+/cast ambush
+
+
+#showtooltip backstab
+/cast pick pocket
+/cast backstab
+/startattack

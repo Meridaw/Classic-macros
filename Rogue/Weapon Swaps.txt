@@ -1,0 +1,25 @@
+#showtooltip backstab 
+/equipslot 16 Buzzer Blade (dagger)
+/cast pick pocket
+/cast backstab
+/equipslot 16 Decapitating Sword of the Monkey (sword)
+
+*** Remove the sword at the end to continuously Backstab.
+
+
+#showtooltip ambush
+/equipslot 16 Buzzer Blade
+/cast pick pocket
+/cast ambush
+/equipslot 16 Decapitating Sword of the Monkey
+
+*** Equip sword at the end to allow for SS.  Remove if you’re using Backstab mainly.
+
+
+#showtooltip sinister strike
+/equipslot 16 Decapitating Sword of the Monkey
+/startattack
+/cast Riposte
+/cast Sinister strike
+
+***Remove Riposte if not used.  Inserting /cast Pick Pocket before startattack breaks the Riposte link.
