@@ -13,3 +13,15 @@ Dire Bear Form with with powershifting
 
 #showtooltip Dire Bear Form(Shapeshift)
 /cast !Dire Bear Form(Shapeshift)
+
+
+Bear form/Barkskin+ shift modifier on !Bear
+
+/cast [nomod, form:1] Bear Form
+/cast [nomod, form:0] Barkskin
+/cast [mod:shift, noform:1] !Bear Form
+
+
+#showtooltip
+/startattack
+/cast !Maul

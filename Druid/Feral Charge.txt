@@ -1,0 +1,6 @@
+Any form into Feral Charge:
+
+/cancelform [noform:1]
+/cast [noform:1] !Bear Form
+/cast [form:1] Feral Charge
+

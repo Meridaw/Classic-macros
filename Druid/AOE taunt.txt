@@ -1,0 +1,17 @@
+AOE taunt + LIP - once LIP is active use shift modifier to go back into bear and cancel LIP:
+
+/cast [nomod, form:1] Challenging Roar
+/cast [nomod, form:1] Bear Form
+/use [nomod, form:0] Limited Invulnerability Potion
+/cast [mod:shift, noform:1] !Bear Form
+/cancelaura [mod:shift] Invulnerability
+
+
+AOE taunt + LIP + Barkskin - use shift modifier as soon as Barkskin is active:
+
+/cast [nomod, form:1] Challenging Roar
+/cast [nomod, form:1] Bear Form
+/use [nomod, form:0] Limited Invulnerability Potion
+/cast [nomod, form:0] Barkskin
+/cast [mod:shift, noform:1] !Bear Form
+/cancelaura [mod:shift] Invulnerability
