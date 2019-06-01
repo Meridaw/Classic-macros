@@ -2,3 +2,8 @@
 /cast [@mouseover,harm,exists,nodead][@target,harm,exists,nodead] Kick
 
 ***Use kick on your mouseover if it’s in combat.  If not, use kick on your target.  Do not lose combo points.
+
+
+#showtooltip
+/cast [mod:shift,@mouseover] Kick
+/cast Kick

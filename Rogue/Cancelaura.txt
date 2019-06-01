@@ -1,0 +1,3 @@
+/cancelaura Stealth
+/cancelaura Blessing of Protection
+/cancelaura Horde Flag

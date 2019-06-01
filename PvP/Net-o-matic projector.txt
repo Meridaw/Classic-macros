@@ -1,0 +1,1 @@
+/cast [target=mouseover] gnomish net-o-matic projector

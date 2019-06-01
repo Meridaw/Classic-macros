@@ -13,3 +13,6 @@ Flash of Light on a friend or target’s target
 
 
 /cast [target=player, harm] Flash of Light; [help] Flash of Light
+
+
+/cast [@mouseover,help,nodead][help,nodead][@player] Flash of Light

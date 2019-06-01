@@ -1,3 +1,9 @@
+Startattack, Sinister Strike
+
+/cast Sinister Strike
+/startattack
+
+
 Sinister Strike
 
 /cast [nomod] Sinister Strike

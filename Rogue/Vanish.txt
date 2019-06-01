@@ -1,3 +1,6 @@
+/castsequence Ambush, Vanish
+
+
 Stealth if out of combat, vanish if in combat
 
 #showtooltip Vanish

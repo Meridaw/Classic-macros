@@ -4,8 +4,8 @@
 /cast [@mouseover,harm,exists,nodead][@target,harm,exists,nodead] Gouge
 
 
-Gouge out of stealth 
-Sap in stealth
+Gouge out of stealth, Sap in stealth
 
+#showtooltip
 /cast [stance:0] Gouge
 /cast [stance:1] sap

@@ -1,4 +1,4 @@
-Judgement/startattack
+﻿Judgement/startattack
 
 #showtooltip Judgement
 /startattack
@@ -46,3 +46,6 @@ Seal of Righteousness
 /cast Judgement 
 /stopcasting 
 /cast Seal of Righteousness
+
+
+/cast [@mouseover,harm,nodead][harm,nodead] Judgement

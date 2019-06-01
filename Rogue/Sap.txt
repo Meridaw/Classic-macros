@@ -1,3 +1,9 @@
+Stealth, Sap
+
+/cast Stealth
+/cast Sap
+
+
 #showtooltip Sap
 /cast Perception(Racial)
 /cleartarget

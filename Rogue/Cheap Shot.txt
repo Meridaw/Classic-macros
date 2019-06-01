@@ -1,0 +1,3 @@
+#showtooltip
+/cast [stance:0] !Stealth
+/cast [stance:1] Cheap Shot
