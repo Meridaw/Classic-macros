@@ -1,0 +1,7 @@
+#showtooltip Rake
+/startattack
+/cast Rake
+
+
+#showtooltip [stealth] Pounce; [nostealth] Rake
+/cast [stealth] Pounce; [nostealth] Rake

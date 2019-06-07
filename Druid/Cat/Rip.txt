@@ -1,0 +1,3 @@
+#showtooltip Rip
+/startattack
+/cast Rip

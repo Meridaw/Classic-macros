@@ -1,0 +1,7 @@
+#showtooltip
+/cast [stealth] Pounce; [nostealth] Claw
+
+
+#showtooltip
+/startattack
+/cast Claw

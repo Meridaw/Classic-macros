@@ -1,0 +1,6 @@
+#showtooltip
+/cast [stealth] Ravage; [nostealth] Shred
+
+
+#showtooltip [stealth] Ravage; [nostealth] Shred
+/cast [stealth] Ravage; [nostealth] Shred

@@ -1,0 +1,11 @@
+Any form into Feral Charge:
+
+/cancelform [noform:1]
+/cast [noform:1] !Bear Form
+/cast [form:1] Feral Charge
+
+
+#showtooltip Feral Charge
+/cancelaura [stance:2] Aquatic Form; [stance:3] Cat Form; [stance:4] Travel Form; [stance:5] Moonkin Form
+/cast [nostance] Dire Bear Form; [stance:1, target=mouseover, exists] Feral Charge
+/use Feral Charge

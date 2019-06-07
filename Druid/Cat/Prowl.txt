@@ -1,0 +1,16 @@
+Any form into Stealth (replace 2 with 3 if you have aquatic form):
+
+/cancelform [noform:2]
+/cast [noform:2] !Cat Form
+/cast [form:2] Prowl
+
+
+#showtooltip Prowl
+/cancelaura [stance:1] Dire Bear Form; [stance:2] Aquatic Form; [stance:4] Travel Form; [stance:5] Moonkin Form
+/cast [nostance] Cat Form; [stance:3] Prowl
+
+
+Secure stealth macro
+
+#show Prowl
+/cast [nostealth] Prowl

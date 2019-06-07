@@ -1,0 +1,4 @@
+#showtooltip
+/cast Tiger's Fury
+/use 13
+/use 14

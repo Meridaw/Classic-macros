@@ -1,0 +1,7 @@
+#showtooltip Cat Form
+/use !Cat Form
+
+
+#showtooltip Cat Form
+/cancelaura Cat Form
+/cast [nomodifier] Cat Form

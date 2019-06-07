@@ -1,0 +1,10 @@
+#showtooltip Dire Bear Form(Shapeshift)
+/cancelaura Dire Bear Form
+/cast [nomodifier] Dire Bear Form(Shapeshift)
+
+
+
+Dire Bear Form with with powershifting
+
+#showtooltip Dire Bear Form(Shapeshift)
+/cast !Dire Bear Form(Shapeshift)

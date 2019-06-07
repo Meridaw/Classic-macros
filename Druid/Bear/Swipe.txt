@@ -1,0 +1,4 @@
+#showtooltip
+/startattack
+/cast !Maul
+/cast Swipe

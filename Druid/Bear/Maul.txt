@@ -1,0 +1,3 @@
+#showtooltip
+/startattack
+/cast !Maul

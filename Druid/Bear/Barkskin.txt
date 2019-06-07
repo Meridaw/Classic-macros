@@ -1,0 +1,5 @@
+Bear form/Barkskin+ shift modifier on !Bear
+
+/cast [nomod, form:1] Bear Form
+/cast [nomod, form:0] Barkskin
+/cast [mod:shift, noform:1] !Bear Form

@@ -1,0 +1,6 @@
+#showtooltip
+/cast [stealth] Pounce; [nostealth] Claw
+
+
+#showtooltip [stealth] Pounce; [nostealth] Rake
+/cast [stealth] Pounce; [nostealth] Rake
