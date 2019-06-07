@@ -14,8 +14,10 @@ Innervate
 /targetlasttarget
 
 
-Weapon swapping macro to boost mana regen(just change item names).
+Weapon swapping macro to boost mana regen(just change item names)
 
+#showtooltip
 /equipslot 16 Weapon
 /equipslot 17 Offhand
 /equip Staff
+/cast [target=player] Innervate
