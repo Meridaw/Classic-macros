@@ -1,3 +1,8 @@
 #showtooltip
 /cast [nostance] Rejuvenation
 /cancelform
+
+
+#showtooltip Spell Name
+/use [@mouseover,help,nodead][help,nodead][@player] Rejuvenation
+/cancelform

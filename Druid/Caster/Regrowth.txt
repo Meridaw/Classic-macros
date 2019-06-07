@@ -3,6 +3,10 @@
 /cancelform
 
 
+#showtooltip Spell Name
+/use [@mouseover,help,nodead][help,nodead][@player] Regrowth
+/cancelform
+
 
 #show Regrowth
 /stopcasting
