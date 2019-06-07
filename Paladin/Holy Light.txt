@@ -1,3 +1,7 @@
+#showtooltip Holy Light
+/use [@mouseover,help,nodead][help,nodead][@player] Holy Light
+
+
 Holy Light
 
 #showtooltip Holy Light

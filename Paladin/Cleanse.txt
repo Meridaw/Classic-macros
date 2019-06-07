@@ -1,3 +1,7 @@
+#showtooltip Cleanse
+/use [@mouseover,help,nodead][help,nodead][@player] Cleanse
+
+
 #showtooltip Cleanse 
 /cast [target=mouseover, exists] [help] [target=player] Cleanse 
 

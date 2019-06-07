@@ -1,3 +1,7 @@
+#showtooltip Holy Shock
+/use [@mouseover,help,nodead][help,nodead][@player] Holy Shock
+
+
 Divine Shock Divine Favor/Holy Shock Combo
 
 /cast [combat] Divine Favor

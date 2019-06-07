@@ -1,0 +1,2 @@
+#showtooltip Lay on Hands
+/use [@mouseover,help,nodead][help,nodead][@player] Lay on Hands
