@@ -1,0 +1,3 @@
+nameplates macro 
+
+/console ShowClassColorInNameplate 1
