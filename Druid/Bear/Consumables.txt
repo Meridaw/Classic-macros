@@ -1,0 +1,5 @@
+Cancel bear form, use Healing Potion, enter Bear form
+
+/cast [stance:1] Bear Form
+/use [stance:0] Healing Potion
+/cast [nostance:1] !Bear Form

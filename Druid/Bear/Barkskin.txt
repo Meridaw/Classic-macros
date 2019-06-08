@@ -1,3 +1,9 @@
+Barkskin and back into bear as fast as possible, this must be spammed and you must hold shift as soon as you see Barkskin is active:
+/cast [nomod, form:1] Bear Form
+/cast [nomod, form:0] Barkskin
+/cast [mod:shift, noform:1] !Bear Form
+
+
 Bear form/Barkskin+ shift modifier on !Bear
 
 /cast [nomod, form:1] Bear Form

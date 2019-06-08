@@ -1,0 +1,12 @@
+Cancel Cat form, use Major Mana Potion, enter Cat form
+
+/cast [stance:1] Cat Form
+/use [stance:0] Major Mana Potion
+/cast [nostance:1] !Cat Form
+
+
+Cancel Cat form, use Goblin Sapper Charge, enter Cat form
+
+/cast [stance:1] Cat Form
+/use [stance:0] Goblin Sapper Charge
+/cast [nostance:1] !Cat Form
