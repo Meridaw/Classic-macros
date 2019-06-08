@@ -6,3 +6,7 @@
 #showtooltip Spell Name
 /use [@mouseover,help,nodead][help,nodead][@player] Healing Touch
 /cancelform
+
+
+#showtooltip
+/cast [harm,nodead] Wrath ; [help,nodead][@player] Healing Touch
