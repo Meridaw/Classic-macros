@@ -1,0 +1,4 @@
+Powershift (currently throws a LUA error)
+#showtooltip Cat Form
+/cast Cat Form
+/run local f=GcT or CreateFrame(“Frame”.”GcT”)f:SetScript(“OnUpdate”.function() f:Hide() end)f:Show()

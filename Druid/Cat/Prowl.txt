@@ -1,3 +1,10 @@
+Stealth from  mount
+#showtooltip Prowl
+/dismount
+/cast Cat Form
+/cast Prowl
+
+
 Any form into Stealth (replace 2 with 3 if you have aquatic form):
 
 /cancelform [noform:2]

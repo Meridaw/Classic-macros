@@ -1,0 +1,3 @@
+One button dps macro with Shred
+#showtooltip Shred
+/castsequence reset=target Shred, Shred, Shred, Ferocious Bite

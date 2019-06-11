@@ -4,3 +4,11 @@
 
 #showtooltip [stealth] Pounce; [nostealth] Rake
 /cast [stealth] Pounce; [nostealth] Rake
+
+
+Spam PvP Pounce
+
+#showtooltip Pounce
+/cleartarget
+/targetenemyplayer
+/cast [harm, nodead] Pounce

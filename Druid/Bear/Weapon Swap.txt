@@ -1,0 +1,4 @@
+Bear + Weapon Macro
+
+/cast Dire Bear Form
+/equip YOUR WEAPON

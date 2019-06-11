@@ -1,0 +1,5 @@
+Cancel any form and cast Moonfire
+
+#showtooltip Moonfire
+/cancelform
+/cast Moonfire

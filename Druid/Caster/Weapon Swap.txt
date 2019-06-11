@@ -1,0 +1,7 @@
+Regrowth + Weapon Macro
+/equip YOUR WEAPON
+/cast Regrowth
+
+Rejuvenation + Weapon Macro
+/equip YOUR WEAPON
+/cast Rejuvenation

@@ -1,0 +1,3 @@
+Cat + Weapon Macro
+/cast Cat Form
+/equip YOUR WEAPON

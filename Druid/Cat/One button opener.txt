@@ -1,0 +1,4 @@
+One button opener
+
+#showtooltip 
+/castsequence reset=target Pounce, Rake, Rip

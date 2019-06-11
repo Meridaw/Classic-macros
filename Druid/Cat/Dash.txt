@@ -1,0 +1,5 @@
+Spammable Dash from any form
+#showtooltip Dash
+/cancelform [noform:3]
+/cast [noform:3] !Cat Form
+/cast [noform:3] Dash

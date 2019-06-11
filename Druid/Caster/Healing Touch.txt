@@ -3,7 +3,7 @@
 /cancelform
 
 
-#showtooltip Spell Name
+#showtooltip Healing Touch
 /use [@mouseover,help,nodead][help,nodead][@player] Healing Touch
 /cancelform
 
