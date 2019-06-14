@@ -1,0 +1,4 @@
+Hurricane cursor cast
+
+#showtooltip Hurricane
+/cast [@cursor] Hurricane
