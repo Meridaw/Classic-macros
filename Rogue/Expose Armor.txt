@@ -5,3 +5,9 @@
 /cast [target=target] Expose Armor
 
 ***Used for dueling.  Expose armor without breaking Sap, Blind, or Gouge.  Easy use with Premeditation, etc.
+
+
+
+#showtooltip Expose Armor
+/cast Expose Armor
+/stopattack
