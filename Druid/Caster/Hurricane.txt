@@ -2,3 +2,15 @@ Hurricane cursor cast
 
 #showtooltip Hurricane
 /cast [@cursor] Hurricane
+
+
+
+Hurricane at a name
+
+/cast [@Bearon] Hurricane
+
+
+
+Hurricane at target
+
+/cast [@target] Hurricane

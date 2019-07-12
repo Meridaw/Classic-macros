@@ -21,3 +21,11 @@ Weapon swapping macro to boost mana regen(just change item names)
 /equipslot 17 Offhand
 /equip Staff
 /cast [target=player] Innervate
+
+
+
+Cancelform Innervate
+
+#showtooltip
+/cancelform
+/cast Innervate

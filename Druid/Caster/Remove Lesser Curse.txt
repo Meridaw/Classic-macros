@@ -1,3 +1,12 @@
 #showtooltip
 /cast [target=mouseover,exists]Remove Lesser Curse
 /cast [target=player]Remove Lesser Curse
+
+
+
+Dismount cancelform decurse
+
+#showtooltip Remove Curse
+/cancelform
+/cast Remove Curse
+/cancelaura Striped Nightsaber

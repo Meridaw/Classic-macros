@@ -1,0 +1,6 @@
+Cancel not bear form and AOE taunt
+
+#showtooltip Challenging Roar
+/cancelform [noform:1]
+/cast [noform:1] !Dire Bear Form
+/cast [form:1] !Challenging Roar

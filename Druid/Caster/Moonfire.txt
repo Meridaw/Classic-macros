@@ -3,3 +3,9 @@ Cancel any form and cast Moonfire
 #showtooltip Moonfire
 /cancelform
 /cast Moonfire
+
+
+
+Mouseover Moonfire
+
+/cast [target=mouseover] Moonfire

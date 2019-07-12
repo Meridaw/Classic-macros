@@ -2,8 +2,10 @@
 /cast [stealth] Pounce; [nostealth] Claw
 
 
+
 #showtooltip [stealth] Pounce; [nostealth] Rake
 /cast [stealth] Pounce; [nostealth] Rake
+
 
 
 Spam PvP Pounce
@@ -12,3 +14,11 @@ Spam PvP Pounce
 /cleartarget
 /targetenemyplayer
 /cast [harm, nodead] Pounce
+
+
+
+Pounce / Claw 1 Key macro and start attack
+
+#showtooltip Claw
+/cast [stealth] Pounce; Claw
+/startattack [combat]

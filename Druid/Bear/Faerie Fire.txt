@@ -10,3 +10,9 @@ Faerie Fire in Caster, Feral Faerie Fire in Bear/Cat:
 #showtooltip Faerie Fire
 /run --CastSpellByName("Faerie Fire");
 /cast [stance:1/2,@target,harm] Faerie Fire (Feral)(); [stance:1/2,@targettarget,harm] Faerie Fire (Feral)(); [stance:0,@target,harm] Faerie Fire; [stance:0,@targettarget,harm] Faerie Fire
+
+
+
+#showtooltip
+/cancelaura [nocombat] Bear Form
+/castsequence [nocombat, @mouseover, harm][nocombat] Rejuvenation, Faerie Fire; !Bear Form

@@ -1,5 +1,14 @@
+Ravage and shred 1 key and start attack
+
+#showtooltip Shred
+/cast [stealth] Ravage; Shred
+/startattack [combat]
+
+
+
 #showtooltip
 /cast [stealth] Ravage; [nostealth] Shred
+
 
 
 #showtooltip [stealth] Ravage; [nostealth] Shred

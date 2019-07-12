@@ -21,3 +21,12 @@ Secure stealth macro
 
 #show Prowl
 /cast [nostealth] Prowl
+
+
+
+Prowl and track humanoids from any form spammable
+
+#showtooltip Prowl
+/cancelform [noform:3]
+/cast [noform:3] !Cat Form
+/castsequence reset=3 [form:3] !Prowl, Track Humanoids

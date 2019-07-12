@@ -1,0 +1,5 @@
+Shadowmeld spammable any form
+
+#showtooltip Shadowmeld
+/cancelform
+/cast !Shadowmeld
