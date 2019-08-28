@@ -4,7 +4,15 @@ Scare Beast
 /cast [harm] Scare Beast
 
 
+
 Mouseover Scare Beast
 
 #showtooltip Scare Beast
 /cast [target=mouseover] Scare Beast
+
+
+
+#showtooltip
+/targetenemy [noexists][dead]
+/cast Scare Beast [@target, harm]
+/use 0 16 [help]

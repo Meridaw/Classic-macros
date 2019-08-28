@@ -1,0 +1,26 @@
+Consider the macro below to be a default for all of your skill shots. This example casts Serpent Sting.
+
+#showtooltip
+/targetenemy [noexists][dead][help]
+/cast Serpent Sting
+
+
+
+The first line is automatic targeting. The second line will cast your ability.
+
+If you also wish to initiate your Auto Shot alongside your other shots, as I prefer, use the following macro instead.
+
+#showtooltip
+/targetenemy [noexists][dead][help]
+/cast Arcane Shot(rank 1)
+/cast !Auto Shot
+/startattack
+
+
+
+Alternatively, the following shorter macro will attempt to enable your Auto Shot, but will not switch to melee attack if you're too close to your target.
+
+#showtooltip
+/targetenemy [noexists][dead][help]
+/cast Arcane Shot(rank 1)
+/cast !Auto Shot

@@ -21,3 +21,12 @@ Alternatively, /cast Wing Clip instead of mongoose/counterattack
 /cast Wing Clip
 /cast Wing Clip(Rank 2)
 /cast Wing Clip(Rank 1)
+
+
+
+#showtooltip Wing Clip
+/startattack
+/cast Counterattack(Rank 1)
+/cast Wing Clip
+/cast Wing Clip(Rank 2)
+/cast Wing Clip(Rank 1)
