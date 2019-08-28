@@ -4,10 +4,12 @@ Buff Macro
 /castsequence reset=target/combat Power Word: Fortitude, Divine Spirit, Shadow Protection, Inner Fire, Touch of Weakness
 
 
+
 Prayer Buff Macro
 
 #showtooltip
 /castsequence reset=target/combat Prayer of Fortitude, Prayer of Spirit, Prayer of Shadow Protection, Inner Fire, Touch of Weakness
+
 
 
 Rank 1 Buff Macro (e.g. for dispells)
@@ -16,7 +18,88 @@ Rank 1 Buff Macro (e.g. for dispells)
 /castsequence reset=target/combat Power Word: Fortitude(Rank 1), Divine Spirit(Rank 1), Shadow Protection(Rank 1), Abolish Disease
 
 
+
 Power Infusion (casts Power Infusion on yourself if no modifiers are pressed, casts Power Infusion on your current target if modifier (CTRL) is pressed)
 
 #showtooltip
 /cast [modifier:ctrl,target=target][target=player] Power Infusion
+
+
+
+Divine Spirit	
+
+#showtooltip 
+/dismount; 
+/cast [@mouseover,help,nodead][help,nodead][@player] Divine Spirit
+
+
+
+Power Word: Fort	
+
+#showtooltip 
+/dismount; 
+/cast [@mouseover,help,nodead][help,nodead][@player] Power Word: Fortitude
+
+
+
+Shadow Protection	
+
+#showtooltip 
+/dismount; 
+/cast [@mouseover,help,nodead][help,nodead][@player] Shadow Protection
+
+
+
+Fear Ward	
+
+#showtooltip 
+/dismount; 
+/cast [@mouseover,help,nodead][help,nodead][@player] Fear Ward
+
+
+
+Levitate	
+
+#showtooltip 
+/dismount; 
+/cast [@mouseover,help,nodead][help,nodead][@player] Levitate
+
+
+
+Inner Fire	
+
+#showtooltip 
+/dismount; 
+/cast Inner Fire
+
+
+
+Stone Form	
+
+#showtooltip 
+/dismount; 
+/cast Stone Form
+
+
+
+Prayer Fort	
+
+#showtooltip 
+/dismount; 
+/cast Prayer of Fortitude
+
+
+
+Prayer Shadow	
+
+#showtooltip 
+/dismount; 
+/cast Prayer of Shadow Protection
+
+
+
+Prayer Spirit	
+
+#showtooltip 
+/dismount; 
+/cast Prayer of Spirit

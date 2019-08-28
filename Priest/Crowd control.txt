@@ -1,0 +1,38 @@
+Psychic Scream 1	
+
+#showtooltip 
+/dismount; 
+/cast Psychic Scream(Rank 1)
+
+
+
+Psychic Scream	
+
+#showtooltip 
+/dismount; 
+/cast Psychic Scream
+
+
+
+Mind Control	
+
+#showtooltip 
+/dismount; 
+/cast [@mouseover,harm,nodead] [@target] Mind Control
+
+
+
+Silence	
+
+#showtooltip 
+/dismount; 
+/cast [@mouseover,harm,nodead] [@target] Silence
+
+
+
+Shackle	
+
+#showtooltip 
+/dismount; 
+/script setraidtargeticon("target",2) 
+/cast Shackle

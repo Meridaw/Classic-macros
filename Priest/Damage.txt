@@ -1,0 +1,50 @@
+Holy Fire	
+
+#showtooltip 
+/dismount; 
+/cast [@mouseover,harm,nodead] [@target] Holy Fire
+
+
+
+Smite	
+
+#showtooltip 
+/dismount; 
+/cast [@mouseover,harm,nodead] [@target] Smite
+
+
+
+Mind Blast	
+
+#showtooltip 
+/dismount; 
+/cast [@mouseover,harm,nodead] [@target] Mind Blast
+
+
+
+Mana Burn	
+
+#showtooltip 
+/dismount; 
+/cast [@mouseover,harm,nodead] [@target] Mana Burn
+
+
+
+Mind Flay	
+
+#showtooltip 
+/dismount; 
+/cast [nochanneling][@mouseover,harm, nodead] [@target]  Mind Flay
+
+
+
+SW: Pain	
+#showtooltip 
+/dismount; 
+/cast [@mouseover,harm,nodead] [@target] Shadow Word: Pain
+
+
+
+Wand	
+
+/cast !shoot
