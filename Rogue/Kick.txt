@@ -1,9 +1,15 @@
-#showtooltip Kick
+﻿#showtooltip Kick
 /cast [@mouseover,harm,exists,nodead][@target,harm,exists,nodead] Kick
 
-***Use kick on your mouseover if it’s in combat.  If not, use kick on your target.  Do not lose combo points.
 
 
 #showtooltip
 /cast [mod:shift,@mouseover] Kick
 /cast Kick
+
+
+
+Mouseover kick and announce kick target
+
+/cast [@mouseover,harm,nodead][harm,nodead] Kick
+/gr I just interrupted %t

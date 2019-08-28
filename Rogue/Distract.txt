@@ -1,4 +1,11 @@
-This casts Stealth if you aren't. Distract if you are Stealth. Vanish if you aren't stealthed and in combat. And removes stealth with ALT if you are stealthed.
+Stealth if you aren't. Distract if you are Stealth. Vanish if you aren't stealthed and in combat. And removes stealth with ALT if you are stealthed.
 
 #showtooltip
 /cast [nomodifier, combat]Vanish;[nomodifier, nostealth]Stealth;[modifier:alt,stealth]Stealth;[stealth,nocombat]Distract
+
+
+
+Quick distract at cursor location
+
+#showtooltip Distract
+/use [@cursor] Distract

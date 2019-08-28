@@ -6,10 +6,12 @@
 /cast Pickpocket
 
 
+
 #showtooltip sinister strike
 /cast pick pocket
 /cast sinister strike
 /startattack
+
 
 
 #showtooltip ambush
@@ -17,7 +19,24 @@
 /cast ambush
 
 
+
 #showtooltip backstab
 /cast pick pocket
 /cast backstab
+/startattack
+
+
+
+Mouseover Pick Pocket
+/cast [@mouseover,harm][] Pick Pocket
+
+
+
+Pickpocket, ambush, and then switch weapon to a sword
+
+/equipslot 16 Buzzer Blade
+/cleartarget [dead][help]
+/cast pick pocket
+/cast ambush
+/equipslot 16 Decapitating Sword of the Monkey
 /startattack

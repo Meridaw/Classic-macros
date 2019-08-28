@@ -1,0 +1,5 @@
+Grenade at cursor location
+
+#showtooltip GRENADE
+/use [@cursor] GRENADE
+/stopcasting

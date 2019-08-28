@@ -1,7 +1,22 @@
-***You lose combo points on your target (if any), but do not drop from attacking your target.
+Gouge & bandage
+
+#showtooltip Linen Bandage
+/cast Gouge
+/stopcasting
+/use [target=player] Linen Bandage
+
+
+
+Mouseover Gouge
+
+#showtooltip Gouge
+/cast [@mouseover,harm,nodead][harm,nodead] Gouge
+
+
 
 #showtooltip Gouge
 /cast [@mouseover,harm,exists,nodead][@target,harm,exists,nodead] Gouge
+
 
 
 Gouge out of stealth, Sap in stealth

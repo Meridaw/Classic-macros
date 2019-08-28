@@ -1,0 +1,3 @@
+#showtooltip Cannibalize
+/cast [nostealth] !Cannibalize;
+/cast [nocombat] !Stealth; Vanish

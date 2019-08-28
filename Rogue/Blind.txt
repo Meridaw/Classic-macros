@@ -1,4 +1,9 @@
 #showtooltip Blind
 /cast [@mouseover,harm,exists,nodead][@target,harm,exists,nodead] Blind
 
-***Use blind on your mouseover.  Do not lose combo points.
+
+
+Mouseover Blind
+
+#showtooltip Blind
+/cast [@mouseover,harm,nodead][harm,nodead] Blind
