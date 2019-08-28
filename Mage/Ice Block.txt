@@ -4,3 +4,11 @@ Ice Block (removes Ice Block on seond press/click)
 /stopcasting
 /cancelaura Ice Block
 /cast Ice Block
+
+
+
+If you want spammable Iceblock (so it doesn’t get removed when you press again), change it to:
+
+#showtooltip
+/stopcasting
+/cast !Ice Block

@@ -1,0 +1,4 @@
+Grenade at cursor (change grenade_name to Iron Grenade or whatever you’re using)
+
+#showtooltip grenade_name
+/use [@cursor] grenade_name

@@ -1,0 +1,6 @@
+Blink
+
+#showtooltip Blink
+/stopcasting
+/cancelaura Ice Block
+/cast Blink

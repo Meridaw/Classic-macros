@@ -2,3 +2,17 @@ Blizzard (casts Blizzard Rank 1 if no modifiers are pressed, casts Blizzard max 
 
 #showtooltip
 /cast [mod:ctrl]!Blizzard;!Blizzard(Rank 1)
+
+
+
+Blizzard - if we’re in combat and press it, cast max rank. If we’re in combat and press it + control, cast rank 1. If we’re out of combat, cast rank 1.
+
+#showtooltip
+/cast [nomod, combat]Blizzard;[mod:ctrl,combat]Blizzard(Rank 1); [nocombat] Blizzard(Rank 1)
+
+
+
+Cast rank 1 blizzard where you’re pointing your cursor (without having to left-click target the ground)
+
+#showtooltip
+/cast [@cursor] Blizzard(Rank 1)

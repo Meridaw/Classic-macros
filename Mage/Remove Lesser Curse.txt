@@ -1,3 +1,18 @@
 Mouseover Decurse
 
 /cast [target=mouseover] Remove Lesser Curse
+
+
+
+Decurse
+
+#showtooltip
+/cast [@mouseover,help,nodead] Remove Lesser Curse
+
+
+
+Remove Lesser Curse / counterspell on same key
+
+#showtooltip
+/stopcasting
+/cast [@mouseover, exists, nodead, help, nomod] [mod:shift, @player] [nomod, help, nodead, exists] Remove Lesser Curse; [@mouseover, harm, exists, nodead] [harm, exists, nodead] Counterspell

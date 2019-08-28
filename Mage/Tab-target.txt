@@ -1,0 +1,13 @@
+For leveling, I like to add the following to my Frostbolt/Fireball macros, they automatically “tab-target” to new enemies, makes it easier to chain cast/pull.
+
+/cleartarget [dead][help]
+/targetenemy [noexists]
+
+It will clear your current target if you’re targeting a dead enemy, or a friendly NPC/player. If you’re then not targeting anything, it will target the closest enemy. Frostbolt Example:
+
+#showtooltip
+/cleartarget [dead][help]
+/targetenemy [noexists]
+/cast [mod:ctrl]Frostbolt(Rank 1);Frostbolt
+
+If you want, you can also add /stand [exists,harm,nodead] after the showtooltip for leveling.

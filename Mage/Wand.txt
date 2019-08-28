@@ -2,3 +2,10 @@ Spammable Wand
 
 #showtooltip
 /cast !Shoot
+
+
+
+Spammable wand macro
+
+#showtooltip Shoot
+/cast [target=mouseover,exists,harm] !Shoot; !Shoot

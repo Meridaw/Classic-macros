@@ -1,0 +1,4 @@
+Cast rank 1 flame strike if we’re out of combat, max rank if we’re in combat:
+
+#showtooltip
+/cast [combat] Flamestrike; Flamestrike(Rank 1)

@@ -3,3 +3,10 @@ Spammable Arcane Missiles
 #showtooltip
 /stopmacro [channeling]
 /cast Arcane Missiles
+
+
+
+Spammable Arcane Missiles (not really necessary with spell queueing though)
+
+#showtooltip
+/cast [nochanneling:Arcane Missiles] Arcane Missiles

@@ -2,3 +2,10 @@ Arcane Explosion (casts Arcane Explosion Rank 1 if no modifiers are pressed, cas
 
 #showtooltip
 /cast [mod:ctrl]Arcane Explosion;Arcane Explosion(Rank 1)
+
+
+
+Arcane explosion:
+
+#showtooltip
+/cast [combat] Arcane Explosion; Arcane Explosion(Rank 1)

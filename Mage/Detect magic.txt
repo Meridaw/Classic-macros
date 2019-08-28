@@ -1,0 +1,4 @@
+If you’re targeting friendly targets, buff them with Arcane Int. If you’re targeting enemies, cast Detect Magic.
+
+#showtooltip
+/cast [harm]Detect Magic;Arcane Intellect

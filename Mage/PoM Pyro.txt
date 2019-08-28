@@ -1,0 +1,6 @@
+POM PYRO (without trinkets since I didn’t have any..):
+
+#showtooltip Pyroblast
+/cast Arcane Power
+/cast Presence of Mind
+/cast Pyroblast
