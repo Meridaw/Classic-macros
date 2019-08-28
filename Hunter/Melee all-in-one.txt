@@ -6,3 +6,18 @@ Melee all-in-one (excluding wingclip):
 /cast Counterattack
 /cast Mongoose Bite
 Alternatively, /cast Wing Clip instead of mongoose/counterattack
+
+
+
+#showtooltip
+/statattack
+/cast Raptor Strike
+/cast Counterattack
+/cast Mongoose Bite
+
+
+
+#showtooltip Wing Clip
+/cast Wing Clip
+/cast Wing Clip(Rank 2)
+/cast Wing Clip(Rank 1)

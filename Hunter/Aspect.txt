@@ -2,3 +2,11 @@ Aspect
 
 #showtooltip
 /cast [mod:ctrl] Aspect of the Cheetah; [mod:ctrl, button:2] Aspect of the Pack; [mod:shift] Aspect of the Monkey; [button:1, nomod] Aspect of the Hawk
+
+
+
+Aspect of the Monkey, Deterrence
+
+#showtooltip
+/cast Aspect of the Monkey
+/cast Deterrence

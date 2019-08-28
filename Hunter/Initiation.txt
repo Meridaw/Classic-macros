@@ -1,0 +1,6 @@
+#showtooltip Auto Shot
+/cleartarget [dead]
+/targetenemy [noharm]
+/cast !Auto Shot
+/petattack
+/cast Hunter's Mark

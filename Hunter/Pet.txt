@@ -7,9 +7,11 @@
 /use [pet,mod:alt] Roasted Quail
 
 
+
 Alternate Pet Macro
 
 /cast [target=pet, dead] Revive Pet;[nopet] Call Pet; Mend Pet
+
 
 
 Totem Killer
@@ -21,12 +23,15 @@ Totem Killer
 /petattack [target=Grounding Totem] [harm]
 
 
+
 #showtooltip 
 /cast Intimidate
 
 
+
 /petattack 
 /petpassive [target=pettarget,exists] 
+
 
 
 All in one pet macro
@@ -34,27 +39,35 @@ All in one pet macro
 /cast [target=pet, dead] Revive Pet;[nopet] Call Pet; Mend Pet
 
 
+
 Call/Dismiss Pet
 
 #showtooltip
+
 /cast [pet] Dismiss Pet; Call Pet
 
 
+
 Scatter Shot+Pet Passive:
+
 #showtooltip Scatter Shot
 /petstay [pettarget=target]
 /petpassive [pettarget=target]
 /cast Scatter Shot
 
 
+
 Pet Follow:
+
 #showtooltip
 /petfollow
 /petpassive
 /cast Dash
 
 
+
 Pet Attack:
+
 #showtooltip
 /petfollow
 /petpassive
@@ -63,18 +76,24 @@ Pet Attack:
 /cast Dash
 
 
+
 Pet Feed:
+
 #showtooltip
 /cast Feed Pet
 /use nameoffood or /use <bag> <slot>
 
 
+
 Pet Revive/Call Pet/Dismiss:
-#show
+
+#showtooltip
 /cast [pet=dead] Revive Pet; [nopet] Call Pet; Dismiss Pet
 
 
+
 Feign Trap+pet Passive:
+
 #showtooltip
 /cast Freezing Trap
 /cast [combat] Feign Death
