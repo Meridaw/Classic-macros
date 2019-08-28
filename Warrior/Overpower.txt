@@ -3,3 +3,9 @@ Overpower (auto-attack)
 #showtooltip
 /startattack
 /cast Overpower
+
+
+
+#showtooltip Overpower
+/cast [nostance:1] Battle Stance
+/cast Overpower

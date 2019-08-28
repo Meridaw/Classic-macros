@@ -1,0 +1,5 @@
+AoE Taunt with LIP if press any modifier to save a dire situation 
+
+#showtooltip Challenging Shout
+/use [mod] Limited Invulnerability Potion
+/cast Challenging Shout

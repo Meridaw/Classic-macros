@@ -1,0 +1,7 @@
+Equip 1H and Shield then change to Defensive Stance if not already in order to cast Shield Wall 
+
+#showtooltip Shield Wall
+/equipslot [noworn:shield] 16 name-of-your-1H
+/eq [noworn:shield] name-of-your-Shield
+/cast [nostance:2] Defensive Stance
+/cast Shield Wall

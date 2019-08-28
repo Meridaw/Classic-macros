@@ -1,0 +1,3 @@
+#showtooltip Intercept
+/cast [nostance:3] Berserker Stance
+/cast Intercept

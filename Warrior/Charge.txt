@@ -9,3 +9,9 @@ Startattack, Battle Stance then Charge
 
 /startattack
 /cast [nocombat,nostance:1] Battle Stance; Charge
+
+
+
+#showtooltip Charge
+/cast [nostance:1] Battle Stance
+/cast Charge

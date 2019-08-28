@@ -1,0 +1,4 @@
+Mouseover Rend or target Rend
+
+#showtooltip
+/cast [@mouseover,harm,nodead][] Rend

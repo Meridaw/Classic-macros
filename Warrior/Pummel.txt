@@ -3,3 +3,9 @@ Pummel
 #showtooltip
 /cast Berserker Stance
 /cast Pummel
+
+
+
+#showtooltip Pummel
+/cast [nostance:3] Berserker Stance
+/cast Pummel
