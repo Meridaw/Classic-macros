@@ -1,7 +1,24 @@
+Start attack, Rake
+
 #showtooltip Rake
 /startattack
 /cast Rake
 
 
+
+Pounce, Rake
+
 #showtooltip [stealth] Pounce; [nostealth] Rake
 /cast [stealth] Pounce; [nostealth] Rake
+
+
+
+Stand, dismount, cancel form, Cat form, Start attack, Rake
+
+#showtooltip Rake
+/stand
+/dismount
+/cancelform [noform:3]
+/cast [noform:3] Cat Form
+/startattack
+/cast Rake

@@ -1,0 +1,7 @@
+Stand, dismount, cancel form, cast Soothe Animal
+
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:5]
+/cast Soothe Animal

@@ -1,0 +1,7 @@
+Stand, dismount, cancel form, cast Thorns on mouseover
+
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:5]
+/cast [@mouseover,help][] Thorns

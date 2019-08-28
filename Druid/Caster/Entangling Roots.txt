@@ -4,8 +4,19 @@
 /cast Entangling Roots(Rank 1)
 
 
+
 Cancel any form and cast Entangling Roots
 
 #showtooltip Entangling Roots
 /cancelform
+/cast Entangling Roots
+
+
+
+Stand, Cancel form, dismount, canst Entangling Roots
+
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:5]
 /cast Entangling Roots

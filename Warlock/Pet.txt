@@ -5,6 +5,16 @@ Pet
 
 
 
+#showtooltip
+/use [pet:imp]Fire Shield;[pet:voidwalker]Sacrifice;[pet:succubus,mod:shift,@mouseover][pet:succubus]Seduce;[pet:doomguard,mod:shift,@mouseover][pet:doomguard]Cripple;[pet,mod:shift,@mouseover][mod:ctrl,@self][mod:alt,@pet][]Devour Magic
+
+
+
+#showtooltip
+/use [pet:imp]Firebolt;[pet:felhunter,mod:shift,@mouseover][pet:felhunter]Spell Lock;[pet:succubus]Lash of Pain;[pet:doomguard,mod:shift]War Stomp;[pet:doomguard]Rain of Fire;[mod:ctrl]Suffering;[mod:shift,@mouseover][]Torment
+
+
+
 
 Pet Totem (pet destroys these totems, switch them if you would like to)
 

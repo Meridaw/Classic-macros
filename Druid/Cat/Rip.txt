@@ -1,3 +1,17 @@
+Start attack, Rip
+
 #showtooltip Rip
+/startattack
+/cast Rip
+
+
+
+Stand, dismount, cancel form, Cat form, Start attack, Rip
+
+#showtooltip Rip
+/stand
+/dismount
+/cancelform [noform:3]
+/cast [noform:3] Cat Form
 /startattack
 /cast Rip

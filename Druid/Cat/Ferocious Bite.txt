@@ -1,0 +1,9 @@
+Stand, dismount, cancel form, cast Cat Form, Start attack, cast Ferocious Bite
+
+#showtooltip Ferocious Bite
+/stand
+/dismount
+/cancelform [noform:3]
+/cast [noform:3] Cat Form
+/startattack
+/cast Ferocious Bite

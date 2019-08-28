@@ -26,3 +26,13 @@ Faerie Fire from any form
 /cast [stance:1] Faerie Fire (Feral)
 /cast [stance:3] Faerie Fire (Feral)
 /cast [stance:0] Faerie Fire
+
+
+
+Stand, dismount, cancel form, cast Faerie Fire
+
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:5]
+/cast Faerie Fire

@@ -3,3 +3,13 @@ cancelform natures grasp
 #showtooltip Nature's Grasp
 /cancelform
 /cast Nature's Grasp
+
+
+
+Stand, dismount, cancel form, cast Nature's Grasp
+
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:5]
+/cast Nature's Grasp

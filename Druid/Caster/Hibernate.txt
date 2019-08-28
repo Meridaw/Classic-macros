@@ -2,3 +2,13 @@
 /stopcasting
 /cast [target=mouseover,exists] Hibernate
 /cast Hibernate
+
+
+
+Stand, dismount, cancel form, cast Hibernate
+
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:5]
+/cast Hibernate

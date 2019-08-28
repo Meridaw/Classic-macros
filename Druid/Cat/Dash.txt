@@ -12,3 +12,14 @@ Dash from any form
 /cancelform [noform:3]
 /cast [noform:3] !Cat Form
 /cast [form:3] !Dash
+
+
+
+Stand, dismount, cancel form, cast cat, cast Dash
+
+#showtooltip Dash
+/stand
+/dismount
+/cancelform [noform:3]
+/cast [noform:3] Cat Form
+/cast Dash

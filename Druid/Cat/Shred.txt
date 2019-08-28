@@ -1,11 +1,24 @@
+Raveage, Shred
+
 #showtooltip
 /cast [stealth] Ravage; [nostealth] Shred
 
 
-#showtooltip [stealth] Ravage; [nostealth] Shred
-/cast [stealth] Ravage; [nostealth] Shred
 
+Start attack, Shred
 
 #showtooltip
+/startattack
+/cast Shred
+
+
+
+Stand, dismount, cancel form, Cat form, start attack, Shred
+
+#showtooltip Shred
+/stand
+/dismount
+/cancelform [noform:3]
+/cast [noform:3] Cat Form
 /startattack
 /cast Shred

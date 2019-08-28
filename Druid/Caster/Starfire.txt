@@ -1,0 +1,7 @@
+Stand, dismount, cancel form, cast Starfire
+
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:5]
+/cast Starfire

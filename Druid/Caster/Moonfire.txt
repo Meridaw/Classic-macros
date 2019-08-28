@@ -9,3 +9,13 @@ Cancel any form and cast Moonfire
 Mouseover Moonfire
 
 /cast [target=mouseover] Moonfire
+
+
+
+Stand, dismount, cancel form, cast Moonfire
+
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:5]
+/cast Moonfire

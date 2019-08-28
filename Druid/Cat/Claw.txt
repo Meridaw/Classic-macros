@@ -1,7 +1,24 @@
+Pounce if stealth, else Claw
+
 #showtooltip
 /cast [stealth] Pounce; [nostealth] Claw
 
 
+
+Start attack, cast Claw
+
 #showtooltip
+/startattack
+/cast Claw
+
+
+
+Stand, dismount, cancel form, cast Cat Form, Start attacking, cast Claw
+
+#showtooltip Claw
+/stand
+/dismount
+/cancelform [noform:3]
+/cast [noform:3] Cat Form
 /startattack
 /cast Claw

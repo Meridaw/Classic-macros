@@ -14,3 +14,14 @@ Hurricane at a name
 Hurricane at target
 
 /cast [@target] Hurricane
+
+
+
+
+Stand, dismount, cancel form, cast Hurricane
+
+#showtooltip
+/stand
+/dismount
+/cancelform [noform:5]
+/cast Hurricane
