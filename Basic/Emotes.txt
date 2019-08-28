@@ -1,0 +1,264 @@
+Emotes
+
+Key: * does nothing  + has sound  % has unique animation  @ only when mounted; varies by mount
+
+ absent
+ agree
+ amaze
+ angry,mad
+ apologize,sorry
+%applaud,applause,bravo
+ arm
++attacktarget
+ awe
+ backpack
+ badfeeling,bad
+ bark
+ bashful
+ beckon
+%beg
+ bite
+ blame
+ blank
+ bleed,blood
+ blink
+ blush
+ boggle
+ bonk,doh
+ bored
+ bounce
+%bow
+ brandish
+ brb
+ breath
+ brow
+ burp,belch
++bye,goodbye,farewell
+ cackle
+ calm
+ challenge
++charge
+ charm
++cheer
+%chicken,flap,strut
+ chuckle
+ chug
+ clap
+ cold
+ comfort
+ commend
+ confused
++grats,congrats
+ cough
+ coverears
+ crack,knuckles
+ cringe
+ crossarms
+%cry,sob,weep
+ cuddle,spoon
+ curious
+ curtsey
+%dance
+ ding
+ disagree
+ doubt
+ drink,shindig
+ drool
+ duck
+%eat,chew,feast
+ embarrass
+ encourage
+ enemy
+ eye
+ eyebrow
+ facepalm,palm
+	 faint
+ fart
+%fear,cower
+ fidget,impatient
+%flex,strong
+%flirt
+ flop
++followme
+ frown,disappointed
+ gasp
+ gaze
+ giggle
+ glare
+ gloat
+ glower
+ go
+ going
+ golfclap
+ greet,greetings
+ grin,wicked,wickedly
+ groan
+ grovel,peon
+ growl
+ guffaw
+ hail
+ happy,glad,yay
+ headache
++healme
++hello,hi
++helpme
+ hiccup
+ highfive
+ hiss
+ holdhand
+ hug
+ hungry,food,pizza
+ hurry
+ idea
++incoming,inc
+ insult
+ introduce
+ jealous
+ jk
+%kiss,blow
+%kneel
+%laugh,lol
+ lavish,praise
+ laydown,liedown,lay,lie
+ lick
+ listen
+ look
+ lost
+ love
+ luck
+ map
+ massage
+ mercy
+ moan
+ mock
+ moo
+ moon
+@mountspecial
+ mourn
+ mutter
+ nervous
++no
++nod,yes
+ nosepick,pick
+ object,holdit
+	 offer
++oom
++openfire
+ pack
+ panic
+ pat
+ peer
+ pet
+ pinch
+ pity
+ plead
+%point
+ poke
+ ponder
+ pounce
+ pout
+ pray
+ promise
+ proud
+ pulse
+ punch
+ purr
+ puzzled
+ raise,volunteer
++rasp
+%read
+ ready,rdy
+ regret
++retreat,flee
+ revenge
+%roar,rawr
+ rofl
+ rolleyes,eyeroll
+%rude
+ ruffle
+ sad
+%salute
+ scared
+ scoff
+ scold
+ scowl
+ scratch,cat,catty
+ search
+ sexy
+ shake,rear
+ shakefist,fist
+ shifty
+ shimmy
+ shiver
+ shoo,pest
+ shout,holler
+ shrug
+ shudder
+%shy
+ sigh
+ signal
+ silence,shush
++silly
+ sing
+%sit
+ slap
+%sleep
+ smack
+ smile
+ smirk
+ snap
+ snarl
+ sneak
+ sneeze
+	 snicker
+ sniff
+ snort
+ snub
+ soothe
+ spit
+ spoon
+ squeal
+ stand
+ stare
+ stink,smell
+ surprised
+ surrender
+ suspicious
+ sweat
+%talk
+ talkex,excited
+ talkq,question
+ tap
+ taunt
+ tease
++thank,thanks,ty
+ think
+ thirsty
+ threaten,doom,wrath
+ tickle
+ tired
++train
+ truce
+ twiddle
+*unused
+ veto
+ victory
+ violin
++wait
+ warn
+%wave
++welcome
+ whine
+ whistle
+ wink
+ woot
+ work
+%yawn
+
+
+
+Other emote aliases:
+
+ congratulate (same as grats,congrats)
+ disappointment (same as frown,disappointed)
+ objection (same as object,holdit)

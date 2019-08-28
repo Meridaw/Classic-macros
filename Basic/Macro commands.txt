@@ -1,0 +1,200 @@
+Battle pet commands
+
+    randomfavoritepet - Summon a random favorite battle pet.
+    summonpet - Summon the specified battle pet.
+    dismisspet - Dismiss your battle pet.
+
+Blizzard Interface commands
+
+These functions open a part of the Blizzard Interface
+
+    achievements - Opens the Achievements interface.
+    calendar - Opens the Calendar interface.
+    guildfinder - Opens the Guild Finder tool.
+    dungeonfinder - Opens the Dungeon Finder interface.
+    loot - Open loot history
+    macro - Opens the Macro interface.
+    raidfinder - Opens the Raid Browser.
+    share - Share to Twitter.
+    stopwatch - Opens the Stopwatch interface.
+
+Chat commands
+
+All custom chat messages can make use of the chat substitutions to insert dynamic content into messages.
+
+    afk - Marks you as "Away From Keyboard".
+    announce - Toggle channel announcements.
+    ban - Bans a user from a user-created chat channel.
+    battleground - Sends a chat message to your battleground.
+    csay - Sends chat text to a channel referenced by number only.
+    chatinvite - Invite a user to a user-created chat channel.
+    chatlist - Displays a list of users in a chat channel, or what channels you are currently a member of.
+    chatlog - Enables/disables chat logging.
+    combatlog - Enables/disables combat logging.
+    chathelp - Displays a list of commonly used chat commands.
+    ckick - Kicks a user from a user-created chat channel.
+    emote - Perform an emote with the given text.
+    dnd - Marks you as "Do Not Disturb".
+    guild - Sends a chat message to your guild.
+    join - Joins or creates a user-created chat channel.
+    leave - Leaves a user-created chat channel.
+    moderator - Sets moderation in a user-created chat channel.
+    mute - Prevents a user from speaking (voice or text) in a user-created chat channel.
+    officer - Sends a chat message to your guild's officer channel.
+    owner - Displays or changes the owner of a user-created chat channel.
+    password - Sets or removes a password on a user-created chat channel.
+    party - Sends a chat message to your party.
+    raid - Sends a chat message to your raid.
+    rw - Sends a raid warning to your raid.
+    reply - Replies to the last user to send you a whisper with a message.
+    resetchat - Resets chat settings to default.
+    say - Sends a chat message to players in your immediate local area.
+    unban - Unbans a user from a user-created chat channel.
+    unmoderator - Removes moderation from a user-created chat channel.
+    unmute - Allows a user to speak (voice or text) in a user-created chat channel.
+    whisper - Sends a private chat message to a player in a whisper.
+    yell - Sends a chat message to all players in your zone.
+
+Character commands
+
+These commands affect your character's status, social interaction, movement, or actions
+
+    dismount - Dismounts your character
+    equip - Equip an item to its default slot.
+    equipset - Change equipped items to a set stored in the Equipment Manager
+    equipslot - Equip an item to a specific slot.
+    friend - Adds a player to your Friends list.
+    follow - Set yourself to follow the selected target
+    ignore - Adds a player to your ignore list
+    inspect - Opens the Inspection interface of the selected target.
+    leavevehicle - Allows your character to exit their current vehicle.
+    randompet - Summons a random companion pet (non-combat pet).
+    removefriend - Removes a friend from your friend list.
+    settitle - Sets the active title for your character.
+    trade - Opens the trade interface with your current target.
+    unignore - Removes a player from your ignore list
+
+Combat commands
+
+These functions pertain to combat
+
+    cancelaura - Cancels (turns off) an aura you have.
+    cancelqueuedspell - Cancels casting of the spell you have in the queue.
+    cancelform - Cancels your current shapeshift form.
+    cast - Uses the given item or casts the given spell.
+    castrandom - Casts a random spell or uses a random item from the given list.
+    castsequence - Casts the given spells in sequential order.
+    changeactionbar - Changes your current action bar page.
+    startattack - Turns on auto-attack.
+    stopattack - Turns off auto-attack.
+    stopcasting - Stops casting or channeling.
+    stopspelltarget - Cancel the spell or ability currently being targetted.
+    swapactionbar - Swaps between two given action bars.
+    use - Use an item or cast a spell.
+    usetoy - Use a toy.
+    userandom - Casts a random spell or uses a random item from the given list.
+
+Guild commands
+
+    guilddemote - Demotes a guild-member.
+    guilddisband - Disbands a guild.
+    guildinfo - Displays information about your guild.
+    guildinvite - Invites a player to join your guild.
+    guildleader - Makes another guild member the new Guild Master.
+    guildquit - Removes your character from your current guild.
+    guildmotd - Sets the guild Message of the Day.
+    guildpromote - Promotes a guild member to the next higher rank.
+    guildroster - Opens the Guild window.
+    guildremove - Removes a member of your guild from your guild.
+
+Party and Raid commands
+
+    clearworldmarker - Clears world markers
+    invite - Invites a player to your party or raid.
+    ffa - Sets the loot method for your raid/party to Free-For-All.
+    group - Sets the loot method for your raid/party to Group Loot.
+    master - Sets the loot method for your raid/party to Master Loot.
+    mainassist - Set the main assist.
+    mainassistoff - Clears the current Main Assist.
+    maintank - Set the main tank.
+    maintankoff - Clears the current Main Tank.
+    promote - Promotes the given member to Party or Raid leader.
+    raidinfo - Shows you what instances you are saved to, along with the Instance ID.
+    readycheck - Performs a ready check in your raid or party.
+    requestinvite - Request to be invited to the specified group.
+    targetmarker - Sets or clears a target marker from your current target.
+    threshold - Sets the loot threshold to apply loot rules.
+    uninvite - Removes a player from your current party or raid.
+    worldmarker - Allows placement of world markers.
+
+Pet commands
+
+    petassist - Sets pet to assist mode.
+    petattack - Sends pet to attack currently selected target.
+    petautocastoff - Turn off autocast for a pet spell.
+    petautocaston - Turn on autocast for a pet spell.
+    petautocasttoggle - Toggle autocast for a pet spell.
+    petdefensive - Set pet to defensive.
+    petdismiss - Dismiss your pet.
+    petfollow - Set pet to follow you.
+    petmoveto - Set pet to move to and stay at a hover-targeted location.
+    petpassive - Set pet to passive mode.
+    petstay - Set pet to stay where it is at.
+
+PvP commands
+
+    duel - Challenge another player to a duel
+    forfeit - Forfeit a duel.
+    pvp - Sets whether or not you are attackable by other players.
+    wargame - Starts a War Game.
+
+System commands
+
+    console - Allows user to view or change global client-side options, or perform certain system commands.
+    click - Simulate a mouse click on a button.
+    disableaddons - Disables all addons and reloads the UI.
+    enableaddons - Enables all addons and reloads the UI.
+    help - Displays a help message with some basic commands.
+    logout - Logs your character out of the game, back to the character selection screen.
+    macrohelp - Displays a help message with basic information about creating and using macros.
+    played - Displays information about your character's time logged in.
+    quit - Exits the game.
+    random - Generates a random number from 1 to 100. "/random X" rolls a number from 1 to X, "/random X Y" rolls a number from X though Y.
+    reload - Reloads the User Interface.
+    script - Runs a block of LUA code.
+    stopmacro - Stop processing the current macro.
+    time - Displays the current time
+    timetest - Used for benchmarking, also shows FPS.
+    who - Shows you a list of people matching filtering options.
+
+Targeting functions
+
+    assist - Targets a player's target.
+    clearfocus - Clears the current focus target.
+    cleartarget - Clears the current target.
+    focus - Set a focus target
+    target - Target the given unit by name.
+    targetexact - Target the unit by exact name match.
+    targetenemy - Cycle through nearby hostile units (no name matching).
+    targetenemyplayer - Cycle through nearby hostile players (no name matching).
+    targetfriend - Cycle through nearby friendly units (no name matching).
+    targetfriendplayer - Cycle through nearby friendly players (no name matching).
+    targetparty - Cycle through nearby party members (no name matching).
+    targetraid - Cycle through nearby raid members (no name matching).
+    targetlastenemy - Target the last attackable unit you had selected.
+    targetlastfriend - Target the last friendly unit you had selected.
+    targetlasttarget - Sets your current target to the last unit you had selected.
+
+Metacommands
+
+Metacommands pass data to the WoW client to affect its appearance on the action bar. Metacommands are preceded by a "#" symbol. Unknown metacommands will be silently ignored.
+
+    #show - Affects the button's icon on the Action Bar.
+    #showtooltip - Affects the button's icon and tooltip on the Action Bar.
+
+Disabled commands
+
+These commands are recognized by the WoW client, but do not perform any actions.
+
+    usetalents - Change to a different dual spec.
+    petaggressive - aggressive AI was replaced with assist. (deprecated in 4.2)
