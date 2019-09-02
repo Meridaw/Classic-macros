@@ -5,6 +5,12 @@ Faerie Fire in Caster, Feral Faerie Fire in Bear/Cat:
 
 
 #showtooltip
+/use [noform] Faerie Fire
+/use [form:1/3] Faerie Fire (Feral)
+
+
+
+#showtooltip
 /cast [form:1] [form:3] Faerie Fire (Feral)(Rank 5); [noform] Faerie Fire
 
 

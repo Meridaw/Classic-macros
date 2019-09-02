@@ -1,0 +1,14 @@
+Poor mans Outfitter Macro: This will equip upto X items from bag number 4. So put your off set in bag 4 and just click macro to swap between sets. Note: item swapping may have issue with swapping rings/trinkets and non 2h weaps. (X in this example is upto 10 items)
+
+Just make a seperate macro for a different bag (ie Bag 4= healing, Bag 3= Dps)
+
+/equip 4 1
+/equip 4 2
+/equip 4 3
+/equip 4 4
+/equip 4 5
+/equip 4 6
+/equip 4 7
+/equip 4 8
+/equip 4 9
+/equip 4 10
