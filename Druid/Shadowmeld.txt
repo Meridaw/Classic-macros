@@ -3,3 +3,10 @@ Shadowmeld spammable any form
 #showtooltip Shadowmeld
 /cancelform
 /cast !Shadowmeld
+
+
+
+Shadowmeld if caster, Prowl if Cat
+
+#showtooltip
+/cast [nostance] Shadowmeld; Prowl

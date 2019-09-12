@@ -1,0 +1,9 @@
+Pet Totem (pet destroys these totems, switch them if you would like to)
+
+/petattack [target=Grounding Totem]
+/petattack [target=Tremor Totem]
+/petattack [target=Earthbind Totem]
+/petattack [target=Healing Stream Totem]
+/petattack [target=Windfury Totem]
+/petattack [target=Mana Spring Totem]
+/petattack [target=Stoneskin Totem]

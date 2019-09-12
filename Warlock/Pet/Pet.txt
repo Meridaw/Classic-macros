@@ -1,0 +1,16 @@
+Pet attack/petpassive
+
+/petattack 
+/petpassive [target=pettarget,exists]
+
+
+
+Pet Follow
+
+/petfollow
+
+
+
+Change name of your pet
+
+/script PetAbandon()

@@ -1,0 +1,4 @@
+Fel Domination -> Summon Voidwalker -> Sacrifice
+
+#showtooltip
+/castsequence reset=target/combat Fel Domination, Summon Voidwalker(Summon), Sacrifice
