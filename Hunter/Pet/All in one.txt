@@ -1,0 +1,30 @@
+Revive, Call, Mend, Dismiss, Feed Pet
+
+#showtooltip 
+/cast [target=pet,dead][mod:shift] Revive Pet 
+/cast [nopet] Call Pet 
+/cast [pet,nomod,button:1] Mend Pet 
+/cast [pet,nomod,button:2] Dismiss Pet 
+/cast [pet,mod:alt] Feed Pet 
+/use [pet,mod:alt] Roasted Quail
+
+
+
+Alternate Pet Macro
+
+/cast [target=pet, dead] Revive Pet;[nopet] Call Pet; Mend Pet
+
+
+
+Pet Revive/Call Pet/Dismiss:
+
+#showtooltip
+/cast [pet=dead] Revive Pet; [nopet] Call Pet; Dismiss Pet
+
+
+
+Call/Dismiss Pet
+
+#showtooltip
+
+/cast [pet] Dismiss Pet; Call Pet

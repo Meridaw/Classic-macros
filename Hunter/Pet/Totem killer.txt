@@ -1,0 +1,7 @@
+Totem Killer
+
+/petattack [target=Earthbind Totem ] [harm] 
+/petattack [target=Windfury Totem ] [harm] 
+/petattack [target=Mana Tide Totem ] [harm] 
+/petattack [target=Tremor Totem] [harm] 
+/petattack [target=Grounding Totem] [harm]

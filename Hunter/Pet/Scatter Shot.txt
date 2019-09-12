@@ -1,0 +1,6 @@
+Scatter Shot+Pet Passive:
+
+#showtooltip Scatter Shot
+/petstay [pettarget=target]
+/petpassive [pettarget=target]
+/cast Scatter Shot

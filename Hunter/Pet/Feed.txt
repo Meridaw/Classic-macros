@@ -1,0 +1,5 @@
+Pet Feed:
+
+#showtooltip
+/cast Feed Pet
+/use nameoffood or /use <bag> <slot>

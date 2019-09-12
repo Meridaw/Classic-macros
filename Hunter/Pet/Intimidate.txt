@@ -1,0 +1,2 @@
+#showtooltip 
+/cast Intimidate

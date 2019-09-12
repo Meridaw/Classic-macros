@@ -1,0 +1,6 @@
+Feign Trap+pet Passive:
+
+#showtooltip
+/cast Freezing Trap
+/cast [combat] Feign Death
+/petpassive [pettarget=target]
