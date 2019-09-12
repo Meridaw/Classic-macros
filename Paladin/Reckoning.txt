@@ -1,0 +1,4 @@
+/sit
+/startattack 
+/stopattack
+/sit
