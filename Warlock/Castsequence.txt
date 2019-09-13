@@ -1,0 +1,5 @@
+/castsequence immolate, corruption, curse of agony
+
+
+
+/castsequence reset=target Immolate, Curse of Agony, Corruption, Shoot!

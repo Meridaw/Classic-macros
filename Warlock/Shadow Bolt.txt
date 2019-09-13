@@ -1,0 +1,1 @@
+/cast [@target,harm,nodead][@targettarget,harm,nodead][] Shadow Bolt

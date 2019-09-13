@@ -1,0 +1,10 @@
+Simple Drain Soul
+
+/cast Drain Soul
+/run PickupContainerItem(4,GetContainerNumSlots(4)) DeleteCursorItem()
+
+
+
+#showtooltip Drain Soul(Rank 1)
+/cast [nochanneling:Drain Soul] Drain Soul(rank 1)
+/run local bN = GetBagName(4) if bN=="Soul Pouch" then local nS=GetContainerNumSlots(4) PickupContainerItem(4,nS) DeleteCursorItem() end

@@ -1,0 +1,3 @@
+#showtooltip
+/cast [@cursor] Rain of Fire
+/cast [mod:shift @cursor] Rain of Fire (Rank 1)

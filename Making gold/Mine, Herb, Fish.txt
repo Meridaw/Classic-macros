@@ -1,0 +1,2 @@
+/castsequence [mounted] Find Herbs, Find Minerals 
+/use [nomounted]Fishing

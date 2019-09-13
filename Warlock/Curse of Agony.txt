@@ -1,0 +1,2 @@
+#showtooltip
+/cast [@mouseover, exists]Curse of Agony; Curse of Agony

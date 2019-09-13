@@ -1,0 +1,2 @@
+#showtooltip
+/cast [group:raid] Curse of Recklessness; Curse of Recklessness(Rank 1)

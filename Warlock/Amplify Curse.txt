@@ -1,0 +1,4 @@
+#showtooltip Curse of Agony
+/cast  Amplify Curse
+/cast Curse of Agony
+/script UIErrorsFrame:Clear();
