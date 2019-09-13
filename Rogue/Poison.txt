@@ -3,3 +3,9 @@ This lets you apply all poisons with one macro, by using ALT, CTRL and left/righ
 #showtooltip
 /use [nomodifier] Instant Poison; [modifier:alt] Crippling Poison II; [modifier:ctrl] Mind-numbing Poison III
 /use [button:1] 16; [button:2] 17
+
+
+
+/use [button:1] Instant Poison VI; [button:2] Instant Poison VI; [button:3] Instant Poison VI
+/use [button:1] 16; [button:2] 17; [button:3] 18
+/click StaticPopup1Button1
