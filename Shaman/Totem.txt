@@ -1,0 +1,6 @@
+Removes Totem
+
+/run if not UnitAffectingCombat("player")then dt1 = dt1 or CreateFrame("Button", "dt1", UIParent, "SecureUnitButtonTemplate")dt1:SetAttribute("type2", "destroytotem")dt1:SetAttribute("*totem-slot*",1)end
+/click dt1 RightButton
+
+Note: this is for the Fire Totem only, but you can change it to fit whatever Totem you like by changing this number: ("*totem-slot*",1)

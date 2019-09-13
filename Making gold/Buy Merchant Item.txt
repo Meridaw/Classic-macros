@@ -1,0 +1,3 @@
+/run BuyMerchantItem(x,y)
+
+y = amount x = slot

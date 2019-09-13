@@ -9,3 +9,18 @@ Spammable wand macro
 
 #showtooltip Shoot
 /cast [target=mouseover,exists,harm] !Shoot; !Shoot
+
+
+
+Dancing wand macro
+
+#showtooltip
+/cast Shoot
+/dance
+
+
+
+Castsequence !Shoot
+
+#showtooltip
+/castsequence !Shoot, !Shoot

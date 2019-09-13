@@ -12,3 +12,11 @@ If you want spammable Iceblock (so it doesn’t get removed when you press again),
 #showtooltip
 /stopcasting
 /cast !Ice Block
+
+
+
+Cold Snap, Ice Block
+
+/cast [mod:shift] Cold Snap
+/cast [mod:shift] Ice Block
+/cast Ice Block

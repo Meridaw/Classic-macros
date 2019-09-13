@@ -1,0 +1,2 @@
+#showtooltip
+/cast [mod:shift] Teleport: Undercity; [mod:ctrl] Teleport: Thunder Bluff; Teleport: Orgrimmar

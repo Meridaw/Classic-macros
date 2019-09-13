@@ -1,0 +1,2 @@
+#showtooltip Power Word: Fortitude
+/cast [modifier:alt, target=player] Power Word: Fortitude [target=mouseover,exists] Power Word: Fortitude

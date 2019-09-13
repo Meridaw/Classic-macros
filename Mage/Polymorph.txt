@@ -2,3 +2,8 @@ Cast polymorph (rank 1) on current target, or on the mouseover target if we’re h
 
 #showtooltip
 /cast [mod:shift,@mouseover,exists,harm,nodead] Polymorph(Rank 1);[exists,harm,nodead]Polymorph(Rank 1)
+
+
+
+#showtooltip
+/cast [target=mouseover,harm] Polymorph; Polymorph

@@ -2,3 +2,23 @@ Automatically conjure the highest possible water (so you won’t have to replace i
 
 #showtooltip
 /cast Conjure Water
+
+
+
+Mana Gems
+
+/castsequence [nocombat] Conjure Mana Ruby, Conjure Mana Citrine, Conjure Mana Jade, Conjure Mana Agate
+/stopmacro [nocombat]
+/use Mana Ruby
+/use Mana Citrine
+/use Mana Jade
+/use Mana Agate
+
+
+
+/castsequence [button:2] reset=120 Conjure Mana Ruby, Conjure Mana Citrine, Conjure Mana Jade, Conjure Mana Agate
+/stopmacro [button:2]
+/use Mana Ruby
+/use Mana Citrine
+/use Mana Jade
+/use Mana Agate

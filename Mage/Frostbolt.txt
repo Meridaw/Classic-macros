@@ -9,3 +9,10 @@ Cast max rank when you press, rank1 when you also press control (can be changed 
 
 #showtooltip
 /cast [mod:ctrl]Frostbolt(Rank 1);Frostbolt
+
+
+
+Stand, Frostbolt rank 1/max
+
+/stand
+/cast [mod:ctrl] Frostbolt(Rank 1);Frostbolt

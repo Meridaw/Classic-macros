@@ -1,0 +1,3 @@
+#showtooltip Power Infusion
+/cast [@mouseover, help, nodead] Power Infusion
+/run SendChatMessage("You Have POWER INFUSION. Pay me 2g whenever you want","whisper",nil,GetUnitName("mouseover",1):gsub(" ","",2))

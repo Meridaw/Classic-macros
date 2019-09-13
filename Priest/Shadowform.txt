@@ -2,3 +2,9 @@ Shadowform
 
 #showtooltip
 /cast !Shadowform
+
+
+
+#showtooltip
+/cancelaura [mod:alt][nodead,help] shadowform
+/cast [mod:alt,@player] Renew; [harm] Shadow Word: Pain; Renew

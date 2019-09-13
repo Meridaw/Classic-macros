@@ -13,6 +13,15 @@ Earth Shock
 /cast Earth Shock
 
 
+
+Mouseover Earth Shock rank 1
+
+#showtooltip
+/stopcasting
+/cast [@mouseover,harm][] Earth Shock(Rank 1)
+
+
+
 Flame Shock
 
 #showtooltip

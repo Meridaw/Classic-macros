@@ -1,0 +1,3 @@
+#showtooltip
+/cancelaura White Ram;
+/cast [mod:alt][@mouseover,help,nodead] Power Word: Shield(Rank 1); Power Word: Shield

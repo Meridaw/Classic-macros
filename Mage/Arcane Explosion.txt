@@ -9,3 +9,10 @@ Arcane explosion:
 
 #showtooltip
 /cast [combat] Arcane Explosion; Arcane Explosion(Rank 1)
+
+
+
+Arcane Explosion rank 1, Arcane Explosion max rank
+
+#showtooltip Arcane Explosion
+/cast [mod:shift] Arcane Explosion(Rank 1); [combat] Arcane Explosion; [nocombat] Arcane Explosion(Rank1)

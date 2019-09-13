@@ -3,3 +3,11 @@ Spammable Mind Flay
 #showtooltip
 /stopmacro [channeling]
 /cast Mind Flay
+
+
+
+CTRL held downranks to Rank 1, else max rank
+
+#showtooltip
+/dismount 
+/cast [mod:ctrl,nochanneling] Mind Flay(Rank 1); [nochanneling] Mind Flay

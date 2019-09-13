@@ -1,0 +1,2 @@
+/dismount
+/cast Frost Nova
