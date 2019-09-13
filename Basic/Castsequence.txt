@@ -1,11 +1,14 @@
 MACRO castsequence
 
 
+
 - Macro commands
 
 Performs the specified actions in order.
 
 /castsequence [options] reset=condition1/... action1, action2, ...
+
+
 
 Contents
 
