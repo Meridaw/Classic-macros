@@ -1,0 +1,18 @@
+Character commands
+
+These commands affect your character's status, social interaction, movement, or actions
+
+    dismount - Dismounts your character
+    equip - Equip an item to its default slot.
+    equipset - Change equipped items to a set stored in the Equipment Manager
+    equipslot - Equip an item to a specific slot.
+    friend - Adds a player to your Friends list.
+    follow - Set yourself to follow the selected target
+    ignore - Adds a player to your ignore list
+    inspect - Opens the Inspection interface of the selected target.
+    leavevehicle - Allows your character to exit their current vehicle.
+    randompet - Summons a random companion pet (non-combat pet).
+    removefriend - Removes a friend from your friend list.
+    settitle - Sets the active title for your character.
+    trade - Opens the trade interface with your current target.
+    unignore - Removes a player from your ignore list

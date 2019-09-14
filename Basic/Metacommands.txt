@@ -1,0 +1,6 @@
+Metacommands
+
+Metacommands pass data to the WoW client to affect its appearance on the action bar. Metacommands are preceded by a "#" symbol. Unknown metacommands will be silently ignored.
+
+    #show - Affects the button's icon on the Action Bar.
+    #showtooltip - Affects the button's icon and tooltip on the Action Bar.

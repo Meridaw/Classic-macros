@@ -1,0 +1,13 @@
+Pet commands
+
+    petassist - Sets pet to assist mode.
+    petattack - Sends pet to attack currently selected target.
+    petautocastoff - Turn off autocast for a pet spell.
+    petautocaston - Turn on autocast for a pet spell.
+    petautocasttoggle - Toggle autocast for a pet spell.
+    petdefensive - Set pet to defensive.
+    petdismiss - Dismiss your pet.
+    petfollow - Set pet to follow you.
+    petmoveto - Set pet to move to and stay at a hover-targeted location.
+    petpassive - Set pet to passive mode.
+    petstay - Set pet to stay where it is at.

@@ -1,0 +1,36 @@
+Chat commands
+
+All custom chat messages can make use of the chat substitutions to insert dynamic content into messages.
+
+    afk - Marks you as "Away From Keyboard".
+    announce - Toggle channel announcements.
+    ban - Bans a user from a user-created chat channel.
+    battleground - Sends a chat message to your battleground.
+    csay - Sends chat text to a channel referenced by number only.
+    chatinvite - Invite a user to a user-created chat channel.
+    chatlist - Displays a list of users in a chat channel, or what channels you are currently a member of.
+    chatlog - Enables/disables chat logging.
+    combatlog - Enables/disables combat logging.
+    chathelp - Displays a list of commonly used chat commands.
+    ckick - Kicks a user from a user-created chat channel.
+    emote - Perform an emote with the given text.
+    dnd - Marks you as "Do Not Disturb".
+    guild - Sends a chat message to your guild.
+    join - Joins or creates a user-created chat channel.
+    leave - Leaves a user-created chat channel.
+    moderator - Sets moderation in a user-created chat channel.
+    mute - Prevents a user from speaking (voice or text) in a user-created chat channel.
+    officer - Sends a chat message to your guild's officer channel.
+    owner - Displays or changes the owner of a user-created chat channel.
+    password - Sets or removes a password on a user-created chat channel.
+    party - Sends a chat message to your party.
+    raid - Sends a chat message to your raid.
+    rw - Sends a raid warning to your raid.
+    reply - Replies to the last user to send you a whisper with a message.
+    resetchat - Resets chat settings to default.
+    say - Sends a chat message to players in your immediate local area.
+    unban - Unbans a user from a user-created chat channel.
+    unmoderator - Removes moderation from a user-created chat channel.
+    unmute - Allows a user to speak (voice or text) in a user-created chat channel.
+    whisper - Sends a private chat message to a player in a whisper.
+    yell - Sends a chat message to all players in your zone.

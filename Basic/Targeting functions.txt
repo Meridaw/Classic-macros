@@ -1,0 +1,17 @@
+Targeting functions
+
+    assist - Targets a player's target.
+    clearfocus - Clears the current focus target.
+    cleartarget - Clears the current target.
+    focus - Set a focus target
+    target - Target the given unit by name.
+    targetexact - Target the unit by exact name match.
+    targetenemy - Cycle through nearby hostile units (no name matching).
+    targetenemyplayer - Cycle through nearby hostile players (no name matching).
+    targetfriend - Cycle through nearby friendly units (no name matching).
+    targetfriendplayer - Cycle through nearby friendly players (no name matching).
+    targetparty - Cycle through nearby party members (no name matching).
+    targetraid - Cycle through nearby raid members (no name matching).
+    targetlastenemy - Target the last attackable unit you had selected.
+    targetlastfriend - Target the last friendly unit you had selected.
+    targetlasttarget - Sets your current target to the last unit you had selected.

@@ -1,0 +1,6 @@
+PvP commands
+
+    duel - Challenge another player to a duel
+    forfeit - Forfeit a duel.
+    pvp - Sets whether or not you are attackable by other players.
+    wargame - Starts a War Game.

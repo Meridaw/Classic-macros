@@ -1,0 +1,12 @@
+Guild commands
+
+    guilddemote - Demotes a guild-member.
+    guilddisband - Disbands a guild.
+    guildinfo - Displays information about your guild.
+    guildinvite - Invites a player to join your guild.
+    guildleader - Makes another guild member the new Guild Master.
+    guildquit - Removes your character from your current guild.
+    guildmotd - Sets the guild Message of the Day.
+    guildpromote - Promotes a guild member to the next higher rank.
+    guildroster - Opens the Guild window.
+    guildremove - Removes a member of your guild from your guild.
