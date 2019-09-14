@@ -1,0 +1,4 @@
+Multi-stance keybind - Use specific ability in a stance
+
+#showtooltip
+/cast [stance:1] Retaliation; [stance:2] Shield Wall; [stance:3] Recklessness
