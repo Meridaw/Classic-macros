@@ -4,13 +4,13 @@ This macro will ensure that your pet is always attacking the same target as you.
 
 This macro does the following...
 
-- If no pet is out, summons your pet
+1. If no pet is out, summons your pet
 
-- If your pet is dead, casts revive (hunters only, warlocks delete line containing REVIVE_PET_SPELL)
+2. If your pet is dead, casts revive (hunters only, warlocks delete line containing REVIVE_PET_SPELL)
 
-- Casts your HARMFUL_SPELL at the target, if the target is hostile/neutral
+3. Casts your HARMFUL_SPELL at the target, if the target is hostile/neutral
 
-- Your pet will only attack if you are ALREADY in combat, otherwise will do nothing. This works kinda like retail's "assist" option for pets. YOUR PET MUST BE SET TO "PASSIVE" FOR THIS TO WORK CORRECTLY
+4. Your pet will only attack if you are ALREADY in combat, otherwise will do nothing. This works kinda like retail's "assist" option for pets. YOUR PET MUST BE SET TO "PASSIVE" FOR THIS TO WORK CORRECTLY
 
 
 #showtooltip
