@@ -1,0 +1,2 @@
+#showtooltip
+/cast [mod:shift] Howl of Terror; [nomod, @M0useover, harm, exists][] Fear
