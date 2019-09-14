@@ -1,6 +1,6 @@
 #showtooltip War Stomp(Racial)
 
-/dismount
+/dismount [mounted]
 /cancelform
 /stopcasting
 /cast [modifier:shift] War Stomp(Racial)
