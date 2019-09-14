@@ -1,0 +1,24 @@
+Pet Management For Hunters and Warlocks:
+
+This macro will ensure that your pet is always attacking the same target as you. In order for this macro to work as intended, you pet must be set to PASSIVE
+
+This macro does the following...
+
+- If no pet is out, summons your pet
+
+- If your pet is dead, casts revive (hunters only, warlocks delete line containing REVIVE_PET_SPELL)
+
+- Casts your HARMFUL_SPELL at the target, if the target is hostile/neutral
+
+- Your pet will only attack if you are ALREADY in combat, otherwise will do nothing. This works kinda like retail's "assist" option for pets. YOUR PET MUST BE SET TO "PASSIVE" FOR THIS TO WORK CORRECTLY
+
+
+#showtooltip
+/cast [nopet] SUMMON_PET_SPELL
+/cast [@pet,dead] REVIVE_PET_SPELL
+/cleartarget [harm,dead][noharm]
+/targetenemy [noexist,combat]
+/startattack [harm,nodead]
+/cast [harm,nodead] HARMFUL_SPELL; HARMFUL_SPELL
+/petattack [harm,combat]
+/petfollow [noexists][exists,noharm]

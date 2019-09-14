@@ -1,0 +1,9 @@
+Easy Ghost Wolf:
+
+#showtooltip
+/cancelaura [harm,nodead] Ghost Wolf
+/startattack [harm,nodead]
+/cleartarget [dead,combat]
+/targetenemy [noexist,combat]
+/cast [noexist,outdoors] Ghost Wolf
+/cast [noharm,outdoors] Ghost Wolf; HARMFUL_SPELL
