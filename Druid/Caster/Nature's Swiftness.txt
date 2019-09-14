@@ -4,6 +4,7 @@
 /cast [help] Healing Touch; [target=player] Healing Touch
 
 
+
 Cancel form to NS/Healing Touch combo
 
 #showtooltip Nature's Swiftness

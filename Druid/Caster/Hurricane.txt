@@ -22,6 +22,6 @@ Stand, dismount, cancel form, cast Hurricane
 
 #showtooltip
 /stand
-/dismount
+/dismount [mounted]
 /cancelform [noform:5]
 /cast Hurricane

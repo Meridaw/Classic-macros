@@ -39,6 +39,6 @@ Stand, dismount, cancel form, cast Faerie Fire
 
 #showtooltip
 /stand
-/dismount
+/dismount [mounted]
 /cancelform [noform:5]
 /cast Faerie Fire

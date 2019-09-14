@@ -17,6 +17,6 @@ Stand, Cancel form, dismount, canst Entangling Roots
 
 #showtooltip
 /stand
-/dismount
+/dismount [mounted]
 /cancelform [noform:5]
 /cast Entangling Roots

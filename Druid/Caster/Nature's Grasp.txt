@@ -10,6 +10,6 @@ Stand, dismount, cancel form, cast Nature's Grasp
 
 #showtooltip
 /stand
-/dismount
+/dismount [mounted]
 /cancelform [noform:5]
 /cast Nature's Grasp

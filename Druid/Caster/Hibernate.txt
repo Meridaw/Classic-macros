@@ -9,6 +9,6 @@ Stand, dismount, cancel form, cast Hibernate
 
 #showtooltip
 /stand
-/dismount
+/dismount [mounted]
 /cancelform [noform:5]
 /cast Hibernate

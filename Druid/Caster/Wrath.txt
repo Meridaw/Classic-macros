@@ -2,6 +2,6 @@ Stand, dismount, cancel form, cast Wrath
 
 #showtooltip
 /stand
-/dismount
+/dismount [mounted]
 /cancelform [noform:5]
 /cast Wrath

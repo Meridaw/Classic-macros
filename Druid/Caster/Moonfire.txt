@@ -16,7 +16,7 @@ Stand, dismount, cancel form, cast Moonfire
 
 #showtooltip
 /stand
-/dismount
+/dismount [mounted]
 /cancelform [noform:5]
 /cast Moonfire
 

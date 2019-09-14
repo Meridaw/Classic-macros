@@ -3,11 +3,13 @@
 /cancelform
 
 
-#showtooltip Spell Name
+
+#showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Regrowth
 /cancelform
 
 
-#show Regrowth
+
+#showtooltip
 /stopcasting
 /cast [mod:alt,target=player] Regrowth; [target=mouseover,exists] Regrowth; Regrowth;

@@ -25,6 +25,6 @@ Stand, Dismount, Cancelform, mouseover Healing Touch
 
 #showtooltip
 /stand
-/dismount
+/dismount [mounted]
 /cancelform
 /cast [@mouseover,help][] Healing Touch
