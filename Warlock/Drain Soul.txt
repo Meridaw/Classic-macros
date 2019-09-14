@@ -1,10 +1,12 @@
-Simple Drain Soul
-
-/cast Drain Soul
-/run PickupContainerItem(4,GetContainerNumSlots(4)) DeleteCursorItem()
-
-
+Drain Soul / Delete Shards
 
 #showtooltip Drain Soul(Rank 1)
 /cast [nochanneling:Drain Soul] Drain Soul(rank 1)
 /run local bN = GetBagName(4) if bN=="Soul Pouch" then local nS=GetContainerNumSlots(4) PickupContainerItem(4,nS) DeleteCursorItem() end
+
+
+
+Drain Soul / Delete Shards v2 (smarter)
+
+/use [nochanneling:drain soul]Drain Soul(Rank 1)
+/run for i=1,4 do n=GetBagName(i)if n then if n:find('[Sl][oca][ulk]') then if GetContainerNumFreeSlots(i)==0 then PickupContainerItem(i,GetContainerNumSlots(i))DeleteCursorItem()break end end end end

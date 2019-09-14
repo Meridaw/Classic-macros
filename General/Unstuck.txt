@@ -1,0 +1,7 @@
+Unstuck + Hearthstone Warning
+
+/run a,b=GetItemCooldown(6948)if a+b<GetTime()and GetItemCount(6948)>0 then message("\124cffff0000WARNING: USING HEARTHSTONE!\124r")PlaySoundFile("Sound\creature\Voljin\VoljinAggro01.ogg")else PlaySound(8585)end
+/click HelpFrameCharacterStuckStuck
+
+Uses your “unstuck”, and makes a popup warning if you are about to use your Hearthstone. 
+Useful for death skips! If you don’t want the popup, you can have a chat message by changing message to print.
