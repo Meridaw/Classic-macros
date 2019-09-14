@@ -1,4 +1,4 @@
-Raveage, Shred
+Ravage, Shred
 
 #showtooltip
 /cast [stealth] Ravage; [nostealth] Shred
@@ -7,9 +7,9 @@ Raveage, Shred
 
 Start attack, Shred
 
-#showtooltip
-/startattack
-/cast Shred
+#showTooltip
+/startattack [nostealth]
+/cast [nostealth] Shred; Ravage
 
 
 
