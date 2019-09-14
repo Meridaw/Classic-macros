@@ -1,26 +1,18 @@
 Spammable Wand
 
-#showtooltip
-/cast !Shoot
+/castsequence reset=3 !Shoot, null
 
 
 
-Spammable wand macro
+Spammable wand mouseover
 
 #showtooltip Shoot
 /cast [target=mouseover,exists,harm] !Shoot; !Shoot
 
 
 
-Dancing wand macro
+Dancing wand
 
 #showtooltip
 /cast Shoot
 /dance
-
-
-
-Castsequence !Shoot
-
-#showtooltip
-/castsequence !Shoot, !Shoot

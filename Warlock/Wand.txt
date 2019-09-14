@@ -1,13 +1,7 @@
 Spammable Wand
 
 #showtooltip
-/cast !Shoot
-
-
-
-Castsequence wand
-
-/castsequence !Shoot, !Shoot
+/castsequence reset=3 !Shoot, null
 
 
 
@@ -15,3 +9,11 @@ Spammable wand, Imp Firebolt
 
 /castsequence reset=3 !Shoot, null
 /cast [pet:Imp] Firebolt
+
+
+
+Dancing wand
+
+#showtooltip
+/cast Shoot
+/dance
