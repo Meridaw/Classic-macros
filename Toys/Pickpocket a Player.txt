@@ -1,0 +1,10 @@
+Pickpocket a Player
+
+/cast Shadowmeld
+/run SendChatMessage("pickpockets %t for "..GetCoinText(random(1000,20000)),"emote")
+
+
+This macro will make it seem like you have pick-pocketed another player for a small amount of gold. 
+I didn't write this one myself, its a classic. I was testing it in retail, and someone actually believed it was real! 
+Feel free to remove the shadowmeld line or change it to a rogue's stealth. 
+I feel like the stealth sound and animation help to sell the illusion.

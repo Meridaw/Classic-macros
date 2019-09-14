@@ -1,0 +1,25 @@
+This will do is instantly target the quest mob unless they’re dead, then it will cause you to auto-attack. 
+Make sure if you’re using a slow weapon to un-equip it and use your fists as they’re faster. Useful for warriors and casters.
+
+/tar insert name here
+/cleartarget [dead]
+/startattack
+
+e.g.
+/tar Flattusk the Bold
+
+
+
+
+The next macro is for if your class learns an instant cast spell, like moonfire or fireblast. 
+Warlocks take note that your dots, unless they do damage upon application, don’t tag the mob for you.
+
+
+
+#showtooltip
+/tar insert name here
+/cleartarget [dead]
+/cast spell name here
+
+e.g.
+/cast Moonfire

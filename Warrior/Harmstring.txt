@@ -3,3 +3,12 @@ Harmstring (auto-attack)
 #showtooltip
 /startattack
 /cast Hamstring
+
+
+
+Charge, Hamstring
+
+#showtooltip
+/cast [stance:1][nocombat] Charge
+/cast [stance:1][combat] Hamstring
+/cast Battle Stance

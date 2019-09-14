@@ -19,3 +19,12 @@ Stand, dismount, cancel form, cast Moonfire
 /dismount
 /cancelform [noform:5]
 /cast Moonfire
+
+
+
+Target named mob, Moonfire
+
+#showtooltip
+/tar insert name here
+/cleartarget [dead]
+/cast Moonfire

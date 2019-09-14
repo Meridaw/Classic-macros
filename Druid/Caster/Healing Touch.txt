@@ -1,12 +1,30 @@
+Healing Touch
+
 #showtooltip
 /cast [nostance] Healing Touch
 /cancelform
 
+
+
+Mouseover Healing Touch
 
 #showtooltip Healing Touch
 /use [@mouseover,help,nodead][help,nodead][@player] Healing Touch
 /cancelform
 
 
+
+Wrath, Healing Touch
+
 #showtooltip
 /cast [harm,nodead] Wrath ; [help,nodead][@player] Healing Touch
+
+
+
+Stand, Dismount, Cancelform, mouseover Healing Touch
+
+#showtooltip
+/stand
+/dismount
+/cancelform
+/cast [@mouseover,help][] Healing Touch

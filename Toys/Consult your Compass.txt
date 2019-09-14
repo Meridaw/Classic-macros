@@ -1,0 +1,8 @@
+Consult your Compass
+
+/run local r,p=GetPlayerFacing(),math.pi local x,y=(r<3/8*p or r>13/8*p) and "north" or (r<11/8*p and r>5/8*p) and "south" or "",(r<7/4*p and r>5/4*p) and "east" or (r<3/4*p and r>1/4*p) and "west" or "" SendChatMessage("’s compass points "..x..y,"emote")
+
+
+This macro, you guessed it, shows your compass bearings as an emote, North, Northwest, etc. 
+It is useful if you are playing without the minimap like a crazy person. 
+Unlike the other macros do not change anything in this one, as it is exactly the maximum number of characters a macro can hold without mods.

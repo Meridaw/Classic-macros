@@ -1,0 +1,10 @@
+The Coin Flip
+
+/point
+/e casually flips a gold coin.
+/run C_Timer.After(1, function() SendChatMessage(GetRandomArgument("catches the coin face up, heads.","catches the coin facedown, tails."),"emote") end)
+
+
+This macro will cause your character to do the point animation and show the result of a coin toss as emote text. 
+The coin has an equal random chance of landing on heads or tails. 
+Feel free to change the second line to describe the coin differently.
