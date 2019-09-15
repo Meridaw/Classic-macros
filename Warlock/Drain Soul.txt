@@ -1,6 +1,6 @@
 Drain Soul / Delete Shards
 
-#showtooltip Drain Soul(Rank 1)
+#showtooltip
 /cast [nochanneling:Drain Soul] Drain Soul(rank 1)
 /run local bN = GetBagName(4) if bN=="Soul Pouch" then local nS=GetContainerNumSlots(4) PickupContainerItem(4,nS) DeleteCursorItem() end
 
