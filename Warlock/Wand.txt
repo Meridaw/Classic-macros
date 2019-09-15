@@ -1,7 +1,7 @@
 Spammable Wand
 
 #showtooltip
-/castsequence reset=3 !Shoot, null
+/castsequence reset=3/target !Shoot, null
 
 
 

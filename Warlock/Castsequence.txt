@@ -1,5 +1,17 @@
-/castsequence immolate, corruption, curse of agony
-
-
+Dot rotation, Wand
 
 /castsequence reset=target Immolate, Curse of Agony, Corruption, Shoot!
+
+
+
+DOT rotation versus non-casters
+
+#show
+/castsequence reset=15/alt/target Curse of Agony, Corruption, Immolate
+
+
+
+DOT rotation versus casters
+
+#show
+/castsequence reset=5/alt/target Curse of Tongues, Corruption, Immolate

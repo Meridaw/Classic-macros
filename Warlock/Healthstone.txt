@@ -1,3 +1,13 @@
+Create and Use Healthstone/Soulstone
+
+#showtooltip
+/use [button:1] Healthstone
+/cast [button:2] Create Healthstone
+
+
+
+Trade Healthstone
+
 /run for i=0,4 do for x=1,GetContainerNumSlots(i) do y=GetContainerItemLink(i,x) if y then if GetItemInfo(y)=="Minor Healthstone" then PickupContainerItem(i,x); DropItemOnUnit("target"); return; end end end end
 /click TradeFrameTradeButton
 
