@@ -1,3 +1,10 @@
+Mouseover Polymorph
+
+#showtooltip
+/cast [target=mouseover,harm] Polymorph; Polymorph
+
+
+
 Cast polymorph (rank 1) on current target, or on the mouseover target if we’re holding shift:
 
 #showtooltip
@@ -5,5 +12,12 @@ Cast polymorph (rank 1) on current target, or on the mouseover target if we’re h
 
 
 
+Moon Icon + Polymorph Mouseover 
+
 #showtooltip
-/cast [target=mouseover,harm] Polymorph; Polymorph
+
+/stopcasting
+
+/script SetRaidTarget("mouseover", 5);
+
+/cast [target=mouseover] Polymorph
