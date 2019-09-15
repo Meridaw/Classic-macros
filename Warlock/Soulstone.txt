@@ -1,0 +1,2 @@
+/cast [button:1] Create Soulstone (Major)
+/use [nomod,button:2] Major Soulstone; [mod:shift, @player, button:2] Major Soulstone
