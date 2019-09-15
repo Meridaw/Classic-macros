@@ -5,3 +5,11 @@ If we press shift, we’ll counterspell the mouseover target.
 /stopcasting
 /cancelaura Ice Block
 /cast [mod:shift,@mouseover, harm, exists, nodead] Counterspell;[harm, exists, nodead] Counterspell
+
+
+
+Stopcasting, Cancelaura Ice Block, Counterspell
+
+/stopcasting
+/cancelaura Ice Block
+/cast [nomod, @mouseover, harm, exists, nodead] Counterspell
