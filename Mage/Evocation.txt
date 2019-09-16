@@ -1,0 +1,6 @@
+#showtooltip Evocation
+/castsequence reset=30
+/equip Soulkeeper
+/cast Evocation
+/equip Spirit Of Aquementas
+/equip Witchblade
