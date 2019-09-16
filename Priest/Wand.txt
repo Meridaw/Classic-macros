@@ -17,3 +17,12 @@ Dancing wand
 #showtooltip
 /cast Shoot
 /dance
+
+
+
+Stopcasting, spammable wand
+
+#showtooltip
+/stopcasting
+/cast [target=mouseover,harm] !Shoot
+/cast !Shoot
