@@ -1,0 +1,3 @@
+Fully Rested ETA
+
+/script m=UnitXPMax("player");r=GetXPExhaustion();x=30-(math.floor(20*r/m+0.5));d=math.floor(8*x/24);h=8*x%24;t="Fully Rested ETA: "..d.." days, "..h.." hours ("..x.." bubbles left)";DEFAULT_CHAT_FRAME:AddMessage(t);
