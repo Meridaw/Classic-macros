@@ -1,0 +1,5 @@
+Food + drinks
+
+#showtooltip
+/use name_of_water
+/use name_of_food

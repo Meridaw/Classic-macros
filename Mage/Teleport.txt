@@ -5,6 +5,14 @@ Teleport
 
 
 
+Portal
+
+#showtooltip
+
+/cast [mod:shift] Portal: Ironforge; [mod:ctrl] Portal: Stormwind; [mod:alt] Portal: Darnassus
+
+
+
 Portal/Teleport
 
 /cast [party] Portal: Undercity; Undercity
