@@ -1,2 +1,13 @@
+Create/use Soulstone
+
 /cast [button:1] Create Soulstone (Major)
 /use [nomod,button:2] Major Soulstone; [mod:shift, @player, button:2] Major Soulstone
+
+
+
+Use Minor Soulstone
+
+#showtooltip
+/use Minor Soulstone
+/s Casting Soulstone on %t. Twice the life, double the fall. Also double the repair cost.
+/run SendChatMessage("Casting Soulstone on you. This is where the fun begins.","WHISPER",nil,UnitName("target"))
