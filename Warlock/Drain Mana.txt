@@ -1,0 +1,2 @@
+#showtooltip
+/cast [mod:alt, nochanneling:Drain Mana] Drain Mana; [nochanneling:Drain Life] Drain Life
