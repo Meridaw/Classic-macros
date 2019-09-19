@@ -1,4 +1,4 @@
-Pummel
+Berserker Stance, Pummel
 
 #showtooltip
 /cast Berserker Stance
@@ -6,6 +6,20 @@ Pummel
 
 
 
-#showtooltip Pummel
+Berserker Stance, Pummel
+
+#showtooltip
 /cast [nostance:3] Berserker Stance
 /cast Pummel
+
+
+
+Shield Bash/Pummel with automatic stance change
+
+#showtooltip [worn:shield] Shield Bash;Pummel
+
+/cast [worn:shield,stance:3] Battle Stance
+
+/cast [noworn:shield,stance:1/2] Berserker Stance
+
+/cast [worn:shield] Shield Bash;Pummel

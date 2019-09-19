@@ -12,3 +12,17 @@ Equip 1H and Shield then cast Shield Bash
 /equipslot [noworn:shield] 16 name-of-your-1H
 /eq [noworn:shield] name-of-your-Shield
 /cast Shield Bash
+
+
+
+Equips your 1hander and shield and casts Shield Bash
+
+#showtooltip Shield Bash
+
+/equipslot 16 NameOfTheAxe
+
+/equipslot 17 NameOfTheShield
+
+/cast [stance:3] Battle Stance; Shield Bash
+
+/startattack
