@@ -14,3 +14,10 @@ normal = skull, shift = moon (poly), ctrl = square (freezing), alt = orange (for
 /run if IsShiftKeyDown() then SetRaidTarget("target", 5) end
 /run if IsControlKeyDown() then SetRaidTarget("target", 6) end
 /run if IsAltKeyDown() then SetRaidTarget("target", 2) end
+
+
+
+Mark skull and then x, Moon if shift
+
+/run if MyGlobalN == 8 or MyGlobalN == nil then MyGlobalN = 7 else MyGlobalN = MyGlobalN + 1 end SetRaidTargetIcon("target",MyGlobalN)
+/run if IsShiftKeyDown() then SetRaidTarget("target", 5) end
