@@ -5,3 +5,12 @@ Mouseover Icon Markers with Modifiers
 /run if IsControlKeyDown()then SetRaidTarget("mouseover",5) end
 
 /run if not IsShiftKeyDown() and not IsControlKeyDown()then SetRaidTarget("mouseover",8) end
+
+
+
+normal = skull, shift = moon (poly), ctrl = square (freezing), alt = orange (for marking me)
+
+/run SetRaidTarget("target", 8)
+/run if IsShiftKeyDown() then SetRaidTarget("target", 5) end
+/run if IsControlKeyDown() then SetRaidTarget("target", 6) end
+/run if IsAltKeyDown() then SetRaidTarget("target", 2) end
