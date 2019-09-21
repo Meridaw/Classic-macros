@@ -1,7 +1,18 @@
-#showtooltip Cat Form
-/use !Cat Form
-
+Spammable Cat Form
 
 #showtooltip Cat Form
-/cancelaura Cat Form
-/cast [nomodifier] Cat Form
+/dismount
+/cancelaura Leader of the pack
+/cancelaura predatory stirkes(Rank 3)
+/cancelform [noform:3]
+/cast [noform:3] Cat Form
+
+
+
+Prevents you from shifting on gcd so you can spam it
+
+#showtooltip Cat Form
+/dismount
+/cancelform [form:2/4]
+/cast [form:3] Cat Form; [form:1] Bear Form
+/cast [noform:3] Cat Form

@@ -25,3 +25,11 @@ Stand, dismount, cancel form, cast Hurricane
 /dismount [mounted]
 /cancelform [noform:5]
 /cast Hurricane
+
+
+
+AOE farm
+
+#showTooltip
+/cancelform
+/castsequence [@cursor] reset=5 Barkskin, Regrowth, Rejuvenation, Hurricane
