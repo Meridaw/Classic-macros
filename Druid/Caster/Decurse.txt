@@ -1,0 +1,5 @@
+Mouseover Decurse
+
+#showtooltip
+/cancelform
+/cast [@mouseover, help][@target, help][@targettarget, help][@player] Remove Curse

@@ -17,7 +17,6 @@ Hurricane at target
 
 
 
-
 Stand, dismount, cancel form, cast Hurricane
 
 #showtooltip

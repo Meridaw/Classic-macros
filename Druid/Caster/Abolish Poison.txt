@@ -1,7 +1,8 @@
 Mouseover Abolish Poison
 
-showtooltip# Abolish Poison
-/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Abolish Poison
+#showtooltip
+/cancelform
+/cast [@mouseover, help][@target, help][@targettarget, help][@player] Abolish Poison
 
 
 

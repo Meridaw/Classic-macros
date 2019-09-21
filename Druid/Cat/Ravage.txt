@@ -6,10 +6,7 @@ Ravage and shred 1 key and start attack
 
 
 
+Ravage when stealthed, Shred when not
+
 #showtooltip
-/cast [stealth] Ravage; [nostealth] Shred
-
-
-
-#showtooltip [stealth] Ravage; [nostealth] Shred
 /cast [stealth] Ravage; [nostealth] Shred

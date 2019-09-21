@@ -1,0 +1,4 @@
+Mouseover Taunt
+
+#showtooltip Growl
+/cast [@mouseover, harm, form:1][@target, harm, form:1] Growl

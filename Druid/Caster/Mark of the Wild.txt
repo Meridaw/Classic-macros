@@ -1,0 +1,4 @@
+Mouseover Mark of the Wild, Gift of the Wild if you hold down alt/ctrl/shift
+
+#showtooltip
+/cast [mod, @mouseover, help][mod, @target, help] Gift of the Wild; [nomod, @mouseover, help][nomod, @target, help] Mark of the Wild

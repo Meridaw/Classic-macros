@@ -6,6 +6,8 @@ Travel Form and Aquatic Form in one button (+ powershifting).
 
 
 
-Travel Form, Aquatic Form
+Travel form from any form, Aquatic form in water
 
-/cast [swimming] !Aquatic Form; !Travel Form
+#showtooltip
+/cancelform [noform:2/4]
+/cast [swimming] Aquatic Form; [noswimming] Travel Form

@@ -1,4 +1,14 @@
+Start attack, Maul/Swipe
+
 #showtooltip
 /startattack
 /cast !Maul
 /cast Swipe
+
+
+
+Mouseover Swipe
+
+#showtooltip Swipe
+/cast [@mouseover, harm, form:1][@target, harm, form:1] Swipe
+/startattack [@mouseover, harm, form:1][@target, harm, form:1]

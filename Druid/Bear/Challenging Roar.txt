@@ -1,6 +1,15 @@
-Cancel not bear form and AOE taunt
+Cancelform, Dire Bear Form, AOE taunt
 
 #showtooltip Challenging Roar
 /cancelform [noform:1]
 /cast [noform:1] !Dire Bear Form
 /cast [form:1] !Challenging Roar
+
+
+
+AOE Taunt + LIP
+
+#showtooltip
+/cast [form:1] Challenging Roar
+/cancelform [form:1]
+/use Limited Invulnerability Potion

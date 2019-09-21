@@ -1,2 +1,4 @@
-/cancelaura enrage 
-/cast enrage
+Enrage + autoremove
+
+/cast [form:1] Enrage
+/cancelaura Enrag
