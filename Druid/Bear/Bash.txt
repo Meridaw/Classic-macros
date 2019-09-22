@@ -10,3 +10,15 @@ Bear - Feral Charge - Bash w/ Furor Talent
 /cast [noform:1] !Bear Form
 /cast [form:1] Feral Charge
 /cast Bash
+
+
+
+Any form into Feral Charge into Bash, with Enrage
+
+#showtooltip Feral Charge
+/cancelform [noform:1]
+/cast [noform:1] Dire Bear Form
+/cast [@mouseover, harm][harm] Feral Charge
+/cast Enrage
+/cast Bash
+/cancelaura Enrage

@@ -1,3 +1,21 @@
+Stand, dismount, cancel form, cast Hurricane
+
+#showtooltip
+/stand
+/dismount [mounted]
+/cancelform [noform:5]
+/cast Hurricane
+
+
+
+AOE farm
+
+#showTooltip
+/cancelform
+/castsequence [@player] reset=5 Barkskin, Regrowth, Rejuvenation, Hurricane
+
+
+
 Hurricane cursor cast
 
 #showtooltip Hurricane
@@ -14,21 +32,3 @@ Hurricane at a name
 Hurricane at target
 
 /cast [@target] Hurricane
-
-
-
-Stand, dismount, cancel form, cast Hurricane
-
-#showtooltip
-/stand
-/dismount [mounted]
-/cancelform [noform:5]
-/cast Hurricane
-
-
-
-AOE farm
-
-#showTooltip
-/cancelform
-/castsequence [@cursor] reset=5 Barkskin, Regrowth, Rejuvenation, Hurricane
