@@ -1,4 +1,28 @@
+﻿Powershift Cat (NOT SPAMMABLE, but fixes Leader of the Pack and Predatory Strikes bugs where you don’t get the auras every other shift). Also shifts you to Cat Form from any form.
+
+#showtooltip Cat Form
+/cancelaura leader of the pack
+/cancelaura Predatory Strikes
+/cancelform [noform:3]
+/cast [form:3] Cat Form
+/cast [noform:3] !Cat Form
+
+
+
+Powershift Cat with any instant consumable use (Not spammable, press only once. Replace Major Mana Potion with any consumable)
+
+#showtooltip Cat Form
+/cancelaura leader of the pack
+/cancelaura Predatory Strikes
+/cancelform [noform:3]
+/cast [form:3] Cat Form
+/Use Major Mana Potion
+/cast [noform:3] !Cat Form
+
+
+
 Powershift (currently throws a LUA error)
+
 #showtooltip Cat Form
 /cast Cat Form
 /run local f=GcT or CreateFrame(“Frame”.”GcT”)f:SetScript(“OnUpdate”.function() f:Hide() end)f:Show()
