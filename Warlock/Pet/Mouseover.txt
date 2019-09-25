@@ -1,0 +1,3 @@
+Mouseover Seduction, Spell Lock
+
+/use [pet:succubus,@mouseover,harm,exists,nodead] [pet:succubus] Seduction;[pet:felhunter,@mouseover,harm,exists,nodead] [pet:felhunter] Spell Lock;

@@ -1,0 +1,4 @@
+Arms macro
+
+#showtooltip Sweeping Strikes
+/castsequence reset=15 Sweeping Strikes, Berserker Stance, Berserker Rage, Whirlwind, Battle Stance, Thunder Clap
