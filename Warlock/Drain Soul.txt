@@ -10,3 +10,11 @@ Drain Soul / Delete Shards v2 (smarter)
 
 /use [nochanneling:drain soul]Drain Soul(Rank 1)
 /run for i=1,4 do n=GetBagName(i)if n then if n:find('[Sl][oca][ulk]') then if GetContainerNumFreeSlots(i)==0 then PickupContainerItem(i,GetContainerNumSlots(i))DeleteCursorItem()break end end end end
+
+
+
+The ultimate Drain Soul + Soulshard macro
+
+/run local a=0 for i=0,4 do for j=1,GetContainerNumSlots(i)do if GetContainerItemID(i,j)==6265 then a=a+1 if a>=4 then PickupContainerItem(i,j)DeleteCursorItem() end end end end
+
+/cast  [target=mouseover,harm,exists,nodead] Drain Soul; Drain Soul

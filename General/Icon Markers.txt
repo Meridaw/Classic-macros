@@ -21,3 +21,15 @@ Mark skull and then x, Moon if shift
 
 /run if MyGlobalN == 8 or MyGlobalN == nil then MyGlobalN = 7 else MyGlobalN = MyGlobalN + 1 end SetRaidTargetIcon("target",MyGlobalN)
 /run if IsShiftKeyDown() then SetRaidTarget("target", 5) end
+
+
+
+Raid Marker Targeting for Soloing
+
+/run if not IsInGroup() then SetRaidTarget("target", 5) end
+
+/targetenemy
+
+/stopmacro [noharm]
+
+/run if not IsInGroup() then SetRaidTarget("target", 6) end
