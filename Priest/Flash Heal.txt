@@ -1,0 +1,4 @@
+Mind Blast, Flash Heal
+
+#showtooltip
+/cast [harm,exists,nodead,nomod] Mind Blast; [nomod] Flash Heal(Rank 4); [mod:shift] Flash Heal(Rank 7);

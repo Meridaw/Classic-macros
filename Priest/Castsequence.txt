@@ -1,0 +1,3 @@
+Mindblast, Shadow Word: Pain, Mindflay
+
+/castsequence reset=target/4 Mindblast, Shadow Word: Pain, Mindflay

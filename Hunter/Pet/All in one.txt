@@ -10,16 +10,11 @@ Revive, Call, Mend, Dismiss, Feed Pet
 
 
 
-Alternate Pet Macro
-
-/cast [target=pet, dead] Revive Pet;[nopet] Call Pet; Mend Pet
-
-
-
-Pet Revive/Call Pet/Dismiss:
+Revive, mend, and call pet
 
 #showtooltip
-/cast [pet=dead] Revive Pet; [nopet] Call Pet; Dismiss Pet
+
+/cast [@playerpet, dead, exists]Revive Pet; [@playerpet, nodead, exists]Mend Pet; Call Pet
 
 
 
