@@ -1,3 +1,0 @@
-Set max camera distance (lets you scroll your view to max distance!)
-
-/script SetCVar("cameraDistanceMax",30)

@@ -1,15 +1,3 @@
-~40 yard nameplate distance
-
-/run SetCVar("nameplateMaxDistance", "6e1")
-
-
-
-~60 yard nameplate distance
-
-/run SetCVar("nameplateMaxDistance", "1e4")
-
-
-
 Classcolor 
 
 /console ShowClassColorInNameplate 1

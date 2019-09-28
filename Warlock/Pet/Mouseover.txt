@@ -1,3 +1,10 @@
 Mouseover Seduction, Spell Lock
 
 /use [pet:succubus,@mouseover,harm,exists,nodead] [pet:succubus] Seduction;[pet:felhunter,@mouseover,harm,exists,nodead] [pet:felhunter] Spell Lock;
+
+
+
+Sacrifice, Seduction, Fire Shield, Devour Magic
+
+#showtooltip
+/cast [pet:voidwalker] Sacrifice; [pet:succubus,@mouseover,exists,harm][pet:succubus] Seduction; [pet:imp,@mouseover,exists,help][pet:imp] Fire Shield;  [pet:felhunter,@mouseover,exists][help][@player] Devour Magic
