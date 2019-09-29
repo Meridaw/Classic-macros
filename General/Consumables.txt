@@ -1,0 +1,3 @@
+Mouseover JuJu Flurry
+
+/use [@mouseover,help,nodead] [] Juju Flurry
