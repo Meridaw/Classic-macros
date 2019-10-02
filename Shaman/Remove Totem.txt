@@ -1,0 +1,18 @@
+Removes Totem
+
+/run if not UnitAffectingCombat("player")then dt1 = dt1 or CreateFrame("Button", "dt1", UIParent, "SecureUnitButtonTemplate")dt1:SetAttribute("type2", "destroytotem")dt1:SetAttribute("*totem-slot*",1)end
+/click dt1 RightButton
+
+Note: this is for the Fire Totem only, but you can change it to fit whatever Totem you like by changing this number: ("*totem-slot*",1)
+
+
+
+Remove All Totems
+
+/run if not UnitAffectingCombat("player")then for i=1,4 do n="t"..i CreateFrame("Button",n,UIParent,"SecureUnitButtonTemplate")_G[n]:SetAttribute("type", "destroytotem")_G[n]:SetAttribute("totem-slot",i)end end
+/click t1
+/click t2
+/click t3
+/click t4
+
+Because this macro uses SecureUnitButtons, it needs to be run outside of combat in the current UI session before it will work in combat.
