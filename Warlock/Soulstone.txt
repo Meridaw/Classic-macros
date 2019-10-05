@@ -11,3 +11,13 @@ Use Minor Soulstone
 /use Minor Soulstone
 /s Casting Soulstone on %t. Twice the life, double the fall. Also double the repair cost.
 /run SendChatMessage("Casting Soulstone on you. This is where the fun begins.","WHISPER",nil,UnitName("target"))
+
+
+
+Create/use Soulstone, send chat message
+
+#showtooltip Major Soulstone
+/cast [button:2] Create Soulstone (Major)
+/stopmacro [button:2]
+/use Major Soulstone
+/run SendChatMessage("ss on %t", IsInGroup(2) and "INSTANCE_CHAT" or IsInRaid() and "RAID" or "PARTY")
