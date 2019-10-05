@@ -10,3 +10,11 @@ Drain Life without canceling itself
 
 #showtooltip Drain Life
 /cast [nochanneling:Drain Life] Drain Life
+
+
+
+Drain Life/Soul
+
+#showtooltip
+/stopattack
+/cast [mod:shift,nochanneling:Drain Soul] Drain Soul(Rank 1); [nochanneling:Drain Life] Drain Life
