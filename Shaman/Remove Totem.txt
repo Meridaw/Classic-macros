@@ -9,7 +9,7 @@ Note: this is for the Fire Totem only, but you can change it to fit whatever Tot
 
 Remove All Totems
 
-/run if not UnitAffectingCombat("player")then for i=1,4 do n="t"..i CreateFrame("Button",n,UIParent,"SecureUnitButtonTemplate")_G[n]:SetAttribute("type", "destroytotem")_G[n]:SetAttribute("totem-slot",i)end end
+/run if not UnitAffectingCombat("player")then for i=1,4 do n="t"..i CreateFrame("Button",n,UIParent,"SecureUnitButtonTemplate")_G[n]:SetAttribute("type", "destroytotem")_G[n]:SetAttribute("*totem-slot*",i)end end
 /click t1
 /click t2
 /click t3

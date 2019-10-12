@@ -3,3 +3,14 @@ Heroic Strike (auto-attack)
 #showtooltip
 /startattack
 /cast Heroic Strike
+
+
+
+Heroic Strike trick
+
+#showtooltip Heroic strike
+/cast heroic strike
+/stopcasting
+
+Que when OH is gonna land, Unqueue if ragestarved as MH is about to land,
+And follow standard rotation.
