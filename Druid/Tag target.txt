@@ -1,0 +1,7 @@
+If you want to sit in stealth and steal tags...
+
+/cleartarget
+/target [harm, nodead] Prince
+/stopmacro [noexists]
+/cancelform
+/cast Moonfire(rank 1)

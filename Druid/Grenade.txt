@@ -1,0 +1,5 @@
+#showtooltip Iron Grenade
+/cancelform
+/stopcasting
+/use Thorium Grenade
+/use Iron Grenade
