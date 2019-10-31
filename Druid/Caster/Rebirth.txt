@@ -1,0 +1,3 @@
+/y Combat-res on %T
+/cast Nature's Swiftness
+/cast Rebirth
