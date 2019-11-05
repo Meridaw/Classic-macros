@@ -1,2 +1,9 @@
 #showtooltip
 /cast [group:raid] Curse of Recklessness; Curse of Recklessness(Rank 1)
+
+
+
+#showtooltip
+/cast [group:raid, nomod] Curse of Recklessness
+/cast [nomod] Curse of Recklessness(Rank 1)
+/cast [mod:shift] Curse of Agony

@@ -10,3 +10,9 @@ Bear Form and Demo shout from any form
 /cancelform [noform:1]
 /cast [form:0] !Dire Bear Form
 /cast [Form:1] Demoralizing Roar
+
+
+
+Demo if bear prowl if cat
+
+/cast [form:1] demoralizing roar; [form:3] prowl
