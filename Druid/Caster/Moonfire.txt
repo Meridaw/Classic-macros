@@ -1,3 +1,12 @@
+Moonfire max rank, then 2nd highest rank (put your 2nd highest rank as rank Y)
+
+#showtooltip
+/cast [mod:alt] moonfire(rank 1)
+/stopmacro [mod:alt]
+/castsequence [@targettarget, harm][] reset=12/target moonfire, moonfire(rank Y)
+
+
+
 Cancel any form and cast Moonfire
 
 #showtooltip Moonfire

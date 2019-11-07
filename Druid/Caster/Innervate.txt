@@ -31,3 +31,12 @@ Cancelform Innervate
 #showtooltip
 /cancelform
 /cast Innervate
+
+
+
+Innervate target, player if alt key
+
+#showtooltip
+/cast [mod:alt, @player][help,nodead] Innervate
+/stopmacro [mod:alt][help,dead][@target,noexist]
+/Yell Innervated %t
