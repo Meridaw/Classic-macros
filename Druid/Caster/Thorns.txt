@@ -13,3 +13,11 @@ Cancelform, Thorns
 #showtooltip
 /cancelform
 /cast [@mouseover, help][@target, help][@targettarget, help][@player] Thorns
+
+
+
+Cancel form then cast Thorns and Omen of Clarity
+
+#showtooltip Thorns
+/cancelform
+/castsequence reset=4 [@mouseover,help,nodead][help,nodead][@player] Thorns, Omen of Clarity
