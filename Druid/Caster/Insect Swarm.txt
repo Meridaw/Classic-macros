@@ -1,0 +1,4 @@
+Insect Swarm if enemy, else Nature's Grasp
+
+#showtooltip
+/cast [harm] Insect Swarm; Nature's Grasp

@@ -1,7 +1,7 @@
 Self Innervate Macro
 
 #showtooltip Innervate
-/cast [target=player] Innervate
+/cast [@player] Innervate
 
 
 
@@ -22,7 +22,7 @@ Weapon swapping macro to boost mana regen(just change item names)
 /equipslot 16 Weapon
 /equipslot 17 Offhand
 /equip Staff
-/cast [target=player] Innervate
+/cast [@player] Innervate
 
 
 
