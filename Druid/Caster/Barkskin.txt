@@ -1,0 +1,3 @@
+#showtooltip
+/dismount [mounted]
+/castsequence [@targettarget, harm][] reset=60 Barkskin, Dire Bear Form
