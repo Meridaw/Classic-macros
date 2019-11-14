@@ -11,15 +11,6 @@ Faerie Fire on targettarget if friend, else on target
 
 
 
-Faerie Fire from any form
-
-#showtooltip Faerie Fire
-/cast [stance:1] Faerie Fire (Feral)
-/cast [stance:3] Faerie Fire (Feral)
-/cast [stance:0] Faerie Fire
-
-
-
 Stand, dismount, cancel form, cast Faerie Fire
 
 #showtooltip
