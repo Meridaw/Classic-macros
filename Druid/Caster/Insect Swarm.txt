@@ -1,3 +1,11 @@
+Pet attack (if you use mind control cap), Insect Swarm
+
+#showtooltip
+/petattack
+/cast Insect Swarm
+
+
+
 Insect Swarm if enemy, else Nature's Grasp
 
 #showtooltip
