@@ -1,6 +1,10 @@
-#showtooltip
-/cast [nostance] Rejuvenation
-/cancelform
+Rejuvenation, then 3 times rank 3 Healing Touch
+
+/dismount [mounted]
+
+/cancelform [noform:5]
+
+/castsequence reset=12/target Rejuvenation, Healing Touch(Rank 3), Healing Touch(Rank 3), Healing Touch(Rank 3)
 
 
 #showtooltip Spell Name
