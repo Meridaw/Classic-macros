@@ -13,3 +13,8 @@
 #showtooltip
 /stopcasting
 /cast [mod:alt,target=player] Regrowth; [target=mouseover,exists] Regrowth; Regrowth;
+
+
+
+#showtooltip
+/cast [target=mouseover,help,nodead][]Regrowth

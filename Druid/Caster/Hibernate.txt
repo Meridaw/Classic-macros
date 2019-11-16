@@ -1,6 +1,17 @@
+Mouseover Hibernate
+
 #showtooltip Hibernate
 /stopcasting
 /cast [target=mouseover,exists] Hibernate
+/cast Hibernate
+
+
+
+Nature's Swiftness if ctrl is pressed, else Hibernate
+
+#showtooltip Hibernate
+/cancelform
+/cast [mod:ctrl] Nature's Swiftness
 /cast Hibernate
 
 
