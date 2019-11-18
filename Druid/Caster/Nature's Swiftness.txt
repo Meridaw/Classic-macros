@@ -11,3 +11,12 @@ Cancel form to NS/Healing Touch combo
 /cancelform
 /cast Nature's Swiftness
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Healing Touch
+
+
+
+Nature's Swiftness, Entangling Roots if shift, Hibernate if ctrl, else healing touch
+
+#showtooltip Nature's Swiftness
+/cancelform
+/cast Nature's Swiftness
+/cast [mod:shift,harm]Entangling Roots; [mod:ctrl,harm]Hibernate;[@mouseover,help,nodead][help][@player]Healing Touch
