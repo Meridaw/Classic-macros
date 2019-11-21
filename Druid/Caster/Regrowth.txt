@@ -1,6 +1,10 @@
-#showtooltip
-/cast [nostance] Regrowth
-/cancelform
+Rank 4 Regrowth every 20 second (for buff), then rank 3
+
+/dismount [mounted]
+
+/cancelform [noform:5]
+
+/castsequence [@mouseover,harm,nodead][]reset=20/target Regrowth(Rank 4), Regrowth(Rank 3), Regrowth(Rank 3), Regrowth(Rank 3), Regrowth(Rank 3), Regrowth(Rank 3), Regrowth(Rank 3), Regrowth(Rank 3)
 
 
 

@@ -1,0 +1,3 @@
+Track Humanoids, Find Herbs
+
+/castsequence reset=form3 !Track Humanoids, !Find Herbs
