@@ -1,0 +1,13 @@
+Resurrect, Cat, Prowl
+
+/script AcceptResurrect()
+/cast [noform:3,@player, nodead] cat form
+/cast [form:3, nostealth, @player, nodead] prowl
+
+
+
+Soulstone/Resurrect, Cat, Prowl
+
+/run UseSoulstone()AcceptResurrect()RetrieveCorpse()
+/cast [noform:3,@player, nodead] cat form
+/cast [form:3, nostealth, @player, nodead] prowl

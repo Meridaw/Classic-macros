@@ -2,3 +2,9 @@ Mouseover Mark of the Wild, Gift of the Wild if you hold down alt/ctrl/shift
 
 #showtooltip
 /cast [mod, @mouseover, help][mod, help] Gift of the Wild; [@mouseover, help][help][@player]Mark of the Wild
+
+
+
+Mark of the Wild, Thorns
+
+/castsequence reset=target Mark of the Wild, Thorns

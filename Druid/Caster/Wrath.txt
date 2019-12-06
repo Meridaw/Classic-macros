@@ -5,3 +5,9 @@ Stand, dismount, cancel form, cast Wrath
 /dismount [mounted]
 /cancelform [noform:5]
 /cast Wrath
+
+
+
+Healing touch/Wrath
+
+/cast [mod:alt, @player] Healing touch; [harm,nodead] Wrath; [help][@player] Healing Touch
