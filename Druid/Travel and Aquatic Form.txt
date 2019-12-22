@@ -18,3 +18,15 @@ Auto run, travel form/Aqua form
 
 /autorun
 /cast [swimming] aquatic form; travel form
+
+
+
+Find Herbs, Minerals, Travel/Aquatic Form
+
+#showtooltip
+
+/castsequence [mounted] Find Herbs, Find Minerals
+
+/cancelform [noform:2/4]
+
+/cast [swimming] Aquatic Form; [noswimming] Travel Form
