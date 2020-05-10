@@ -1,0 +1,28 @@
+A work around for Spell Queing for those with little/no latency issues.
+
+#showtooltip mind quickening gem
+/console SpellQueueWindow 0
+/use 13
+/cast Frostbolt(rank 10)
+
+You can also adjust the Spell Queue window closer to your server MS instead of setting it to 0
+
+and then i make a separate macro for my frostbolts to include spell queing
+
+#showtooltip frostbolt
+/console SpellQueueWindow 400
+/cast Frostbolt(rank 10)
+
+Works for gems and other trinkets as well.
+
+Edit
+
+So I didn't figure this out, thanks to @elio & @tom allon 
+
+You can set the spellque window to always register ur current MS to avoid as much time loss as possible.
+
+/run local ,,_,lagHome = GetNetStats() s = lagHome * 2
+/console SpellQueueWindow s
+
+Add that instead of just /console SpellQueueWindow 0
+And it should always replace the SpellQueueWindow with your current MS.
