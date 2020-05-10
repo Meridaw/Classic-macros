@@ -1,7 +1,8 @@
 Ravage, Shred
 
-#showtooltip
-/cast [stealth] Ravage; [nostealth] Shred
+#showTooltip Shred
+/startattack [combat, nostealth]
+/cast [noform:3] Cat Form; [combat, nostealth]Shred; [nocombat, nostealth] Prowl; [nocombat, stealth]Ravage
 
 
 
