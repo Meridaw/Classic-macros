@@ -1,32 +1,6 @@
-Travel Form and Aquatic Form in one button (+ powershifting).
+Travel Form, Aquatic Form
 
-/cancelaura Travel Form, Aquatic Form
-/cast [noswimming] !Travel Form
-/cast [swimming] !Aquatic Form
-
-
-
-Travel form from any form, Aquatic form in water
-
-#showtooltip
-/cancelform [noform:2/4]
-/cast [swimming] Aquatic Form; [noswimming] Travel Form
-
-
-
-Auto run, travel form/Aqua form
-
-/autorun
-/cast [swimming] aquatic form; travel form
-
-
-
-Find Herbs, Minerals, Travel/Aquatic Form
-
-#showtooltip
-
+#showtooltip Travel Form
 /castsequence [mounted] Find Herbs, Find Minerals
-
 /cancelform [noform:2/4]
-
 /cast [swimming] Aquatic Form; [noswimming] Travel Form

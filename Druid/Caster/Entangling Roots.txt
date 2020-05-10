@@ -2,14 +2,17 @@ Entangling Roots
 
 #showtooltip Nature's Swiftness
 /dismount [mounted]
-/cancelform [noform:5
+/cancelform [noform:5]
+/stand
 /cast Nature's Swiftness
 /cast Entangling Roots
 
 
 
-Mouseover Entangling Roots
+Entangling Roots
 
-#showtooltip
-/cancelform
+#showtooltip Entangling Roots
+/dismount [mounted]
+/cancelform [noform:5]
+/stand
 /cast [@mouseover,harm,nodead][] Entangling Roots

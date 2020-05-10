@@ -1,11 +1,10 @@
-Spammable Cat Form
+Cat Form
 
 #showtooltip Cat Form
-/dismount
-/cancelaura Leader of the pack
-/cancelaura predatory stirkes(Rank 3)
+/castsequence [stealth] Find Herbs, Find Minerals
+/dismount [mounted]
 /cancelform [noform:3]
-/cast [noform:3] Cat Form
+/cast [noform:3] Cat Form; Track Humanoids
 
 
 
