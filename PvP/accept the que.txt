@@ -1,0 +1,4 @@
+que for a bg and accpet que
+
+/click BattlefieldFrameJoinButton
+/click StaticPopup1Button1 
