@@ -1,16 +1,10 @@
-#showtooltip
+Nature's Swiftness, Healing Touch
+
+#showtooltip Nature's Swiftness
+/dismount [mounted]
+/cancelform [noform:5
 /cast Nature's Swiftness
-/stopcasting
-/cast [help] Healing Touch; [target=player] Healing Touch
-
-
-
-Cancel form to NS/Healing Touch combo
-
-#showtooltip
-/cancelform
-/cast Nature's Swiftness
-/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Healing Touch
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Healing Touch(Rank 10)
 
 
 

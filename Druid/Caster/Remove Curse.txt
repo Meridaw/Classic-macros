@@ -1,0 +1,4 @@
+Remove Curse
+
+#showtooltip Remove Curse
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Remove Curse

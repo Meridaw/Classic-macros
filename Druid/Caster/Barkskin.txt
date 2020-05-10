@@ -1,3 +1,13 @@
+Barkskin
+
+/dismount [mounted]
+/cancelform [noform:5]
+/cast Barkskin
+
+
+
+Barkskin, Dire Bear Form
+
 #showtooltip
 /dismount [mounted]
 /castsequence [@targettarget, harm][] reset=60 Barkskin, Dire Bear Form

@@ -1,16 +1,27 @@
-Healing Touch
+Healing Touch 3
 
-#showtooltip
-/cast [nostance] Healing Touch
-/cancelform
+/dismount [mounted]
+/cancelform [noform:5]
+/stand
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Healing Touch(Rank 3)
 
 
 
-Mouseover Healing Touch
+Healing Touch 4
 
-#showtooltip Healing Touch
-/use [@mouseover,help,nodead][help,nodead][@player] Healing Touch
-/cancelform
+/dismount [mounted]
+/cancelform [noform:5]
+/stand
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Healing Touch(Rank 4)
+
+
+
+Healing Touch 7
+
+/dismount [mounted]
+/cancelform [noform:5]
+/stand
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Healing Touch(Rank 7)
 
 
 
@@ -18,13 +29,3 @@ Wrath, Healing Touch
 
 #showtooltip
 /cast [harm,nodead] Wrath ; [help,nodead][@player] Healing Touch
-
-
-
-Stand, Dismount, Cancelform, mouseover Healing Touch
-
-#showtooltip
-/stand
-/dismount [mounted]
-/cancelform
-/cast [@mouseover,help][] Healing Touch

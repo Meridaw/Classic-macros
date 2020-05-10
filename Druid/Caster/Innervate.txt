@@ -1,6 +1,7 @@
 Self Innervate Macro
 
-#showtooltip Innervate
+/dismount [mounted]
+/cancelform [noform:5]
 /cast [@player] Innervate
 
 
@@ -16,21 +17,13 @@ Innervate
 
 
 
-Weapon swapping macro to boost mana regen(just change item names)
+Weapon swapping macro to boost mana regen (just change item names)
 
 #showtooltip
 /equipslot 16 Weapon
 /equipslot 17 Offhand
-/equip Staff
 /cast [@player] Innervate
-
-
-
-Cancelform Innervate
-
-#showtooltip
-/cancelform
-/cast Innervate
+/equipslot 16 Will of Arlokk
 
 
 

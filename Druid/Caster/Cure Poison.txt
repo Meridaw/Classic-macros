@@ -1,0 +1,4 @@
+Cure Poison
+
+#showtooltip Cure Poison
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Cure Poison
