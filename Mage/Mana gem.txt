@@ -1,0 +1,25 @@
+Ruby
+
+/use [combat] Mana Ruby
+/cast Conjure Mana Ruby
+
+
+
+Jade
+
+/use [combat] Mana Jade
+/cast Conjure Mana Jade
+
+
+
+Agate
+
+/use [combat] Mana Agate
+/cast Conjure Mana Agate
+
+
+
+Citrine
+
+/use [combat] Mana Citrine
+/cast Conjure Mana Citrine

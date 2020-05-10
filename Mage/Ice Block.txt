@@ -7,9 +7,10 @@ Ice Block (removes Ice Block on seond press/click)
 
 
 
-If you want spammable Iceblock (so it doesn’t get removed when you press again), change it to:
+Spammable Iceblock
 
 #showtooltip
+/dismount [mounted]
 /stopcasting
 /cast !Ice Block
 

@@ -1,18 +1,6 @@
-Frostbolt (casts Frostbolt max rank if no modifiers are pressed, casts Frostbolt Rank 1 if modifier (CTRL) is pressed)
+Frostbolt (max rank if no modifiers are pressed, Rank 1 if CTRL is pressed)
 
 #showtooltip
-/cast [mod:ctrl]Frostbolt(Rank 1);Frostbolt
-
-
-
-Cast max rank when you press, rank1 when you also press control (can be changed to shift/alt). 
-
-#showtooltip
-/cast [mod:ctrl]Frostbolt(Rank 1);Frostbolt
-
-
-
-Stand, Frostbolt rank 1/max
-
+/dismount [mounted]
 /stand
-/cast [mod:ctrl] Frostbolt(Rank 1);Frostbolt
+/cast [mod:ctrl] Frostbolt(Rank 1); Frostbolt

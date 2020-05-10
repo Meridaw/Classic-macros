@@ -1,13 +1,6 @@
 Mouseover Decurse
 
-/cast [target=mouseover] Remove Lesser Curse
-
-
-
-Decurse
-
-#showtooltip
-/cast [@mouseover,help,nodead] Remove Lesser Curse
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Remove Lesser Curse
 
 
 

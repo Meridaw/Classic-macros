@@ -1,7 +1,13 @@
-Buff Macro
+Ice Armor
 
 #showtooltip
 /castsequence reset=target/combat Ice Armor, Arcane Intellect, Dampen Magic
+
+
+Mage Armor
+
+#showtooltip
+/castsequence reset=target/combat Mage Armor(Rank 1), Arcane Intellect, Dampen Magic
 
 
 Rank 1 Buff Macro (e.g. for dispells)

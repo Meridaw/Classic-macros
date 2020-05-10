@@ -1,23 +1,20 @@
-Mouseover Polymorph
+Polymorph
 
-#showtooltip
-/cast [target=mouseover,harm] Polymorph; Polymorph
+#showtooltip Polymorph
+/dismount [mounted]
+/stand
+/cast Polymorph
 
 
-
-Cast polymorph (rank 1) on current target, or on the mouseover target if we’re holding shift:
+Cast polymorph (rank 1) on current target, or mouseover if shift key
 
 #showtooltip
 /cast [mod:shift,@mouseover,exists,harm,nodead] Polymorph(Rank 1);[exists,harm,nodead]Polymorph(Rank 1)
 
 
-
 Moon Icon + Polymorph Mouseover 
 
 #showtooltip
-
 /stopcasting
-
 /script SetRaidTarget("mouseover", 5);
-
 /cast [target=mouseover] Polymorph

@@ -1,10 +1,9 @@
-Fast counterspell (stop what you’re casting / cancel Ice Block and counterspell immediately).
-If we press shift, we’ll counterspell the mouseover target.
+Fast counterspell
 
 #showtooltip Counterspell
 /stopcasting
 /cancelaura Ice Block
-/cast [mod:shift,@mouseover, harm, exists, nodead] Counterspell;[harm, exists, nodead] Counterspell
+/cast [nomod, @mouseover, harm, exists, nodead] Counterspell
 
 
 
