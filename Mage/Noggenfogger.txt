@@ -1,0 +1,26 @@
+Use Noggenfogger, Remove Skeleton:
+
+#showtooltip
+/use Noggenfogger Elixir
+/run if not InCombatLockdown() then local u,i="player",1 repeat local id=select(10, UnitBuff(u,i)) if id==16591 then CancelUnitBuff(u,i) end i=i+1 until not id end
+
+
+
+Use Noggenfogger, Remove Skeleton, Remove Mini:
+#showtooltip
+/use Noggenfogger Elixir
+/run if not InCombatLockdown() then local u,i="player",1 repeat local id=select(10, UnitBuff(u,i)) if id==16591 or id==16595 then CancelUnitBuff(u,i) end i=i+1 until not id end
+
+
+
+Remove Skeleton and Mount up
+#showtooltip
+/run if not InCombatLockdown() then local u,i="player",1 repeat local id=select(10, UnitBuff(u,i)) if id==16591 then CancelUnitBuff(u,i) end i=i+1 until not id end
+/use Mount
+
+
+
+IDs in case you want to edit the macro to do other things:
+Skeleton: 16591
+Mini: 16595
+Slow fall: 16593
