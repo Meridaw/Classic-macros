@@ -1,0 +1,14 @@
+Shoot
+
+#showtooltip
+/cast [worn:Bows] Shoot Bow; [worn:Crossbows] Shoot Crossbow; [worn:Guns] Shoot Gun; [worn:Thrown] Throw
+
+
+
+Shoot, cancel HOT
+
+#showtooltip
+/cast [worn:thrown] Throw; [worn:bow] Shoot Bow; [worn:gun] Shoot Gun; [worn:crossbow] Shoot Crossbow
+/cancelaura Renew
+/cancelaura Rejuvenation
+/cancelaura Regrowth
