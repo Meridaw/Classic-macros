@@ -23,3 +23,12 @@ Citrine
 
 /use [combat] Mana Citrine
 /cast Conjure Mana Citrine
+
+
+
+All gems in one
+#showtooltip
+/use Mana Ruby
+/use Mana Citrine
+/use Mana Jade
+/use Mana Agate
