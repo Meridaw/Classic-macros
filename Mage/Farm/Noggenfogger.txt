@@ -1,3 +1,7 @@
+Useful for ZG Mage Farm & PvP. The buff removal only works if out of combat. The buffs all have the same name, so a simple /cancelaura macro doesn't work.
+
+
+
 Use Noggenfogger, Remove Skeleton:
 
 #showtooltip
