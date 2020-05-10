@@ -1,6 +1,12 @@
-#showtooltip
+Bash
+
+#showtooltip Bash
+/cancelform [noform:1]
+/cast [noform:1] Dire Bear Form
 /startattack
+/cast Enrage
 /cast Bash
+
 
 
 Bear - Feral Charge - Bash w/ Furor Talent
@@ -9,14 +15,4 @@ Bear - Feral Charge - Bash w/ Furor Talent
 /cancelform [noform:1]
 /cast [noform:1] !Bear Form
 /cast [form:1] Feral Charge
-/cast Bash
-
-
-
-Bear from Any form into Bash, with Enrage
-
-#showtooltip Feral Charge
-/cancelform [noform:1]
-/cast [noform:1] Dire Bear Form
-/cast Enrage
 /cast Bash

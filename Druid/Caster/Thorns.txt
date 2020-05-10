@@ -1,18 +1,10 @@
-Stand, dismount, cancel form, cast Thorns on mouseover
+Equip Cenarion, Thorns
 
-#showtooltip
-/stand
-/dismount [mounted]
-/cancelform [noform:5]
-/cast [@mouseover,help][] Thorns
-
-
-
-Cancelform, Thorns
-
-#showtooltip
-/cancelform
-/cast [@mouseover, help][@target, help][@targettarget, help][@player] Thorns
+#showtooltip Thorns
+/equip Cenarion Helm
+/equip Cenarion Bracers
+/equip Cenarion Belt
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Thorns
 
 
 

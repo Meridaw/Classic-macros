@@ -1,3 +1,14 @@
+Stand, dismount, cancel form, cast Hibernate
+
+#showtooltip Nature's Swiftness
+/dismount [mounted]
+/cancelform [noform:5
+/stand
+/cast Nature's Swiftness
+/cast Hibernate
+
+
+
 Mouseover Hibernate
 
 #showtooltip Hibernate
@@ -12,14 +23,4 @@ Nature's Swiftness if ctrl is pressed, else Hibernate
 #showtooltip Hibernate
 /cancelform
 /cast [mod:ctrl] Nature's Swiftness
-/cast Hibernate
-
-
-
-Stand, dismount, cancel form, cast Hibernate
-
-#showtooltip
-/stand
-/dismount [mounted]
-/cancelform [noform:5]
 /cast Hibernate

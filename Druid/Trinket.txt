@@ -1,4 +1,6 @@
 Trinket use macro :
 
-#show 13
+/dismount [mounted]
+/cancelform [noform:5]
 /use 13
+/use 14

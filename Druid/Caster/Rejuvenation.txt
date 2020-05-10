@@ -1,17 +1,6 @@
-Rejuvenation, then 3 times rank 3 Healing Touch
+Rejuvenation
 
 /dismount [mounted]
-
 /cancelform [noform:5]
-
-/castsequence [@mouseover,harm,nodead][]reset=10/target Rejuvenation, Healing Touch(Rank 3), Healing Touch(Rank 3), Healing Touch(Rank 3)
-
-
-
-Mouseover Rejuvenation
-
-#showtooltip
-/dismount [mounted]
-
-/cancelform [noform:5]
-/use [@mouseover,help,nodead][help,nodead][@player] Rejuvenation
+/stand
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Rejuvenation

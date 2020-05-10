@@ -1,13 +1,6 @@
-Mouseover Abolish Poison
+Abolish Poison
 
-#showtooltip
-/cancelform
-/cast [@mouseover, help][@target, help][@targettarget, help][@player] Abolish Poison
-
-
-
-Cancelform Abolish
-
-#showtooltip Abolish Poison
-/cancelform
-/cast Abolish Poison
+/dismount [mounted]
+/cancelform [noform:5]
+/stand
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Abolish Poison

@@ -1,21 +1,7 @@
-Faerie Fire in Caster, Bear or Cat
-
-/cast [noform, harm] Faerie Fire; [form:1/2, harm] Faerie Fire (Feral)
-
-
-
-Faerie Fire on targettarget if friend, else on target
+Faerie Fire
 
 #showtooltip
-
-/cast [@targettarget, harm, form:1/3][form:1/3] Faerie Fire(feral);  [@targettarget, harm][] Faerie Fire
-
-
-
-Stand, dismount, cancel form, cast Faerie Fire
-
-#showtooltip
-/stand
 /dismount [mounted]
 /cancelform [noform:5]
-/cast Faerie Fire
+/stand
+/cast [@targettarget, harm, form:1/3][form:1/3] Faerie Fire(feral);  [@targettarget, harm][] Faerie Fire

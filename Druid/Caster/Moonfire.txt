@@ -1,33 +1,18 @@
+Moonfire
+
+/dismount [mounted]
+/cancelform [noform:5]
+/stand
+/castsequence Moonfire, Moonfire(Rank 9)
+
+
+
 Moonfire max rank, then 2nd highest rank (put your 2nd highest rank as rank Y)
 
 #showtooltip
 /cast [mod:alt] moonfire(rank 1)
 /stopmacro [mod:alt]
 /castsequence [@targettarget, harm][] reset=12/target moonfire, moonfire(rank Y)
-
-
-
-Cancel any form and cast Moonfire
-
-#showtooltip Moonfire
-/cancelform
-/cast Moonfire
-
-
-
-Mouseover Moonfire
-
-/cast [target=mouseover] Moonfire
-
-
-
-Stand, dismount, cancel form, cast Moonfire
-
-#showtooltip
-/stand
-/dismount [mounted]
-/cancelform [noform:5]
-/cast Moonfire
 
 
 

@@ -1,24 +1,6 @@
-Rank 4 Regrowth every 20 second (for buff), then rank 3
+Regrowth
 
 /dismount [mounted]
-
 /cancelform [noform:5]
-
-/castsequence [@mouseover,harm,nodead][]reset=20/target Regrowth(Rank 4), Regrowth(Rank 3), Regrowth(Rank 3), Regrowth(Rank 3), Regrowth(Rank 3), Regrowth(Rank 3), Regrowth(Rank 3), Regrowth(Rank 3)
-
-
-
-#showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Regrowth
-/cancelform
-
-
-
-#showtooltip
-/stopcasting
-/cast [mod:alt,target=player] Regrowth; [target=mouseover,exists] Regrowth; Regrowth;
-
-
-
-#showtooltip
-/cast [target=mouseover,help,nodead][]Regrowth
+/stand
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Regrowth(Rank 5)

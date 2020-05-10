@@ -1,25 +1,7 @@
-Spammable Dash from any form
-#showtooltip Dash
-/cancelform [noform:3]
-/cast [noform:3] !Cat Form
-/cast [noform:3] Dash
-
-
-
 Dash from any form
 
-#showtooltip Dash
+#showTooltip Dash
 /cancelform [noform:3]
-/cast [noform:3] !Cat Form
-/cast [form:3] !Dash
-
-
-
-Stand, dismount, cancel form, cast cat, cast Dash
-
-#showtooltip Dash
+/dismount [mounted]
 /stand
-/dismount
-/cancelform [noform:3]
-/cast [noform:3] Cat Form
-/cast Dash
+/cast [noform:3] Cat Form; Dash
