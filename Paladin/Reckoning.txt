@@ -1,5 +1,8 @@
+Reckoning
+
+#showtooltip Attack
 /sit
-/startattack 
+/startattack
 /stopattack
 /sit
 
