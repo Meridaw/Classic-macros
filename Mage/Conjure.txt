@@ -5,6 +5,12 @@ Automatically conjure the highest possible water (so you won’t have to replace i
 
 
 
+Puts a stack of water into the trade window
+
+/run t=0;for i=1,6 do if GetTradePlayerItemInfo(i) ~= nil then t=i end end;w=0;for c=0,4 do for s=1,GetContainerNumSlots(c) do if GetContainerItemID(c,s)==8079 then w=w+1;if w>t then PickupContainerItem(c,s);DropItemOnUnit("npc");return end end end end
+
+
+
 Mana Gems
 
 /castsequence [nocombat] Conjure Mana Ruby, Conjure Mana Citrine, Conjure Mana Jade, Conjure Mana Agate
