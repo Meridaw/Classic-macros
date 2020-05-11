@@ -1,0 +1,100 @@
+Taunt:
+
+#showtooltip
+/cast taunt
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 and random(100)<10 then DoEmote("taunt") TeM=GetTime() end
+
+
+Mocking Blow:
+
+#showtooltip
+/cast taunt
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 and random(100)<75 then DoEmote("taunt") TeM=GetTime() end
+
+
+Charge:
+
+#showtooltip
+/cast charge /run TeM=TeM or GetTime()-5 if (GetTime()-TeM)>5 and random(100)<30 then DoEmote("charge") TeM=GetTime() end
+
+
+Intercept:
+
+#showtooltip
+/cast Intercept
+/run TeM=TeM or GetTime()-5 if (GetTime()-TeM)>5 and random(100)<30 then DoEmote("charge") TeM=GetTime() end
+
+
+Battle Shout:
+
+#showtooltip
+/cast battle shout
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 then DoEmote(GetRandomArgument(""cheer","roar","","","","","","","","")) TeM=GetTime() end
+
+
+Demoralizing Shout:
+
+#showtooltip
+/cast Demoralizing Shout
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 then DoEmote(GetRandomArgument(""laugh","roar","","","","","","","","")) TeM=GetTime() end
+
+
+Challenging Shout:
+
+#showtooltip
+/cast Challenging Shout
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 then DoEmote(GetRandomArgument(""taunt","roar")) TeM=GetTime() end
+
+
+Intimidating Shout:
+
+#showtooltip
+/cast Intimidating Shout
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 then DoEmote(GetRandomArgument(""threaten","roar")) TeM=GetTime() end
+
+
+Ranged Attack
+
+#showtooltip
+/cast auto shot
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 and DoEmote("incoming") TeM=GetTime() end
+
+
+Last Stand
+
+#showtooltip
+/cast Last Stand
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 and DoEmote("healme") TeM=GetTime() end
+
+
+Execute
+
+#showtooltip
+/cast Execute
+/run TeM=TeM or GetTime()-5 if (GetTime()-TeM)>5 and random(100)<10 then DoEmote("threaten") TeM=GetTime() end
+
+
+Sunder
+
+#showtooltip
+/cast sunder armor
+/run TeM=TeM or GetTime()-5 if (GetTime()-TeM)>5 and random(100)<5 then DoEmote("attacktarget") TeM=GetTime() end
+
+
+Defensive Stance #showtooltip
+/cast Defensive Stance
+/run TeM=TeM or GetTime()-5 if (GetTime()-TeM)>5 and random(100)<10 then DoEmote("follow") TeM=GetTime() end
+
+
+Hamstring
+
+#showtooltip
+/cast Hamstring
+/run TeM=TeM or GetTime()-5 if (GetTime()-TeM)>5 and random(100)<10 then DoEmote("wait") TeM=GetTime() end
+
+
+War Stomp
+
+#showtooltip
+/cast War Stomp
+/run TeM=TeM or GetTime()-2 if (GetTime()-TeM)>2 then DoEmote(GetRandomArgument("charge","attacktarget","openfire","taunt","threaten","moo","roar")) TeM=GetTime() end

@@ -1,0 +1,53 @@
+Drain life
+
+#showtooltip
+/cast drain life
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 and random(100)<10 then DoEmote("healme") TeM=GetTime() end
+
+
+Drain mana
+
+#showtooltip
+/cast drain mana
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 and random(100)<10 then DoEmote("oom") TeM=GetTime() end
+
+
+Death coil
+
+#showtooltip
+/cast death coil /run TeM=TeM or GetTime()-5 if (GetTime()-TeM)>5 then DoEmote("threaten") TeM=GetTime() end
+
+
+Dismiss pet
+
+#showtooltip
+/cast dismiss pet
+/run TeM=TeM or GetTime()-5 if (GetTime()-TeM)>5 then DoEmote("farewell") TeM=GetTime() end
+
+
+Petdefensive
+
+#showtooltip
+/petdefensive
+/run TeM=TeM or GetTime()-5 if (GetTime()-TeM)>5 then DoEmote("helpme") TeM=GetTime() end
+
+
+Petattack
+
+#showtooltip
+/petattack
+/run TeM=TeM or GetTime()-2 if (GetTime()-TeM)>2 then DoEmote(GetRandomArgument(""whistle","attacktarget","","","")) TeM=GetTime() end
+
+
+Petstay
+
+#showtooltip
+/petstay
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 then DoEmote("wait") TeM=GetTime() end
+
+
+Petfollow
+
+#showtooltip
+/petfollow
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 then DoEmote("followme") TeM=GetTime() end

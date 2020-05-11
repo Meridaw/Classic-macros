@@ -1,0 +1,80 @@
+"I Hunt Alone" - Immersive Hunter RP Macros
+
+These macros will make some abilities use emotes that create unique voice lines. These voice lines can be heard by all players of both factions. They are specifically designed to add to immersion, unlike that guy who has a /yell, /cast fireball macro.
+All are spam safe, even if you are mashing the button, the voice line will only happen the first time.
+Some only have a chance of using a voiceline.
+Some have a chance of using a random voiceline from a set.
+Many of the voice lines have several variations.
+They will work for on any race and gender no changes needed (Orc Male used as the example)
+If you would like a similar macro made for a spell or ability from your class, let me know and I'd be happy to help.
+
+#showtooltip
+/e tosses PET-NAME a gnawed bone
+/cast feed pet
+/use FOOD-NAME 
+
+
+#showtooltip
+/cast dismiss pet
+/run TeM=TeM or GetTime()-5 if (GetTime()-TeM)>5 then DoEmote("farewell") TeM=GetTime() end
+
+
+#showtooltip
+/petdefensive
+/run TeM=TeM or GetTime()-5 if (GetTime()-TeM)>5 then DoEmote("helpme") TeM=GetTime() end
+
+
+#showtooltip
+/petattack
+/run TeM=TeM or GetTime()-2 if (GetTime()-TeM)>2 then DoEmote(GetRandomArgument("whistle","attacktarget","","","")) TeM=GetTime() end
+
+
+#showtooltip
+/petstay
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 then DoEmote("wait") TeM=GetTime() end
+
+
+#showtooltip
+/petfollow
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 then DoEmote("followme") TeM=GetTime() end
+
+
+#showtooltip
+/cast beastial wrath
+/run TeM=TeM or GetTime()-10 if (GetTime()-TeM)>10 then DoEmote("charge") TeM=GetTime() end
+
+
+#showtooltip
+/cast intimidate
+/run TeM=TeM or GetTime()-10 if (GetTime()-TeM)>10 then DoEmote("charge") TeM=GetTime() end
+
+
+#showtooltip
+/cast rapidfire
+/run TeM=TeM or GetTime()-10 if (GetTime()-TeM)>10 then DoEmote("openfire") TeM=GetTime() end
+
+
+#showtooltip
+/cast flare
+/run C_Timer.After(2, function() DoEmote("incoming") end)
+
+
+#showtooltip
+/cast mongoose bite
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 and random(100)<10 then DoEmote("roar") TeM=GetTime() end
+
+
+#showtooltip
+/cast Aimed Shot
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 and random(100)<5 then DoEmote("threaten") TeM=GetTime() end
+
+
+#showtooltip
+/cast Distracting Shot
+/run TeM=TeM or GetTime()-3 if (GetTime()-TeM)>3 and random(100)<20 then DoEmote("taunt") TeM=GetTime() end
+
+
+#showtooltip
+/cast revive pet
+/run TeM=TeM or GetTime()-10 if (GetTime()-TeM)>10 then DoEmote("oom") TeM=GetTime() end
+
