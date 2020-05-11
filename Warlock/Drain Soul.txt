@@ -16,5 +16,4 @@ Drain Soul / Delete Shards v2 (smarter)
 The ultimate Drain Soul + Soulshard macro
 
 /run local a=0 for i=0,4 do for j=1,GetContainerNumSlots(i)do if GetContainerItemID(i,j)==6265 then a=a+1 if a>=4 then PickupContainerItem(i,j)DeleteCursorItem() end end end end
-
 /cast  [target=mouseover,harm,exists,nodead] Drain Soul; Drain Soul
