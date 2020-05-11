@@ -1,0 +1,14 @@
+/run sfx=GetCVar("Sound_EnableSFX")
+/console Sound_EnableSFX 0
+/equip Nat Pagle's Extreme Angler FC-5000
+/use Aquadynamic Fish Attractor
+/use 16
+/click StaticPopup1Button2
+/cast [nochanneling] Fishing
+/use 1
+/run SetCVar("Sound_EnableSFX",sfx)
+
+
+Replace the appropriate lines with whatever lure or rod you're using. 
+Also, I added a "silencer" to the macro to squelch the annoying click of the pop-up window. 
+Feel free to remove it, but it shouldn't cause any problems.
