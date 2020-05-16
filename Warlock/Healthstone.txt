@@ -1,9 +1,8 @@
-Create and Use Healthstone/Soulstone
+Create and Use Healthstone
 
 #showtooltip
-/use [button:1] Healthstone
-/cast [button:2] Create Healthstone
-
+/use [combat] Major Healthstone
+/cast Create Major Healthstone
 
 
 Trade Healthstone

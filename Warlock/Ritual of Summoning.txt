@@ -1,0 +1,7 @@
+Ritual of Summoning
+
+#showtooltip
+/cast Ritual of Summoning
+/s Summoning %t, please assist!
+/ra Summoning %t, please assist!
+/run t=UnitName("target") msg=strjoin(" ","Summoning you to",GetMinimapZoneText(),"in",GetZoneText()) SendChatMessage(msg,"WHISPER",nil,t)
