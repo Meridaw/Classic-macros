@@ -1,0 +1,13 @@
+Group/nogroup
+
+#showtooltip
+/castsequence [group] reset=6 Windfury totem, Mana Spring Totem, Strength of earth totem
+/castsequence [nogroup] reset=6 Searing Totem, Mana Spring Totem, Strength of Earth totem, Grace of Air Totem
+
+
+Cheapest/non agressive totem replacer. Prioz raid placement order of totems.
+
+#showtooltip
+/castsequence reset=6 Nature Resistance Totem(Rank 1), Fire Resistance totem(Rank 1), Strength of earth Totem(Rank 1), Frost Resistance Totem(Rank 1)
+
+Turn 90 degrees right on every placement to stack totems.

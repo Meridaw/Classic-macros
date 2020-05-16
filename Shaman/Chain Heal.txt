@@ -1,9 +1,7 @@
 Chain Heal
 
 #showtooltip
-/cancelaura Ghost Wolf
-/cast Chain HealChain Heal
-
-#showtooltip
-/cancelaura Ghost Wolf
-/cast Chain Heal
+/cancelform
+/dismount
+/stand
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Chain Heal

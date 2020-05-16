@@ -1,12 +1,16 @@
 Lesser Healing Wave
 
 #showtooltip
-/cancelaura Ghost Wolf
-/cast Lesser Healing Wave
+/cancelform
+/dismount
+/stand
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Lesser Healing Wave
 
 
 Healing Wave
 
 #showtooltip
-/cancelaura Ghost Wolf
-/cast Healing Wave
+/cancelform
+/dismount
+/stand
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Healing Wave

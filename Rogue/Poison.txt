@@ -1,3 +1,11 @@
+Apply poison mainhand weapon with left click, poison offhand weapon with right click
+
+#showtooltip INSTANT POISON VI
+/use Instant Poison VI;
+/use [button:1] 16; [button:2] 17;
+/click StaticPopup1Button1
+
+
 This lets you apply all poisons with one macro, by using ALT, CTRL and left/right mouse button
 
 #showtooltip

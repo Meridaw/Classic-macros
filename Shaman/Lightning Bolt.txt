@@ -1,6 +1,19 @@
 Lightning Bolt
 
 #showtooltip
-/cancelaura Ghost Wolf
+/cancelform
+/dismount
+/stand
 /startattack
 /cast Lightning Bolt
+
+
+Spell-swapping
+
+#showtooltip
+/cancelform
+/dismount
+/stand
+/startattack
+/cast [@mouseover, help, nodead] [help, nodead] Lesser Healing Wave;
+[harm, nodead] Lightning Bolt

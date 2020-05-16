@@ -1,0 +1,7 @@
+No modifier press to place Sentry, modifier press to swap between totem/character.
+
+#showtooltip
+/cast  [nomodifier:alt] Sentry Totem
+/cancelaura [modifier:alt] Sentry Totem
+
+change modifier to shift/ctrl/alt how you please.

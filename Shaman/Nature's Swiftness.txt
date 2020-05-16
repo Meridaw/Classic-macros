@@ -1,7 +1,19 @@
-Nature's Swiftness + Healing Wave
+Nature's Swiftness, Healing Wave
 
 #showtooltip
-/cancelaura Ghost Wolf
+/cancelform
+/dismount
+/stand
 /stopcasting
 /cast Nature's Swiftness
-/cast Healing Wave
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Healing Wave
+
+
+Nature's Swiftness, Mouseover Healing Wave
+
+#showtooltip Nature's Swiftness
+/cancelform
+/dismount
+/stand
+/cast Nature's Swiftness
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Healing Wave

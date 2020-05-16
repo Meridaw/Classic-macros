@@ -1,6 +1,7 @@
 Spammable stealth 
 
 #showtooltip Stealth
+/dismount
 /cast !Stealth
 
 
@@ -20,3 +21,10 @@ Spammable Stealth w/ Cheapshot while in stealth
 
 /cast [stance:0] !Stealth
 /cast [stance:1] Cheap Shot
+
+
+Spammable Stealth w/ Cannibalize
+
+#showtooltip Cannibalize
+/cast [nostealth] !Cannibalize;
+/cast [nocombat] !Stealth; Vanish

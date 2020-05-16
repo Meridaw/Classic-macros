@@ -1,4 +1,12 @@
-Buff Macro
+Water Breathing, Water Walking
 
 #showtooltip
 /castsequence reset=target/combat Water Breathing, Water Walking
+
+
+Lightning Shield, Windfury Weapon
+
+#showtooltip
+/castsequence reset=2 Lightning Shield, Windfury Weapon
+
+

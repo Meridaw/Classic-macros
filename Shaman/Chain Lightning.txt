@@ -1,5 +1,7 @@
 Chain Lightning
 
 #showtooltip
-/cancelaura Ghost Wolf
+/cancelform
+/dismount
+/stand
 /cast Chain Lightning

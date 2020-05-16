@@ -1,15 +1,4 @@
-﻿#showtooltip Kick
-/cast [@mouseover,harm,exists,nodead][@target,harm,exists,nodead] Kick
-
-
-
-#showtooltip
-/cast [mod:shift,@mouseover] Kick
-/cast Kick
-
-
-
-Mouseover kick and announce kick target
+﻿Mouseover kick and announce kick target
 
 /cast [@mouseover,harm,nodead][harm,nodead] Kick
 /gr I just interrupted %t
