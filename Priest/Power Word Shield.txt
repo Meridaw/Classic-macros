@@ -1,0 +1,7 @@
+Power Word: Shield
+
+#showtooltip
+/cancelform
+/dismount
+/stand
+/cast [@mouseover,help,nodead][help,nodead][] Power Word: Shield

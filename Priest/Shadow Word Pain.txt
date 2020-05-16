@@ -1,0 +1,7 @@
+Shadow Word: Pain
+	
+#showtooltip 
+/cancelform
+/dismount
+/stand
+/cast [@mouseover,harm,nodead] [@target] Shadow Word: Pain

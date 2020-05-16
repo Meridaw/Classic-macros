@@ -1,4 +1,12 @@
 Spammable Wand
+	
+/cancelform
+/dismount
+/stand
+/cast !shoot
+
+
+Spammable Wand
 
 #showtooltip
 /castsequence reset=3/target !Shoot, null

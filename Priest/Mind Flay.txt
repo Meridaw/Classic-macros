@@ -1,6 +1,18 @@
+Mind Flay	
+
+#showtooltip 
+/cancelform
+/dismount
+/stand
+/cast [nochanneling][@mouseover,harm, nodead] [@target]  Mind Flay
+
+
 Spammable Mind Flay
 
 #showtooltip
+/cancelform
+/dismount
+/stand
 /stopmacro [channeling]
 /cast Mind Flay
 
@@ -9,5 +21,7 @@ Spammable Mind Flay
 CTRL held downranks to Rank 1, else max rank
 
 #showtooltip
-/dismount 
+/cancelform
+/dismount
+/stand
 /cast [mod:ctrl,nochanneling] Mind Flay(Rank 1); [nochanneling] Mind Flay

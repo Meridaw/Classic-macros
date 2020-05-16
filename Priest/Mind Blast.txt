@@ -1,0 +1,7 @@
+Mind Blast	
+
+#showtooltip 
+/cancelform
+/dismount
+/stand
+/cast [@mouseover,harm,nodead] [@target] Mind Blast

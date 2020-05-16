@@ -1,2 +1,5 @@
-/cast [@mouseover,help,nodead,mod:shift][help,nodead,mod:shift][mod:shift] Lesser Heal(Rank 1)
+#showtooltip
+/cancelform
+/dismount
+/stand
 /cast [@mouseover,help,nodead][help,nodead][] Lesser Heal

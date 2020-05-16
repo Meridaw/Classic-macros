@@ -1,0 +1,16 @@
+Psychic Scream	
+
+#showtooltip 
+/cancelform
+/dismount
+/stand
+/cast Psychic Scream
+
+
+Psychic Scream 1	
+
+#showtooltip 
+/cancelform
+/dismount
+/stand
+/cast Psychic Scream(Rank 1)

@@ -1,0 +1,7 @@
+Holy Fire	
+
+#showtooltip 
+/cancelform
+/dismount
+/stand
+/cast [@mouseover,harm,nodead] [@target] Holy Fire

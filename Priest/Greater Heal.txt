@@ -1,2 +1,5 @@
 #showtooltip
-/cast [modifier:shift, target=mouseover,exists][help] Greater Heal(Rank 1); [target=mouseover,exists] Greater Heal
+/cancelform
+/dismount
+/stand
+/cast [@mouseover,help,nodead][help,nodead][] Greater Heal

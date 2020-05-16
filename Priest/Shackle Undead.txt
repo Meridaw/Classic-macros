@@ -1,0 +1,8 @@
+Shackle Undead
+
+#showtooltip 
+/cancelform
+/dismount
+/stand
+/script setraidtargeticon("target",2) 
+/cast Shackle Undead

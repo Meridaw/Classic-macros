@@ -1,0 +1,7 @@
+Smite	
+
+#showtooltip 
+/cancelform
+/dismount
+/stand
+/cast [@mouseover,harm,nodead] [@target] Smite

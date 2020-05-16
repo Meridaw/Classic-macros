@@ -1,0 +1,7 @@
+Mind Control	
+
+#showtooltip 
+/cancelform
+/dismount
+/stand
+/cast [@mouseover,harm,nodead] [@target] Mind Control
