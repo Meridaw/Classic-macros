@@ -3,22 +3,15 @@ Combining a harmful spell with a friendly spell:
 This macro does 4 things with a single action button....
 
 1. If your target is alive and hostile/neutral, a harmful spell will be used.
-
 2. If your target is alive and friendly, a friendly spell will be used (whether that's a healing spell, a buff, or whatever you choose)
-
 3. If your target is DEAD and friendly, a resurrection spell will be used
-
 4. If your target is DEAD and hostile/neutral, you current target will be wiped and a new (alive) target will be selected
 
 
 #showtooltip
 
 /cleartarget [harm,dead,combat]
-
 /targetenemy [noexist,combat]
-
 /startattack [harm,nodead]
-
 /cast [help,dead] RESSURECTION_SPELL
-
 /cast [noharm,nodead] FRIENDLY_SPELL; HARMFUL_SPELL
