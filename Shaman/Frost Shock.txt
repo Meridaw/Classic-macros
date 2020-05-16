@@ -1,0 +1,8 @@
+Frost Shock
+
+#showtooltip
+/cancelform
+/dismount
+/stand
+/cast Frost Shock
+/startattack

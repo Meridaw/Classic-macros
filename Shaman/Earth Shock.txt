@@ -1,0 +1,18 @@
+Earth Shock
+
+#showtooltip
+/cancelform
+/dismount
+/stand
+/cast Earth Shock
+/startattack
+
+
+Mouseover Earth Shock rank 1
+
+#showtooltip
+/cancelform
+/dismount
+/stand
+/stopcasting
+/cast [@mouseover,harm][] Earth Shock(Rank 1)

@@ -1,0 +1,8 @@
+Flame Shock
+
+#showtooltip
+/cancelform
+/dismount
+/stand
+/cast Flame Shock
+/startattack
