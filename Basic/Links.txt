@@ -1,3 +1,8 @@
 Fitzcairn's Macro Explain-o-matic
-
 http://www.macroexplain.com/
+
+
+Creating your own Macros:
+https://wow.gamepedia.com/Macro_API
+https://wow.gamepedia.com/Macro_conditionals
+https://wow.gamepedia.com/Making_a_macro
