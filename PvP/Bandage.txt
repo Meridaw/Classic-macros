@@ -1,1 +1,15 @@
-/use [target=mouseover] heavy silk bandage
+Heavy Runecloth Bandage
+
+#showtooltip
+/use [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Heavy Runecloth Bandage
+
+
+Battleground
+
+#showtooltip
+/use [nobattleground] Heavy Runecloth Bandage
+/use Alterac Heavy Runecloth Bandage
+/use Warsong Gulch Runecloth Bandage
+/use Highlander's Runecloth Bandage
+/use Arathi Basin Runecloth Bandage
+/use Defiler's Runecloth Bandage
