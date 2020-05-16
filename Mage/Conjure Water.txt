@@ -1,0 +1,4 @@
+Automatically conjure the highest possible water (so you won’t have to replace it on your bar every time you get a new rank)..can do the same for food:
+
+#showtooltip
+/cast Conjure Water

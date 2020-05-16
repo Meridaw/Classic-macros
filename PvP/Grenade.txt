@@ -1,8 +1,4 @@
-Iron grenade
-
-/castsequence reset=1 iron grenade
-/stopcasting
-
+Grenade
 
 #showtooltip GRENADE
 /use [@cursor] GRENADE

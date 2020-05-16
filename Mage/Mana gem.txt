@@ -32,3 +32,22 @@ All gems in one
 /use Mana Citrine
 /use Mana Jade
 /use Mana Agate
+
+
+Conjure/use Mana Gems
+
+/castsequence [nocombat] Conjure Mana Ruby, Conjure Mana Citrine, Conjure Mana Jade, Conjure Mana Agate
+/stopmacro [nocombat]
+/use Mana Ruby
+/use Mana Citrine
+/use Mana Jade
+/use Mana Agate
+
+
+
+/castsequence [button:2] reset=120 Conjure Mana Ruby, Conjure Mana Citrine, Conjure Mana Jade, Conjure Mana Agate
+/stopmacro [button:2]
+/use Mana Ruby
+/use Mana Citrine
+/use Mana Jade
+/use Mana Agate
