@@ -1,0 +1,5 @@
+Resurrection
+
+#showtooltip
+/cast [@mouseover,help,dead][help,dead][] Resurrection
+/run SendChatMessage("Ressing " .. (UnitIsDeadOrGhost("mouseover") and UnitName("mouseover") or UnitName("target")) .. ".","SAY",nil,nil)
