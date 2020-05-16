@@ -1,28 +1,34 @@
 Spammable Wand
 
-#showtooltip
-/castsequence reset=3/target !Shoot, null
-
+#showtooltip Shoot
+/dismount
+/stand
+/cast !Shoot
 
 
 Spammable wand, Imp Firebolt
 
-/castsequence reset=3 !Shoot, null
+#showtooltip Shoot
+/dismount
+/stand
+/cast !Shoot
 /cast [pet:Imp] Firebolt
-
 
 
 Dancing wand
 
 #showtooltip
-/cast Shoot
+/dismount
+/stand
+/cast !Shoot
 /dance
-
 
 
 Stopcasting, spammable wand
 
 #showtooltip
+/dismount
+/stand
 /stopcasting
 /cast [target=mouseover,harm] !Shoot
 /cast !Shoot
