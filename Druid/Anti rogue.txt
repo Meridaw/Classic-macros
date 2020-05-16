@@ -1,0 +1,26 @@
+PvP trinket, living action potion and free action potion
+
+#showtooltip
+/cast [nomodifier] Medallion of the Horde
+/cast [modifier:shift] Living Action Potion
+/cast [modifier:ctrl] Free Action Potion
+
+
+Skull of Impending Doom
+
+#showtooltip Skull of Impending Doom
+/dismount
+/cancelform
+/use Insignia of the Alliance
+/use Skull of impending doom
+/cast Faerie Fire
+
+
+Goblin Rocket Helmet
+
+#showtooltip Goblin Rocket Helmet
+/dismount
+/cancelform
+/use Insignia of the Alliance
+/use Goblin Rocket Helmet
+/cast Faerie Fire

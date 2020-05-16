@@ -1,0 +1,11 @@
+queue for a battleground and accpet queue
+
+/click BattlefieldFrameJoinButton
+/click StaticPopup1Button1 
+
+
+Drop queue macro:
+/click MiniMapBattlefieldFrame RightButton
+/click DropDownList1Button3
+/click DropDownList1Button2
+/tar [Insert Battlemaster Name]
