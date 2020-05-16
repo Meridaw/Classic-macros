@@ -1,0 +1,5 @@
+Create and Use Healthstone
+
+#showtooltip
+/use [combat] Major Healthstone
+/cast Create Healthstone (Major)
