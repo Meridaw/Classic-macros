@@ -2,3 +2,8 @@ Buff Macro
 
 #showtooltip
 /castsequence reset=target/combat Fel Armor, Detect Invisibility, Unending Breath
+
+
+Self trash-buff cycler
+
+/castsequence [@player] Detect Greater Invisibility, Unending Breath

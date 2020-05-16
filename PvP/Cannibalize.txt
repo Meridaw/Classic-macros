@@ -1,0 +1,6 @@
+Cannibalize, Eat and Drink at the same time
+
+#showtooltip Conjured Crystal Water
+/cast Cannibalize
+/use [nocombat] Conjured Crystal Water
+/use [nocombat] item:8076

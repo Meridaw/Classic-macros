@@ -7,3 +7,12 @@ Pet Totem (pet destroys these totems, switch them if you would like to)
 /petattack [target=Windfury Totem]
 /petattack [target=Mana Spring Totem]
 /petattack [target=Stoneskin Totem]
+
+
+Totem stomping
+
+/petattack
+/petattack [@mana tide totem]
+/petattack [@windfury totem] 
+/petattack [@tremor totem]
+/petattack [@grounding totem]    

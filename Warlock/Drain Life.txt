@@ -5,12 +5,10 @@ Spammable Drain Life
 /cast [no modifier] Drain Life
 
 
-
 Drain Life without canceling itself
 
 #showtooltip Drain Life
 /cast [nochanneling:Drain Life] Drain Life
-
 
 
 Drain Life/Soul

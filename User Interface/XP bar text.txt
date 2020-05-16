@@ -1,0 +1,3 @@
+Enables displaying the numeric value of your XP Bar progress
+
+/console xpBarText 1

@@ -1,0 +1,9 @@
+Use ALL the heals
+
+/use Major Healthstone
+/use Greater Healthstone
+/use Healthstone
+/use Major Healing Potion
+/use Greater Healing Potion
+/use Healing Potion
+/use Furbolg Medicine Pouch

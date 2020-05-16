@@ -1,0 +1,3 @@
+Max camera distance
+
+/console cameraDistanceMaxZoomFactor 3.5
