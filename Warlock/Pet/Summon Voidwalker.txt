@@ -1,0 +1,4 @@
+Summon Voidwalker / Sacrifice (Voidwalker) / Fire Shield (Imp) / Seduction (Succubus) / Devour Magic (Felhunter) 
+
+#showtooltip
+/cast [pet:Voidwalker] Sacrifice; [pet:imp] Fire shield; [pet:succubus,@mouseover,exists,nodead][pet:succubus,@target] seduction; [pet:felhunter,@mouseover,exists,nodead][pet:felhunter,@target] devour magic; [nopet] Summon Voidwalker

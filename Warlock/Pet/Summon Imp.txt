@@ -1,0 +1,4 @@
+Summon Imp / Consume Shadows (Vodiwalker) / Blood Pact (Imp) / Lesser Invisibility (Succubus) / Paranoia (Felhunter)
+
+#showtooltip
+/cast [pet:Voidwalker] Consume Shadows; [pet:imp] Blood Pact; [pet:succubus] Lesser invisibility; [pet:felhunter] Paranoia; [nopet] Summon Imp

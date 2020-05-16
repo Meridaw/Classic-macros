@@ -1,4 +1,12 @@
+Curse of Agony
+
 #showtooltip Curse of Agony
 /cast  Amplify Curse
 /cast Curse of Agony
 /script UIErrorsFrame:Clear();
+
+
+Curse of Exhaustion
+
+#showtooltip
+/castsequence reset=180 Amplify Curse, Curse of Exhaustion

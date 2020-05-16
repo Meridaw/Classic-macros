@@ -1,0 +1,4 @@
+Summon Felhunter / Torment (Voidwalker) / Phase Shift (Imp) / Soothing Kiss (Succubus) / Tainted Blood (Felhunter)
+
+#showtooltip
+/cast [pet:Voidwalker] Torment; [pet:imp] Phase Shift; [pet:succubus] Soothing Kiss; [pet:felhunter] Tainted Blood; [nopet] Summon Felhunter

@@ -1,0 +1,4 @@
+Summon Succubus / Suffering (Voidwalker) / Fire Bolt (Imp) / Lash of Pain (Succubus) / Spell Lock (Felhunter)
+
+#showtooltip
+/cast [pet:Voidwalker] Suffering; [pet:imp] Fire bolt; [pet:succubus,@mouseover,exists,nodead][pet:succubus,@target] Lash of Pain; [pet:felhunter,@mouseover,exists,nodead][pet:felhunter,@target] Spell Lock; [nopet] Summon Succubus
