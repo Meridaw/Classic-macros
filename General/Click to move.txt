@@ -1,0 +1,3 @@
+"Click-to-move" on/off
+
+/run if GetCVar("Autointeract")=="0" then ConsoleExec("Autointeract 1") else ConsoleExec("Autointeract 0") end

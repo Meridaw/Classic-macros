@@ -1,0 +1,2 @@
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Dispel Magic

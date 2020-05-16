@@ -1,16 +1,18 @@
 Stealth, Sap
 
-/cast Stealth
-/cast Sap
+/cleartarget [stealth]
+/targetenemyplayer [stealth]
+/use [nostealth]!Stealth
+/use [@mouseover,harm,nodead][]sap
 
+
+Perception, Sap
 
 #showtooltip Sap
 /cast Perception(Racial)
 /cleartarget
 /targetenemy
 /cast Sap
-
-***Rogue vs Rogue battles.  Careful in dungeons.  Think, spamming tab target and sap.
 
 
 Spammable Sap for stealthed units

@@ -1,0 +1,2 @@
+#showtooltip Abolish Disease
+/cast [ @ mouseover , help ] [ help , no dead ] [ @ player ] Abolish Disease

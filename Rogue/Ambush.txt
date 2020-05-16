@@ -1,11 +1,5 @@
-Ambush Weapon Switch
-
-#showtooltip Ambush
-/equip Weapon
-/cast Ambush
-
-
 Swapping to dagger in mainhand for Ambush 
 
-/equipslot 16 [Weapon name here]
-/cast Ambush
+/equipslot 16 [stealth]Assblade;Shadowpew
+/equipslot 17 [stealth]Crualbarb;Assblade
+/use [stealth]Ambush;Sinister Strike

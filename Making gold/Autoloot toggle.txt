@@ -1,0 +1,3 @@
+Enables / Disables autoloot toggle
+
+/script if GetCVar("autoLootDefault") == "1" then SetCVar("autoLootDefault", "0"); print("Autoloot Off"); else SetCVar("autoLootDefault", "1"); print("Autoloot On"); end

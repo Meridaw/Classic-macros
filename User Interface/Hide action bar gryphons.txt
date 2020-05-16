@@ -1,0 +1,15 @@
+Hide action bar gryphons
+
+/run MainMenuBarLeftEndCap:Hide(); MainMenuBarRightEndCap:Hide()
+
+
+Hides Gryphons and Enables buff durations
+
+/run MainMenuBarLeftEndCap:Hide();MainMenuBarRightEndCap:Hide()
+/console buffDurations 1 
+
+
+Enables all action bars and hides script errors
+
+/console scriptErrors 0
+/run local x=not SHOW_MULTI_ACTIONBAR_1 SHOW_MULTI_ACTIONBAR_1=x SHOW_MULTI_ACTIONBAR_2=x SHOW_MULTI_ACTIONBAR_3=x SHOW_MULTI_ACTIONBAR_4=x

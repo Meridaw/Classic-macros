@@ -1,0 +1,4 @@
+Nefarian Class Call Unequip/Equip Macro Toggled:
+
+/run local p,s="player",18 if GetInventoryItemLink(p,s)then PickupInventoryItem(s)PutItemInBackpack()else PickupContainerItem(0,1)EquipCursorItem(s)end
+/equip Rhok'delar, Longbow of the Ancient Keepers
