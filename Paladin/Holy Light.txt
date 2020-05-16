@@ -1,27 +1,14 @@
-#showtooltip Holy Light
-/use [@mouseover,help,nodead][help,nodead][@player] Holy Light
-
-
-Holy Light
-
-#showtooltip Holy Light
-/cast Holy Light
-
-
-Rank 1 Holy Light (for mana regen)
-
-#showtooltip Holy Light(Rank 1)
-/cast Holy Light(Rank 1)
-
-
-Holy Light/Flash of Light on a player in your party, or yourself, only.
-
-/cast [help] Holy Light; [target=”x”] Holy Light
-“x” is Party(1-4), thus 5 individual Macros must be made with “Player” replacing “x” to target yourself. You can always replace the spell name with a different spell, i.e Flash of Light.
+#showtooltip
+/dismount
+/stand
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Holy Light
 
 
 Divine Favor/Holy Light Combo
 
+#showtooltip
 /cast [combat] Divine Favor
 /stopcasting
-/cast [help] Holy Light; [target=targettarget] Holy Light
+/dismount
+/stand
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Holy Light

@@ -1,18 +1,6 @@
 Flash of Light
 
-#showtooltip Flash of Light
-/cast Flash of Light
-
-
-Flash of Light on a friend or target’s target
-
-/cast [help] Flash of Light; [target=targettarget] Flash of Light
-
-
-/cast [help] Flash of Light; [target=player] Flash of Light
-
-
-/cast [target=player, harm] Flash of Light; [help] Flash of Light
-
-
-/cast [@mouseover,help,nodead][help,nodead][@player] Flash of Light
+#showtooltip
+/dismount
+/stand
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Flash of Light

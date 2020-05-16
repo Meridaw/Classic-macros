@@ -1,0 +1,9 @@
+Seal of the Crusader
+
+#showtooltip
+/startattack
+/dismount
+/stand
+/cast Judgement 
+/stopcasting
+/cast Seal of the Crusader

@@ -1,0 +1,9 @@
+Seal of Righteousness
+
+#showtooltip
+/startattack
+/dismount
+/stand
+/cast Judgement 
+/stopcasting 
+/cast Seal of Righteousness

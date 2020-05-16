@@ -1,0 +1,8 @@
+Seal of Command
+
+#showtooltip
+/startattack
+/dismount
+/stand
+/cast Judgement 
+/cast Seal of Command

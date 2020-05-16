@@ -1,2 +1,4 @@
 #showtooltip Lay on Hands
-/use [@mouseover,help,nodead][help,nodead][@player] Lay on Hands
+/dismount
+/stand
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Lay on Hands

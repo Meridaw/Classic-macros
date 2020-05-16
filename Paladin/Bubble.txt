@@ -1,15 +1,6 @@
-One touch Bubble-Bandage
-
-/cast Divine Shield
-/stopcasting
-/useitem Heavy Runecloth Bandage, [target=player,help]
-Cast Divine Shield and bandage yourself. This conserves mana when doing this rather than casting Holy Light.
-
-
 Bubble Hearth
 
 /castsequence reset=3600 Divine Shield, cast Hearthstone
-
 
 
 Bubble Bandage Macro Bandage while under Divine Shield

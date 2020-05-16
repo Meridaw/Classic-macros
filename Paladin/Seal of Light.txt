@@ -1,0 +1,9 @@
+Seal of Light
+
+#showtooltip
+/startattack
+/dismount
+/stand
+/cast Judgement 
+/stopcasting 
+/cast Seal of Light

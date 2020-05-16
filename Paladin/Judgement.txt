@@ -1,0 +1,7 @@
+Judgement
+
+#showtooltip Judgement
+/dismount
+/stand
+/startattack
+/cast Judgement

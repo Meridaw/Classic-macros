@@ -1,2 +1,4 @@
 #showtooltip Blessing of Freedom
-/use [@mouseover,help,nodead][help,nodead][@player] Blessing of Freedom
+/dismount
+/stand
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Blessing of Freedom
