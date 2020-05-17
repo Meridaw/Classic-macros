@@ -1,3 +1,18 @@
+Nature's Swiftness, Rebirth
+
+#showtooltip Rebirth
 /y Combat-res on %T
 /cast Nature's Swiftness
 /cast Rebirth
+
+
+Rebirth, remove Barkskin/Skull of Impending Doom/Enrage
+
+#showtooltip Rebirth
+/dismount
+/cancelform
+/stand
+/cancelaura Barkskin
+/cancelaura Flee
+/cancelaura Enrage
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Rebirth
