@@ -6,6 +6,7 @@ Creating your own Macros:
 https://wow.gamepedia.com/Macro_API
 https://wow.gamepedia.com/Macro_conditionals
 https://wow.gamepedia.com/Making_a_macro
+https://wow.gamepedia.com/MACRO_castsequence
 
 
 Classic Warlock Macros Guide:
@@ -23,3 +24,7 @@ https://classicwow.live/guides/893/hunter-macros-tips
 
 Classic Druid Macros:
 https://docs.google.com/document/d/1qavGp9pfzYnBgrDIZ2lUCzqA1vCi6R1W50XzIKwcUtg/edit
+
+
+Classic Rogue Macros:
+https://docs.google.com/document/d/1VMM4ER-tCUjm3NEa0l8ucKhUdLSm0cQIwLfnmfWECNQ/edit#heading=h.dobfcopn7fhi
