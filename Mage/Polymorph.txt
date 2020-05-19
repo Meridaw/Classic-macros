@@ -1,9 +1,18 @@
 Polymorph
 
 #showtooltip Polymorph
-/dismount [mounted]
+/dismount
 /stand
 /cast Polymorph
+
+
+Quickly sheep mind controlled players (ZG/AQ)
+
+#showtooltip Polymorph
+/stopcasting
+/targetnearestenemyplayer
+/cast Polymorph(Rank 1)
+/targetpreviousenemy
 
 
 Cast polymorph (rank 1) on current target, or mouseover if shift key
