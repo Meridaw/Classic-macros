@@ -15,10 +15,6 @@ and then i make a separate macro for my frostbolts to include spell queing
 
 Works for gems and other trinkets as well.
 
-Edit
-
-So I didn't figure this out, thanks to @elio & @tom allon 
-
 You can set the spellque window to always register ur current MS to avoid as much time loss as possible.
 
 /run local ,,_,lagHome = GetNetStats() s = lagHome * 2
@@ -26,3 +22,11 @@ You can set the spellque window to always register ur current MS to avoid as muc
 
 Add that instead of just /console SpellQueueWindow 0
 And it should always replace the SpellQueueWindow with your current MS.
+
+
+All those spell queue windows with getnetstats are bugged btw, this is the way to do it:
+
+#showtooltip Mind Quickening Gem
+/run local _,_,lagHome = GetNetStats(); sqw = math.min(400, lagHome * 2); SetCVar("SpellQueueWindow", sqw)
+/use 13
+/cast Frostbolt(rank 10)
