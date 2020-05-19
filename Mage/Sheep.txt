@@ -1,1 +1,14 @@
+Polymorph
+
+#showtooltip Polymorph
+/dismount
+/stand
+/cast Polymorph
+
+
+Mouseover Polymorph
+
+#showtooltip Polymorph
+/dismount
+/stand
 /cast [target=mouseover] Sheep

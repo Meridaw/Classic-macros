@@ -7,7 +7,6 @@ Cast rank 1 flame strike if we’re out of combat, max rank if we’re in combat:
 
 Pom, Flamestrike
 
-
 #show
 /cast Presence of Mind
 /cast [@cursor]Flamestrike
