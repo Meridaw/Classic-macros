@@ -15,4 +15,4 @@ Portal
 
 Portal/Teleport
 
-/cast [party] Portal: Undercity; Undercity
+/cast [group] Portal: Undercity; Teleport: Undercity
