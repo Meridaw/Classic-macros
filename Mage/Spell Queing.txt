@@ -5,9 +5,9 @@ A work around for Spell Queing for those with little/no latency issues.
 /use 13
 /cast Frostbolt(rank 10)
 
-You can also adjust the Spell Queue window closer to your server MS instead of setting it to 0
 
-and then i make a separate macro for my frostbolts to include spell queing
+Adjust the Spell queue window closer to your server delay instead of setting it to 0
+and then make a separate macro for frostbolts to include spell queue.
 
 #showtooltip frostbolt
 /console SpellQueueWindow 400
@@ -15,13 +15,14 @@ and then i make a separate macro for my frostbolts to include spell queing
 
 Works for gems and other trinkets as well.
 
-You can set the spellque window to always register ur current MS to avoid as much time loss as possible.
+
+Set the spell queue window to always register your current latency to avoid as much time loss as possible.
 
 /run local ,,_,lagHome = GetNetStats() s = lagHome * 2
 /console SpellQueueWindow s
 
 Add that instead of just /console SpellQueueWindow 0
-And it should always replace the SpellQueueWindow with your current MS.
+and it should always replace the SpellQueueWindow with your current latency.
 
 
 All those spell queue windows with getnetstats are bugged btw, this is the way to do it:
@@ -30,3 +31,7 @@ All those spell queue windows with getnetstats are bugged btw, this is the way t
 /run local _,_,lagHome = GetNetStats(); sqw = math.min(400, lagHome * 2); SetCVar("SpellQueueWindow", sqw)
 /use 13
 /cast Frostbolt(rank 10)
+
+
+This prevents a spell queued frostbolt in a trinket macro from preventing the trinket being activated by
+reducing spell queue enough to allow you to use trinket and start frostbolt cast without losing time.
