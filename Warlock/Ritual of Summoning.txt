@@ -13,3 +13,9 @@ Summon Announcer (raid, party, whisper)
 /run s="Summoning " f=SendChatMessage z=GetMinimapZoneText() t=UnitName("target") j=strjoin f(j("",s,"you to ",z),"WHISPER",nil,t) f(j("",s,t," to ",z,", please assist."),(UnitInRaid("player") and "RAID" or "PARTY"))
 
 
+Random message summoning
+
+#showtooltip
+/me is summoning %t
+/run local messages = {"Click you fools!", "Cyka Blyat clik comrades", "Click plis", "Summoning %t", "Help summon %t"} SendChatMessage(messages[math.random(table.getn(messages))]);
+/cast Ritual of Summoning

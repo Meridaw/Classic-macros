@@ -1,4 +1,13 @@
-Poor mans Outfitter Macro: This will equip upto X items from bag number 4. So put your off set in bag 4 and just click macro to swap between sets. Note: item swapping may have issue with swapping rings/trinkets and non 2h weaps. (X in this example is upto 10 items)
+This macro will output onto your cursor a macro to equip your currently equipped set using item IDs
+
+/run local a,i,j="" for s=1,19 do i=GetInventoryItemID("player",s)if(i)then j=i else j=0 end a=a..j if(s<19)then a=a.."," end end MacroFrameText:Insert("/run local t={"..a.."}for s,i in ipairs(t)do EquipItemByName(i,s)end;");
+
+
+Poor mans Outfitter Macro: 
+This will equip upto X items from bag number 4. 
+So put your off set in bag 4 and just click macro to swap between sets. 
+Note: item swapping may have issue with swapping rings/trinkets and non 2h weaps. 
+(X in this example is upto 10 items)
 
 Just make a seperate macro for a different bag (ie Bag 4= healing, Bag 3= Dps)
 

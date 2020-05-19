@@ -7,3 +7,9 @@ Trinket #2 (lower)
 
 #showtooltip
 /use 14
+
+
+Trinket switching
+
+/equipslot [button:1] 13 Zandalarian Hero Charm
+/equipslot [button:2] 14 Zandalarian Hero Charm

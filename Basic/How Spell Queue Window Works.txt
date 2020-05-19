@@ -1,0 +1,41 @@
+The Spell Queue Window is the time in milliseconds in which you're allowed to tell WoW's servers about the next spell you want to cast before your 
+current cast is finished. This defaults to 400 milliseconds. Without this feature, you would experience a large delay (2x average latency) between spells. 
+This also applies to instant-cast spells on the Global Cool-down (GCD). The Spell Queue Window benefits everyone, no matter how low your internet latency is.
+
+When you queue a spell, the queue-system does not allow you to change that spell. For that reason, some find that lowering the Spell Queue Window 
+value improves how spell-casting feels. Be careful not to set the value too low or spell-queueing will not work properly. The recommended delay is at 
+least 100ms higher than your average latency.
+
+
+Without Spell Queue Window:
+|-------------------Frostbolt------------------|-▿Latency-|-▵Latency-|-------------------Frostbolt------------------|
+
+
+With Default Spell Queue Window (400ms):
+
+|--------------------Frostbolt-------------------|--------------------Frostbolt-------------------|
+                         |----SpellQueueWindow---|
+                                      |-▵Latency-|
+                         |-Press Next-|
+
+
+Setting Spell Queue Window Too Low:
+
+|--------------------Frostbolt-------------------|----|--------------------Frostbolt-------------------|
+                                           |-SQW-|
+                                           |-▵Latency-|
+
+Configuration
+To see what your Spell Queue Window is, type the following in your chat bar:
+
+/dump GetCVar("SpellQueueWindow")
+
+
+To change your Spell Queue Window, type the following in your chat bar (and substitute "300" for any number between 0 and 400):
+
+/console SpellQueueWindow 300
+
+
+To disable Spell Queue Window, type the following in your chat bar:
+
+/console SpellQueueWindow 0

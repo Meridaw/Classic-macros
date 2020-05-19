@@ -9,6 +9,10 @@ https://wow.gamepedia.com/Making_a_macro
 https://wow.gamepedia.com/MACRO_castsequence
 
 
+How Spell Queue Window Works:
+http://thedefiantguild.com/forums/discussion/15431
+
+
 Classic Warlock Macros Guide:
 https://docs.google.com/document/d/1PmAPvVda-340ryYPuhdQ9rBTlHsh2WkMPm84F7TMEsg/edit
 
@@ -28,3 +32,4 @@ https://docs.google.com/document/d/1qavGp9pfzYnBgrDIZ2lUCzqA1vCi6R1W50XzIKwcUtg/
 
 Classic Rogue Macros:
 https://docs.google.com/document/d/1VMM4ER-tCUjm3NEa0l8ucKhUdLSm0cQIwLfnmfWECNQ/edit#heading=h.dobfcopn7fhi
+https://pastebin.com/e2mK1AKV
