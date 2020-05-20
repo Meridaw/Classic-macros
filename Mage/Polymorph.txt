@@ -27,3 +27,11 @@ Moon Icon + Polymorph Mouseover
 /stopcasting
 /script SetRaidTarget("mouseover", 5);
 /cast [target=mouseover] Polymorph
+
+
+Mouseover Polymorph
+
+#showtooltip 
+/dismount
+/stand
+/cast [@mouseover,harm,nodead] [@target] Polymorph
