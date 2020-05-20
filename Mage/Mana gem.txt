@@ -1,37 +1,25 @@
-Ruby
+Mana Ruby
 
 /use [combat] Mana Ruby
-/cast Conjure Mana Ruby
+/cast [nocombat] Conjure Mana Ruby
 
 
-
-Jade
+Mana Jade
 
 /use [combat] Mana Jade
-/cast Conjure Mana Jade
+/cast [nocombat] Conjure Mana Jade
 
 
-
-Agate
+Mana Agate
 
 /use [combat] Mana Agate
-/cast Conjure Mana Agate
+/cast [nocombat] Conjure Mana Agate
 
 
-
-Citrine
+Mana Citrine
 
 /use [combat] Mana Citrine
-/cast Conjure Mana Citrine
-
-
-
-All gems in one
-#showtooltip
-/use Mana Ruby
-/use Mana Citrine
-/use Mana Jade
-/use Mana Agate
+/cast [nocombat] Conjure Mana Citrine
 
 
 Conjure/use Mana Gems
@@ -44,10 +32,20 @@ Conjure/use Mana Gems
 /use Mana Agate
 
 
-
 /castsequence [button:2] reset=120 Conjure Mana Ruby, Conjure Mana Citrine, Conjure Mana Jade, Conjure Mana Agate
 /stopmacro [button:2]
 /use Mana Ruby
 /use Mana Citrine
 /use Mana Jade
 /use Mana Agate
+
+
+All gems in one
+
+#showtooltip
+/use Mana Ruby
+/use Mana Citrine
+/use Mana Jade
+/use Mana Agate
+
+
