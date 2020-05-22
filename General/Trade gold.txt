@@ -1,0 +1,5 @@
+Automatically trades a portal mage 1g
+
+/script if TradeFrame:IsShown() then if GetPlayerTradeMoney() == 10000 then AcceptTrade() else SetTradeMoney(10000) end else InitiateTrade("target") end
+
+Just target the mage and spam it. It will look like you're not trading anything but you are.

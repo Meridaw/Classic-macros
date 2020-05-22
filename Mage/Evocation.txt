@@ -1,3 +1,15 @@
+Evocation
+
+#showtooltip Evocation
+/eq [nocombat] Will of Arlokk
+/cast Evocation
+/eq [nocombat,worn:staves] Azuresong Mageblade
+/eq [nocombat,worn:staves] Fire Runed Grimoire
+/eq [nocombat,worn:staves] Tome of the Ice Lord
+
+
+Evocation
+
 #showtooltip Evocation
 /castsequence reset=30
 /equip Soulkeeper
