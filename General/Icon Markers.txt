@@ -1,11 +1,13 @@
+Mark mouseover with skull if exists, otherwise mark target with skull
+ 
+/run local m=8; if UnitExists("mouseover") and GetRaidTargetIndex("mouseover")~=m then SetRaidTarget("mouseover",m) elseif UnitExists("target") and GetRaidTargetIndex("target")~=m then SetRaidTarget("target",m) end
+
+
 Mouseover Icon Markers with Modifiers
 
 /run if IsShiftKeyDown()then SetRaidTarget("mouseover",7) end
-
 /run if IsControlKeyDown()then SetRaidTarget("mouseover",5) end
-
 /run if not IsShiftKeyDown() and not IsControlKeyDown()then SetRaidTarget("mouseover",8) end
-
 
 
 normal = skull, shift = moon (poly), ctrl = square (freezing), alt = orange (for marking me)
@@ -16,20 +18,25 @@ normal = skull, shift = moon (poly), ctrl = square (freezing), alt = orange (for
 /run if IsAltKeyDown() then SetRaidTarget("target", 2) end
 
 
-
 Mark skull and then x, Moon if shift
 
 /run if MyGlobalN == 8 or MyGlobalN == nil then MyGlobalN = 7 else MyGlobalN = MyGlobalN + 1 end SetRaidTargetIcon("target",MyGlobalN)
 /run if IsShiftKeyDown() then SetRaidTarget("target", 5) end
 
 
-
 Raid Marker Targeting for Soloing
 
 /run if not IsInGroup() then SetRaidTarget("target", 5) end
-
 /targetenemy
-
 /stopmacro [noharm]
-
 /run if not IsInGroup() then SetRaidTarget("target", 6) end
+
+
+    8 = Skull
+    7 = Cross
+    6 = Square
+    5 = Moon
+    4 = Triangle
+    3 = Diamond
+    2 = Circle
+    1 = Star
