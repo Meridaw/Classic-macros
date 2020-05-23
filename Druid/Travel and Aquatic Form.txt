@@ -3,7 +3,6 @@ Travel Form, Aquatic Form
 #showtooltip Travel Form
 /startattack [harm,nodead]
 /cleartarget [dead,combat]
-/targetenemy [noexist,combat]
 /cancelform [noform:2/4]
 /cast [swimming] Aquatic Form; [noswimming] Travel Form
 
@@ -13,7 +12,6 @@ Travel Form, Aquatic Form, Find Herbs/Find Minerals
 #showtooltip Travel Form
 /startattack [harm,nodead]
 /cleartarget [dead,combat]
-/targetenemy [noexist,combat]
 /castsequence [mounted] Find Herbs, Find Minerals
 /cancelform [noform:2/4]
 /cast [swimming] Aquatic Form; [noswimming] Travel Form
