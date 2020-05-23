@@ -1,11 +1,11 @@
-Cat Form
+Cat Form, startattack, Track Humanoids
 
 #showtooltip Cat Form
-/castsequence [stealth] Find Herbs, Find Minerals
-/dismount [mounted]
+/dismount
+/startattack [harm,nodead]
+/cleartarget [dead,combat]
 /cancelform [noform:3]
 /cast [noform:3] Cat Form; Track Humanoids
-
 
 
 Prevents you from shifting on gcd so you can spam it
@@ -15,3 +15,12 @@ Prevents you from shifting on gcd so you can spam it
 /cancelform [form:2/4]
 /cast [form:3] Cat Form; [form:1] Bear Form
 /cast [noform:3] Cat Form
+
+
+Cat Form, Find Herbs, Find Minerals, Track Humanoids
+
+#showtooltip Cat Form
+/castsequence [stealth] Find Herbs, Find Minerals, Track Humanoids
+/dismount
+/cancelform [noform:3]
+/cast [noform:3] Cat Form; Track Humanoids
