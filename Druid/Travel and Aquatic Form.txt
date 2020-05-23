@@ -1,6 +1,7 @@
 Travel Form, Aquatic Form
 
 #showtooltip Travel Form
+/startattack
 /castsequence [mounted] Find Herbs, Find Minerals
 /cancelform [noform:2/4]
 /cast [swimming] Aquatic Form; [noswimming] Travel Form
