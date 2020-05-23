@@ -1,3 +1,11 @@
+Cat Form, Track Humanoids
+
+#showtooltip Cat Form
+/dismount
+/cancelform [noform:3]
+/cast [noform:3] Cat Form; Track Humanoids
+
+
 Cat Form, startattack, Track Humanoids
 
 #showtooltip Cat Form
