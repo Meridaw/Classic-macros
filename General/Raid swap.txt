@@ -1,0 +1,1 @@
+/run p=UnitInRaid("player"); t=UnitInRaid("mouseover"); if(t) then SwapRaidSubgroup(p, t); else print("swap nil error"); end;

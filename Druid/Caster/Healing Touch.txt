@@ -1,26 +1,27 @@
-Healing Touch 3
+Healing Touch Rank 3
 
-/dismount [mounted]
-/cancelform [noform:5]
+/dismount
+/cancelform
 /stand
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Healing Touch(Rank 3)
 
 
 
-Healing Touch 4
+Healing Touch Rank 4
 
-/dismount [mounted]
-/cancelform [noform:5]
+/dismount
+/cancelform
 /stand
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Healing Touch(Rank 4)
 
 
 
-Healing Touch 7
+Wushoolay's Charm of Nature, Healing Touch Rank 7
 
-/dismount [mounted]
-/cancelform [noform:5]
+/dismount
+/cancelform
 /stand
+/use [combat] Wushoolay's Charm of Nature
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Healing Touch(Rank 7)
 
 

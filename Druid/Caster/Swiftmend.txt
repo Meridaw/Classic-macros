@@ -1,0 +1,8 @@
+Swiftmend
+
+#showtooltip Swiftmend
+/stand
+/dismount
+/stopcasting
+/cancelform
+/use [@mouseover,help,nodead][help,nodead][@player] Swiftmend
