@@ -15,6 +15,14 @@ Quickly sheep mind controlled players (ZG/AQ)
 /targetpreviousenemy
 
 
+Quickly Turtle mind controlled players (ZG/AQ)
+
+/stopcasting
+/targetenemyplayer
+/cast Polymorph(Turtle)
+/targetlasttarget
+
+
 Cast polymorph (rank 1) on current target, or mouseover if shift key
 
 #showtooltip
