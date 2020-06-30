@@ -7,3 +7,14 @@ Seal of Wisdom
 /cast Judgement 
 /stopcasting 
 /cast Seal of Wisdom
+
+
+
+Cancelaura, Seal of Wisdom
+
+/cancelaura Seal of Righteousness
+/cancelaura Seal of the Crusader
+/startattack 
+/stopcasting
+/cast Judgement
+/cast Seal of Wisdom

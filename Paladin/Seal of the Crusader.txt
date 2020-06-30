@@ -7,3 +7,13 @@ Seal of the Crusader
 /cast Judgement 
 /stopcasting
 /cast Seal of the Crusader
+
+
+
+Cancelaura, Seal of the Crusader
+
+/cancelaura Seal of Righteousness
+/startattack 
+/stopcasting
+/cast Judgement
+/cast Seal of the Crusader

@@ -7,3 +7,14 @@ Seal of Light
 /cast Judgement 
 /stopcasting 
 /cast Seal of Light
+
+
+
+Cancelaura, Seal of Light
+
+/cancelaura Seal of Righteousness
+/cancelaura Seal of the Crusader
+/startattack 
+/stopcasting
+/cast Judgement
+/cast Seal of Light
