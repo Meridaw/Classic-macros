@@ -1,19 +1,10 @@
 Seal of the Crusader
 
 #showtooltip
-/startattack
-/dismount
-/stand
-/cast Judgement 
-/stopcasting
-/cast Seal of the Crusader
-
-
-
-Cancelaura, Seal of the Crusader
-
 /cancelaura Seal of Righteousness
 /startattack 
+/dismount
+/stand
 /stopcasting
 /cast Judgement
 /cast Seal of the Crusader
