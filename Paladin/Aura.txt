@@ -1,0 +1,9 @@
+Rotate aura
+
+/castsequence Retribution Aura, Concentration Aura, Devotion Aura
+
+
+
+Rotate resistance aura
+
+/castsequence Fire Resistance Aura, Shadow Resistance Aura, Frost Resistance Aura
