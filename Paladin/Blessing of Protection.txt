@@ -1,9 +1,6 @@
+Blessing of Protection
+
 #showtooltip Blessing of Protection
 /dismount
 /stand
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Blessing of Protection
-
-
-Cast BoP under the gaze of an enemy Another snoozer to “taunt” mobs with very little hassle
-
-/cast [help,target=target] Blessing of Protection; [target=targettarget,help] Blessing of Protection
