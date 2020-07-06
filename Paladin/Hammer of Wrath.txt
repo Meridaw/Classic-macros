@@ -1,0 +1,3 @@
+#showtooltip Attack
+/startattack
+/cast Hammer of Wrath
