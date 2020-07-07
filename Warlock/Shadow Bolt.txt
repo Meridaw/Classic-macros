@@ -1,1 +1,12 @@
+Shadow Bolt
+
 /cast [@target,harm,nodead][@targettarget,harm,nodead][] Shadow Bolt
+
+
+
+Zandalarian Hero Charm, Shadow Bolt
+
+/console SpellQueueWindow 1
+/use Zandalarian Hero Charm
+/cast Shadow Bolt
+/console SpellQueueWindow 200
