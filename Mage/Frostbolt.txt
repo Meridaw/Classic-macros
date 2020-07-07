@@ -1,6 +1,15 @@
 Frostbolt (max rank if no modifiers are pressed, Rank 1 if CTRL is pressed)
 
 #showtooltip
-/dismount [mounted]
+/dismount
 /stand
 /cast [mod:ctrl] Frostbolt(Rank 1); Frostbolt
+
+
+
+Zandalarian Hero Charm, Frostbolt
+
+/console SpellQueueWindow 1
+/use Zandalarian Hero Charm
+/cast Frostbolt
+/console SpellQueueWindow 200

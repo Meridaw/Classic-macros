@@ -1,0 +1,3 @@
+/petpassive
+/petstay
+/cast [pet: Wildspawn Hellcaller] Rain of Fire
