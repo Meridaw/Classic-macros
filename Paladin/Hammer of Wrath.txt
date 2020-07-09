@@ -1,3 +1,5 @@
 #showtooltip Attack
 /startattack
+/dismount
+/stand
 /cast Hammer of Wrath
