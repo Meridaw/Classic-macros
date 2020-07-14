@@ -1,0 +1,5 @@
+#showtooltip Divine Favor
+/dismount
+/stand
+/cast Divine Favor
+/cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Holy Light

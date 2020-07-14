@@ -1,6 +1,14 @@
 Useful for ZG Mage Farm & PvP. The buff removal only works if out of combat. The buffs all have the same name, so a simple /cancelaura macro doesn't work.
 
 
+Use Noggenfogger, cancel the unwanted buffs
+
+#showtooltip Noggenfogger Elixir
+/stopmacro [mounted]
+/run if not InCombatLockdown() then for i=0,40 do local n,t,_,_,_,_,_,_,_,s=UnitBuff("player",i) if (s == 16591 or s ==16595) then CancelUnitBuff("player",i) return end end end
+/use Noggenfogger Elixir
+
+
 
 Use Noggenfogger, Remove Skeleton:
 
