@@ -1,0 +1,5 @@
+Defensive Stance, Taunt
+
+#showtooltip Taunt
+/cast [nostance:2] Defensive Stance
+/cast Taunt

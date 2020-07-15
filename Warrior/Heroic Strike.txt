@@ -14,3 +14,12 @@ Heroic Strike trick
 
 Que when OH is gonna land, Unqueue if ragestarved as MH is about to land,
 And follow standard rotation.
+
+
+
+Queue or cancel Heroic Strike with the same bind (DW hit penalty "bug/feature")
+
+#showtooltip Heroic Strike
+/startattack
+/cast Heroic Strike
+/stopcasting

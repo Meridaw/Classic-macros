@@ -12,6 +12,8 @@ Startattack, Battle Stance then Charge
 
 
 
+Battle Stance, Charge
+
 #showtooltip Charge
 /cast [nostance:1] Battle Stance
 /cast Charge

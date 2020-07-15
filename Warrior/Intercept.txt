@@ -1,3 +1,15 @@
+Berserker Stance, Intercept
+
 #showtooltip Intercept
 /cast [nostance:3] Berserker Stance
 /cast Intercept
+
+
+
+One macro mobility (not recommended, risk wasting both cooldowns if you mash key too much)
+
+#showtooltip [combat] Intercept; [nocombat] Charge
+/cast [nocombat,nostance:1] Battle Stance
+/cast [nocombat,stance:1] Charge
+/cast [combat,nostance:3] Berserker Stance
+/cast [combat,stance:3] Intercept

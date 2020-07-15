@@ -3,3 +3,11 @@ Disarm
 #showtooltip
 /cast Defensive Stance
 /cast Disarm
+
+
+
+Defensive Stance, Disarm
+
+#showtooltip Disarm
+/cast [nostance:2] Defensive Stance
+/cast Disarm

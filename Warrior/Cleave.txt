@@ -1,0 +1,6 @@
+Queue or cancel Cleave with the same bind (DW hit penalty "bug/feature")
+
+#showtooltip Cleave
+/startattack
+/cast Cleave
+/stopcasting

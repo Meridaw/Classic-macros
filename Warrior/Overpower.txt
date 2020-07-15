@@ -6,6 +6,15 @@ Overpower (auto-attack)
 
 
 
+Battle Stance, Overpower
+
 #showtooltip Overpower
 /cast [nostance:1] Battle Stance
 /cast Overpower
+
+
+
+Mouseover Overpower or target Overpower
+
+#showtooltip
+/cast [@mouseover,harm,nodead][] Overpower
