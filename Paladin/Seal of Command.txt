@@ -6,3 +6,15 @@ Seal of Command
 /stand
 /cast Judgement 
 /cast Seal of Command
+
+
+
+Seal of Command if two-hand equipped, Seal of Righteousness if one-hand
+
+#showtooltip
+/startattack
+/dismount
+/stand
+/cast Judgement 
+/cast [worn:One-Hand] Seal of Righteousness
+/cast [worn:Two-Hand] Seal of Command
