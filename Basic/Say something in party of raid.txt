@@ -1,0 +1,34 @@
+SAYING SOMETHING IN PARTY OR RAID IF YOU ARE IN EITHER
+
+(Refinements and revisions courtesy of WanderingFox and Safturento.)
+
+
+General Form
+
+/stopmacro [nogroup]
+/run local c=GetNumRaidMembers()>0 and "RAID" or "PARTY" SendChatMessage("__message_text__",c)
+
+
+
+With target Included
+
+/stopmacro [nogroup]
+/run local c,t=GetNumRaidMembers()>0 and "RAID" or "PARTY",UnitName("target") if t and c then SendChatMessage("__message_prefix__"..t.."__message_suffix__",c) end
+
+
+
+Code Expanded
+
+local channelName, targetName = GetNumRaidMembers() > 0 and "RAID" or "PARTY", UnitName("target");
+if targetName and channelName then
+	SendChatMessage("__message_prefix__"..targetName.."__message_suffix__", channelName);
+end
+
+
+
+Example
+
+#showtooltip
+/cast [help,dead] Revive
+/stopmacro [nogroup]
+/run local c,t=GetNumRaidMembers()>0 and "RAID" or "PARTY",UnitName("target") if t and c then SendChatMessage("Resurrecting <<"..t..">>.",c) end
