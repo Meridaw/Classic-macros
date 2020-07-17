@@ -1,0 +1,30 @@
+CASTING SPELLS WITH ERROR MESSAGES AND SOUNDS SUPPRESSED
+
+This kind of macro will allow you to use-when-ready any spell or item that does not invoke a GCD without
+being spammed with error messages about how they are not ready while they are on cooldown.
+
+
+General Form
+
+#showtooltip __main_spell__
+/console Sound_EnableSFX 0
+/cast __non_gcd_spell__
+/use __non_gcd_item__
+/run UIErrorsFrame:Clear()
+/console Sound_EnableSFX 1
+/cast __main_spell__
+
+
+
+Example
+
+This macro will activate whichever of your trinkets is available, Inner Focus, if available, and then cast Greater Heal.
+
+#showtooltip Greater Heal
+/console Sound_EnableSFX 0
+/use 14
+/use 15
+/cast Inner Focus
+/run UIErrorsFrame:Clear()
+/console Sound_EnableSFX 1
+/cast Greater Heal

@@ -5,6 +5,7 @@ This will set the Cross on mouseover, but will not clear it on successive runs.
 
 
 This will set the Skull on target or toggle it off when run while target already has a Skull.
+
 /run SetRaidTargetIcon("target",8)
 
 

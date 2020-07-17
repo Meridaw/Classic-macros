@@ -1,0 +1,23 @@
+NIFTY MOUSEOVER BUFF SEQUENCE MACRO
+
+This will cast a sequence of spells on your mouseover. Once you've acquired your target, you can move your mouse.
+Choose a new target by activating the macro while mousing over a new target. The sequence will reset and you can start again.
+
+
+General Form
+
+/target [@mouseover,help,nodead] mouseover
+/castsequence reset=target __spell_1__[, __spell_2__[, __spell_3__[, ...]]]
+
+
+
+Note
+
+Each run of the /castsequence, it will assign mouseover to target, if you have a mouseover; but, since it will be the same person the reset condition of the /castsequence won't be met, and it will just continue. If you don't have a mouseover, it will keep your current target and continue the sequence.
+
+
+
+Example
+
+/target [@mouseover,help,nodead] mouseover
+/castsequence reset=target Shadow Protection, Power Word: Fortitude, Divine Spirit

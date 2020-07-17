@@ -1,0 +1,14 @@
+MACRO THAT SHOULD BE USED WITH ALL FRIENDLY SPELLS
+
+As far as I'm concerned, this functionality should be the default for friendly spells.
+
+
+General Form
+
+/cast [@mouseover,nodead,help][nodead,help][@player] __friendly_targetable_spell__
+
+
+
+Example
+
+/cast [@mouseover,nodead,help][nodead,help][@player] Flash Heal
