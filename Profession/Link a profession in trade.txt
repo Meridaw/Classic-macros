@@ -1,0 +1,4 @@
+This adds the message after the link and sends a link for Enchanting.
+
+#showtooltip Enchanting
+/run local c=GetChannelName("Trade - City")if c~=0 then SendChatMessage(select(2,GetSpellLink("Enchanting")).." looking for work! Tips appreciated!","CHANNEL",nil,c) else DEFAULT_CHAT_FRAME:AddMessage("Not In Trade!",1,0,0) end

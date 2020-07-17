@@ -1,0 +1,6 @@
+Announce resurrecting to party or raid
+
+#showtooltip
+/cast [help,dead] Redemption
+/stopmacro [nogroup]
+/run local c,t=GetNumRaidMembers()>0 and "RAID" or "PARTY",UnitName("target") if t and c then SendChatMessage("Resurrecting <<"..t..">>.",c) end

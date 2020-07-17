@@ -1,0 +1,62 @@
+DOING THINGS RANDOMLY
+
+This will cover the random function and some possible uses.
+
+
+The Lua random Function
+
+As far as I can tell, the random that you call, like that, is a wrapper for the Lua random in the math library.
+You can call it either way, though obviously omitting the math. is shorter.
+
+[math.]random([m [, n]])
+
+
+
+random Parameter Information
+
+m - Optional. Lower bound (number)
+n - Optional. Upper bound (number)
+
+
+
+Information About random
+
+random will produce a pseudo-random number (real or integer, depending on how it is called).
+No Parameters - a pseudo-random, real number in the range [0,1). (Interval Notation)
+One Parameter (m) - a pseudo-random, integer in the range [1,m].
+Two Parameters (m, n) - a pseudo-random integer in the range [m, n].
+
+
+
+Companion Example
+
+This will summon a random companion using random combined with the number of companions you have learned.
+In this case, random is being called with a single parameter, so you will get an integer in the range [1,num_companions].
+
+/run CallCompanion("CRITTER", random(GetNumCompanions("CRITTER") ) )
+
+
+
+Say Something Random Example
+
+This one will define a set of phrases and pick one of them to say at random.
+
+/run local p={"I've got nicotine stains on my fingers.","I've got a silver spoon on a chain.","I've got a grand piano to prop up my mortal remains."} SendChatMessage(p[random(#p)],"SAY")
+
+
+
+Say Something Random Example, Method 2
+
+Credit for this alternate method goes to Wikipedia. None of us even knew GetRandomArgument existed. Also, HighFive likes it.
+I know it doesn't even use the random function; but, it does do something randomly, so it fits.
+
+/run SendChatMessage(GetRandomArgument("I've got nicotine stains on my fingers.","I've got a silver spoon on a chain.","I've got a grand piano to prop up my mortal remains."), "SAY")
+Say Something One (1) Out Of n Times The script Is Run
+
+
+
+General Form
+
+/run if random(n) == 1 then SendChatMessage("__message__","SAY") end
+One Out Of 20 Times
+/run if random(20) == 1 then SendChatMessage("Confucious say, bad singers break into song because they can't find the key.","SAY") end

@@ -16,3 +16,9 @@ Remove All Totems
 /click t4
 
 Because this macro uses SecureUnitButtons, it needs to be run outside of combat in the current UI session before it will work in combat.
+
+
+
+Cancel a specific totem
+
+/run DestroyTotem(1)

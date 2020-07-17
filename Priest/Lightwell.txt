@@ -1,0 +1,12 @@
+Lightwell announcement
+
+/cast Lightwell
+/run local t=GetSpellCooldown("Lightwell") if t==0 then SendChatMessage("Lightwell is up!", "RAID") end
+
+
+
+Send an announcement to RAID that announces the cooldown left on Lightwell when it is pressed when on CD. (In the mm:ss style)
+Use PARTY instead of RAID when Groupmembers is 5 or less.
+
+/cast Lightwell
+/run local a,c,f,g,h=format,GetSpellLink(724),GetSpellCooldown(724)h=f+g-GetTime()SendChatMessage(c..a(f>0 and" on %d:%d cd"or" is up!",h/60,h%60),0<GetNumRaidMembers()and"RAID"or"PARTY")

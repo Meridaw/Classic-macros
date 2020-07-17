@@ -1,0 +1,5 @@
+This will open the panel for the desired profession, find a skill, by name, and then perform it.
+
+#showtooltip Runecloth
+/cast Tailoring
+/run for i=1,GetNumTradeSkills() do if GetTradeSkillInfo(i)=="Bolt of Runecloth" then CloseTradeSkill() DoTradeSkill(i) break end end

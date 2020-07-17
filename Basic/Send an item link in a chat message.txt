@@ -1,0 +1,56 @@
+SEND AN ITEM LINK IN A CHAT MESSAGE
+
+This is the general form of how to send an item link in a message. The examples will get more specific.
+Since we're going to cover several variations, I figure here's a good time to show how to use the SendChatMessage API in detail.
+
+
+SendChatMessage Syntax
+
+SendChatMessage("text" [, "chatType"  [, "language" [, "channel"]]])
+
+
+SendChatMessage Parameter Information
+
+text - Message to be sent (up to 255 characters) (string)
+chatType - Optional (default="SAY"). Channel to which to send the message (string)
+BATTLEGROUND - Sends to a battleground raid group (/bg)
+CHANNEL - Sends to a server or custom chat channel /1, /2, /n); requires channel number for channel argument
+DND - Enables Away-From-Keyboard status for the player, with text as the custom message seen by others attempting to whisper the player
+EMOTE - Custom text emotes visible to nearby players (/e)
+GUILD - Sends to guild members (/g)
+OFFICER - Sends to guild officers (/o)
+PARTY - Sends to party members (/p)
+RAID - Sends to raid members (/ra)
+RAID_WARNING - Warning to raid or party members (/rw)
+SAY - Speech to nearby players (/s)
+WHISPER - Sends to a specific character (/w); requires name of the character for channel argument
+YELL - Yell to not-so-nearby players (/y)
+language - Optional (see below for default). Language in which to send the message (string)
+COMMON - (Alliance Default) Human language
+DARNASSIAN - Night Elf Language
+DRAENEI - Draenei Language
+DWARVEN - Dwarf Language
+GNOMISH - Gnome language
+GUTTERSPEAK - Undead language
+ORCISH - (Horde Default) Orc Language
+TAURAHE - Tauren Language
+THALASSIAN - Night Elf Language
+TROLL - Troll language
+channel - If chatType is WHISPER, name of the target character; if chatType is CHANNEL, number identifying the target channel; ignored otherwise (string)
+
+
+Say The Message
+
+/run SendChatMessage("Help, I lost my "..select(2,GetItemInfo(6948)).." and I don't know where home is!")
+
+
+
+Say The Message In Party
+
+/run SendChatMessage("*** USED MY "..select(2,GetItemInfo(29530)).." ***","PARTY")
+
+
+
+Send A Message To Trade
+
+/run SendChatMessage("WTS "..select(2,GetItemInfo(50379))..", 5000g OBO","CHANNEL",nil,"GetChannelName("Trade - City"))

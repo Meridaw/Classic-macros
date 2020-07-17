@@ -6,6 +6,7 @@ Nature's Swiftness, Rebirth
 /cast Rebirth
 
 
+
 Rebirth, remove Barkskin/Skull of Impending Doom/Enrage
 
 #showtooltip Rebirth
@@ -16,3 +17,12 @@ Rebirth, remove Barkskin/Skull of Impending Doom/Enrage
 /cancelaura Flee
 /cancelaura Enrage
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Rebirth
+
+
+
+Announce resurrecting to party or raid
+
+#showtooltip
+/cast [help,dead] Rebirth
+/stopmacro [nogroup]
+/run local c,t=GetNumRaidMembers()>0 and "RAID" or "PARTY",UnitName("target") if t and c then SendChatMessage("Resurrecting <<"..t..">>.",c) end

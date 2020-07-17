@@ -1,0 +1,6 @@
+Resurrecting
+
+#showtooltip
+/cast [help,dead] Ancestral Spirit
+/stopmacro [nogroup]
+/run local c,t=GetNumRaidMembers()>0 and "RAID" or "PARTY",UnitName("target") if t and c then SendChatMessage("Resurrecting <<"..t..">>.",c) end

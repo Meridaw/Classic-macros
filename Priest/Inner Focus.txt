@@ -1,0 +1,10 @@
+Activate whichever of your trinkets is available, Inner Focus, if available, and then cast Greater Heal.
+
+#showtooltip Greater Heal
+/console Sound_EnableSFX 0
+/use 14
+/use 15
+/cast Inner Focus
+/run UIErrorsFrame:Clear()
+/console Sound_EnableSFX 1
+/cast Greater Heal

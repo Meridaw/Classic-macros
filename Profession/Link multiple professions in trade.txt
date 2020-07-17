@@ -1,0 +1,2 @@
+#showtooltip Tailoring
+/run local s,g,t,c=SendChatMessage,GetSpellLink,"CHANNEL",GetChannelName("Trade - City")s("Free with your mats "..select(2,g("Tailoring"))..".",t,nil,c)s(select(2,g("Enchanting")).." I'll even give you 1000g if I skill up!",t,nil,c)

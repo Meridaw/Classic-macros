@@ -3,3 +3,12 @@ Resurrection
 #showtooltip
 /cast [@mouseover,help,dead][help,dead][] Resurrection
 /run SendChatMessage("Ressing " .. (UnitIsDeadOrGhost("mouseover") and UnitName("mouseover") or UnitName("target")) .. ".","SAY",nil,nil)
+
+
+
+Announce resurrecting to party or raid
+
+#showtooltip
+/cast [help,dead] Resurrection
+/stopmacro [nogroup]
+/run local c,t=GetNumRaidMembers()>0 and "RAID" or "PARTY",UnitName("target") if t and c then SendChatMessage("Resurrecting <<"..t..">>.",c) end
