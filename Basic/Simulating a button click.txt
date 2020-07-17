@@ -1,0 +1,40 @@
+SIMULATING A BUTTON CLICK
+
+This is usually used to activate a pet ability by its location on your pet bar, perhaps if it has the same name as one of your abilities so you can't cast it by name.
+However, this can be used to activate anything that can receive a click.
+
+
+Find the Button Name
+
+After running this, you will see a small window that changes depending on what you have moused over. The name of the button will be one of the items in this list. Some practice will help you determine which one you want. Running this again will toggle off the frame stack display.
+
+/framestack
+
+
+
+Simulate the Click
+
+/click __button_frame_name__
+
+
+
+Pet Button Example
+
+/click PetActionButton4
+
+
+
+Static Popup Example
+This macro will click the left-most button on the default static yes/no okay/cancel popup dialog.
+This is useful for including an auto-accept on the replace poison question for a rogue poison macro.
+
+/click StaticPopup1Button1
+
+
+
+Poison Example
+
+#showtooltip
+/use [button:2] Crippling Poison; Wound Poison
+/use [button:2] 17; 16
+/click StaticPopup1Button1
