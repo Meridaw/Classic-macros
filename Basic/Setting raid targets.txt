@@ -1,0 +1,40 @@
+SETTING RAID TARGETS
+
+This will cover the two marking API functions and their differences.
+
+
+Choose Your API Call
+
+There are two possibilities for which API you can call to set a raid target.
+--Puts a raid target marker on a unit.
+SetRaidTarget("unit", index)
+or
+--Puts a raid target marker on a unit, toggling it off if the same index is called twice.
+SetRaidTargetIcon("unit",index)
+
+
+API Parameter Information
+unit - A unit to mark (string, unitID)
+index - Index of a target marker (number)
+  0 - Clear any raid target markers
+  1 - Star
+  2 - Circle
+  3 - Diamond
+  4 - Triangle
+  5 - Moon
+  6 - Square
+  7 - Cross
+  8 - Skull
+
+
+Example With target, Toggleable
+This will set the Skull on target or toggle it off when run while target already has a Skull.
+
+/run SetRaidTargetIcon("target",8)
+
+
+
+Example With mouseover, No Toggle
+This will set the Cross on mouseover, but will not clear it on successive runs.
+
+/run SetRaidTarget("mouseover",7)
