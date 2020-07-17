@@ -5,8 +5,13 @@ http://www.macroexplain.com/
 Creating your own Macros:
 https://wow.gamepedia.com/Macro_API
 https://wow.gamepedia.com/Macro_conditionals
+https://wow.gamepedia.com/Macro_commands
 https://wow.gamepedia.com/Making_a_macro
 https://wow.gamepedia.com/MACRO_castsequence
+
+
+Useful Sneaky or Complicated Macros:
+https://www.wowhead.com/forums&topic=163761#dotradeskill
 
 
 How Spell Queue Window Works:
