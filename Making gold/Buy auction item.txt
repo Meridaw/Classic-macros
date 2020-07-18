@@ -1,0 +1,3 @@
+Buyout whatever you have currently selected in the AH without the warning:
+
+/run local a=GetSelectedAuctionItem"list"PlaceAuctionBid("list",a,select(9,GetAuctionItemInfo("list",a)))

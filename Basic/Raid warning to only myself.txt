@@ -1,0 +1,24 @@
+use the raid warning frame's OnEvent function, i.e.
+
+
+This will make it appear as a normal raid warning.
+
+/run RaidWarningFrame_OnEvent(RaidWarningFrame,"CHAT_MSG_RAID_WARNING","<message>")
+
+
+
+Or, you could use
+
+RaidNotice_AddMessage(noticeFrame,textString,colorInfo)
+- noticeFrame - RaidWarningFrame or RaidBossEmoteFrame (self explanatory, I think!)
+- textString - the message
+- colorInfo - A table with the fields r, g, b and corresponding color values (0.0-1.0). Changes the color of the warning.
+
+
+Example: 
+
+/run RaidNotice_AddMessage(RaidWarningFrame,"this text is yellow",{r=1.0,g=1.0,b=0})PlaySound"RaidWarning"
+
+If you don't need the raidwarning sound, feel free to remove the PlaySound part.
+Code which turns the strings "{skull}", "{square}" and such into their corresponding icons is contained in the OnEvent function, 
+so you'll be lacking that feature if you're using the AddMessage function.

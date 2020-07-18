@@ -1,0 +1,3 @@
+Grab the first item in the first mail in your box (the button to spam after a trip to the AH):
+
+/run TakeInboxItem(1,1)
