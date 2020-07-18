@@ -1,4 +1,4 @@
 Hammer of Justice
 
-#showtooltip Hammer of Justice
+#showtooltip [dead] Redemption;Hammer of Justice
 /cast [dead] Redemption; [harm,exists,nodead,nomod] Hammer of Justice; [nomod] Flash of Light
