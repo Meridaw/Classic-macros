@@ -10,3 +10,10 @@ Pom, Flamestrike
 #show
 /cast Presence of Mind
 /cast [@cursor]Flamestrike
+
+
+
+Flamestrike, Pom, Flamestrike
+
+#showtooltip
+/castsequence reset=30 [@Cursor] Flamestrike(Rank 6), Presence of Mind, Flamestrike(Rank 5)

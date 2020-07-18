@@ -1,38 +1,41 @@
 Macro conditionals
 
-    actionbar:1/.../6 or bar:1/.../6 — Given action bar page is selected.
-    bonusbar:1/... — a (specific) bonus action bar is currently overriding the player's main action bar.
-    button:1/.../5/<virtual click> or btn:1/.../5/<virtual click> — Macro activated with the given mouse button.
-    canexitvehicle — Player is in a vehicle and can exit it at will.
-    channeling:<spell name> — Player is channeling the given spell.
-    cursor — The mouse cursor is currently holding an item/ability/macro/etc.
-    combat — Player is in combat.
-    dead — Conditional target exists and is dead.
-    equipped:<item type> or worn:<item type> — item type is equipped (item type can be an inventory slot, item type, or item subtype).
-    exists — Conditional target exists.
-    extrabar — Player currently has an extra action bar/button.
-    flyable — The player can use a flying mount in this zone (though incorrect in Wintergrasp during a battle).
-    flying — Mounted or in flight form AND in the air.
-    form:0/1/2/.../n or stance:0/.../n — In a form or stance such as [Bear Form], [Shadowform], [Metamorphosis], [Battle Stance], etc.
-    group:party/raid — Player is in the given type of group (if argument is omitted, defaults to party).
-    harm — Conditional target exists and can be targeted by harmful spells (e.g. [Fireball]).
-    help — Conditional target exists and can be targeted by helpful spells (e.g. [Heal]).
-    indoors — Player is indoors.
-    modifier:shift/ctrl/alt or mod:shift/ctrl/alt — Holding the given key.
-    mounted — Player is mounted.
-    outdoors — Player is outdoors.
-    overridebar — Player's main action bar is currently replaced by the override action bar.
-    party — Conditional target exists and is in your party.
-    pet:<pet name or type> — The given pet is out.
-    petbattle — Currently participating in a pet battle.
-    possessbar — Player's main action bar is currently replaced by the possess action bar.
-    raid — Conditional target exists and is in your raid/party.
-    resting — Player is currently resting.
-    shapeshift — Player's main action bar is currently replaced by a temporary shapeshift action bar.
-    spec:1/2 — Player's active specialization group (spec, talents and glyphs).
-    stealth — Player is stealthed.
-    swimming — Player is swimming.
-    talent:<row#>/<column#> — Talent is activated.
-    unithasvehicleui — Conditional target has vehicle UI.
-    vehicleui — Player has vehicle UI.
-    @unit or target=unit — Sets the condition target to unit (an arbitrary string, although unitIds may be more useful when combined with some of the other conditionals); always considered satisfied.
+actionbar:1/.../6 or bar:1/.../6 — Given action bar page is selected.
+bonusbar:1/... — a (specific) bonus action bar is currently overriding the player's main action bar.
+button:1/.../5/<virtual click> or btn:1/.../5/<virtual click> — Macro activated with the given mouse button.
+canexitvehicle — Player is in a vehicle and can exit it at will.
+channeling:<spell name> — Player is channeling the given spell.
+cursor — The mouse cursor is currently holding an item/ability/macro/etc.
+combat — Player is in combat.
+dead — Conditional target exists and is dead.
+equipped:<item type> or worn:<item type> — item type is equipped (item type can be an inventory slot, item type, or item subtype).
+exists — Conditional target exists.
+extrabar — Player currently has an extra action bar/button.
+flyable — The player can use a flying mount in this zone (though incorrect in Wintergrasp during a battle).
+flying — Mounted or in flight form AND in the air.
+form:0/1/2/.../n or stance:0/.../n — In a form or stance such as [Bear Form], [Shadowform], [Metamorphosis], [Battle Stance], etc.
+group:party/raid — Player is in the given type of group (if argument is omitted, defaults to party).
+harm — Conditional target exists and can be targeted by harmful spells (e.g. [Fireball]).
+help — Conditional target exists and can be targeted by helpful spells (e.g. [Heal]).
+indoors — Player is indoors.
+modifier:shift/ctrl/alt or mod:shift/ctrl/alt — Holding the given key.
+mounted — Player is mounted.
+outdoors — Player is outdoors.
+overridebar — Player's main action bar is currently replaced by the override action bar.
+party — Conditional target exists and is in your party.
+pet:<pet name or type> — The given pet is out.
+petbattle — Currently participating in a pet battle.
+possessbar — Player's main action bar is currently replaced by the possess action bar.
+raid — Conditional target exists and is in your raid/party.
+resting — Player is currently resting.
+shapeshift — Player's main action bar is currently replaced by a temporary shapeshift action bar.
+spec:1/2 — Player's active specialization group (spec, talents and glyphs).
+stealth — Player is stealthed.
+swimming — Player is swimming.
+talent:<row#>/<column#> — Talent is activated.
+unithasvehicleui — Conditional target has vehicle UI.
+vehicleui — Player has vehicle UI.
+@unit or target=unit — Sets the condition target to unit (an arbitrary string, although unitIds may be more useful when combined with some of the other conditionals); always considered satisfied.
+
+Conditionals don't work with /run. For modifiers, you need the APIs IsShiftKeyDown(), IsControlKeyDown() and IsAltKeyDown(). 
+For buttons you need the API GetMouseButtonClicked(), which returns one of "LeftButton", "MiddleButton", "RightButton", or "ButtonN" where N is 4-15 (for extra mouse buttons).

@@ -1,0 +1,16 @@
+Move any screen element
+
+/run for _, f in pairs{FrameName} do f:SetMovable(true) f:SetScript("OnDragStart", f.StartMoving) f:SetScript("OnDragStop", f.StopMovingOrSizing) f:RegisterForDrag("LeftButton") end
+
+
+Replace {FrameName} with:
+
+PlayerFrame
+TargetFrame
+Minimap
+BuffButton1 (2,3,4, etc)
+
+
+And to lock the frames, use:
+
+/console reloadui
