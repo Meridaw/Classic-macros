@@ -5,3 +5,13 @@ Totem Killer
 /petattack [target=Mana Tide Totem ] [harm] 
 /petattack [target=Tremor Totem] [harm] 
 /petattack [target=Grounding Totem] [harm]
+
+
+
+Totem stomping
+
+/petattack
+/petattack [@mana tide totem]
+/petattack [@windfury totem] 
+/petattack [@tremor totem]
+/petattack [@grounding totem]    

@@ -1,4 +1,4 @@
 Mouseover Banish
 
 #showtooltip
-/cast [target=mouseover] Banish
+/cast [@mouseover, harm][] Banish

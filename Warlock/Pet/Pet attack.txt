@@ -1,4 +1,4 @@
 Pet attack/petpassive
 
 /petattack 
-/petpassive [target=pettarget,exists]
+/petpassive

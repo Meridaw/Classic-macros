@@ -2,11 +2,11 @@ Felhunter Player Dispell (dispells yourself)
 
 #showtooltip
 /petfollow
-/cast [target=player] Devour Magic
+/cast [@player] Devour Magic
 
 
 
-Felhunter Mouseover Dispell (dispells your mouseouver target)
+Felhunter Mouseover Dispell
 
 #showtooltip
-/cast [target=mouseover] Devour Magic
+/cast [@mouseover, harm][] Devour Magic

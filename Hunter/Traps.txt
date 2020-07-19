@@ -5,13 +5,15 @@ Feign Trap+pet Passive:
 #showtooltip
 /cast Freezing Trap
 /cast [combat] Feign Death
-/petpassive [pettarget=target]
+/petpassive
+
 
 
 #showtooltip 
 /cast [button:2] Frost Trap 
 /stopmacro [button:2] 
 /cast [mod:ctrl] Frost Trap; Freezing Trap
+
 
 
 Freezing Trap
@@ -22,6 +24,7 @@ Freezing Trap
 /stopcasting
 /cast Freezing Trap
 /stopattack
+
 
 
 Warm Traps
