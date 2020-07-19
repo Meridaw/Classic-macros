@@ -1,0 +1,17 @@
+Freezing Trap
+
+#showtooltip
+/cast Freezing Trap
+/cast [combat] Feign Death
+/petpassive
+
+
+
+Freezing Trap
+
+#showtooltip
+/petpassive
+/petstay
+/stopcasting
+/cast Freezing Trap
+/stopattack

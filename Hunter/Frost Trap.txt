@@ -1,0 +1,6 @@
+Frost Trap
+
+#showtooltip 
+/cast [button:2] Frost Trap 
+/stopmacro [button:2] 
+/cast [mod:ctrl] Frost Trap; Freezing Trap

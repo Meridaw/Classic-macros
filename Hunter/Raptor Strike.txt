@@ -1,0 +1,17 @@
+Raptor Strike
+
+#showtooltip
+/statattack
+/cast Raptor Strike
+/cast Counterattack
+/cast Mongoose Bite
+
+
+
+Raptor Strike
+
+#showtooltip
+/attacktarget [nocombat]
+/cast Raptor Strike
+/cast Counterattack
+/cast Mongoose Bite

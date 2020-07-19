@@ -1,0 +1,17 @@
+Wing Clip
+
+#showtooltip Wing Clip
+/cast Wing Clip
+/cast Wing Clip(Rank 2)
+/cast Wing Clip(Rank 1)
+
+
+
+Wing Clip, Counterattack
+
+#showtooltip Wing Clip
+/startattack
+/cast Counterattack(Rank 1)
+/cast Wing Clip
+/cast Wing Clip(Rank 2)
+/cast Wing Clip(Rank 1)

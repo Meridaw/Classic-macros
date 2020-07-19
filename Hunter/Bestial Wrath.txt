@@ -1,4 +1,4 @@
-Burst
+Bestial Wrath
 
 #showtooltip Bestial Wrath 
 /cast Rapid Fire 

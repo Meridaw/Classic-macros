@@ -1,0 +1,5 @@
+Consider the macro below to be a default for all of your skill shots. This example casts Serpent Sting.
+
+#showtooltip
+/targetenemy [noexists][dead][help]
+/cast Serpent Sting
