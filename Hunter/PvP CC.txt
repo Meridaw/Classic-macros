@@ -1,5 +1,0 @@
-PvP CC Macro - concussive shot if ranged, wing clip if melee
-
-#showtooltip 
-/castrandom [nomod] concussive shot, wing clip 
-/castrandom [nomod] wing clip, concussive shot

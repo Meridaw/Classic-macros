@@ -1,3 +1,9 @@
+Cursor Flare (cast at ground instantly where mouse currently is)
+#showtooltip
+/cast [@cursor] Flare
+
+
+
 Flare
 
 #showtooltip

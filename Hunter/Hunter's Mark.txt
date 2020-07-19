@@ -1,0 +1,6 @@
+Mouseover Hunter's Mark
+
+#showtooltip
+/petpassive
+/petfollow
+/cast [@mouseover, harm][] Hunter's Mark

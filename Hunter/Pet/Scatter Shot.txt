@@ -1,6 +1,15 @@
-Scatter Shot+Pet Passive:
+Scatter Shot, petstay, petpassive
 
 #showtooltip Scatter Shot
-/petstay [pettarget=target]
-/petpassive [pettarget=target]
+/petstay
+/petpassive
 /cast Scatter Shot
+
+
+
+Mouseover Scatter Shot, petpassive, petfollow
+
+#showtooltip
+/petpassive
+/petfollow
+/cast [@mouseover, harm][] Scatter Shot

@@ -1,0 +1,4 @@
+Cursor Eagle Eye (cast at ground instantly where mouse currently is)
+
+#showtooltip
+/cast [@cursor] Eagle Eye
