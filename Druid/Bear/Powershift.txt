@@ -1,7 +1,6 @@
 Powershift Bear
 
-#showtooltip Cat Form
-/cancelaura leader of the pack
-/cancelaura Predatory Strikes
+#showtooltip Dire Bear Form
+/cancelform [noform:1]
 /cast [form:1] Dire Bear Form
 /cast [noform:1] !Dire Bear Form

@@ -30,3 +30,12 @@ BearForm Potion / Healthstone
 /use [stance:0] Healing Potion
 /use [stance:0] Lesser Healthstone
 /cast [nostance:1] !Dire Bear Form
+
+
+
+Hourglass Sand, Dire Bear Form
+
+#showtooltip
+/cancelform
+/use Hourglass Sand
+/cast Dire Bear Form

@@ -1,4 +1,14 @@
+Tiger's Fury, use trinkets
+
 #showtooltip
 /cast Tiger's Fury
 /use 13
 /use 14
+
+
+
+Tiger's Fury, Ferocious Bite
+
+#showtooltip Ferocious Bite
+/castsequence reset=2 Tiger's Fury, Ferocious Bite
+/cast Ferocious Bite

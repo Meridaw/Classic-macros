@@ -1,8 +1,39 @@
+Crystal Charge
+
+#showtooltip Crystal Charge
+/cancelform [noform:3]
+/cast [form:3] Cat Form
+/use [@player] Crystal Charge
+/cast [noform:3] !Cat Form
+
+
+
+Limited Invulnerability Potion
+
+#showtooltip Limited Invulnerability Potion
+/cancelform [stance:3]
+/stopcasting
+/use Limited Invulnerability Potion
+/cast [noform:3] Cat Form
+
+
+
+Dark Rune
+
+#showtooltip Dark Rune
+/cancelform [noform:3]
+/cast [form:3] Cat Form
+/Use Dark Rune
+/cast [noform:3] !Cat Form
+
+
+
 Cancel Cat form, use Major Mana Potion, enter Cat form
 
 /cast [stance:1] Cat Form
 /use [stance:0] Major Mana Potion
 /cast [nostance:1] !Cat Form
+
 
 
 Cancel Cat form, use Goblin Sapper Charge, enter Cat form

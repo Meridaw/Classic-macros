@@ -1,0 +1,13 @@
+Innervate
+
+/cancelform [form:3]
+/cast [@player,help] Innervate
+/cast [noform] Cat Form
+
+
+
+#showtooltip Innervate
+/cancelform [noform:3]
+/cast [form:3] Cat Form
+/cast innervate
+/cast [noform:3] !Cat Form
