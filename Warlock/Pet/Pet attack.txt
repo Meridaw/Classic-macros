@@ -1,4 +1,11 @@
-Pet attack/petpassive
+Pet attack/follow
 
-/petattack 
-/petpassive
+/petattack [@pettarget,noexists]
+/petfollow [@pettarget,exists][@target,noexists]
+
+
+
+Pet attack/passive
+
+/petattack [@pettarget,noexists]
+/petpassive [@pettarget,exists][@target,noexists]

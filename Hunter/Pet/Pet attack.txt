@@ -1,0 +1,22 @@
+Pet attack/follow
+
+/petattack [@pettarget,noexists]
+/petfollow [@pettarget,exists][@target,noexists]
+
+
+
+Pet attack/passive
+
+/petattack [@pettarget,noexists]
+/petpassive [@pettarget,exists][@target,noexists]
+
+
+
+Pet Attack/follow/passive
+
+#showtooltip
+/petfollow [@pettarget,exists][@target,noexists]
+/petpassive [@pettarget,exists][@target,noexists]
+/petattack [@pettarget,noexists]
+/cast Dive
+/cast Dash
