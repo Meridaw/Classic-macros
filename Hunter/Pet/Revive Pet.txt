@@ -1,0 +1,6 @@
+Revive Pet
+
+#showtooltip
+/cast [@pet, dead] Revive Pet
+/cast [nopet] Call Pet
+/petattack [@mouseover,harm][]
