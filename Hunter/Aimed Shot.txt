@@ -13,3 +13,13 @@ Aimed Shot
 /Cast Aimed Shot
 /cleartarget
 /targetlasttarget
+
+
+
+Aimed Shot
+
+#showtooltip
+/cleartarget [dead][help]
+/targetenemy [noexists]
+/cast Aimed Shot
+/cast !Auto Shot

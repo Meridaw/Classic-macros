@@ -1,3 +1,11 @@
+Aspect of the Monkey
+
+#showtooltip
+/cancelaura Aspect of the Cheetah
+/cast !Aspect of the Monkey
+
+
+
 Aspect of the Monkey, Deterrence
 
 #showtooltip

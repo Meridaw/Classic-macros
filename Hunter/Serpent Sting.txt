@@ -10,3 +10,12 @@ Mouseover Serpent sting
 
 #showtooltip Serpent sting
 /use [@mouseover,harm,nodead][] Serpent sting
+
+
+
+Serpent Sting
+
+#showtooltip
+/cleartarget [dead][help]
+/cast Serpent Sting
+/cast !Auto Shot

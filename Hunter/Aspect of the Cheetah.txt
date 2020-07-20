@@ -3,3 +3,11 @@ Toggle off aspect of the cheetah even during GCD
 #showtooltip Aspect of the Cheetah
 /cancelaura Aspect of the Cheetah
 /cast Aspect of the Cheetah
+
+
+
+Aspect of the Cheetah
+
+#showtooltip
+/cancelaura Aspect of the Cheetah
+/use !Aspect of the Cheetah

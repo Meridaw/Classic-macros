@@ -1,5 +1,13 @@
 Aspect of the Hawk
 
 #showtooltip
+/cancelaura Aspect of the Cheetah
+/cast !Aspect of the Hawk
+
+
+
+Aspect of the Hawk
+
+#showtooltip
 /cast Aspect of the Hawk
 /cast Aspect of the Cheetah

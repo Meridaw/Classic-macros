@@ -1,3 +1,11 @@
 Pet passive
 
 /petpassive
+
+
+
+Pet passive, Dash
+
+#showtooltip
+/petpassive
+/cast Dash

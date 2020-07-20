@@ -14,3 +14,15 @@ Auto Shot
 /targetenemy [noexists]
 /cancelaura Feign Death
 /use !Auto Shot
+
+
+
+Start Attacking One Button
+
+#showtooltip Auto Shot
+/cleartarget [dead][help]
+/targetenemy [noexists]
+/cast !Auto Shot
+/petattack
+/cast Dash
+/cast Dive

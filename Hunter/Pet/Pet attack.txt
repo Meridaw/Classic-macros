@@ -20,3 +20,13 @@ Pet Attack/follow/passive
 /petattack [@pettarget,noexists]
 /cast Dive
 /cast Dash
+
+
+
+Pet Attack
+
+#showtooltip
+/cleartarget [dead][help]
+/petattack [harm]
+/cast Dash
+/cast Dive

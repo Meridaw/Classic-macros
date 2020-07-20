@@ -16,3 +16,12 @@ Alternatively, the following shorter macro will attempt to enable your Auto Shot
 /targetenemy [noexists][dead][help]
 /cast Arcane Shot(rank 1)
 /cast !Auto Shot
+
+
+
+Arcane Shot
+
+#showtooltip
+/cleartarget [dead][help]
+/cast Arcane Shot
+/cast !Auto Shot

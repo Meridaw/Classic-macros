@@ -32,3 +32,12 @@ Raptor Strike
 /cast Counterattack
 /cast Mongoose Bite
 /startattack
+
+
+
+Blood Fury
+#showtooltip
+/cleartarget [dead][help]
+/cast Blood Fury
+/cast Raptor Strike
+/startattack

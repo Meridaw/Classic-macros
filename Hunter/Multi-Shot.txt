@@ -4,3 +4,12 @@ Multi-Shot
 /startattack
 /cast !Auto Shot
 /cast !Multi-Shot
+
+
+
+Multi-Shot
+
+#showtooltip
+/cleartarget [dead][help]
+/cast Multi-Shot
+/cast !Auto Shot
