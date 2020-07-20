@@ -3,3 +3,11 @@ Dismiss pet
 #showtooltip
 /cast [pet] dismiss pet
 /cast [nopet] call pet
+
+
+
+Call/Dismiss Pet
+
+#showtooltip
+
+/cast [pet] Dismiss Pet; Call Pet

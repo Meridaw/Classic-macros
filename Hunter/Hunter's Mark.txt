@@ -13,3 +13,13 @@ Hunter's Mark
 /cleartarget [dead,help]
 /targetenemy [noexists]
 /use Hunter's Mark
+
+
+
+Hunter's Mark, Petattack
+
+#showtooltip
+/targetenemy [noexists][dead][help]
+/Cast Hunter's Mark
+/cast !Auto Shot
+/Petattack 

@@ -1,15 +1,3 @@
-Revive, Call, Mend, Dismiss, Feed Pet
-
-#showtooltip 
-/cast [target=pet,dead][mod:shift] Revive Pet 
-/cast [nopet] Call Pet 
-/cast [pet,nomod,button:1] Mend Pet 
-/cast [pet,nomod,button:2] Dismiss Pet 
-/cast [pet,mod:alt] Feed Pet 
-/use [pet,mod:alt] Roasted Quail
-
-
-
 Revive, mend, and call pet
 
 #showtooltip
@@ -18,8 +6,8 @@ Revive, mend, and call pet
 
 
 
-Call/Dismiss Pet
+Revive, mend, and call pet
 
 #showtooltip
-
-/cast [pet] Dismiss Pet; Call Pet
+/castsequence [nopet] reset=3 Call Pet, Revive Pet
+/cast [@pet,dead] Revive Pet; [pet,nochanneling:Mend Pet] Mend Pet
