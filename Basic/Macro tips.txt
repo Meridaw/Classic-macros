@@ -1,7 +1,7 @@
-You can get rid of a lot of spaces in macros.
-Any space after ; , ] can safely be removed.
-/use is the same as /cast for spells.
+- You can get rid of a lot of spaces in macros. Any space after ; , ] can safely be removed.
 
+- /use is the same as /cast for spells.
 
-Just have #showtooltip
-Don't specify which ability, and it will change tooltip based on the one it will cast first (icon changes too)
+- Just have #showtooltip don't specify which ability, and it will change tooltip based on the one it will cast first (icon changes too).
+
+- If you use [] that will always use the spell because the conditions are always met.
