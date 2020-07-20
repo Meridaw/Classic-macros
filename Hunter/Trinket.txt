@@ -1,0 +1,7 @@
+Renataki's Charm of Beasts
+
+#showtooltip
+/use Renataki's Charm of Beasts
+/cast [combat] Feign Death
+/petpassive
+/equip Royal Seal of Eldre'Thalas

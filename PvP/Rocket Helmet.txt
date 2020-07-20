@@ -1,0 +1,5 @@
+Goblin Rocket Helmet
+
+#showtooltip
+/eq [nocombat]Goblin Rocket Helmet
+/use [@mouseover,harm,nodead][]Goblin Rocket Helmet

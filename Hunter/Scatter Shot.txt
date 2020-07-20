@@ -1,6 +1,7 @@
 Scatter Shot, petstay, petpassive
 
 #showtooltip Scatter Shot
+/dismount
 /petstay
 /petpassive
 /cast Scatter Shot
@@ -10,6 +11,7 @@ Scatter Shot, petstay, petpassive
 Mouseover Scatter Shot, petpassive, petfollow
 
 #showtooltip
+/dismount
 /petpassive
 /petfollow
 /cast [@mouseover, harm][] Scatter Shot

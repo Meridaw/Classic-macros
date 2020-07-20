@@ -1,4 +1,16 @@
+Auto Shot
+
 #showtooltip
 /targetenemy [noexists][dead][help]
 /cast !Auto Shot
 /startattack
+
+
+
+Auto Shot
+
+#showtooltip
+/cleartarget [dead,help]
+/targetenemy [noexists]
+/cancelaura Feign Death
+/use !Auto Shot

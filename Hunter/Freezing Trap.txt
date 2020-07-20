@@ -1,5 +1,26 @@
 Freezing Trap
 
+#showtooltip Freezing Trap
+/stopattack
+/use Freezing Trap
+/use [combat]Feign Death
+/petpassive [@pettarget,harm]
+
+
+
+Freezing Trap
+
+#showtooltip Freezing Trap
+/stopattack
+/use Freezing Trap
+/use [combat]Feign Death
+/petstay [@pettarget,harm]
+/petpassive [@pettarget,harm]
+
+
+
+Freezing Trap
+
 #showtooltip
 /cast Freezing Trap
 /cast [combat] Feign Death

@@ -15,3 +15,15 @@ Wing Clip, Counterattack
 /cast Wing Clip
 /cast Wing Clip(Rank 2)
 /cast Wing Clip(Rank 1)
+
+
+
+Mouseover Wing Clip
+
+#showtooltip
+/cleartarget [dead,help]
+/targetenemy [noexists]
+/use [@mouseover,harm][]Wing Clip
+/use [@mouseover,harm][]Wing Clip(Rank 2)
+/use [@mouseover,harm][]Wing Clip(Rank 1)
+/startattack

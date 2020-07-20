@@ -1,0 +1,5 @@
+Tidal Charm
+
+#showtooltip Tidal Charm
+/equipslot 14 Tidal Charm
+/use [@mouseover,harm][]Tidal Charm

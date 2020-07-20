@@ -1,5 +1,23 @@
-Pet Feed:
+Pet Feed
 
 #showtooltip
 /cast Feed Pet
 /use nameoffood or /use <bag> <slot>
+
+
+
+Roasted Quail
+
+#showtooltip Feed Pet
+/cast [pet,nodead] Feed Pet
+/use [pet,nodead] Roasted Quail
+
+
+
+Feed Pet
+
+#showtooltip
+/use Feed Pet
+/use [@pet,pet:Cat/Wolf]Roasted Quail
+/use [@pet,pet:Bat]Deep Fried Plantains
+/use [@pet,pet:Windserpent]Alterac Swiss;[@pet,pet:Windserpent]Conjured Cinnamon Roll

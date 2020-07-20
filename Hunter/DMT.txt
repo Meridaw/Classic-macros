@@ -1,0 +1,23 @@
+Use this and hit it when you enter bug room.
+
+/cleartarget
+/tar Guard Slip
+/tm 6
+/tar Wandering Eye of Kilrogg
+/tm 8
+
+
+
+2 macros you should have for king figtht
+
+#showtooltip
+/tar Cho'Rush the Observer
+/cast Viper Sting
+/tar King Gordok
+
+
+
+#showtooltip
+/tar Cho'Rush the Observer
+/cast Distracting Shot
+/tar King Gordok
