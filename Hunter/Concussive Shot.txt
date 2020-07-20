@@ -1,0 +1,4 @@
+Concussive Shot
+
+#showtooltip Concussive Shot
+/cast [@mouseover, harm][] Concussive Shot

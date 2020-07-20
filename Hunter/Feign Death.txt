@@ -1,0 +1,6 @@
+Feign Death
+
+#showtooltip
+/petpassive
+/petstay
+/cast [combat] Feign Death
