@@ -1,0 +1,7 @@
+Eyes of the Beast
+
+#showtooltip
+/cast Eyes of the Beast
+/cancelaura Eyes of the beast
+/petstay
+/petpassive

@@ -9,4 +9,12 @@ Eagle Eye
 
 #showtooltip
 /cleartarget
+/cast [@cursor] !Eagle Eye
+
+
+
+Eagle Eye
+
+#showtooltip
+/cleartarget
 /cast !Eagle Eye
