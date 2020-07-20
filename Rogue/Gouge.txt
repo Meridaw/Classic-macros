@@ -1,21 +1,16 @@
-Gouge & bandage
+Gouge, bandage
 
 #showtooltip Linen Bandage
 /cast Gouge
 /stopcasting
-/use [target=player] Linen Bandage
+/use [@player] Linen Bandage
 
 
 
 Mouseover Gouge
 
 #showtooltip Gouge
-/cast [@mouseover,harm,nodead][harm,nodead] Gouge
-
-
-
-#showtooltip Gouge
-/cast [@mouseover,harm,exists,nodead][@target,harm,exists,nodead] Gouge
+/cast [@mouseover, harm][] Gouge
 
 
 

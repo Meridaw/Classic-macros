@@ -1,14 +1,8 @@
 Expose Armor
 
 #showtooltip Expose Armor
-/cast [@target,harm,nodead][harm,nodead] Expose Armor
+/cast [@mouseover, harm][] Expose Armor
 
-
-#showtooltip Expose Armor
-/cleartarget [target=target,dead] 
-/cleartarget [target=target,noexists] 
-/target [target=target,noexists] 
-/cast [target=target] Expose Armor
 
 
 Expose armor without breaking Sap, Blind, or Gouge.  Easy use with Premeditation, etc.

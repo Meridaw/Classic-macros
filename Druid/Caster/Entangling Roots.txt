@@ -1,8 +1,8 @@
 Entangling Roots
 
 #showtooltip Nature's Swiftness
-/dismount [mounted]
-/cancelform [noform:5]
+/dismount 
+/cancelform 
 /stand
 /cast Nature's Swiftness
 /cast Entangling Roots
@@ -12,7 +12,15 @@ Entangling Roots
 Entangling Roots
 
 #showtooltip Entangling Roots
-/dismount [mounted]
-/cancelform [noform:5]
+/dismount 
+/cancelform 
 /stand
 /cast [@mouseover,harm,nodead][] Entangling Roots
+
+
+
+Entangling Roots
+
+#showtooltip Entangling Roots(rank 1)                                                                      
+/cancelform [@mouseover,exists,harm][exists,harm] 
+/use [@mouseover, harm][harm]Entangling Roots(rank 1)

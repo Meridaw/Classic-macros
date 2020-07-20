@@ -1,9 +1,4 @@
-#showtooltip Blind
-/cast [@mouseover,harm,exists,nodead][@target,harm,exists,nodead] Blind
-
-
-
 Mouseover Blind
 
 #showtooltip Blind
-/cast [@mouseover,harm,nodead][harm,nodead] Blind
+/cast [@mouseover, harm][] Blind  Blind

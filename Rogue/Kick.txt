@@ -1,4 +1,15 @@
 ﻿Mouseover kick and announce kick target
 
-/cast [@mouseover,harm,nodead][harm,nodead] Kick
-/gr I just interrupted %t
+/cast [@mouseover, harm][] Kick
+/y Interrupted %t
+
+
+
+Mouseover kick and announce kick target
+
+/cast [@mouseover, harm][] Kick
+/stopmacro [nogroup]
+/run local c,t=GetNumRaidMembers()>0 and "RAID" or "PARTY",UnitName("target") if t and c then SendChatMessage("Interrupted <<"..t..">>.",c) end
+
+
+

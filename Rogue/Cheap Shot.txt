@@ -10,10 +10,3 @@ Stealth, Cheap Shot
 #showtooltip
 /cast [stance:0] !Stealth
 /cast [stance:1] Cheap Shot
-
-
-
-Vanish, Cheap Shot
-
-/cast Vanish
-/cast [target=target] Cheap Shot
