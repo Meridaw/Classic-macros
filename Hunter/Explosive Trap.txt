@@ -1,0 +1,8 @@
+Explosive Trap
+
+#showtooltip
+/stopattack
+/cast Explosive Trap
+/cast [combat] Feign Death
+/petstay [@pettarget, harm]
+/petpassive [@pettarget, harm]

@@ -1,0 +1,4 @@
+Viper Sting
+
+#showtooltip
+/cast [@mouseover, harm][] Viper Sting

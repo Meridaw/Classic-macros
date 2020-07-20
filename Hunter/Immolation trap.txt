@@ -1,5 +1,13 @@
 Immolation Trap
 
+#showtooltip Immolation Trap
+/cast Immolation Trap
+/cast [combat] Feign Death
+
+
+
+Immolation Trap
+
 #showtooltip 
 /cast [button:2] Explosive Trap 
 /stopmacro [button:2] 

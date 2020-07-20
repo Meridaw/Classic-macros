@@ -1,3 +1,19 @@
 Pet Growl
 
 /cast Growl
+
+
+
+Petattack, Growl
+
+#showtooltip Growl
+/petattack [@mouseover,harm][]
+/cast Dash
+/cast Growl(Rank 4)
+
+
+
+Growl
+
+#showtooltip Growl
+/petautocasttoggle Growl
