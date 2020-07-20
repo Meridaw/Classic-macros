@@ -24,17 +24,3 @@ Raptor Strike, Wing Clip nochanneling for Ravager effect
 /cast !Raptor Strike
 /startattack
 /cast [nochanneling] Wing Clip(Rank 1)
-
-
-
-Raptor Strike
-
-#showtooltip Raptor Strike
-/cleartarget [dead,help]
-/targetenemy [noexists]
-/use [mod:shift]Blood Fury
-/stopcasting
-/use Furious Howl
-/use !Raptor Strike
-/startattack
-/use Mongoose Bite

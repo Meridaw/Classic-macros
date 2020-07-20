@@ -1,5 +1,16 @@
 Frost Trap
 
+#showtooltip Frost Trap
+/stopattack
+/cast Frost Trap
+/cast [combat] Feign Death
+/petfollow [@pettarget, harm]
+/petpassive [@pettarget, harm]
+
+
+
+Frost Trap
+
 #showtooltip 
 /cast [button:2] Frost Trap 
 /stopmacro [button:2] 

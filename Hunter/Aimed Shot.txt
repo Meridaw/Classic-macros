@@ -1,0 +1,6 @@
+Aimed Shot
+
+#showtooltip Aimed Shot
+/cleartarget [dead][help]
+/targetenemy [noexists]
+/cast Aimed Shot

@@ -1,0 +1,22 @@
+Blood Fury
+
+#showtooltip Blood Fury
+/stopcasting
+/cast Blood Fury
+/use Goblin Sapper Charge
+/cast Raptor Strike
+/startattack
+
+
+
+Raptor Strike
+
+#showtooltip Raptor Strike
+/cleartarget [dead,help]
+/targetenemy [noexists]
+/use [mod:shift]Blood Fury
+/stopcasting
+/use Furious Howl
+/use !Raptor Strike
+/startattack
+/use Mongoose Bite
