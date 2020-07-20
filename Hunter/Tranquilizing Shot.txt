@@ -1,0 +1,4 @@
+Tranquilizing Shot
+
+/y Tranquilizing Shot on %T
+/cast [@mouseover, harm][] Tranquilizing Shot

@@ -5,3 +5,16 @@ Renataki's Charm of Beasts
 /cast [combat] Feign Death
 /petpassive
 /equip Royal Seal of Eldre'Thalas
+
+
+
+Renataki's Charm of Beasts
+
+#showtooltip Feign Death
+/stopattack
+/stand
+/petpassive
+/use [combat]Renataki's Charm of Beasts
+/cast [combat]Feign Death
+/equipslot 13 Royal Seal of Eldre'Thalas
+/equipslot 14 Blackhand's Breadth
