@@ -1,2 +1,12 @@
+Intimidate
+
 #showtooltip 
 /cast Intimidate
+
+
+
+Bestial Wrath, Intimidation
+
+#showtooltip 
+/cast Bestial Wrath 
+/cast Intimidation

@@ -11,3 +11,11 @@ Aspect of the Monkey, Deterrence
 #showtooltip
 /cast Aspect of the Monkey
 /cast Deterrence
+
+
+
+Aspect of the Monkey, Raptor Strike
+
+#showtooltip Raptor Strike 
+/cast !Aspect of the Monkey
+/cast Raptor Strike

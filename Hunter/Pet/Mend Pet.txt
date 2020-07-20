@@ -1,0 +1,4 @@
+Mend Pet
+
+#showtooltip Mend Pet
+/cast [nopet] Call Pet; Mend Pet
