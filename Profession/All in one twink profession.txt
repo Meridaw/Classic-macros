@@ -1,0 +1,11 @@
+All in one twink profession macro
+
+#showtooltip
+/use [nomod]Fishing;[mod:shift]First Aid;[mod:ctrl,btn:1]Cooking;[mod:ctrl,btn2]Basic Campfire;[mod:alt,btn:1]Engineering;[mod:alt,btn2]Smelting;
+
+Default = Fishing
+Shift = First Aid
+Ctrl,Left Click= Cooking
+Ctrl, Right Click = Fire
+Alt, Left Click = Engineering
+Alt, Right = Smelting
