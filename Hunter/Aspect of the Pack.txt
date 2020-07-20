@@ -1,0 +1,4 @@
+Aspect of the Pack
+
+/cast [group] Aspect of the Pack
+/cast [nogroup] Aspect of the Cheetah

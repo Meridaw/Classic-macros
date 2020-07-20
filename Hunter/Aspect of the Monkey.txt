@@ -1,0 +1,5 @@
+Aspect of the Monkey, Deterrence
+
+#showtooltip
+/cast Aspect of the Monkey
+/cast Deterrence

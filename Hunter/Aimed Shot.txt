@@ -4,3 +4,12 @@ Aimed Shot
 /cleartarget [dead][help]
 /targetenemy [noexists]
 /cast Aimed Shot
+
+
+
+Aimed Shot
+
+#showtooltip
+/Cast Aimed Shot
+/cleartarget
+/targetlasttarget

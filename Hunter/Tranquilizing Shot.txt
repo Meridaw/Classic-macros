@@ -9,4 +9,4 @@ Tranquilizing Shot
 
 /cast [@mouseover, harm][] Tranquilizing Shot
 /stopmacro [nogroup]
-/run local c,t=GetNumRaidMembers()>0 and "RAID" or "PARTY",UnitName("target") if t and c then SendChatMessage("Tranquilizing Shot <<"..t..">>.",c) end
+/run local c,t=GetNumRaidMembers()>0 and "RAID" or "PARTY",UnitName("target") if t and c then SendChatMessage("Tranqued <<"..t..">>.",c) end
