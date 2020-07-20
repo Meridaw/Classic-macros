@@ -4,3 +4,12 @@ Mouseover Hunter's Mark
 /petpassive
 /petfollow
 /cast [@mouseover, harm][] Hunter's Mark
+
+
+
+Hunter's Mark
+
+#showtooltip
+/cleartarget [dead,help]
+/targetenemy [noexists]
+/use Hunter's Mark
