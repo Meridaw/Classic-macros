@@ -1,2 +1,11 @@
+Volley
+
 #showtooltip
 /cast [@cursor] Volley
+
+
+
+Volley, Multi-Shot
+
+#showtooltip
+/castsequence reset=60 Volley, Multi-Shot, Multi-Shot, Multi-Shot, Multi-Shot, Multi-Shot, Multi-Shot

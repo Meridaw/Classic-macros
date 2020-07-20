@@ -1,0 +1,6 @@
+Multi-Shot
+
+#showtooltip Multi-Shot
+/startattack
+/cast !Auto Shot
+/cast !Multi-Shot

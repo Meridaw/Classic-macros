@@ -1,2 +1,15 @@
+Shadowmeld
+
 #showtooltip
+/cast !Shadowmeld
+
+
+
+Feign Death, Shadowmeld 
+
+#showtooltip
+/stopattack
+/petstay
+/cast [combat] Feign Death
+/cast Enriched Manna Biscuit
 /cast !Shadowmeld

@@ -1,0 +1,6 @@
+Skull of Impending Doom
+
+#showtooltip 17
+/cancelaura Flee
+/use Skull of Impending Doom
+/use Furbolg Medicine Pouch

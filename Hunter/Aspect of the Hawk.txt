@@ -1,0 +1,5 @@
+Aspect of the Hawk
+
+#showtooltip
+/cast Aspect of the Hawk
+/cast Aspect of the Cheetah

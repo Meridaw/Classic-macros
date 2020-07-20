@@ -3,3 +3,10 @@ Consider the macro below to be a default for all of your skill shots. This examp
 #showtooltip
 /targetenemy [noexists][dead][help]
 /cast Serpent Sting
+
+
+
+Mouseover Serpent sting
+
+#showtooltip Serpent sting
+/use [@mouseover,harm,nodead][] Serpent sting

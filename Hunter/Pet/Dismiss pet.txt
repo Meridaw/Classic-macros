@@ -1,0 +1,5 @@
+Dismiss pet
+
+#showtooltip
+/cast [pet] dismiss pet
+/cast [nopet] call pet

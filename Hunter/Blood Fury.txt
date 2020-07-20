@@ -20,3 +20,15 @@ Raptor Strike
 /use !Raptor Strike
 /startattack
 /use Mongoose Bite
+
+
+
+Raptor Strike
+
+#showtooltip Raptor Strike
+/targetenemy [noexists][dead][help]
+/cast Blood Fury
+/cast Raptor Strike
+/cast Counterattack
+/cast Mongoose Bite
+/startattack
