@@ -1,4 +1,4 @@
 Mouseover Blind
 
 #showtooltip Blind
-/cast [@mouseover, harm][] Blind  Blind
+/cast [@mouseover, harm][] Blind

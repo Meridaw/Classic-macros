@@ -2,4 +2,4 @@ Discombulator Ray (Mouseover, target)
 
 #showtooltip
 /dismount
-/cast [target=mouseover,exists,harm] Discombobulator Ray; Discombobulator Ray; 
+/cast [@mouseover, harm][] Discombobulator Ray; 
