@@ -11,3 +11,5 @@
 - /stopmacro Stops the execution of the macro past this line.
 
 - /script UIErrorsFrame:Hide() Disables the red error messages “Out of range”, “Not in line of sight”, etc.
+
+- /castsequence is buggy and the macro can randomly stop working without any error popups or feedback. If this happens to you, doing /reload will fix it.
