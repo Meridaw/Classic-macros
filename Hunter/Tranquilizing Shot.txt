@@ -2,3 +2,11 @@ Tranquilizing Shot
 
 /y Tranquilizing Shot on %T
 /cast [@mouseover, harm][] Tranquilizing Shot
+
+
+
+Tranquilizing Shot
+
+/cast [@mouseover, harm][] Tranquilizing Shot
+/stopmacro [nogroup]
+/run local c,t=GetNumRaidMembers()>0 and "RAID" or "PARTY",UnitName("target") if t and c then SendChatMessage("Tranquilizing Shot <<"..t..">>.",c) end
