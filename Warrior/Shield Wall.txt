@@ -1,0 +1,4 @@
+Shield Wall
+
+/cast [nostance:2] Defensive Stance
+/cast Shield Wall

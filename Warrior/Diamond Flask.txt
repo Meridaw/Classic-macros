@@ -12,12 +12,3 @@ Regular vael castquence - start in defensive stance - takes 4 seconds to activat
 #showtooltip
 /castsequence reset=15 Berserker Stance, Diamond Flask, Bloodrage, Death Wish, Recklessness, Defensive Stance, Bloodrage
 /cancelaura Bloodrage
-
-
-Healing gear cast sequence - Start in berserker stance and healing gear equipped - takes about 5 seconds to use:
-
-#showtooltip
-/cast Bloodrage
-/castsequence reset=15 Diamond Flask, Death Wish, Recklessness, Defensive Stance
-/cancelaura Bloodrage
-/itemrack equip Vael
