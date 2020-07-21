@@ -1,3 +1,5 @@
-#showtooltip Shield BLock
+Shield Block
+
+#showtooltip Shield Block
 /startattack
 /cast [stance:2] Shield Block; Defensive Stance
