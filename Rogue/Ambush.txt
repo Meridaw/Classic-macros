@@ -20,6 +20,6 @@ Ambush, Sinister Strike
 
 #showtooltip
 /dismount
-/equipslot [stealth,equipped:One-Handed Swords] 16 Perdition's Blade
+/equipslot [stealth] 16 Perdition's Blade
 /use [stealth]Ambush;Sinister Strike
 /startattack [nostealth]
