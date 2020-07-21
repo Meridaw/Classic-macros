@@ -1,8 +1,11 @@
 Swapping to dagger in mainhand for Ambush 
 
-/equipslot 16 [stealth]Assblade;Shadowpew
-/equipslot 17 [stealth]Crualbarb;Assblade
+#showtooltip
+/dismount
+/equipslot 16 [stealth]Assassin's Blade;Shadowfang
+/equipslot 17 [stealth]Cruel Barb;Assassin's Blade
 /use [stealth]Ambush;Sinister Strike
+/startattack [nostealth]
 
 
 
