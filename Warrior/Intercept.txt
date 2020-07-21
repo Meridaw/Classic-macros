@@ -7,7 +7,15 @@ Berserker Stance, Intercept
 
 
 
-One macro mobility (not recommended, risk wasting both cooldowns if you mash key too much)
+Berserker Stance, Bloodrage, Intercept
+
+#showtooltip Intercept
+/cast [nostance:3] Berserker Stance; [stance:3] Bloodrage
+/cast [stance:3] Intercept
+
+
+
+One macro mobility
 
 #showtooltip [combat] Intercept; [nocombat] Charge
 /dismount
