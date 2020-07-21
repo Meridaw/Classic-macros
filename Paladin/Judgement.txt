@@ -5,3 +5,9 @@ Judgement
 /stand
 /startattack
 /cast Judgement
+
+
+
+Mouseover allows you to kill grounding and still keep your reckoning stacks.
+
+/use [@mouseover,harm,nodead][]Judgement
