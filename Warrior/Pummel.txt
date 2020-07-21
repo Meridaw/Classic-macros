@@ -1,4 +1,4 @@
-One macro Pummel/Shield Bash (Sield Bash if shield already equipped, otherwise Pummel from any stance because it's faster)
+One macro Pummel/Shield Bash
 
 #showtooltip [nostance:2] Pummel; Shield Bash
 /dismount
