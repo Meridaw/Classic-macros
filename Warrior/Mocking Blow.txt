@@ -12,3 +12,12 @@ Bloodrage, Mocking Blow
 /cast Battle Stance
 /cast Bloodrage
 /cast Mocking Blow
+
+
+
+Battle Stance, Mocking Blow
+
+#showtooltip Mocking Blow
+/cast [nostance:1] Battle Stance
+/cast Mocking Blow
+/startattack

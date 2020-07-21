@@ -1,3 +1,14 @@
+Fishing
+
+#showtooltip
+/stopmacro [combat]
+/equip [noworn:Fishing Pole]Nat Pagle's Extreme Angler FC-5000
+/cast [worn:Fishing Pole]Fishing
+
+
+
+Fishing silencer
+
 /run sfx=GetCVar("Sound_EnableSFX")
 /console Sound_EnableSFX 0
 /equip Nat Pagle's Extreme Angler FC-5000

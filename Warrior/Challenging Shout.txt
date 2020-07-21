@@ -1,3 +1,12 @@
+Challenging Shout
+
+#showtooltip Challenging Shout
+/use Limited Invulnerability Potion
+/cast Challenging Shout
+/startattack
+
+
+
 AoE Taunt with LIP if press any modifier to save a dire situation 
 
 #showtooltip Challenging Shout

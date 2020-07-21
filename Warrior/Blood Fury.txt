@@ -1,4 +1,14 @@
-Recklessness
+Blood Fury, Recklessness
 
 #showtooltip Recklessness
 /castsequence Blood Fury(Racial), Recklessness
+
+
+
+Blood Fury, Death Wish
+
+#showtooltip
+/dismount
+/cast Death Wish
+/cast Blood Fury(Racial)
+/startattack

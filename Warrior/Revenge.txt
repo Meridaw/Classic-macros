@@ -4,3 +4,11 @@ Use Revenge, then cancel the 5 seconds Defensive State buff
 /startattack
 /cast Revenge
 /cancelaura Defensive State
+
+
+
+Shield Block
+
+#showtooltip
+/use Shield Block
+/use Revenge
