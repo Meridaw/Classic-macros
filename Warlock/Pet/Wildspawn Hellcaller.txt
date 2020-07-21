@@ -1,3 +1,18 @@
+Wildspawn Hellcaller
+
 /petpassive
 /petstay
 /cast [pet: Wildspawn Hellcaller] Rain of Fire
+
+
+
+Enslaves demon, toggles fireball, casts rain of fire, marks target (for bosses), and lets you reset dungeon
+
+/cast [nopet: Wildspawn Hellcaller,nomounted]enslave demon
+/petautocasttoggle Fireball
+/petpassive
+/petstay
+/cast [pet: Wildspawn Hellcaller]Rain of Fire
+/script SetRaidTarget("target", 0);
+/script SetRaidTarget("target", 8);
+/script ResetInstances()
