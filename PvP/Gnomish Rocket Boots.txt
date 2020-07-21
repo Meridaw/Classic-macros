@@ -1,0 +1,5 @@
+Gnomish Rocket Boots
+
+#showtooltip
+/use [mod:alt] 8
+/equip [mod:ctrl] Gnomish Rocket Boots; [mod:shift] Swift Boots; [nomod] Shadowcraft Boots

@@ -1,0 +1,4 @@
+For not interrupting Death Ray channels with death ray -> Eviscerate combos
+
+#showtooltip
+/cast [nochanneling] Eviscerate

@@ -1,3 +1,23 @@
-#showtooltip Backstab
+#showtooltip
+/dismount
+/cast [equipped:Daggers] Backstab; Sinister Strike
 /startattack
+
+
+
+Backstab, Renataki's Charm of Trickery
+
+#showtooltip
+/dismount
+/cast Backstab
+/use Renataki's Charm of Trickery
+
+
+
+Backstab, Thistle Tea
+
+#showtooltip
+/dismount
+/startattack
+/use [modifier] Thistle Tea
 /cast Backstab

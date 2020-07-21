@@ -5,7 +5,16 @@ Stop Attack Kidney Shot
 /stopattack
 
 
+
 Kidney shot
 
 /cast [nomod] Kidney shot
 /cast [mod:shift] kick
+
+
+
+Kidney Shot/Cheap Shot
+
+#showtooltip
+/cast [stance:0] Kidney Shot
+/cast [stance:1] Cheap Shot

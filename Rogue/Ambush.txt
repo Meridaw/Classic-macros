@@ -3,3 +3,23 @@ Swapping to dagger in mainhand for Ambush
 /equipslot 16 [stealth]Assblade;Shadowpew
 /equipslot 17 [stealth]Crualbarb;Assblade
 /use [stealth]Ambush;Sinister Strike
+
+
+
+Ambush, Sinister Strike
+
+#showtooltip
+/dismount
+/use 13
+/use [equipped:Daggers]Ambush;Sinister Strike
+/startattack [nostealth]
+
+
+
+Ambush, Sinister Strike
+
+#showtooltip
+/dismount
+/equipslot [stealth,equipped:One-Handed Swords] 16 Perdition's Blade
+/use [equipped:Daggers]Ambush;Sinister Strike
+/startattack [nostealth]

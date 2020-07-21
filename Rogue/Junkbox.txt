@@ -1,0 +1,15 @@
+Sturdy Junkbox
+
+#showtooltip Pick Lock
+/cast Pick Lock
+/use Sturdy Junkbox
+/use Sturdy Junkbox
+
+
+
+Heavy Junkbox
+
+#showtooltip Pick Lock
+/cast Pick Lock
+/use Heavy Junkbox
+/use Heavy Junkbox

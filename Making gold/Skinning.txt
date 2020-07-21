@@ -1,0 +1,4 @@
+Skinning
+
+#showtooltip Skinning
+/cast [@mouseover,dead] Skinning

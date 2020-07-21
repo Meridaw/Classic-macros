@@ -1,7 +1,19 @@
 Mouseover Throw (e.g. to destroy totems without switching)
 
-#showtooltip
+#showtooltip 18
+/dismount
+/cancelaura Stealth
 /cast [@mouseover, harm][] !Throw
+
+
+
+Shoot/Throw
+
+#showtooltip 18
+/dismount
+/cancelaura Stealth
+/cast [worn:bow] Shoot Bow; [worn:crossbow] Shoot Crossbow; [worn:gun] Shoot Gun; [worn:thrown] Throw
+
 
 
 Target of target 

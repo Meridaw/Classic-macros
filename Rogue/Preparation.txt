@@ -1,0 +1,4 @@
+Adrenaline rush/Preparation
+
+#showtooltip
+/cast [talent:Adrenaline rush] Adrenaline rush; [talent:Preparation] Preparation

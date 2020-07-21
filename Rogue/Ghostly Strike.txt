@@ -1,0 +1,7 @@
+Ghostly Strike, Thistle Tea
+
+#showtooltip
+/dismount
+/startattack
+/use [modifier] Thistle Tea
+/cast Ghostly Strike

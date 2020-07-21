@@ -1,26 +1,37 @@
-Startattack, Sinister Strike
+Sinister Strike, Thistle Tea
 
-/cast Sinister Strike
+#showtooltip
+/dismount
 /startattack
+/use [modifier] Thistle Tea
+/cast Sinister Strike
+
 
 
 Sinister Strike
 
-/cast [nomod] Sinister Strike
+#showtooltip
+/dismount
+/cast [equipped:Daggers] Backstab; Sinister Strike
 /cast [mod:shift] Eviscerate
+/startattack
+
 
 
 Start attack, Sinister strike/Riposte
 
 #showtooltip Sinister Strike
+/dismount
 /startattack
 /cast Riposte
 /cast Sinister Strike
 
 
+
 Burst
 
 #showtooltip [mod:shift] Adrenaline Rush; Sinister Strike
+/dismount
 /cast Sinister Strike
 /cast Adrenaline Rush
 /use 13

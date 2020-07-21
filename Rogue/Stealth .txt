@@ -5,6 +5,7 @@ Spammable stealth
 /cast !Stealth
 
 
+
 Spammable stealth and food
 
 #showtooltip FOOD
@@ -12,15 +13,18 @@ Spammable stealth and food
 /cast !Stealth
 
 
+
 Cancel Stealth
 
 /cancelaura stealth 
+
 
 
 Spammable Stealth w/ Cheapshot while in stealth
 
 /cast [stance:0] !Stealth
 /cast [stance:1] Cheap Shot
+
 
 
 Spammable Stealth w/ Cannibalize

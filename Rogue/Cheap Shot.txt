@@ -5,8 +5,17 @@ Cheapshot stop attack
 /stopattack
 
 
+
 Stealth, Cheap Shot
 
 #showtooltip
 /cast [stance:0] !Stealth
 /cast [stance:1] Cheap Shot
+
+
+
+Vanish, Cheap Shot
+
+#showtooltip Cheap Shot
+/cast [combat] Vanish
+/cast [stealth] Cheap Shot

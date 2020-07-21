@@ -1,5 +1,23 @@
 Hemorrhage (auto-attack)
 
-#showtooltip Hemorrhage
+#showtooltip
+/dismount
+/cast [equipped:Daggers] Backstab; Hemorrhage
 /startattack
+
+
+
+#showtooltip
+/dismount
+/cast [equipped:Daggers] Ambush; Hemorrhage
+/startattack [nostealth]
+
+
+
+Hemorrhage, Thistle Tea
+
+#showtooltip
+/dismount
+/startattack
+/use [modifier] Thistle Tea
 /cast Hemorrhage

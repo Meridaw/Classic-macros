@@ -1,0 +1,7 @@
+Limited Invulnerability Potion
+
+#showtooltip
+/target Vaelastrasz
+/use [combat] Limited Invulnerability Potion
+/startattack
+/cast Backstab

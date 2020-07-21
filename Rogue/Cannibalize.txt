@@ -1,3 +1,14 @@
+Cannibalize
+
 #showtooltip Cannibalize
 /cast [nostealth] !Cannibalize;
 /cast [nocombat] !Stealth; Vanish
+
+
+
+Cannibalize
+
+#showtooltip Cannibalize
+/cast Cannibalize;
+/use Conjured Sweet Roll; 
+/cast Stealth;
