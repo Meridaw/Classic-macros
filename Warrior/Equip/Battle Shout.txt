@@ -1,7 +1,4 @@
-Battle Shout
-
-
-1st macro
+Equip 3 pieces of Wrath, Enhanced Battle Shout
 
 /equip Helm of Wrath
 /equip Pauldrons of Wrath
@@ -9,7 +6,7 @@ Battle Shout
 /cast Battle Shout
 
 
-Second macro
+Equip DPS gear
 
 /equip Lionheart Helm
 /equip Conqueror's Spaulders
