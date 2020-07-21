@@ -1,0 +1,13 @@
+Execute in combat, else mount
+
+#showtooltip Execute
+/dismount
+/use [combat]Execute;Horn of the Swift Brown Wolf
+
+
+
+Execute, Heroic Strike
+
+#showtooltip Execute
+/cast Execute
+/cast Heroic Strike

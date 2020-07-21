@@ -1,6 +1,7 @@
 Disarm
 
 #showtooltip
+/dismount
 /cast Defensive Stance
 /cast Disarm
 
@@ -9,5 +10,6 @@ Disarm
 Defensive Stance, Disarm
 
 #showtooltip Disarm
+/dismount
 /cast [nostance:2] Defensive Stance
 /cast Disarm

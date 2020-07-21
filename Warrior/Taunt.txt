@@ -3,3 +3,11 @@ Defensive Stance, Taunt
 #showtooltip Taunt
 /cast [nostance:2] Defensive Stance
 /cast Taunt
+
+
+
+Use Nat Pagle's Broken Reel, Taunt
+
+#showtooltip Taunt
+/use Nat Pagle's Broken Reel
+/cast [nostance:2] Defensive Stance; Taunt

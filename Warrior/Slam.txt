@@ -1,0 +1,7 @@
+Slam
+
+#showtooltip Slam
+/dismount
+/stopattack
+/cast Slam
+/startattack

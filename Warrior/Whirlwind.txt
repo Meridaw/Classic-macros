@@ -1,0 +1,7 @@
+Whirlwind
+
+#showtooltip Whirlwind
+/dismount
+/cast [nostance:3] Berserker Stance
+/cast Whirlwind
+/startattack

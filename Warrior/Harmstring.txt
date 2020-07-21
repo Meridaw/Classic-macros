@@ -1,6 +1,7 @@
 Harmstring (auto-attack)
 
 #showtooltip
+/dismount
 /startattack
 /cast Hamstring
 
@@ -9,6 +10,7 @@ Harmstring (auto-attack)
 Charge, Hamstring
 
 #showtooltip
+/dismount
 /cast [stance:1][nocombat] Charge
 /cast [stance:1][combat] Hamstring
 /cast Battle Stance

@@ -1,0 +1,14 @@
+Mocking Blow
+
+#showtooltip Mocking Blow
+/cast Battle Stance
+/cast Mocking Blow
+
+
+
+Bloodrage, Mocking Blow
+
+#showtooltip Mocking Blow
+/cast Battle Stance
+/cast Bloodrage
+/cast Mocking Blow

@@ -1,0 +1,26 @@
+Bloodthirst
+
+#showtooltip Bloodthirst
+/dismount
+/startattack
+/cast Bloodthirst
+
+
+
+Heroic Strike, Bloodthirst
+
+#showtooltip Bloodthirst
+/dismount
+/cast Heroic Strike
+/startattack
+/cast Bloodthirst
+
+
+
+Bloodthirst, cancel buff
+
+#showtooltip
+/dismount
+/startattack
+/cancelaura Bloodthirst
+/cast Bloodthirst

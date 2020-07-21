@@ -1,6 +1,7 @@
 Shield Bash
 
 #showtooltip
+/dismount
 /cast Battle Stance
 /cast Shield Bash
 
@@ -9,6 +10,7 @@ Shield Bash
 Equip 1H and Shield then cast Shield Bash 
 
 #showtooltip Shield Bash
+/dismount
 /equipslot [noworn:shield] 16 name-of-your-1H
 /eq [noworn:shield] name-of-your-Shield
 /cast Shield Bash
@@ -18,6 +20,7 @@ Equip 1H and Shield then cast Shield Bash
 Equips your 1hander and shield and casts Shield Bash
 
 #showtooltip Shield Bash
+/dismount
 /equipslot 16 NameOfTheAxe
 /equipslot 17 NameOfTheShield
 /cast [stance:3] Battle Stance; Shield Bash

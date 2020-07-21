@@ -5,3 +5,24 @@ Shield Block
 /equip Weapon
 /equip Shield
 /cast Shield Block
+
+
+
+Shield Block, Defensive Stance
+
+#showtooltip Shield BLock
+/startattack
+/equipslot 17 Shieldname
+/cast [stance:2] Shield Block; Defensive Stance
+
+
+
+Shield Block, Defensive Stance
+
+#showtooltip Shield Block
+/dismount
+/stopattack [noworn:shield]
+/eq [noworn:shield] Elementium Reinforced Bulwark
+/cast Defensive Stance
+/cast Shield Block
+/startattack

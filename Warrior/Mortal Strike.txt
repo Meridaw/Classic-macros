@@ -1,5 +1,16 @@
 Mortal Strike (auto-attack)
 
 #showtooltip
+/dismount
 /startattack
 /cast Mortal Strike
+
+
+
+Mortal Strike
+
+#showtooltip
+/dismount
+/startattack
+/cast Mortal Strike
+/s Mortal Strike on %T

@@ -1,5 +1,7 @@
 Charge out of combat, Berserk Stance in combat then Intercept
 
+#showtooltip
+/dismount
 /cast [nocombat,nostance:1] Battle Stance; Charge
 /cast [combat,nostance:3] Berserker Stance; Intercept
 
@@ -7,6 +9,8 @@ Charge out of combat, Berserk Stance in combat then Intercept
 
 Startattack, Battle Stance then Charge
 
+#showtooltip
+/dismount
 /startattack
 /cast [nocombat,nostance:1] Battle Stance; Charge
 
@@ -15,5 +19,6 @@ Startattack, Battle Stance then Charge
 Battle Stance, Charge
 
 #showtooltip Charge
+/dismount
 /cast [nostance:1] Battle Stance
 /cast Charge

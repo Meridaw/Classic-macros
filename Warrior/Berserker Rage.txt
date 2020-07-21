@@ -3,3 +3,10 @@ Berserker Rage
 #showtooltip
 /cast Berserker Stance
 /cast Berserker Rage
+
+
+
+Berserker Rage
+
+#showtooltip Berserker Rage
+/cast [nostance:3]Berserker Stance;[stance:3]Berserker Rage

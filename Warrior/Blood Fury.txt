@@ -1,0 +1,4 @@
+Recklessness
+
+#showtooltip Recklessness
+/castsequence Blood Fury(Racial), Recklessness
