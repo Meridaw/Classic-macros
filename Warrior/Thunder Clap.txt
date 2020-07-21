@@ -1,0 +1,6 @@
+Thunder Clap
+
+#showtooltip Thunder Clap
+/cast [nostance:1] Battle Stance
+/cast Thunder Clap
+/cast [nostance:2] Defensive Stance

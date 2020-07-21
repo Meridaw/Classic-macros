@@ -1,0 +1,5 @@
+Battle Stance, Retaliation
+
+#showtooltip Retaliation
+/cast [nostance:1] Battle Stance
+/cast Retaliation

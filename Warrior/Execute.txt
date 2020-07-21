@@ -11,3 +11,11 @@ Execute, Heroic Strike
 #showtooltip Execute
 /cast Execute
 /cast Heroic Strike
+
+
+
+Battle Stance, Execute
+
+#showtooltip Execute
+/cast [nostance:1] Battle Stance
+/cast Execute

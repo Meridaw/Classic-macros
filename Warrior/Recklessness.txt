@@ -1,0 +1,5 @@
+Beserker Stance, Recklessness
+
+#showtooltip Recklessness
+/cast [nostance:3] Beserker Stance
+/cast Recklessness
