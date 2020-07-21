@@ -23,6 +23,6 @@ Ambush, Sinister Strike
 
 #showtooltip
 /dismount
-/equipslot [stealth] 16 Perdition's Blade
+/equipslot [stealth] 16 Perdition's Blade;Chromatically Tempered Sword
 /use [stealth]Ambush;Sinister Strike
 /startattack [nostealth]
