@@ -1,0 +1,11 @@
+Defensive Stance + 2H
+
+/cast Defensive Stance
+/equip 2hand weapon
+
+
+Defensive Stance + 1H/Shield
+
+/cast Defensive Stance
+/equip weapon
+/equip shield

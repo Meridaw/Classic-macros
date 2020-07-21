@@ -1,0 +1,14 @@
+Berserker Stance + 2H
+
+#showtooltip
+/cast Berserker Stance
+/equip 2hand weapon
+
+
+
+Berserker Stance + 1H/Shield
+
+#showtooltip
+/cast Berserker Stance
+/equip Weapon
+/equip Shield

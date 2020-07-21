@@ -1,0 +1,19 @@
+Outfitter set
+
+
+1st macro to be put on action bar, named EqWrath
+
+/equip Helm of Wrath
+/equip Pauldrons of Wrath
+/equip Legplates of Wrath
+/cast Battle Shout
+/script SetActionMacro( lastActionUsed, 'EqDPS' )
+
+
+
+Second, named EqDPS, just let it be, no need to put on the bars.
+
+/equip Lionheart Helm
+/equip Conqueror's Spaulders
+/equip Titanic Leggings
+/script SetActionMacro( lastActionUsed, 'EqWrath' )

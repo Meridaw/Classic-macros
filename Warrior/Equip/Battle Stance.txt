@@ -1,0 +1,22 @@
+Battle Stance + 2H
+
+#showtooltip
+/cast Battle Stance
+/equip 2hand weapon
+
+
+
+Battle Stance + 1H/Shield
+
+#showtooltip
+/cast Battle Stance
+/equip Weapon
+/equip Shield
+
+
+
+Battle Stance
+
+#showtooltip Battle Stance
+/equipslot [noworn:two-hand] 16 Barbaric Battle Axe of the Monkey
+/use Battle Stance

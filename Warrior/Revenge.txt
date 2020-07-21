@@ -12,3 +12,10 @@ Shield Block
 #showtooltip
 /use Shield Block
 /use Revenge
+
+
+
+Overpower/Revenge
+
+#showtooltip
+/cast [stance:1] Overpower; [stance:2] Revenge

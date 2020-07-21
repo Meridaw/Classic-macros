@@ -2,3 +2,12 @@ Mouseover Rend or target Rend
 
 #showtooltip
 /cast [@mouseover,harm,nodead][] Rend
+
+
+
+Rend
+
+#showtooltip Rend
+/startattack
+/cast [stance:3] Battle Stance
+/cast [stance:1/2] Rend

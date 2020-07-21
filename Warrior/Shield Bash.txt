@@ -12,34 +12,3 @@ Shield Bash/Pummel
 #showtooltip
 /cast [stance:1/2] Shield Bash
 /cast [stance:3] Pummel
-
-
-
-Equip 1H and Shield then cast Shield Bash 
-
-#showtooltip Shield Bash
-/dismount
-/equipslot [noworn:shield] 16 name-of-your-1H
-/eq [noworn:shield] name-of-your-Shield
-/cast Shield Bash
-
-
-
-Equips your 1hander and shield and casts Shield Bash
-
-#showtooltip Shield Bash
-/dismount
-/equipslot 16 NameOfTheAxe
-/equipslot 17 NameOfTheShield
-/cast [stance:3] Battle Stance; Shield Bash
-/startattack
-
-
-
-Equips 1hander and shield, Shield Bash/Pummel
-
-#showtooltip [stance:1/2] Shield Bash; [stance:3] Pummel
-/equip [stance:1/2] <1h name>
-/equip [stance:1/2] <shield name>
-/cast [stance:1/2] Shield Bash
-/cast [stance:3] Pummel

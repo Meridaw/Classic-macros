@@ -1,14 +1,3 @@
-One macro Pummel/Shield Bash
-
-#showtooltip [nostance:2] Pummel; Shield Bash
-/dismount
-/startattack
-/cast [noworn:shield,nostance:3] Berserker Stance
-/cast [@mouseover,harm,stance:3][stance:3] Pummel
-/cast [stance:1/2,worn:shield] Shield Bash
-
-
-
 Berserker Stance, Pummel
 
 #showtooltip
@@ -24,13 +13,3 @@ Berserker Stance, Pummel
 /dismount
 /cast [nostance:3] Berserker Stance
 /cast Pummel
-
-
-
-Shield Bash/Pummel with automatic stance change
-
-#showtooltip [worn:shield] Shield Bash;Pummel
-/dismount
-/cast [worn:shield,stance:3] Battle Stance
-/cast [noworn:shield,stance:1/2] Berserker Stance
-/cast [worn:shield] Shield Bash;Pummel

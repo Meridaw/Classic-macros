@@ -1,0 +1,15 @@
+Shield
+
+#showtooltip
+/equip weapon
+/equip shield
+
+
+
+2hand/1hand+shield/1hand+1hand
+
+#showtooltip
+/eq [noworn:two-hand,nomod] 2H
+/eq [worn:two-hand] 1H
+/eq [noworn:shield,nomod] Shield
+/equipslot [mod] 17 OH
