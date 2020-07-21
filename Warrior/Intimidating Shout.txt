@@ -3,3 +3,12 @@ Stop Attack Intimidating Shout
 #showtooltip
 /stopattack
 /cast Intimidating Shout
+
+
+
+Intimidating Shout, Heavy Runecloth Bandage
+
+#showtooltip Intimidating Shout
+/cast Intimidating Shout 
+/stopattack 
+/use [@player] Heavy Runecloth Bandage
