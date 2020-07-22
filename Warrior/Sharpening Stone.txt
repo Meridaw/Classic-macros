@@ -1,0 +1,6 @@
+Apply Sharpening Stone
+
+#showtooltip
+/use [mod:ctrl]Consecrated Sharpening Stone;[mod:shift]Dense Sharpening Stone;Elemental Sharpening Stone
+/use [button:1] 16; [button:2] 17;
+/click StaticPopup1Button1

@@ -1,0 +1,6 @@
+Apply Oil
+
+#showtooltip
+/use [mod:ctrl]Frost Oil;[mod:shift]Shadow Oil;[mod:alt]Brilliant Wizard Oil;Brilliant Mana Oil
+/use [btn:1]16;
+/click StaticPopup1Button1
