@@ -1,18 +1,18 @@
 System commands
 
-    console - Allows user to view or change global client-side options, or perform certain system commands.
-    click - Simulate a mouse click on a button.
-    disableaddons - Disables all addons and reloads the UI.
-    enableaddons - Enables all addons and reloads the UI.
-    help - Displays a help message with some basic commands.
-    logout - Logs your character out of the game, back to the character selection screen.
-    macrohelp - Displays a help message with basic information about creating and using macros.
-    played - Displays information about your character's time logged in.
-    quit - Exits the game.
-    random - Generates a random number from 1 to 100. "/random X" rolls a number from 1 to X, "/random X Y" rolls a number from X though Y.
-    reload - Reloads the User Interface.
-    script - Runs a block of LUA code.
-    stopmacro - Stop processing the current macro.
-    time - Displays the current time
-    timetest - Used for benchmarking, also shows FPS.
-    who - Shows you a list of people matching filtering options.
+console - Allows user to view or change global client-side options, or perform certain system commands.
+click - Simulate a mouse click on a button.
+disableaddons - Disables all addons and reloads the UI.
+enableaddons - Enables all addons and reloads the UI.
+help - Displays a help message with some basic commands.
+logout - Logs your character out of the game, back to the character selection screen.
+macrohelp - Displays a help message with basic information about creating and using macros.
+played - Displays information about your character's time logged in.
+quit - Exits the game.
+random - Generates a random number from 1 to 100. "/random X" rolls a number from 1 to X, "/random X Y" rolls a number from X though Y.
+reload - Reloads the User Interface.
+script - Runs a block of LUA code.
+stopmacro - Stop processing the current macro.
+time - Displays the current time
+timetest - Used for benchmarking, also shows FPS.
+who - Shows you a list of people matching filtering options.

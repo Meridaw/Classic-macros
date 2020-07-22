@@ -2,12 +2,5 @@ Interface commands
 
 These functions open a part of the Blizzard Interface
 
-    achievements - Opens the Achievements interface.
-    calendar - Opens the Calendar interface.
-    guildfinder - Opens the Guild Finder tool.
-    dungeonfinder - Opens the Dungeon Finder interface.
-    loot - Open loot history
-    macro - Opens the Macro interface.
-    raidfinder - Opens the Raid Browser.
-    share - Share to Twitter.
-    stopwatch - Opens the Stopwatch interface.
+loot - Open loot history.
+macro - Opens the Macro interface.
