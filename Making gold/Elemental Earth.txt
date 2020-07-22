@@ -2,3 +2,10 @@ Show how many Elemental Earth you got on action bar and delete Lifeless Stone
 
 #showtooltip Elemental Earth
 /run local items={[4784]=true}for b=0,4,1 do for s =1,32,1 do local id=select(10,GetContainerItemInfo(b,s)) if items[id] then PickupContainerItem(b,s) DeleteCursorItem() end end end
+
+
+
+Show how many Elemental Fire you got on action bar and delete Burning Charm/Coal
+
+#showtooltip Elemental Fire
+/run local items={[3857]=true,[4479]=true}for b=0,4,1 do for s =1,32,1 do local id=select(10,GetContainerItemInfo(b,s)) if items[id] then PickupContainerItem(b,s) DeleteCursorItem() end end end
