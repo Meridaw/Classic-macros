@@ -1,0 +1,14 @@
+Buy 100 Wild Thornroot and display how many Wild Thornroot you got on action bar
+
+#showtooltip Wild Thornroot
+/run local function buy (n,q) for i=1,100 do if n==GetMerchantItemInfo(i) then BuyMerchantItem(i,q) end end end buy ("Wild Thornroot",100);
+
+
+
+Buy 20 Ironwood Seed and display how many Ironwood Seed you got on action bar
+
+#showtooltip Ironwood Seed
+/run local function buy (n,q) for i=1,100 do if n==GetMerchantItemInfo(i) then BuyMerchantItem(i,q) end end end buy ("Ironwood Seed",20);
+
+
+
