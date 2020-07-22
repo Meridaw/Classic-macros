@@ -1,15 +1,17 @@
-- You can get rid of a lot of spaces in macros. Any space after ; , ] can safely be removed.
+You can get rid of a lot of spaces in macros. Any space after ; , ] can safely be removed.
 
-- /use is the same as /cast for spells.
+/use is the same as /cast for spells.
 
-- Just have #showtooltip don't specify which ability, and it will change tooltip based on the one it will cast first (icon changes too).
+Just have #showtooltip don't specify which ability, and it will change tooltip based on the one it will cast first (icon changes too).
 
-- If you use [] that will always use the spell because the conditions are always met.
+If you use [] that will always use the spell because the conditions are always met.
 
-- Macro editing window can be brought up by typing /m in the chat window.
+Macro editing window can be brought up by typing /m in the chat window.
 
-- /stopmacro Stops the execution of the macro past this line.
+/stopmacro Stops the execution of the macro past this line.
 
-- /script UIErrorsFrame:Hide() Disables the red error messages “Out of range”, “Not in line of sight”, etc.
+/script UIErrorsFrame:Hide() Disables the red error messages “Out of range”, “Not in line of sight”, etc.
 
-- /castsequence is buggy and the macro can randomly stop working without any error popups or feedback. If this happens to you, doing /reload will fix it.
+/castsequence is buggy and the macro can randomly stop working without any error popups or feedback. If this happens to you, doing /reload will fix it.
+
+Shift clicking the item with the cursor in the macro window will paste the exact name there for you, so no worries with spelling errors.
