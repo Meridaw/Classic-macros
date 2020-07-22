@@ -1,0 +1,4 @@
+Buy 100 Sacred Candle and display how many Sacred Candle you got on action bar
+
+#showtooltip Sacred Candle
+/run local function buy (n,q) for i=1,100 do if n==GetMerchantItemInfo(i) then BuyMerchantItem(i,q) end end end buy ("Sacred Candle",100);
