@@ -1,19 +1,17 @@
 Party and Raid commands
 
-    clearworldmarker - Clears world markers
-    invite - Invites a player to your party or raid.
-    ffa - Sets the loot method for your raid/party to Free-For-All.
-    group - Sets the loot method for your raid/party to Group Loot.
-    master - Sets the loot method for your raid/party to Master Loot.
-    mainassist - Set the main assist.
-    mainassistoff - Clears the current Main Assist.
-    maintank - Set the main tank.
-    maintankoff - Clears the current Main Tank.
-    promote - Promotes the given member to Party or Raid leader.
-    raidinfo - Shows you what instances you are saved to, along with the Instance ID.
-    readycheck - Performs a ready check in your raid or party.
-    requestinvite - Request to be invited to the specified group.
-    targetmarker - Sets or clears a target marker from your current target.
-    threshold - Sets the loot threshold to apply loot rules.
-    uninvite - Removes a player from your current party or raid.
-    worldmarker - Allows placement of world markers.
+invite - Invites a player to your party or raid.
+ffa - Sets the loot method for your raid/party to Free-For-All.
+group - Sets the loot method for your raid/party to Group Loot.
+master - Sets the loot method for your raid/party to Master Loot.
+mainassist - Set the main assist.
+mainassistoff - Clears the current Main Assist.
+maintank - Set the main tank.
+maintankoff - Clears the current Main Tank.
+promote - Promotes the given member to Party or Raid leader.
+raidinfo - Shows you what instances you are saved to, along with the Instance ID.
+readycheck - Performs a ready check in your raid or party.
+requestinvite - Request to be invited to the specified group.
+targetmarker - Sets or clears a target marker from your current target.
+threshold - Sets the loot threshold to apply loot rules.
+uninvite - Removes a player from your current party or raid.

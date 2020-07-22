@@ -12,10 +12,10 @@ Performs the specified actions in order.
 
 Contents
 
-    1 Usage
-    2 Arguments
-    3 Details
-    4 Examples
+1 Usage
+2 Arguments
+3 Details
+4 Examples
 
 
 
@@ -28,17 +28,17 @@ This command accepts secure command options. The value associated with the first
 Arguments
 
 reset=condition
-    If you wish to specify a condition to reset the list, you may do so here. Format is "reset=" followed by the reset condition, more than one condition may be set. When using more than one condition, "/" should be used between the functions.
+If you wish to specify a condition to reset the list, you may do so here. Format is "reset=" followed by the reset condition, more than one condition may be set. When using more than one condition, "/" should be used between the functions.
 
-        <number> - The number of seconds since the command was last executed with these parameters
-        target - You changed target
-        combat - You entered or exited combat
-        alt - Alt was pressed
-        shift - Shift was pressed
-        ctrl - Ctrl was pressed
+<number> - The number of seconds since the command was last executed with these parameters
+target - You changed target
+combat - You entered or exited combat
+alt - Alt was pressed
+shift - Shift was pressed
+ctrl - Ctrl was pressed
 
 action1, action2, ...
-    A comma-separated list of actions to perform in sequence. You may use any way of specifying an action accepted by /cast here, including spell names and item names.
+A comma-separated list of actions to perform in sequence. You may use any way of specifying an action accepted by /cast here, including spell names and item names.
 
 
 
@@ -54,13 +54,19 @@ This will cast Blessing of Might, followed by Seal of Insight:
 
 /castsequence Blessing of Might, Seal of Insight
 
+
+
 This will cast Hunter's Mark, followed by Aimed Shot, and will reset to Hunter's Mark if the player changes targets after casting it:
 
 /castsequence reset=target Hunter's Mark, Aimed Shot
 
+
+
 This will cast Exorcism, Crusader Strike, Crusader Strike, Crusader Strike, Shield of the Righteous and will reset back to Crusader Strike after leaving combat or 10 seconds after the last click (note: this will not skip Shield of the Righteous if you don't have any Holy Power):
 
 /castsequence reset=combat/10 Exorcism, Crusader Strike, Crusader Strike, Crusader Strike, Shield of the Righteous
+
+
 
 This will use the first sequence in a raid with a living, harmable focustarget and the second sequence elsewhere:
 

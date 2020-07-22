@@ -2,18 +2,18 @@ Combat commands
 
 These functions pertain to combat
 
-    cancelaura - Cancels (turns off) an aura you have.
-    cancelqueuedspell - Cancels casting of the spell you have in the queue.
-    cancelform - Cancels your current shapeshift form.
-    cast - Uses the given item or casts the given spell.
-    castrandom - Casts a random spell or uses a random item from the given list.
-    castsequence - Casts the given spells in sequential order.
-    changeactionbar - Changes your current action bar page.
-    startattack - Turns on auto-attack.
-    stopattack - Turns off auto-attack.
-    stopcasting - Stops casting or channeling.
-    stopspelltarget - Cancel the spell or ability currently being targetted.
-    swapactionbar - Swaps between two given action bars.
-    use - Use an item or cast a spell.
-    usetoy - Use a toy.
-    userandom - Casts a random spell or uses a random item from the given list.
+cancelaura - Cancels (turns off) an aura you have.
+cancelqueuedspell - Cancels casting of the spell you have in the queue.
+cancelform - Cancels your current shapeshift form.
+cast - Uses the given item or casts the given spell.
+castrandom - Casts a random spell or uses a random item from the given list.
+castsequence - Casts the given spells in sequential order.
+changeactionbar - Changes your current action bar page.
+startattack - Turns on auto-attack.
+stopattack - Turns off auto-attack.
+stopcasting - Stops casting or channeling.
+stopspelltarget - Cancel the spell or ability currently being targetted.
+swapactionbar - Swaps between two given action bars.
+use - Use an item or cast a spell.
+usetoy - Use a toy.
+userandom - Casts a random spell or uses a random item from the given list.
