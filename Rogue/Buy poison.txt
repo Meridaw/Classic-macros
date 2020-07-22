@@ -1,1 +1,3 @@
-/script local function Buy(n, m) local q = GetItemCount(n); if q < m then for i = 1,100 do if n == GetMerchantItemInfo(i) then BuyMerchantItem(i,m-q); end end end end Buy("Instant Poison VI",20)
+This will buy 20 Dust of Deterioration
+
+/script local function Buy(n, m) local q = GetItemCount(n); if q < m then for i = 1,100 do if n == GetMerchantItemInfo(i) then BuyMerchantItem(i,m-q); end end end end Buy("Dust of Deterioration",20)
