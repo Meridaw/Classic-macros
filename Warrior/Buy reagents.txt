@@ -1,0 +1,13 @@
+Buy 200 Ice Threaded Arrow and display how many Ice Threaded Arrow you got on action bar
+
+#showtooltip Ice Threaded Arrow
+/run local function buy (n,q) for i=1,100 do if n==GetMerchantItemInfo(i) then BuyMerchantItem(i,q) end end end buy ("Ice Threaded Arrow",200);
+
+
+
+Buy 20 Blessed Sunfruit and display how many Blessed Sunfruit you got on action bar
+
+#showtooltip Blessed Sunfruit
+/run local function buy (n,q) for i=1,100 do if n==GetMerchantItemInfo(i) then BuyMerchantItem(i,q) end end end buy ("Blessed Sunfruit",20);
+
+
