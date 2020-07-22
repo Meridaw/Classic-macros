@@ -1,3 +1,12 @@
+Buy 100 Alterac Manna Biscuit and display how many Alterac Manna Biscuit you got on action bar
+
+#showtooltip Alterac Manna Biscuit
+/run local function buy (n,q) for i=1,100 do if n==GetMerchantItemInfo(i) then BuyMerchantItem(i,q) end end end buy ("Alterac Manna Biscuit",100);
+
+
+
+BuyMerchantItem
+
 /run BuyMerchantItem(x,y)
 
 y = amount x = slot

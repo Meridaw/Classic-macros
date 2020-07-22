@@ -1,0 +1,4 @@
+Buy 5 Ankh and display how many Ankh you got on action bar
+
+#showtooltip Ankh
+/run local function buy (n,q) for i=1,100 do if n==GetMerchantItemInfo(i) then BuyMerchantItem(i,q) end end end buy ("Ankh",5);
