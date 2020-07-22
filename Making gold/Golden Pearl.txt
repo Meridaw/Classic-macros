@@ -1,0 +1,12 @@
+Open Big-mouth Clam and delete Zesty Clam Meat/Moonberry Juice/Fish Oil/Raw Spotted Yellowtail/Turtle Meat
+
+/use Big-mouth Clam
+/run local items={[1645]=true,[4603]=true,[3712]=true,[17058]=true,[7974]=true}for b=0,4,1 do for s =1,32,1 do local id=select(10,GetContainerItemInfo(b,s)) if items[id] then PickupContainerItem(b,s) DeleteCursorItem() end end end
+
+
+
+Zesty Clam Meat = 7974
+Fish Oil = 17058
+Moonberry Juice = 1645
+Raw Spotted Yellowtail = 4603
+Turtle Meat = 3712
