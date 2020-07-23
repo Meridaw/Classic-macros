@@ -1,4 +1,4 @@
 Cast max rank when you press, rank1 when you also press control (can be changed to shift/alt). 
 
 #showtooltip
-/cast [mod:ctrl]Fireball(Rank 1);Fireball
+/cast [mod:ctrl]Fireball(Rank 1);[@targettarget,harm,nodead][]Fireball
