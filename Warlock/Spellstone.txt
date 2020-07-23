@@ -1,0 +1,18 @@
+Major Spellstone
+
+#showtooltip
+/use [equipped:Off hand]Major Spellstone
+/equipslot [equipped:Two-Hand]16 Azuresong Mageblade
+/equipslot [equipped:Two-Hand]17 Major Spellstone
+/equipslot [noequipped:Off hand]16 Staff of the Shadow Flame
+
+
+
+Create Spellstone/use Major Spellstone
+
+#showtooltip
+/cast [mod:shift]Create Spellstone (Major)
+/use [equipped:Off hand]Major Spellstone
+/equipslot [equipped:Two-Hand]16 Azuresong Mageblade
+/equipslot [equipped:Two-Hand]17 Major Spellstone
+/equipslot [noequipped:Off hand]16 Staff of the Shadow Flame
