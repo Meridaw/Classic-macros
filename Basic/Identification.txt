@@ -1,9 +1,9 @@
-Mouseover action bar button to get the ID
+Mouseover action bar button and use this to get the ID
 
 /run local a=GetMouseFocus()message(ActionButton_GetPagedID(a))
 
 
-Here you can see where the actionID slots in your actionbars are:
+ActionID slots on your actionbars:
 
 ActionBar page 1: slots 1 to 12
 ActionBar page 2: slots 13 to 24
@@ -21,7 +21,8 @@ Slots in bags are numbered like this:
 9 10 .... etc
 
 
-Use to find bag slot ID:
+
+Use this to find bag slot ID:
 
 /run print(GetMouseFocus():GetParent():GetID()..", "..GetMouseFocus():GetID())
 
