@@ -7,7 +7,3 @@ Group loot set to white items
 Masterlooter
 
 /script SetLootMethod("master","yourname",0)
-
-
-
-Use simple addon for your alt to automatically click 'need' 
