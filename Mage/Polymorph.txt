@@ -3,7 +3,8 @@ Polymorph
 #showtooltip Polymorph
 /dismount
 /stand
-/cast Polymorph
+/cast [@mouseover, harm][] Polymorph
+
 
 
 Quickly sheep mind controlled players (ZG/AQ)
@@ -15,6 +16,7 @@ Quickly sheep mind controlled players (ZG/AQ)
 /targetpreviousenemy
 
 
+
 Quickly Turtle mind controlled players (ZG/AQ)
 
 /stopcasting
@@ -23,23 +25,10 @@ Quickly Turtle mind controlled players (ZG/AQ)
 /targetlasttarget
 
 
-Cast polymorph (rank 1) on current target, or mouseover if shift key
-
-#showtooltip
-/cast [mod:shift,@mouseover,exists,harm,nodead] Polymorph(Rank 1);[exists,harm,nodead]Polymorph(Rank 1)
-
 
 Moon Icon + Polymorph Mouseover 
 
 #showtooltip
 /stopcasting
 /script SetRaidTarget("mouseover", 5);
-/cast [target=mouseover] Polymorph
-
-
-Mouseover Polymorph
-
-#showtooltip 
-/dismount
-/stand
-/cast [@mouseover,harm,nodead] [@target] Polymorph
+/cast [@mouseover, harm][] Polymorph
