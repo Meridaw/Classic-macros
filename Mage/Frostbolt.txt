@@ -1,9 +1,9 @@
-Frostbolt (max rank if no modifiers are pressed, Rank 1 if CTRL is pressed)
+Frostbolt max rank if no modifiers are pressed, Rank 1 if alt is pressed
 
 #showtooltip
 /dismount
 /stand
-/cast [mod:ctrl] Frostbolt(Rank 1); Frostbolt
+/cast [mod:alt] Frostbolt(Rank 1);[@targettarget,harm,nodead][] Frostbolt
 
 
 

@@ -1,4 +1,14 @@
 Mouseover Blind
 
 #showtooltip Blind
+/dismount
 /cast [@mouseover, harm][] Blind
+
+
+
+#showtooltip blind
+/dismount
+/cast blind
+/stopattack
+/stopcasting
+/p I just Blinded %t, don't break it!

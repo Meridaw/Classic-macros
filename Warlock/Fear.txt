@@ -1,2 +1,4 @@
 #showtooltip
-/cast [mod:shift] Howl of Terror; [nomod, @M0useover, harm, exists][] Fear
+/dismount
+/stand
+/cast [mod:shift] Howl of Terror; [nomod,@mouseover,harm,exists][] Fear

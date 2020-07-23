@@ -3,3 +3,11 @@ Create and Use Healthstone
 #showtooltip
 /use [combat] Major Healthstone
 /cast Create Healthstone (Major)
+
+
+
+Create and Use Healthstone
+
+#showtooltip
+/cast [btn:2] conjure healthstone (major)
+/use [btn:1]  major healthstone

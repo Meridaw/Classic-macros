@@ -30,5 +30,4 @@ Stopcasting, spammable wand
 /dismount
 /stand
 /stopcasting
-/cast [target=mouseover,harm] !Shoot
-/cast !Shoot
+/cast [@mouseover,harm,exists][] !Shoot

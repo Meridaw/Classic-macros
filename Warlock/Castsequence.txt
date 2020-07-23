@@ -1,17 +1,24 @@
 Dot rotation, Wand
 
+#showtooltip
+/dismount
+/stand
 /castsequence reset=target Immolate, Curse of Agony, Corruption, Shoot!
 
 
 
 DOT rotation versus non-casters
 
-#show
+#showtooltip
+/dismount
+/stand
 /castsequence reset=15/alt/target Curse of Agony, Corruption, Immolate
 
 
 
 DOT rotation versus casters
 
-#show
+#showtooltip
+/dismount
+/stand
 /castsequence reset=5/alt/target Curse of Tongues, Corruption, Immolate

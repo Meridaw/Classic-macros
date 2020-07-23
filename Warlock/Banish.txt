@@ -1,4 +1,6 @@
 Mouseover Banish
 
 #showtooltip
+/dismount
+/stand
 /cast [@mouseover, harm][] Banish
