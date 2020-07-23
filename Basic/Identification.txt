@@ -39,3 +39,9 @@ In the inventory, the slots are numbered like this:
 19______13
 9_______14
 16 17 18
+
+
+
+Use this to get the names of UI elements
+
+/script DEFAULT_CHAT_FRAME:AddMessage( GetMouseFocus():GetName() );
