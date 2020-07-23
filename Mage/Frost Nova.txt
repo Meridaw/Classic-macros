@@ -1,6 +1,7 @@
 Frost Nova
 
 #showtooltip Frost Nova
-/dismount [mounted]
+/dismount
+/stand
 /cancelaura ice block
 /cast Frost Nova(Rank 1)
