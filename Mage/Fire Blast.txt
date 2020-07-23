@@ -1,0 +1,6 @@
+Fire Blast max rank if no modifiers are pressed, Rank 1 if alt is pressed
+
+#showtooltip
+/dismount
+/stand
+/cast [mod:alt,@targettarget,harm,nodead][]Fire Blast(Rank 1);[@targettarget,harm,nodead][]Fire Blast
