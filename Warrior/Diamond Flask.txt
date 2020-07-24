@@ -12,3 +12,11 @@ Regular vael castquence - start in defensive stance - takes 4 seconds to activat
 #showtooltip
 /castsequence reset=15 Berserker Stance, Diamond Flask, Bloodrage, Death Wish, Recklessness, Defensive Stance, Bloodrage
 /cancelaura Bloodrage
+
+
+
+If your tank is in full threat gear with a TF + Mala DW, uses this macro 7s before the pull
+
+#showtooltip
+/castsequence reset=15 Berserker Stance, Diamond Flask, Bloodrage, Death Wish, Recklessness, Defensive Stance, Mighty Rage Potion, Bloodrage
+/cancelaura Bloodrage

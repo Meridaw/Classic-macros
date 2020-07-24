@@ -4,3 +4,12 @@ Skull of Impending Doom
 /cancelaura Flee
 /use Skull of Impending Doom
 /use Furbolg Medicine Pouch
+
+
+
+Changes benediction to main-hand wep+skull of impending and use it if already equipped on left click, and change 1h+skull to benediction on right click
+
+#showtooltip Skull of Impending Doom
+/equipslot [button:1] 16 Jin'do's Hexxer; 16 Benediction
+/equipslot [button:1] 17 Skull of Impending Doom
+/use [button:1] Skull of Impending Doom
