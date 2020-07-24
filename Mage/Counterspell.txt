@@ -3,7 +3,7 @@ Fast counterspell
 #showtooltip Counterspell
 /stopcasting
 /cancelaura Ice Block
-/cast [nomod, @mouseover, harm, exists, nodead] Counterspell
+/cast [@mouseover, harm, exists, nodead] Counterspell
 
 
 
@@ -11,4 +11,4 @@ Stopcasting, Cancelaura Ice Block, Counterspell
 
 /stopcasting
 /cancelaura Ice Block
-/cast [nomod, @mouseover, harm, exists, nodead] Counterspell
+/cast [@mouseover, harm, exists, nodead] Counterspell
