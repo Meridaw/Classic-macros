@@ -2,3 +2,17 @@ Buy 100 Arcane Powder and display how many Arcane Powder you got on action bar
 
 #showtooltip Arcane Powder
 /run local function buy (n,q) for i=1,100 do if n==GetMerchantItemInfo(i) then BuyMerchantItem(i,q) end end end buy ("Arcane Powder",100);
+
+
+
+Rune of Teleportation
+
+#showtooltip Rune of Teleportation
+/run local function buy (n,q) for i=1,100 do if n==GetMerchantItemInfo(i) then BuyMerchantItem(i,q) end end end buy ("Rune of Teleportation",1);
+
+
+
+Rune of Portals
+
+#showtooltip Rune of Portals
+/run local function buy (n,q) for i=1,100 do if n==GetMerchantItemInfo(i) then BuyMerchantItem(i,q) end end end buy ("Rune of Portals",1);

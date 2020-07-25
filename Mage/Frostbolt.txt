@@ -1,3 +1,12 @@
+Frostbolt
+
+#showtooltip
+/dismount
+/stand
+/cast [@targettarget,harm,nodead][] Frostbolt
+
+
+
 Frostbolt max rank if no modifiers are pressed, Rank 1 if alt is pressed
 
 #showtooltip

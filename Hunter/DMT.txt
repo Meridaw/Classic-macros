@@ -8,7 +8,7 @@ Use this and hit it when you enter bug room.
 
 
 
-2 macros you should have for king figtht
+2 macros you should have for king fight
 
 #showtooltip
 /tar Cho'Rush the Observer
