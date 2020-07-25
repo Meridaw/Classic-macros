@@ -20,5 +20,5 @@ Zandalarian Hero Charm, Frostbolt
 
 /console SpellQueueWindow 1
 /use Zandalarian Hero Charm
-/cast Frostbolt
+/cast [@targettarget,harm,nodead][] Frostbolt
 /console SpellQueueWindow 200

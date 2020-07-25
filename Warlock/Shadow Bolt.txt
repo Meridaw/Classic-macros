@@ -12,5 +12,5 @@ Zandalarian Hero Charm, Shadow Bolt
 #showtooltip
 /console SpellQueueWindow 1
 /use Zandalarian Hero Charm
-/cast Shadow Bolt
+/cast [@targettarget,harm,nodead][] Shadow Bolt
 /console SpellQueueWindow 200
