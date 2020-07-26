@@ -1,0 +1,14 @@
+Flame Wrath
+
+#showtooltip
+/equip Flame Wrath
+/cast judgement
+/equip Lok'amir il Romathis
+/equip Elementium Reinforced Bulwark
+
+
+
+From Wisdom go Command, change weapon when you see the animation that it will hit target (means the 2 Hander will get spell damage from Lok'amir).
+After the swing if it did not trigger the effect use judgement of Command. If it did not trigger again use Seal of Righteousness.
+It should proc in ~ 3 seconds, but don't waste any swings, change weapon in the right moment, or you will have to wait 4 seconds for next swing.
+Reckoning and parry haste helps. This is the rotation that gives the best proc chance. It's not guaranteed, but you will do 5-6 attacks in 2 seconds.
