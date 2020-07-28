@@ -3,7 +3,13 @@ For leveling, I like to add the following to my Frostbolt/Fireball macros, they 
 /cleartarget [dead][help]
 /targetenemy [noexists]
 
-It will clear your current target if you’re targeting a dead enemy, or a friendly NPC/player. If you’re then not targeting anything, it will target the closest enemy. Frostbolt Example:
+
+
+It will clear your current target if you’re targeting a dead enemy, or a friendly NPC/player. 
+If you’re then not targeting anything, it will target the closest enemy. 
+
+
+Frostbolt Example:
 
 #showtooltip
 /cleartarget [dead][help]
