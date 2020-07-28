@@ -1,0 +1,10 @@
+Berserking, Frostbolt
+
+#showtooltip
+/dismount
+/stand
+/cast !Arcane Power
+/use Zandalarian Hero Charm
+/cast Berserking
+/cast [@targettarget,harm,nodead][] Frostbolt
+/cast !Arcane Power

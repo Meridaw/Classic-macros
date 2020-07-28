@@ -1,1 +1,35 @@
+Arcane Power, Frostbolt
+
+#showtooltip
+/dismount
+/stand
 /cast !Arcane Power
+/use Mind Quickening Gem
+/cast [@targettarget,harm,nodead][] Frostbolt
+/cast !Arcane Power
+
+
+
+Razorgore
+
+#showtooltip
+/cleartarget [dead][help]
+/target Razorgore
+/stopmacro [help][dead]
+/use 13
+/cast !Arcane Power
+/cast frostbolt
+/cast !Arcane Power
+
+
+
+Flamestrike
+
+#showtooltip
+/use 13
+/use 14
+/cast !Arcane Power
+/cast Presence of Mind
+/cast [@cursor] Flamestrike
+/cast !Arcane Power
+/cast Presence of Mind
