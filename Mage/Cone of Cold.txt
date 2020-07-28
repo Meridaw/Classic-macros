@@ -1,4 +1,6 @@
-Cone of Cold (casts Cone of Cold max rank if no modifiers are pressed, casts Cone of Cold Rank 1 if modifier (CTRL) is pressed)
+Cone of Cold max rank, Rank 1 if modifier (CTRL) is pressed
 
 #showtooltip
+/dismount
+/stand
 /cast [mod:ctrl]Cone of Cold(Rank 1);Cone of Cold
