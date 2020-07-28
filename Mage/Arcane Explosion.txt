@@ -1,18 +1,18 @@
-Arcane Explosion (casts Arcane Explosion Rank 1 if no modifiers are pressed, casts Arcane Explosion max rank if modifier (CTRL) is pressed)
+Arcane Explosion Rank 1 if no modifiers are pressed, max rank if modifier (CTRL) is pressed
 
 #showtooltip
 /cast [mod:ctrl]Arcane Explosion;Arcane Explosion(Rank 1)
 
 
 
-Arcane explosion:
+Arcane explosion rank 1, max rank if combat
 
 #showtooltip
 /cast [combat] Arcane Explosion; Arcane Explosion(Rank 1)
 
 
 
-Arcane Explosion rank 1, Arcane Explosion max rank
+Arcane Explosion rank 1,  max rank if combat, rank 1 if modifier (shift) is pressed
 
 #showtooltip Arcane Explosion
 /cast [mod:shift] Arcane Explosion(Rank 1); [combat] Arcane Explosion; [nocombat] Arcane Explosion(Rank1)
