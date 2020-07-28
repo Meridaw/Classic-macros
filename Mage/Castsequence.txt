@@ -1,3 +1,0 @@
-Cone of Cold, Fire Blast 
-
-/castsequence reset=3 Cone of Cold, Fire Blast
