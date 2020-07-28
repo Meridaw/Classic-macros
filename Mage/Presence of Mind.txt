@@ -25,12 +25,3 @@ Flamestrike
 /cast [@cursor] Flamestrike
 /cast !Arcane Power
 /cast Presence of Mind
-
-
-
-Stratholme Holy Water
-
-#showtooltip
-/use [@cursor] Stratholme Holy Water
-/cast Presence of Mind
-/cast [@cursor] Flamestrike

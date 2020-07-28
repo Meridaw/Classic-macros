@@ -1,0 +1,6 @@
+Stratholme Holy Water
+
+#showtooltip
+/use [@cursor] Stratholme Holy Water
+/cast Presence of Mind
+/cast [@cursor] Flamestrike
