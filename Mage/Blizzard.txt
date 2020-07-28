@@ -1,18 +1,24 @@
-Blizzard (casts Blizzard Rank 1 if no modifiers are pressed, casts Blizzard max rank if modifier (CTRL) is pressed)
+Blizzard Rank 1, max rank if modifier (CTRL) is pressed
 
 #showtooltip
+/dismount
+/stand
 /cast [mod:ctrl]!Blizzard;!Blizzard(Rank 1)
 
 
 
-Blizzard - if we’re in combat and press it, cast max rank. If we’re in combat and press it + control, cast rank 1. If we’re out of combat, cast rank 1.
+Blizzard rank 1 if nocombat, rank 1 if combat and CTRL is pressed, max rank if combat
 
 #showtooltip
+/dismount
+/stand
 /cast [nomod, combat]Blizzard;[mod:ctrl,combat]Blizzard(Rank 1); [nocombat] Blizzard(Rank 1)
 
 
 
-Cast rank 1 blizzard where you’re pointing your cursor (without having to left-click target the ground)
+Quick Blizzard rank 1
 
 #showtooltip
+/dismount
+/stand
 /cast [@cursor] Blizzard(Rank 1)
