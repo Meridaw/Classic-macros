@@ -1,0 +1,36 @@
+Frostbolt
+
+#showtooltip
+/dismount
+/stand
+/use 13
+/use 14
+/cast !Arcane Power
+/cast Presence of Mind
+/cast [@targettarget,harm,nodead][] Frostbolt
+/cast !Arcane Power
+/cast Presence of Mind
+
+
+
+Flamestrike
+
+#showtooltip
+/dismount
+/stand
+/use 13
+/use 14
+/cast !Arcane Power
+/cast Presence of Mind
+/cast [@cursor] Flamestrike
+/cast !Arcane Power
+/cast Presence of Mind
+
+
+
+Stratholme Holy Water
+
+#showtooltip
+/use [@cursor] Stratholme Holy Water
+/cast Presence of Mind
+/cast [@cursor] Flamestrike
