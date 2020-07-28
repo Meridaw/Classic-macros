@@ -1,0 +1,8 @@
+Pyroblast
+
+#showtooltip Pyroblast
+/dismount
+/stand
+/use 13
+/use 14
+/castsequence reset=179 Combustion,Pyroblast

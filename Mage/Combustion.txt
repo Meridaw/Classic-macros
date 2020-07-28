@@ -1,0 +1,21 @@
+Combustion, Pyroblast
+
+#showtooltip
+/dismount
+/stand
+/use 13
+/use 14
+/cast Combustion
+/cast [@targettarget,harm,nodead][]Pyroblast
+/cast Combustion
+
+
+
+Combustion, Pyroblast
+
+#showtooltip
+/dismount
+/stand
+/use 13
+/use 14
+/castsequence reset=179 Combustion,Pyroblast

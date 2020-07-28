@@ -10,4 +10,17 @@ Fireball
 Cast max rank when you press, rank1 when you also press control (can be changed to shift/alt). 
 
 #showtooltip
+/dismount
+/stand
 /cast [mod:ctrl]Fireball(Rank 1);[@targettarget,harm,nodead][]Fireball
+
+
+
+Fireball
+
+#showtooltip Fireball
+/dismount
+/stand
+/use 13
+/use 14
+/castsequence reset=179 Combustion,Fireball
