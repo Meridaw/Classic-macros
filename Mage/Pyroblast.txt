@@ -1,8 +1,19 @@
-Pyroblast
+Combustion,Pyroblast
 
-#showtooltip Pyroblast
+#showtooltip
 /dismount
 /stand
 /use 13
 /use 14
 /castsequence reset=179 Combustion,Pyroblast
+
+
+
+Presence of Mind, Pyroblast
+
+#showtooltip
+/dismount
+/stand
+/cast Arcane Power
+/cast Presence of Mind
+/cast [@targettarget,harm,nodead][] Pyroblast
