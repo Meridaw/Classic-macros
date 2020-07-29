@@ -31,7 +31,7 @@ Badly hurt when you activate Berserking (Frostbolt/Fireball macro on BT4Button3)
 /cancelaura Gordok Green Grog
 /cancelaura Power Word: Fortitude
 /use Demonic rune
-/cast Goblin Sapper Charge
+/use Goblin Sapper Charge
 /use Gordok Green Grog
-/cast Scroll of Stamina IV
+/use Scroll of Stamina IV
 /click BT4Button3
