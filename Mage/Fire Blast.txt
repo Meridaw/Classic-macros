@@ -13,3 +13,15 @@ Fire Blast max rank if no modifiers are pressed, Rank 1 if alt is pressed
 /dismount
 /stand
 /cast [mod:alt]Fire Blast(Rank 1);[@targettarget,harm,nodead][]Fire Blast
+
+
+
+Quick tagging
+
+#showtooltip
+/stand
+/cleartarget [dead][help]
+/target [harm, nodead] name
+/stopmacro [noexists]
+/dismount
+/cast Fire Blast

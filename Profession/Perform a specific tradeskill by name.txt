@@ -3,3 +3,19 @@ This will open the panel for the desired profession, find a skill, by name, and 
 #showtooltip Runecloth
 /cast Tailoring
 /run for i=1,GetNumTradeSkills() do if GetTradeSkillInfo(i)=="Bolt of Runecloth" then CloseTradeSkill() DoTradeSkill(i) break end end
+
+
+
+Brilliant Wizard Oil
+
+#showtooltip Brilliant Wizard Oil
+/cast Enchanting
+/run for i=1,GetNumTradeSkills() do if GetTradeSkillInfo(i)=="Brilliant Wizard Oil" then CloseTradeSkill() DoTradeSkill(i) break end end
+
+
+
+Brilliant Mana Oil
+
+#showtooltip Brilliant Mana Oil
+/cast Enchanting
+/run for i=1,GetNumTradeSkills() do if GetTradeSkillInfo(i)=="Brilliant Mana Oil" then CloseTradeSkill() DoTradeSkill(i) break end end
