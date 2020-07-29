@@ -24,7 +24,7 @@ Berserking, Fireball
 
 
 
-1st macro (Frostbolt/Fireball macro on BT4Button3)
+Badly hurt when you activate Berserking (Frostbolt/Fireball macro on BT4Button3)
 
 /cancelaura Prayer of Fortitude
 /cancelaura Stamina
