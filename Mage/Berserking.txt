@@ -21,3 +21,17 @@ Berserking, Fireball
 /use Mind Quickening Gem
 /cast [@targettarget,harm,nodead][] Fireball
 /cast Combustion
+
+
+
+1st macro (Frostbolt/Fireball macro on BT4Button3)
+
+/cancelaura Prayer of Fortitude
+/cancelaura Stamina
+/cancelaura Gordok Green Grog
+/cancelaura Power Word: Fortitude
+/use Demonic rune
+/cast Goblin Sapper Charge
+/use Gordok Green Grog
+/cast Scroll of Stamina IV
+/click BT4Button3
