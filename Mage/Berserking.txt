@@ -8,3 +8,16 @@ Berserking, Frostbolt
 /cast Berserking
 /cast [@targettarget,harm,nodead][] Frostbolt
 /cast !Arcane Power
+
+
+
+Berserking, Fireball
+
+#showtooltip
+/dismount
+/stand
+/cast Combustion
+/cast Berserking
+/use Mind Quickening Gem
+/cast [@targettarget,harm,nodead][] Fireball
+/cast Combustion
