@@ -11,7 +11,7 @@ Apply fishing pole baubles
 
 #showtooltip
 /use [mod:ctrl]Nightcrawlers;[mod:shift]Bright Baubles;[mod:alt]Aquadynamic Fish Attractor;Shiny Bauble
-/use [btn:1]16;
+/use 16
 /click StaticPopup1Button1
 
 
