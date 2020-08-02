@@ -4,3 +4,18 @@ Apply Oil
 /use [mod:ctrl]Frost Oil;[mod:shift]Shadow Oil;[mod:alt]Brilliant Mana Oil;Brilliant Wizard Oil
 /use 16
 /click StaticPopup1Button1
+
+
+
+Brilliant Wizard oil for enchanters
+
+#showtooltip
+/use item:20749
+/use 16
+/click StaticPopup1Button1
+
+
+
+20748 = Brilliant Mana Oil
+3829 = Frost Oil
+3824 = Shadow Oil

@@ -18,10 +18,10 @@ Fire Blast max rank if no modifiers are pressed, Rank 1 if alt is pressed
 
 Quick tagging
 
-#showtooltip
-/stand
+#showtooltip 
 /cleartarget [dead][help]
-/target [harm, nodead] name
-/stopmacro [noexists]
-/dismount
+/targetenemy [noexists]
+/stopmacro [dead][noexists]
 /cast Fire Blast
+/startattack
+/cast Arcane Explosion
