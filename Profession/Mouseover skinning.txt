@@ -1,0 +1,3 @@
+Mouseover skinning
+
+/cast [@mouseover,dead] Skinning
