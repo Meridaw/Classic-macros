@@ -3,6 +3,6 @@ Tag target
 #showtooltip
 /dismount
 /stand
+/targetenemy [nodead]
 /startattack
-/cast [@target]Rain of Fire (Rank 1)
 /petattack
