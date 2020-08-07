@@ -9,3 +9,11 @@ Pet attack/passive
 
 /petattack [@pettarget,noexists]
 /petpassive [@pettarget,exists][@target,noexists]
+
+
+
+Succubus
+
+/petattack
+/petautocaston Lash of Pain
+/petautocastoff Seduction

@@ -1,3 +1,4 @@
 Mouseover skinning
 
+/equip Finkle's Skinner
 /cast [@mouseover,dead] Skinning

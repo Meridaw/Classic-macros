@@ -45,3 +45,13 @@ In the inventory, the slots are numbered like this:
 Use this to get the names of UI elements
 
 /script DEFAULT_CHAT_FRAME:AddMessage( GetMouseFocus():GetName() );
+
+
+
+Run this script to get the main hand and off hand ID and enchant id
+
+/run local function id(s) return string.match(GetInventoryItemLink("player",s) or "","(item:.+:%d+)") end ChatFrame1:AddMessage("MH:"..id(16).."\nOH:"..id(17))
+
+Returns this:
+MH:item:10761:853:::::::60:::1
+OH:item:10761:854:::::::60:::1
