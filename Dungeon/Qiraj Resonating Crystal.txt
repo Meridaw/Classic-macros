@@ -1,0 +1,4 @@
+One button Mount/Qiraj Resonating Crystal (replace [Mount Name] with the name of your mount, no brackets):
+
+#showtooltip
+/use [outdoors] (normal mount); Blue/Green/Yellow/Red Resonating Crystal
