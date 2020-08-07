@@ -1,0 +1,16 @@
+1. Get two different weapon enchants on your coldrage daggers.
+2. Equip both manually and run this script to get the item ID and enchant id. This can also be found on wowhead
+/run local function id(s) return string.match(GetInventoryItemLink("player",s) or "","(item:.+:%d+)") end ChatFrame1:AddMessage("MH:"..id(16).."\nOH:"..id(17))
+
+Returns this:
+MH:item:10761:853:::::::60:::1
+OH:item:10761:854:::::::60:::1
+
+3. Create macro with the strings above
+4. Change the last two weapons to your normal DPS weapons
+5. Can remove the [] modifier all together, but if you ever put your weapons out of sync it fucks up
+
+/equipslot [modifier:shift] 16 item:10761:853:::::::60:::1
+/equipslot [modifier:shift] 17 item:10761:854:::::::60:::1
+/equipslot 16 Frostbite
+/equipslot 17 Doom's Edge
