@@ -1,0 +1,5 @@
+Brutality if bear form, ferocity if cat
+
+#showtooltip
+/equip [form:1]Idol of Brutality
+/equip [form:3]Idol of Ferocity

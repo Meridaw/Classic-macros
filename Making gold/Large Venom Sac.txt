@@ -1,0 +1,11 @@
+Delete unwanted items from level 20-30 spiders. Large venom sac is good gold from phase 5.
+
+/run local items={[2251]=true,[3174]=true,[4428]=true,[878]=true,[1081]=true}for b=0,4,1 do for s =1,32,1 do local id=select(10,GetContainerItemInfo(b,s)) if items[id] then PickupContainerItem(b,s) DeleteCursorItem() end end end
+
+
+
+Crisp Spider Meat = 1081
+Fist-sized Spinneret = 878
+Gooey Spider Leg = 2251
+Spider Ichor = 3174
+Spider Palp = 4428
