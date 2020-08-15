@@ -2,3 +2,12 @@ One button Mount/Qiraj Resonating Crystal (replace [Mount Name] with the name of
 
 #showtooltip
 /use [outdoors] (normal mount); Blue/Green/Yellow/Red Resonating Crystal
+
+
+
+One button mounting
+
+#showtooltip Swift Orange Raptor
+/use Green Qiraji Resonating Crystal
+/use Swift Orange Raptor
+/run UIErrorsFrame:Clear();
