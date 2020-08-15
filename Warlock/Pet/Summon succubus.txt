@@ -1,3 +1,9 @@
+Summon if no Succubus
+
+/cast [nopet][@pet, dead] Summon Succubus
+
+
+
 Summon Succubus / Suffering (Voidwalker) / Fire Bolt (Imp) / Lash of Pain (Succubus) / Spell Lock (Felhunter)
 
 #showtooltip

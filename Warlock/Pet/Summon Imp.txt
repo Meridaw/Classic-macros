@@ -1,3 +1,9 @@
+Summon if no Imp
+
+/cast [nopet][@pet, dead] Summon Imp
+
+
+
 Summon Imp / Consume Shadows (Vodiwalker) / Blood Pact (Imp) / Lesser Invisibility (Succubus) / Paranoia (Felhunter)
 
 #showtooltip

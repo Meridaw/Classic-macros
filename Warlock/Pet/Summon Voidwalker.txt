@@ -1,3 +1,9 @@
+Summon if no Voidwalker
+
+/cast [nopet][@pet, dead] Summon Voidwalker
+
+
+
 Summon Voidwalker / Sacrifice (Voidwalker) / Fire Shield (Imp) / Seduction (Succubus) / Devour Magic (Felhunter) 
 
 #showtooltip

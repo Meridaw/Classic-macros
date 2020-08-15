@@ -1,3 +1,9 @@
+Summon if no Felhunter
+
+/cast [nopet][@pet, dead] Summon Felhunter
+
+
+
 Summon Felhunter / Torment (Voidwalker) / Phase Shift (Imp) / Soothing Kiss (Succubus) / Tainted Blood (Felhunter)
 
 #showtooltip
