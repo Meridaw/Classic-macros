@@ -2,3 +2,19 @@ Cure Poison
 
 #showtooltip Cure Poison
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Cure Poison
+
+
+
+Feral Charge/Cure Poison
+
+#showtooltip [form:1]Feral Charge;Cure Poison
+/cast [form:1]Feral Charge;[@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Cure Poison
+
+
+
+Demoralizing Roar/self Cure Poison
+
+Demoralizing Roar;Cure Poison
+
+#showtooltip [form:1]Demoralizing Roar;Cure Poison
+/cast [form:1]Demoralizing Roar;[@player]Cure Poison
