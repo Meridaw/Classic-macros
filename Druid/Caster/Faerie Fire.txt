@@ -1,7 +1,7 @@
 Faerie Fire
 
-#showtooltip
-/dismount [mounted]
-/cancelform [noform:5]
+#showtooltip [form:1/3] Faerie Fire(feral);Faerie Fire
+/dismount
+/cancelform
 /stand
 /cast [@targettarget, harm, form:1/3][form:1/3] Faerie Fire(feral);  [@targettarget, harm][] Faerie Fire
