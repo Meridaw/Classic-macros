@@ -5,16 +5,14 @@ Cure Poison
 
 
 
-Feral Charge/Cure Poison
+Feral Charge/Tiger's Fury/Cure Poison
 
-#showtooltip [form:1]Feral Charge;Cure Poison
-/cast [form:1]Feral Charge;[@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Cure Poison
+#showtooltip [form:1]Feral Charge;[form:3]Tiger's Fury;Cure Poison
+/cast [form:1]Feral Charge;[form:3]Tiger's Fury;[@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Cure Poison
 
 
 
-Demoralizing Roar/self Cure Poison
+Demoralizing Roar/Ferocious Bite/self Cure Poison
 
-Demoralizing Roar;Cure Poison
-
-#showtooltip [form:1]Demoralizing Roar;Cure Poison
-/cast [form:1]Demoralizing Roar;[@player]Cure Poison
+#showtooltip [form:1]Demoralizing Roar;[form:3]Ferocious Bite;Cure Poison
+/cast [form:1]Demoralizing Roar;[form:3]Ferocious Bite;[@player]Cure Poison
