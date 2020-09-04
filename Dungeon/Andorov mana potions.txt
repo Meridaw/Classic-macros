@@ -1,0 +1,5 @@
+Bind "Interact with Target" to a key and use with this Macro
+
+#showtooltip Major Mana Potions
+/script SelectGossipOption(1)
+/run local function buy (n,q) for i=1,100 do if n==GetMerchantItemInfo(i) then BuyMerchantItem(i,q) end end end buy ("Major Mana Potion",5);

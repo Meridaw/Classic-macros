@@ -26,3 +26,11 @@ Announce resurrecting to party or raid
 /cast [help,dead] Rebirth
 /stopmacro [nogroup]
 /run local c,t=GetNumRaidMembers()>0 and "RAID" or "PARTY",UnitName("target") if t and c then SendChatMessage("Resurrecting <<"..t..">>.",c) end
+
+
+
+Whisper target, Rebirth
+
+#showtooltip
+/script local u,pi="target","Rebirth";if IsSpellInRange(pi,u)==1 and GetSpellCooldown(pi)==0 then SendChatMessage("You have "..GetSpellLink(pi).."!","WHISPER",nil,UnitName(u)) end
+/cast Rebirth
