@@ -1,0 +1,5 @@
+What this does is while the enchanting window is open, whatever enchant is selected in the window, it will enchant the current item that the mouse is placed over.
+
+/click CraftCreateButton
+/run GetMouseFocus():Click()
+/click StaticPopup1Button1

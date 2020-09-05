@@ -48,6 +48,12 @@ Use this to get the names of UI elements
 
 
 
+Print out what ever your mouse hover
+
+/script print(GetMouseFocus():GetName())
+
+
+
 Run this script to get the main hand and off hand ID and enchant id
 
 /run local function id(s) return string.match(GetInventoryItemLink("player",s) or "","(item:.+:%d+)") end ChatFrame1:AddMessage("MH:"..id(16).."\nOH:"..id(17))

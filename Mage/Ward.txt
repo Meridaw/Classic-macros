@@ -1,3 +1,13 @@
+Frostward/Fireward
+
 #Showtooltip
 /Stopcasting
 /cast [mod:shift] Frostward ; [nomod] Fireward
+
+
+
+Fire Ward, Goblin Sapper Charge
+
+#Showtooltip Goblin Sapper Charge
+/cast Fire Ward
+/use Goblin Sapper Charge

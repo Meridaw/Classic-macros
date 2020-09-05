@@ -1,0 +1,11 @@
+Flags you to PvP if you aren’t yet, then it unflags you from PvP. 
+If your PvP timer is already counting down, it won’t flag you for PvP again. This allows for your PvP timer to expire while your AoE is going on.
+
+#showtooltip
+/script local s = math.floor(GetPVPTimer()/1000); if s == 301 then SetPVP(1); else UIErrorsFrame:AddMessage("PvP Seconds: " .. s, 1, 1, 0, 53, 1); end SetPVP(false);
+/use Consecration(Rank 1);
+
+
+If at any point you want to stop AoEing to go AFK, you’ll know when you should do that. 
+It tells you how many seconds you have left in PvP mode in your error frame every time you press it! You just keep AoEing until that timer is almost out. 
+Happy defending!

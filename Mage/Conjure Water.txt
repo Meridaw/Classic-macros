@@ -2,3 +2,9 @@ Automatically conjure the highest possible water (so you won’t have to replace
 
 #showtooltip
 /cast Conjure Water
+
+
+
+Delete water if over 10 stacks
+
+/run c=0;for b=0,10 do for s=1,36 do n=GetContainerItemLink(b,s);if n and string.find(n,"Conjured Mineral Water") then c=c+1;if c>10 then PickupContainerItem(b,s);DeleteCursorItem();end;end;end;end;

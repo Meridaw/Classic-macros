@@ -1,0 +1,21 @@
+Assign a random number to a variable, e.g. /run MyVar = random(0, 9); the random function takes a start and end number and will return a random number within that range.
+
+You can have a list of things you’d like to say, such as, MyList = ["Hello", "Hey", "What's up?", "Yo!"];
+
+Where, if you call the greeting at the index in that list, you will get the greeting you’d expect. For example MyList[0] is “Hello”, MyList[1] is “Hey”, and so on…
+
+However, if you call MyList[100] or any other value that is not an index of the list, then you will get nothing returned.
+
+Using that, you should be able to do what you want to do. Here’s a more complete example to point you in the right direction:
+
+
+NOTE: I’ve used 0 through 10 for the range, so this should usually not send a message.
+
+/run randNum = random(0, 10); 
+/run myList = {"Hello","Hey","What's up?","Yo!"};
+/run SendChatMessage(myList[randNum], "SAY");
+
+
+You could also do that in 1 line, if you prefer. Also I think /script is an alias for /run or vice versa, but they seem to do the same thing:
+
+/script randNum = random(0, 10); myList = {"Hello","Hey","What's up?","Yo!"}; SendChatMessage(myList[randNum], "SAY");
