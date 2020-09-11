@@ -1,0 +1,7 @@
+Free Action Potion/Skull of Impending Doom
+
+/cancelform [noform:1]
+/cast [form:1] Dire Bear Form
+/use Free Action Potion
+/cast [noform:1] Dire Bear Form
+/use Skull of Impending Doom
