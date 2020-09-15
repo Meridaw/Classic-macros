@@ -10,6 +10,8 @@ Spammable Wand
 Spammable wand mouseover
 
 #showtooltip Shoot
+/dismount
+/stand
 /cast [@mouseover,exists,harm][] !Shoot
 
 
@@ -17,7 +19,7 @@ Spammable wand mouseover
 Dancing wand
 
 #showtooltip
-/cast Shoot
+/cast !Shoot
 /dance
 
 
@@ -25,5 +27,7 @@ Dancing wand
 Stopcasting, spammable wand
 
 #showtooltip
+/dismount
+/stand
 /stopcasting
 /cast [@mouseover,harm][] !Shoot
