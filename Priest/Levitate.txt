@@ -1,3 +1,13 @@
+Levitate
+
 #show Light feather
 /dismount
 /use Levitate
+
+
+
+Mouseover Levitate	
+
+#showtooltip 
+/dismount 
+/cast [@mouseover,help,nodead][help,nodead][@player] Levitate

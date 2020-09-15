@@ -1,0 +1,5 @@
+Inner Fire	
+
+#showtooltip 
+/dismount 
+/cast Inner Fire

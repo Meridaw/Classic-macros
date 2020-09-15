@@ -2,4 +2,12 @@ Self Fear Ward
 
 #showtooltip
 /stopcasting
-/cast [target=player] Fear Ward
+/cast [@player] Fear Ward
+
+
+
+Fear Ward	
+
+#showtooltip 
+/dismount 
+/cast [@mouseover,help,nodead][help,nodead][@player] Fear Ward

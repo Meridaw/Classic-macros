@@ -1,0 +1,12 @@
+Divine Spirit	
+
+#showtooltip 
+/dismount 
+/cast [@mouseover,help,nodead][help,nodead][@player] Divine Spirit
+
+
+
+Divine Spirit/Prayer of Spirit
+
+#showtooltip
+/cast [mod:alt,@mouseover] Prayer of Spirit; [@mouseover,exists][] Divine Spirit

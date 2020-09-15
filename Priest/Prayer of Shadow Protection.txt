@@ -1,0 +1,5 @@
+Prayer of Shadow Protection	
+
+#showtooltip 
+/dismount 
+/cast Prayer of Shadow Protection

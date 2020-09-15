@@ -10,3 +10,10 @@ Power Infusion
 
 /run SendChatMessage("You have Power Infusion!", "WHISPER", nil, GetUnitName("PLAYERTARGET"))
 /cast Power Infusion
+
+
+
+Power Infusion on yourself if no modifiers are pressed, on your current target if modifier (CTRL) is pressed
+
+#showtooltip
+/cast [modifier:ctrl,@target][@player] Power Infusion

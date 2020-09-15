@@ -1,0 +1,5 @@
+Prayer of Spirit	
+
+#showtooltip 
+/dismount 
+/cast Prayer of Spirit

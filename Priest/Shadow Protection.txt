@@ -1,0 +1,12 @@
+Shadow Protection	
+
+#showtooltip 
+/dismount 
+/cast [@mouseover,help,nodead][help,nodead][@player] Shadow Protection
+
+
+
+Shadow Protection/Prayer of Shadow Protection
+
+#showtooltip
+/cast [mod:alt,@mouseover] Prayer of Shadow Protection; [mod:ctrl,@mouseover]Shadow Protection(Rank 1);[@mouseover,exists][] Shadow Protection

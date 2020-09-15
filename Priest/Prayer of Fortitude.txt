@@ -1,0 +1,5 @@
+Prayer of Fortitude	
+
+#showtooltip 
+/dismount 
+/cast Prayer of Fortitude

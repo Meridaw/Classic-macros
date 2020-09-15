@@ -1,3 +1,32 @@
+Inner Focus, Greater Heal
+
+#showtooltip Greater Heal
+/use Hazza'rah's Charm of Healing
+/cast Inner Focus
+/cast [@mouseover,exists][] Greater Heal
+
+
+
+Inner Focus, Flash Heal
+
+#showtooltip Flash Heal
+/use Zandalarian Hero Charm
+/use Blessed Prayer Beads
+/cast Inner Focus
+/cast [@mouseover,exists][] Flash Heal
+
+
+
+Inner Focus, Prayer of Healing
+
+#showtooltip Inner Focus
+/use Zandalarian Hero Charm
+/use Blessed Prayer Beads
+/cast Inner Focus
+/cast Prayer of Healing
+
+
+
 Activate whichever of your trinkets is available, Inner Focus, if available, and then cast Greater Heal.
 
 #showtooltip Greater Heal

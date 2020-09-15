@@ -1,0 +1,19 @@
+Power Word: Fortitude
+
+#showtooltip 
+/dismount 
+/cast [@mouseover,help,nodead][help,nodead][@player] Power Word: Fortitude
+
+
+
+Power Word: Fortitude/Prayer of Fortitude
+
+#showtooltip
+/cast [mod:alt,@mouseover] Prayer of Fortitude; [@mouseover,exists][] Power Word: Fortitude
+
+
+
+Power Word: Fortitude self if modifier is pressed, else on mouseover
+
+#showtooltip Power Word: Fortitude
+/cast [modifier:alt, @player] Power Word: Fortitude [@mouseover,exists] Power Word: Fortitude
