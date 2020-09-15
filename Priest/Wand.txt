@@ -6,17 +6,11 @@ Spammable Wand
 /cast !shoot
 
 
-Spammable Wand
-
-#showtooltip
-/castsequence reset=3/target !Shoot, null
-
-
 
 Spammable wand mouseover
 
 #showtooltip Shoot
-/cast [target=mouseover,exists,harm] !Shoot; !Shoot
+/cast [@mouseover,exists,harm][] !Shoot
 
 
 
@@ -32,5 +26,4 @@ Stopcasting, spammable wand
 
 #showtooltip
 /stopcasting
-/cast [target=mouseover,harm] !Shoot
-/cast !Shoot
+/cast [@mouseover,harm][] !Shoot
