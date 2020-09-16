@@ -1,0 +1,12 @@
+Stopwatch for 30 secs
+
+/run Stopwatch_StartCountdown(0, 0, 30); Stopwatch_Play()
+
+
+
+Opens the timer
+
+/run Stopwatch_StartCountdown(0, 0, 0)
+
+
+I guess you could add ; Stopwatch_Play() to start it counting up.
