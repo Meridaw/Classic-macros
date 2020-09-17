@@ -1,4 +1,4 @@
 Enrage + autoremove
 
 /cast [form:1] Enrage
-/cancelaura Enrag
+/cancelaura Enrage

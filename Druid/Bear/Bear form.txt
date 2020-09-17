@@ -2,8 +2,6 @@ spammable Dire Bear Form
 
 #showtooltip Dire Bear Form
 /dismount
-/cancelaura predatory stirkes(Rank 3)
-/cancelaura Leader of the pack
 /cancelform [noform:1]
 /cast [noform:1] !Dire Bear Form
 

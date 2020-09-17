@@ -1,0 +1,7 @@
+0: No form
+1: Bear Form, Shadowform, Stealth, Ghost Wolf, Battle Stance
+2: Cat Form, Vanish, Defensive Stance
+3: Travel Form, Berserker Stance
+4: Moonkin Form
+Form numbers will depend on learing order I think
+Aquatic may be slotted as 2 and shift the others down 1.

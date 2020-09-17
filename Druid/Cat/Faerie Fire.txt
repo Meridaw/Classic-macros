@@ -10,7 +10,7 @@ Faerie Fire in Caster, Feral Faerie Fire in Bear/Cat:
 
 
 #showtooltip
-/cast [stance:1/2,@target,harm] Faerie Fire (Feral)(); [stance:1/2,@targettarget,harm] Faerie Fire (Feral)(); [stance:0,@target,harm] Faerie Fire; [stance:0,@targettarget,harm] Faerie Fire
+/cast [form:1/2,@target,harm] Faerie Fire (Feral)(); [form:1/2,@targettarget,harm] Faerie Fire (Feral)(); [form:0,@target,harm] Faerie Fire; [form:0,@targettarget,harm] Faerie Fire
 
 
 

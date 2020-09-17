@@ -1,35 +1,35 @@
 Cancel bear form, use Healing Potion, enter Bear form
 
-/cast [stance:1] Bear Form
-/use [stance:0] Healing Potion
-/cast [nostance:1] !Bear Form
+/cast [form:1] Bear Form
+/use [form:0] Healing Potion
+/cast [noform:1] !Bear Form
 
 
 Cancel bear form, use Greater stoneshield potion, enter Bear form
 
-/cast [stance:1] Bear Form
-/use [stance:0] Greater stoneshield potion
-/cast [nostance:1] !Bear Form
+/cast [form:1] Bear Form
+/use [form:0] Greater stoneshield potion
+/cast [noform:1] !Bear Form
 
 
 
 BearForm Sapper Charge
 
 #showtooltip Goblin Sapper Charge
-/cast [stance:1] Dire Bear Form
-/use [stance:0] Goblin Sapper Charge
-/cast [nostance:1] !Dire Bear Form
+/cast [form:1] Dire Bear Form
+/use [form:0] Goblin Sapper Charge
+/cast [noform:1] !Dire Bear Form
 
 
 
 BearForm Potion / Healthstone
 
 #showtooltip Healing Potion
-/cast [stance:1] Dire Bear Form
-/use [stance:0] Greater Healing Potion
-/use [stance:0] Healing Potion
-/use [stance:0] Lesser Healthstone
-/cast [nostance:1] !Dire Bear Form
+/cast [form:1] Dire Bear Form
+/use [form:0] Greater Healing Potion
+/use [form:0] Healing Potion
+/use [form:0] Lesser Healthstone
+/cast [noform:1] !Dire Bear Form
 
 
 
