@@ -1,20 +1,25 @@
-Faerie Fire in Caster, Feral Faerie Fire in Bear/Cat:
+Faerie Fire in Caster, Feral Faerie Fire in Bear/Cat
 
 #showtooltip
 /cast [noform, harm] Faerie Fire; [form:1/2, harm] Faerie Fire (Feral)
 
 
 
+Faerie Fire in Caster, Feral Faerie Fire rank 5 in Bear/Cat
+
 #showtooltip
 /cast [form:1] [form:3] Faerie Fire (Feral)(Rank 5); [noform] Faerie Fire
 
 
 
+Faerie Fire target/targettarget
+
 #showtooltip Faerie Fire
-/run --CastSpellByName("Faerie Fire");
-/cast [form:1/2,@target,harm] Faerie Fire (Feral)(); [form:1/2,@targettarget,harm] Faerie Fire (Feral)(); [form:0,@target,harm] Faerie Fire; [form:0,@targettarget,harm] Faerie Fire
+/cast [form:1/2,@target,harm] Faerie Fire (Feral); [form:1/2,@targettarget,harm] Faerie Fire (Feral); [form:0,@target,harm] Faerie Fire; [form:0,@targettarget,harm] Faerie Fire
 
 
+
+Rejuvenation, Faerie Fire
 
 #showtooltip
 /cancelaura [nocombat] Bear Form
