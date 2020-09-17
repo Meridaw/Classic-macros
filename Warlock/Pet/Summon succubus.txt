@@ -4,6 +4,15 @@ Summon if no Succubus
 
 
 
+Fel Domination, Summon Succubus, Demonic Sacrifice
+
+#showtooltip
+/cast [nopet] Fel Domination
+/cast [nopet] Summon Succubus
+/cast [pet] Demonic Sacrifice
+
+
+
 Summon Succubus / Suffering (Voidwalker) / Fire Bolt (Imp) / Lash of Pain (Succubus) / Spell Lock (Felhunter)
 
 #showtooltip
