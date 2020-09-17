@@ -6,5 +6,5 @@ Forms are as follows:
 3: Travel Form, Berserker Stance
 4: Moonkin Form
 
-Form numbers will depend on learing order I think.
+Form numbers will depend on learning order.
 Aquatic Form may be slotted as 2 and shift the others down 1.
