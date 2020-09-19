@@ -1,0 +1,3 @@
+Link current item on cursor, and send Custom Message in Raid
+
+/script local n,l=select(1,GameTooltip:GetItem()),select(2,GameTooltip:GetItem());SendChatMessage("who on "..l.." please ","RAID")
