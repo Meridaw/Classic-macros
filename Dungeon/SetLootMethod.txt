@@ -1,9 +1,17 @@
 Group loot set to white items
 
-/script SetLootMethod("group",0)
+/script SetLootMethod("group",1)
 
 
 
 Masterlooter
 
-/script SetLootMethod("master","yourname",0)
+/script SetLootMethod("master","yourname",1)
+
+
+
+0 grey
+1 white
+2 green
+3 blue
+4 epic
