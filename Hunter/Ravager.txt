@@ -1,0 +1,8 @@
+Spam melee attacks without interrupting Ravager procs
+
+#showtooltip Wing Clip(Rank 1)
+/stopmacro [channeling:Bladestorm]
+/cast !Cleave
+/cast !Raptor Strike
+/cast Hamstring
+/cast Wing Clip(Rank 1)
