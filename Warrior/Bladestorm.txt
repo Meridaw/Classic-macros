@@ -1,3 +1,0 @@
-/cancelaura Bladestorm
-
-use this in a macro to stop ravager proc

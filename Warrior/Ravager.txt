@@ -1,0 +1,24 @@
+Use this in a macro to stop ravager proc
+
+/cancelaura Bladestorm
+
+
+
+Ravager leveling
+
+#showtooltip Whirlwind
+/cleartarget [dead]
+/targetenemy [noharm]
+/cast [nostance:3,nochanneling]Berserker Stance;[nochanneling]Whirlwind
+/startattack
+
+
+
+Spam melee attacks without interrupting Ravager procs
+
+#showtooltip
+/stopmacro [channeling:Bladestorm]
+/cast !Cleave
+/cast !Raptor Strike
+/cast Hamstring
+/cast Wing Clip(Rank 1)
