@@ -4,6 +4,7 @@ Fel Domination -> Summon Voidwalker -> Sacrifice
 /castsequence reset=target/combat Fel Domination, Summon Voidwalker(Summon), Sacrifice
 
 
+
 Fel Domination, Summon Voidwalker, Sacrifice
 
 #showtooltip
@@ -11,3 +12,13 @@ Fel Domination, Summon Voidwalker, Sacrifice
 /cast [nopet] Summon Voidwalker
 /cast [pet] Demonic Sacrifice
 /cast [pet] Sacrifice
+
+
+
+voidwalker sacrifice, fel domination, summon succubus, demonic sacrifice
+
+#showtooltip
+/cast [pet:voidwalker]Sacrifice
+/cast [nopet]fel domination
+/cast [nopet]summon succubus
+/cast [pet:succubus]demonic sacrifice

@@ -1,0 +1,3 @@
+If you'd like to see the whole talent background without the talent buttons and stuff in the way, run this
+
+/run for i=1,16 do _G["TalentFrameTalent"..i]:Hide() _G["TalentFrameArrow"..i]:Hide() _G["TalentFrameBranch"..i]:Hide() end

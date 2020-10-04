@@ -1,7 +1,7 @@
 Buff Macro
 
 #showtooltip
-/castsequence reset=target/combat Fel Armor, Detect Invisibility, Unending Breath
+/castsequence reset=target/combat Demon Armor, Detect Invisibility, Unending Breath
 
 
 Self trash-buff cycler
