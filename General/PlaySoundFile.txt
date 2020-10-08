@@ -1,0 +1,3 @@
+plays sound file "RaidWarning" if target exist
+
+/script if UnitExists("target") then PlaySoundFile("Sound\\Interface\\RaidWarning.ogg","Master") else end

@@ -1,0 +1,10 @@
+This Macro checks whether or not you have your Insignia equipped. If not, it will try to turn into bear form and function like usual. 
+If you do have your Insignia equipped, but you are not in combat, it will just turn you into bear form too, just like usual. 
+But if you meet both conditionals of having your insignia equipped AND being in combat, it will use the Insignia right before trying to go into bear form.
+
+#showtooltip
+/dismount
+/stopcasting
+/cancelform [noform:1]
+/use [worn:Insignia of the Horde][combat] Insignia of the Horde
+/cast [noform:1] Dire Bear Form
