@@ -3,4 +3,20 @@ One button Mount/Qiraj Resonating Crystal (replace [Mount Name] with the name of
 #showtooltip
 /cancelform
 /stand
+/cancelaura Barkskin
+/cancelaura Flee
+/cancelaura Enrage
 /use [outdoors] (normal mount); Blue/Green/Yellow/Red Resonating Crystal
+
+
+
+One button mounting
+
+#showtooltip
+/cancelform
+/stand
+/cancelaura Barkskin
+/cancelaura Flee
+/cancelaura Enrage
+/use (normal mount)
+/use Blue/Green/Yellow/Red Qiraji Resonating Crystal

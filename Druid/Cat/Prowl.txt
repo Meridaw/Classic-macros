@@ -1,15 +1,9 @@
-Any form into Stealth (replace 2 with 3 if you have aquatic form):
+Cat form into Prowl
 
-/cancelform [noform:2]
-/cast [noform:2] !Cat Form
-/cast [form:2] Prowl
-
-
-
-Secure stealth macro
-
-#show Prowl
-/cast [nostealth] Prowl
+#showtooltip Prowl
+/cancelform [noform:3]
+/cancelaura [stance:3] Flee
+/cast [nostealth,stance:3] Prowl; [noform:3] Cat Form
 
 
 
