@@ -48,6 +48,13 @@ Raid Marker Targeting for Soloing
 /run if not IsInGroup() then SetRaidTarget("target", 6) end
 
 
+
+Mark 8 targets
+
+/run local s=SetRaidTarget s("target1", 1);s("target2", 2);s("target3", 3);s("target4", 4);s("target5", 5);s("target6", 6);s("target7", 7);s("target8", 8)
+
+
+
 8 = Skull
 7 = Cross
 6 = Square

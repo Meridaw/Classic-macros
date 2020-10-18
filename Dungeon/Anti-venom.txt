@@ -1,0 +1,9 @@
+Poison cleansing
+
+#showtooltip
+/stopcasting
+/use Anti-venom
+/use Heart of Noxxion
+/use Strong Anti-venom
+/use Powerful Anti-venom
+/use Elixir of Poison Resistance

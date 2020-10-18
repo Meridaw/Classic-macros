@@ -1,0 +1,12 @@
+Rupture, Garrote
+
+#showtooltip
+/cast [Stealth] Garrote
+/cast [Nostealth] Rupture
+
+
+
+Rupture, Garrote
+
+#showtooltip
+/cast [stealth]garrote;rupture

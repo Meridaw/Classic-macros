@@ -1,0 +1,10 @@
+Vanquished Tentacle
+
+/cancelform [noform:3]
+/cast [form:3] Cat Form
+/target Vanquished Tentacle
+/use Juju Power
+/use Scroll of Agility IV
+/use Juju Might
+/cast [noform:3] !Cat Form
+/targetlasttarget

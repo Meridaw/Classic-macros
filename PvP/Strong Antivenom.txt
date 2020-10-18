@@ -2,4 +2,4 @@ Strong Antivenom (mouseover, target, player)
 
 #showtooltip
 /dismount
-/use [target=mouseover,exists,help] Strong Anti-Venom; Strong Anti-Venom;
+/use [@mouseover,exists,help] Strong Anti-Venom; Strong Anti-Venom;
