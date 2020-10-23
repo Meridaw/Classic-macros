@@ -1,6 +1,7 @@
 Cat form into Prowl
 
 #showtooltip Prowl
+/dismount
 /cancelform [noform:3]
 /cancelaura [stance:3] Flee
 /cast [nostealth,stance:3] Prowl; [noform:3] Cat Form
@@ -10,17 +11,7 @@ Cat form into Prowl
 Prowl and track humanoids from any form spammable
 
 #showtooltip Prowl
+/dismount
 /cancelform [noform:3]
 /cast [noform:3] !Cat Form
 /castsequence reset=3 [form:3] !Prowl, Track Humanoids
-
-
-
-Stand, dismount, cancel form, Cat Form, Prowl
-
-#showtooltip Prowl
-/stand
-/dismount
-/cancelform [noform:3]
-/cast [noform:3] Cat Form
-/cast !Prowl

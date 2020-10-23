@@ -24,3 +24,15 @@ Entangling Roots
 #showtooltip Entangling Roots(rank 1)                                                                      
 /cancelform [@mouseover,exists,harm][exists,harm] 
 /use [@mouseover, harm][harm]Entangling Roots(rank 1)
+
+
+
+Focus like Entangling Roots for pvp (casts on mouseover without changing current target or on your lasttarget)
+
+#showtooltip
+/dismount
+/cancelform
+/cast [@mouseover,exists] Entangling Roots
+/targetlasttarget
+/cast [@target, nodead, harm] Entangling Roots 
+/targetlasttarget

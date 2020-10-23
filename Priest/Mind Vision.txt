@@ -1,0 +1,6 @@
+Mind Vision
+
+/tar eye of c'thun
+/cast mind vision
+/tar obsidian nullifier
+/cast mind vision

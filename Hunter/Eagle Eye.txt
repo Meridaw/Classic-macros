@@ -18,3 +18,12 @@ Eagle Eye
 #showtooltip
 /cleartarget
 /cast !Eagle Eye
+
+
+
+Eagle Eye Qiraji Mindslayer/Slayer pack
+
+#showtooltip
+/cast !Eagle Eye
+/tar Qiraji Slayer
+/tar Qiraji Mindslayer
