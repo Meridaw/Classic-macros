@@ -6,7 +6,7 @@ Self Innervate Macro
 
 
 
-Innervate
+Innervate then target last target
 
 #showtooltip
 /target mouseover
@@ -33,3 +33,11 @@ Innervate target, player if alt key
 /cast [mod:alt, @player][help,nodead] Innervate
 /stopmacro [mod:alt][help,dead][@target,noexist]
 /Yell Innervated %t
+
+
+
+Whispers, Innervate, cancel if spelll is on cooldown or out of range
+
+/script x="UNIT_SPELLCAST_SENT";mf=mf or CreateFrame("Frame");mf:RegisterEvent(x,function (u,t,_,s) if u=="player" and s==29166 then SendChatMessage("You've been Innervated","WHISPER",nil,UnitName(t)) end end)
+/cast Innervate
+/script mf:UnregisterEvent(x)
