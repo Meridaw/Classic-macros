@@ -1,0 +1,19 @@
+One-button kill rotation
+
+#showtooltip
+/cast [@mouseover,noharm,exists] power word: fortitude
+/cleartarget [dead]
+/targetenemy [noharm]
+/cast [modifier:alt] berserking
+/castsequence reset=8 smite, smite, !shoot
+
+
+
+Complex rotation
+
+#showtooltip
+/cast [@mouseover,noharm,exists] power word: fortitude
+/cleartarget [dead]
+/targetenemy [noharm]
+/cast [modifier:alt] berserking
+/castsequence reset=8 power word: shield, shadow word: pain, smite, smite, !shoot
