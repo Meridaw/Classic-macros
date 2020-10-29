@@ -10,6 +10,12 @@ Masterlooter
 
 
 
+Freeforall
+
+/script SetLootMethod("freeforall", "1");
+
+
+
 0 grey
 1 white
 2 green

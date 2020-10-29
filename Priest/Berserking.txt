@@ -1,3 +1,16 @@
+Berserking, Greater Heal
+
+#showtooltip
+/dismount
+/stand
+/cast [@player] !Power Infusion
+/use Hazza'rah's Charm of Healing
+/cast Berserking
+/cast [@mouseover,help,nodead][help,nodead][] Greater Heal
+/cast [@player] !Power Infusion
+
+
+
 One-button kill rotation
 
 #showtooltip
