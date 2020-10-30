@@ -1,4 +1,15 @@
+Mousover Cleanse
+
 #showtooltip Cleanse
 /dismount
 /stand
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Cleanse
+
+
+
+Mousover Cleanse target, selfcast if shift is pressed
+
+#showtooltip Cleanse
+/dismount
+/stand
+/cast [mod:shift, @player][@mouseover,help,nodead] Cleanse; Cleanse

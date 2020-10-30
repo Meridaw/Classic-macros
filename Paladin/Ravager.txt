@@ -1,0 +1,5 @@
+Ravager
+
+#Showtooltip Seal of Command
+/stopmacro [channeling:Bladestorm]
+/cast Seal of Command

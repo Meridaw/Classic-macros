@@ -11,3 +11,12 @@ Divine Shield, Heavy Runecloth Bandage
 /cast Divine Shield
 /stopcasting
 /use [@player] Heavy Runecloth Bandage
+
+
+
+Divine Shield / Cancel / Hearthstone
+
+#showtooltip Divine Shield
+/cast [nomod] Divine Shield
+/cancelaura [mod:shift] Divine Shield
+/use [mod:ctrl] Hearthstone
