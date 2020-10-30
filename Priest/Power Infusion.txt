@@ -6,14 +6,41 @@ Mouseover Power Infusion
 
 
 
-Power Infusion
+Announce Power Infusion to raid channel and whisper
 
+#showtooltip Power Infusion
+/use [@mouseover,help][@player] Power Infusion
+/run SendChatMessage("Innervate on > you","WHISPER",nil,GetUnitName("mouseover",1))
+/run  SendChatMessage(strjoin("","Power Infused ",GetUnitName("mouseover",1)) ,"RAID",nil,nil)
+
+
+
+Announce Power Infusion to channel 5
+
+#showtooltip Power Infusion
+/stopcasting
+/cast [@mouseover, help, nodead][@player] Power Infusion
+/run local n = UnitIsPlayer("mouseover") and UnitName("mouseover") if n then SendChatMessage(format("Power Infused %s", n),"CHANNEL",nil,5) end
+
+
+
+Power Infusion on yourself if no modifiers are pressed, on your target if modifier (CTRL) is pressed
+
+#showtooltip Power Infusion
+/cast [modifier:ctrl,@target][@player] Power Infusion
+
+
+
+Power Infusion and whisper target
+
+#showtooltip Power Infusion
 /run SendChatMessage("You have Power Infusion!", "WHISPER", nil, GetUnitName("PLAYERTARGET"))
 /cast Power Infusion
 
 
 
-Power Infusion on yourself if no modifiers are pressed, on your current target if modifier (CTRL) is pressed
+Power Infusion and whisper target
 
-#showtooltip
-/cast [modifier:ctrl,@target][@player] Power Infusion
+#showtooltip Power Infusion
+/cast [@mouseover,help] Power Infusion; [help] Power Infusion; Power Infusion
+/run if UnitExists"target" then SendChatMessage("Power Infused! PEW! PEW!","WHISPER",nil,UnitName"target") end

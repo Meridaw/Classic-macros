@@ -4,3 +4,12 @@ Blessing of Protection
 /dismount
 /stand
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Blessing of Protection
+
+
+
+Blessing of Protection and whisper target
+
+#showtooltip Blessing of Protection
+/stopcasting
+/cast [@mouseover, help, nodead][@player] Blessing of Protection 
+/run local n = UnitIsPlayer("mouseover") and UnitName("mouseover") if n then SendChatMessage("Bop!","WHISPER",nil,n) end
