@@ -8,9 +8,17 @@ Divine Shield, Hearthstone
 
 Divine Shield, Heavy Runecloth Bandage
 
+#showtooltip Divine Shield
 /cast Divine Shield
 /stopcasting
 /use [@player] Heavy Runecloth Bandage
+
+
+
+Divine Shield, Holy Light
+
+#showtooltip Divine Shield
+/castsequence reset=300 Divine Shield, [@player] Holy Light
 
 
 
@@ -20,3 +28,11 @@ Divine Shield / Cancel / Hearthstone
 /cast [nomod] Divine Shield
 /cancelaura [mod:shift] Divine Shield
 /use [mod:ctrl] Hearthstone
+
+
+
+Cast / cancel Divine Shield
+
+#showtooltip Divine Shield
+/cast Divine Shield 
+/cancelaura Divine Shield 
