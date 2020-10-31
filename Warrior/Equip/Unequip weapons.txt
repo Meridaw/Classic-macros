@@ -1,7 +1,5 @@
 Unequip weapons to not suffer repair costs
 
 /run PickupInventoryItem(16) PutItemInBackpack()
-
 /run PickupInventoryItem(17) PutItemInBackpack()
-
 /run PickupInventoryItem(18) PutItemInBackpack()

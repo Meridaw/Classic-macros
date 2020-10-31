@@ -1,0 +1,16 @@
+Two-hand
+
+#showtooltip
+/startattack
+/dismount
+/equipslot [noworn:two-hand] 16 name-of-your-2H
+
+
+
+Main hand / off hand
+
+#showtooltip
+/startattack
+/dismount
+/equipslot 16 name-of-your-1H
+/equipslot 17 name-of-your-OH

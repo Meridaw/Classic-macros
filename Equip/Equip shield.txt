@@ -1,0 +1,33 @@
+1hand+shield
+
+#showtooltip
+/startattack
+/dismount
+/equipslot 16 name-of-your-1H
+/equipslot 17 name-of-your-Shield
+
+
+
+2hand/1hand+shield/1hand+1hand
+
+#showtooltip
+/eq [noworn:two-hand,nomod] name-of-your-2H
+/eq [worn:two-hand] name-of-your-1H
+/eq [noworn:shield,nomod] name-of-your-Shield
+/equipslot [mod] 17 name-of-your-OH
+
+
+
+1hand+shield
+
+#showtooltip
+/eq [noworn:shield] name-of-your-1H
+/eq [noworn:shield] name-of-your-Shield
+
+
+
+1hand+shield
+
+#showtooltip
+/equipslot [noworn:shield] 16 name-of-your-1H
+/eq [noworn:shield] name-of-your-Shield

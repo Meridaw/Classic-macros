@@ -1,0 +1,27 @@
+[Basic] To change weapons between your '2 Hander' and your '1H and Shield'
+
+#showtooltip
+/eq [noworn:two-hand] name-of-your-2H
+/equipslot [worn:two-hand] 16 name-of-your-MH
+/eq [noworn:shield] name-of-your-Shield
+
+
+
+[Basic] To change weapons between your 'Dual Wield' and your '1H and Shield'
+
+#showtooltip
+/eq [noworn:shield] name-of-your-Shield
+/equipslot [noworn:shield] 16 name-of-your-MH
+/equipslot [worn:shield] 16 name-of-your-MH
+/equipslot [worn:shield] 17 name-of-your-OH
+
+
+
+[Advanced] Swap between 2H <-> S&B or DW when pressing any modifier 
+
+#showtooltip
+/equipslot [mod] 16 name-of-your-MH
+/equipslot [mod] 17 name-of-your-OH
+/eq [noworn:two-hand,nomod] Dreadforge Retaliator
+/equipslot [noworn:shield,nomod] 16 name-of-your-MH
+/eq [noworn:shield,nomod] name-of-your-Shield
