@@ -1,4 +1,4 @@
 Mouseover Turn Evil
 
 #showtooltip
-/cast [target=mouseover] Turn Evil
+/cast [@mouseover, harm, exists, nodead] Turn Evil
