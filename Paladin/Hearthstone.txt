@@ -1,0 +1,15 @@
+Divine Shield, Hearthstone, send chat message
+
+#showtooltip Divine Shield
+/run if GetSpellCooldown (“Divine Shield”)==0 then send chat message (“I’m a little pally short and stout, here is my hammer here is my mount, when I get in trouble watch me bubble and hearth on out!”) end;
+/castsequence reset=10 Divine Shield, Hearthstone
+
+
+
+Divine Shield, Hearthstone
+
+#showtooltip Divine Shield
+/castsequence reset=10 Divine Shield, Hearthstone
+
+
+
