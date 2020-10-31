@@ -5,12 +5,12 @@ Bubble Hearth
 
 Bubble Bandage Macro Bandage while under Divine Shield
 
-/castsequence reset=300 Divine Shield, [target=player] Heavy Runecloth Bandage
+/castsequence reset=300 Divine Shield, [@player] Heavy Runecloth Bandage
 
 
 Bubble Heal Macro Heal with Holy Light while under Divine Shield
 
-/castsequence reset=300 Divine Shield, [target=player] Holy Light
+/castsequence reset=300 Divine Shield, [@player] Holy Light
 
 
 Cast or cancel Divine Shield

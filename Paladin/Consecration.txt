@@ -1,10 +1,6 @@
-Consecration
+Consecration rank 1, max rank if combat
 
-#showtooltip Consecration
-/cast Consecration
-
-
-Rank 1 Consecration
-
-#showtooltip Consecration(Rank 1)
-/cast Consecration(Rank 1)
+#showtooltip
+/dismount
+/stand
+/cast [combat] Consecration; Consecration(Rank 1)
