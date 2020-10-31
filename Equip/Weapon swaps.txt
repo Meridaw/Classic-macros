@@ -22,6 +22,6 @@
 #showtooltip
 /equipslot [mod] 16 name-of-your-MH
 /equipslot [mod] 17 name-of-your-OH
-/eq [noworn:two-hand,nomod] Dreadforge Retaliator
+/eq [noworn:two-hand,nomod] name-of-your-2H
 /equipslot [noworn:shield,nomod] 16 name-of-your-MH
 /eq [noworn:shield,nomod] name-of-your-Shield
