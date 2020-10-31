@@ -1,3 +1,11 @@
+Greater Blessing of Light if group, else Blessing of Light
+
+#showtooltip [group] Greater Blessing of Light; Blessing of Light
+/cast [group] Greater Blessing of Light; Blessing of Light
+
+
+
 Great Blessing of Light for the raid
 
+#showtooltip [raid] Greater Blessing of Light; Blessing of Light
 /cast [raid] Greater Blessing of Light; [help] Blessing of Light; [target=player] Greater Blessing of Light
