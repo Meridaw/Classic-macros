@@ -20,3 +20,16 @@ Flamestrike
 /cast [@cursor] Flamestrike
 /cast !Arcane Power
 /cast Presence of Mind
+
+
+
+Razorgore
+
+#showtooltip
+/cleartarget [dead][help]
+/target Razorgore
+/stopmacro [help][dead]
+/use 13
+/cast !Arcane Power
+/cast frostbolt
+/cast !Arcane Power
