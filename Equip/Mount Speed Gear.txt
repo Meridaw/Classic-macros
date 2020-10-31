@@ -1,6 +1,5 @@
 Mount Speed Gear
 
 #showtooltip <mount name>
-
 /equip [nomounted] <enchanted gear>; [mounted] <normal gear>
 /use [nomounted] <mount name>; [mounted] <mount name>
