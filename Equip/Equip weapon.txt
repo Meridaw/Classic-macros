@@ -12,5 +12,5 @@ Main hand / off hand
 #showtooltip
 /startattack
 /dismount
-/equipslot 16 name-of-your-1H
+/equipslot 16 name-of-your-MH
 /equipslot 17 name-of-your-OH
