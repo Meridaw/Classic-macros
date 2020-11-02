@@ -1,0 +1,11 @@
+Auto interact with a flight master to fly to a specific spot. Macro pushed after interacting:
+
+/script SelectGossipOption(1); TakeTaxiNode(1)
+
+The first number is selecting which chat button you wish to select. Most often this will lead to the flight path selection window. 
+If you have a quest for the flight master or any other interaction choice it will respond awkwardly.
+
+The second number is the node you’re flying to. It’s indexed so it may change depending on flight path availability. 
+Ie obtaining a new path may take the place of that specific index number. 
+To get a name output of the selected index you can do a print TaxiNodeName(#) with the flight path panel open. 
+This will output what wow calls it, not what you may call it.

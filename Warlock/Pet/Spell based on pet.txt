@@ -4,10 +4,12 @@ Sacrifice, Spell Lock, Seduction, Fire Shield
 /use [pet:voidwalker] Sacrifice; [pet:felhunter] Spell Lock; [pet:succubus] Seduction; [pet:imp]Fire Shield
 
 
+
 Sacrifice, Spell Lock, Seduction, Fire Shield, Cripple, Devour Magic
 
 #showtooltip
 /use [pet:imp]Fire Shield;[pet:voidwalker]Sacrifice;[pet:succubus,mod:shift,@mouseover][pet:succubus]Seduce;[pet:doomguard,mod:shift,@mouseover][pet:doomguard]Cripple;[pet,mod:shift,@mouseover][mod:ctrl,@self][mod:alt,@pet][]Devour Magic
+
 
 
 Firebolt, Spell Lock, Lash of Pain, War Stomp, Rain of Fire, Suffering, Torment
