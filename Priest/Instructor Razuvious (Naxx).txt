@@ -4,3 +4,12 @@ Target Instructor Razuvious, pop shield wall, taunt and start melee attacking wi
 /petattack
 /click PetActionButton4;
 /click PetActionButton5;
+
+
+
+Shield wall, taunt
+
+/target Instructor
+/petattack
+/cast Shield Wall
+/cast Taunt
