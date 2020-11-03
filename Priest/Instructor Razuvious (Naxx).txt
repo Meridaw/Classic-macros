@@ -13,3 +13,10 @@ Shield wall, taunt
 /petattack
 /cast Shield Wall
 /cast Taunt
+
+
+
+Dismiss your understudy
+
+/say Releasing Understudy.
+/script Petdismiss
