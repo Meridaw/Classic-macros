@@ -19,4 +19,4 @@ Shield wall, taunt
 Dismiss your understudy
 
 /say Releasing Understudy.
-/script Petdismiss
+/petdismiss
