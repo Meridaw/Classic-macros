@@ -16,3 +16,12 @@ Portal
 Portal/Teleport
 
 /cast [group] Portal: Undercity; Teleport: Undercity
+
+
+
+Stormwind / Ironforge / Darnassus
+
+#showtooltip Rune of Teleportation
+/use [button:1] Teleport: Stormwind
+/use [button:2] Teleport: Ironforge
+/use [button:3] Teleport: Darnassus

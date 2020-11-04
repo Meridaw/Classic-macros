@@ -2,3 +2,11 @@ Enrage + autoremove
 
 /cast [form:1] Enrage
 /cancelaura Enrage
+
+
+
+Enrage, send chat message
+
+#showtooltip
+/cast enrage
+/run if GetSpellCooldown('Enrage') == 0 then SendChatMessage("I am ENRAGED >:O my armor is reduced for 10 seconds!", IsInRaid() and "RAID" or IsInGroup() and "PARTY")end

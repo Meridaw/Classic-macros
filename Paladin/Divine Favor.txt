@@ -3,3 +3,13 @@
 /stand
 /cast Divine Favor
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Holy Light
+
+
+
+Divine Favor, Concentration Aura, Holy Light self, Retribution Aura
+
+#showtooltip Concentration Aura
+/dismount
+/stand
+/cast Divine Favor
+/castsequence [@player] reset=20 Concentration Aura, Holy Light, Retribution Aura

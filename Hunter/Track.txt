@@ -1,0 +1,6 @@
+Track the creature type you're targetting
+
+#showtooltip
+/stopmacro [noexists]
+/run for i=1,GetNumTrackingTypes() do local n, t, a, c = GetTrackingInfo(i); if string.find(n, UnitCreatureType("target")) then if t~=GetTrackingTexture(i) then SetTracking(i); end end end
+/cast Hunter's Mark
