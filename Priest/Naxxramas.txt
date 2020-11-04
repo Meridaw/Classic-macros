@@ -1,6 +1,6 @@
 Target Instructor Razuvious, pop shield wall, taunt and start melee attacking with your mind controlled Understudy
 
-/target Instructor
+/target Instructor Razuvious
 /petattack
 /click PetActionButton4;
 /click PetActionButton5;
@@ -9,14 +9,20 @@ Target Instructor Razuvious, pop shield wall, taunt and start melee attacking wi
 
 Shield wall, taunt
 
-/target Instructor
+/target Instructor Razuvious
 /petattack
 /cast Shield Wall
 /cast Taunt
 
 
 
-Dismiss your understudy
+Dismiss your Deathknight Understudy
 
-/say Releasing Understudy.
+/say Releasing Deathknight Understudy.
 /petdismiss
+
+
+
+Sacrifices self, prevents and removes enrage from Grand Widow Faerlina
+
+/cast Widow's Embrace

@@ -6,3 +6,13 @@ key 1 bind. LHW on friendlies when selected or mouseover. Purged if enemy.
 /stand
 /cast [@mouseover,help,nodead][help,nodead] Lesser Healing Wave;
 /cast [harm, nodead] Purge
+
+
+
+Purge, Cure Poison if shift, Cure Disease if alt
+
+#showtooltip
+/cancelform
+/dismount
+/stand
+/cast [@mouseover,mod:shift,help][mod:shift]Cure Poison;[@mouseover,mod:alt,help][mod:alt]Cure Disease;Purge
