@@ -1,3 +1,10 @@
+Arcane Powder
+
+#show Arcane Powder
+/run local r="Arcane Powder" local c=GetItemCount(r,nil,true) local b=40 for i=1,100 do if (r==GetMerchantItemInfo(i) and c<b) then BuyMerchantItem(i,b-c) end end
+
+
+
 Buy 100 Arcane Powder and display how many Arcane Powder you got on action bar
 
 #showtooltip Arcane Powder
