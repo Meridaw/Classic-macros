@@ -1,3 +1,10 @@
+Fills up to next full stack of symbols of kings then additional clicks buy 100 each time
+
+#show Symbol of Kings
+/run local r="Symbol of Kings" local c=GetItemCount(r,nil,true) local b=100 for i=1,100 do if (r==GetMerchantItemInfo(i) and c%b~=0) then BuyMerchantItem(i,b-c) elseif r==GetMerchantItemInfo(i) then BuyMerchantItem(i,b) end end
+
+
+
 Buy 100 Symbol of Kings and display how many Symbol of Kings you got on action bar
 
 #showtooltip Symbol of Kings
