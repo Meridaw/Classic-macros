@@ -14,3 +14,10 @@ OH:item:10761:854:::::::60:::1
 /equipslot [modifier:shift] 17 item:10761:854:::::::60:::1
 /equipslot 16 Frostbite
 /equipslot 17 Doom's Edge
+
+
+
+Equip Coldrage Dagger MH / OH
+
+/equipslot [noworn:daggers] 16 Coldrage Dagger
+/equipslot [worn:daggers] 17 Coldrage Dagger
