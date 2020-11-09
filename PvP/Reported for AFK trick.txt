@@ -1,0 +1,3 @@
+Cull out the real noobs
+
+/e has reported you AFK. Type /afk to clear your flag and stay in the Battleground.
