@@ -11,3 +11,4 @@ petfollow - Set pet to follow you.
 petmoveto - Set pet to move to and stay at a hover-targeted location.
 petpassive - Set pet to passive mode.
 petstay - Set pet to stay where it is at.
+click PetActionButton#; - Click pet action button. Exchange # to the number of the pet action button.
