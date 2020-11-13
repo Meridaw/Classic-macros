@@ -16,3 +16,15 @@ Purge, Cure Poison if shift, Cure Disease if alt
 /dismount
 /stand
 /cast [@mouseover,mod:shift,help][mod:shift]Cure Poison;[@mouseover,mod:alt,help][mod:alt]Cure Disease;Purge
+
+
+
+Mouseover Cure Poison, hold shift mouseover Cure Disease, Mouseover enemy Purge
+
+#showtooltip
+/cast [@mouseover,harm,nodead] Purge
+/cast [@mouseover,help,nodead,mod:shift] Cure Disease
+/cast [@mouseover,help,nodead] Cure Poison
+/cast [harm,nodead] Purge
+/cast [help,nodead,mod:shift] Cure Disease
+/cast [nomod] Cure Poison
