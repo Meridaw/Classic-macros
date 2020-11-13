@@ -1,9 +1,23 @@
+Curse of Recklessness max rank if group, else rank 1
+
 #showtooltip
-/cast [group:raid] Curse of Recklessness; Curse of Recklessness(Rank 1)
+/cast [group] Curse of Recklessness; Curse of Recklessness(Rank 1)
 
 
+
+Curse of Recklessness max rank if raid, else rank 1, Curse of Agony if shift is pressed
 
 #showtooltip
 /cast [group:raid, nomod] Curse of Recklessness
 /cast [nomod] Curse of Recklessness(Rank 1)
 /cast [mod:shift] Curse of Agony
+
+
+
+Curse of Recklessness mind controlled raid members (AQ40)
+
+#showtooltip Curse of Recklessness
+/stopcasting
+/targetnearestenemyplayer
+/cast Curse of Recklessness
+/targetpreviousenemy

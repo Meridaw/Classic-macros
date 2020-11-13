@@ -1,0 +1,5 @@
+Blast Wave
+
+#showtooltip Blast Wave
+/cast Blast Wave
+/use [combat] Goblin Sapper Charge

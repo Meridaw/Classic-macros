@@ -14,7 +14,7 @@ Swapping MCP with War Hammer and tome
 
 
 
-Warden Staff / Manual Crowd Pummeler
+Swap Warden Staff / Manual Crowd Pummeler if alt is pressed, else use MCP
 
 #showtooltip 16
 /equipslot [mod:alt, noworn:Staff] 16 Warden Staff
@@ -35,3 +35,11 @@ Use Manual Crowd Pummeler
 
 #showtooltip 16
 /use Manual Crowd Pummeler
+
+
+
+Use main hand if you got two hand equipped, else use off hand
+
+#showtooltip
+/use [worn:two-hand] 16 
+/use [noworn:two-hand] 17
