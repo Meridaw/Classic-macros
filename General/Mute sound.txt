@@ -1,0 +1,3 @@
+"mute" macro, which toggles sound on/off:
+
+/run local c = "Sound_EnableAllSound" SetCVar(c, 1 - tonumber(GetCVar(c)))

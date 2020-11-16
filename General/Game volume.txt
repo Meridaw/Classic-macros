@@ -1,0 +1,6 @@
+Game volume to fit the mood I'm in, like this:
+
+/console Sound_MasterVolume 0.25
+
+I have one for low (good for when on Discord), medium and high (0.25 is high enough for me, 
+varies depending on your Windows sound settings and headphones/speaker setup).

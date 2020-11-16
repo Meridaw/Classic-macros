@@ -20,3 +20,14 @@ One button mounting
 /cancelaura Enrage
 /use (normal mount)
 /use Blue/Green/Yellow/Red Qiraji Resonating Crystal
+
+
+
+AQ40 mount in AQ40, regular mount if available, travel form if moving or in combat, and aquatic form if swimming.
+
+#showtooltip
+/cancelform
+/use Yellow Qiraji Resonating Crystal
+/use Horn of the Frostwolf Howler
+/cast [swimming] Aquatic Form; [noswimming] Travel Form
+/run UIErrorsFrame:Clear()
