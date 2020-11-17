@@ -1,0 +1,4 @@
+Sets the ground clutter to either maximum or minimum (use repeatedly to swap between them). 
+Minimum looks aweful but allows to actually see stuff to pick/loot while maximum may melt your GPU. Adapt as necessary
+
+/script x=GetCVar("graphicsGroundClutter") ; if (tonumber(x) == 1) then x="10" else x="1" end ; SetCVar("graphicsGroundClutter", tostring(x)) ;
