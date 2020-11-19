@@ -61,3 +61,9 @@ Run this script to get the main hand and off hand ID and enchant id
 Returns this:
 MH:item:10761:853:::::::60:::1
 OH:item:10761:854:::::::60:::1
+
+
+
+Identify the buttons
+
+/run local f = GetMouseFocus(); if f then DEFAULT_CHAT_FRAME:AddMessage(f:GetName()) end

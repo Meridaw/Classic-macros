@@ -1,3 +1,9 @@
 Max camera distance
 
 /console cameraDistanceMaxZoomFactor 3.5
+
+
+
+Lock camera
+
+/run local c="cameraSmoothStyle" SetCVar(c,GetCVar(c) == "0" and 4 or 0)
