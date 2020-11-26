@@ -5,3 +5,13 @@ Chain Heal
 /dismount
 /stand
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Chain Heal
+
+
+
+Chain Heal max rank if shift, else rank 1
+
+#showtooltip
+/cancelform
+/dismount
+/stand
+/cast [mod:shift,@mouseover,help][mod:shift,@target][mod:shift,@targettarget]Chain Heal;[@mouseover,help][@target][@targettarget]Chain Heal(Rank 1)
