@@ -1,0 +1,10 @@
+Badly hurt when you activate Berserking
+
+/cancelaura Prayer of Fortitude
+/cancelaura Stamina
+/cancelaura Gordok Green Grog
+/cancelaura Power Word: Fortitude
+/use Demonic rune
+/use Goblin Sapper Charge
+/use Gordok Green Grog
+/use Scroll of Stamina IV
