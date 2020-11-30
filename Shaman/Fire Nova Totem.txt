@@ -1,0 +1,4 @@
+Fire Nova Totem if no group, else totem twisting
+
+/cast [nogroup]Fire Nova Totem
+/castsequence [group] reset=8,5 Windfury Totem(Rank 1),Grace of Air Totem,Grace of Air Totem

@@ -1,8 +1,8 @@
 Nature's Swiftness, Healing Touch
 
 #showtooltip Nature's Swiftness
-/dismount [mounted]
-/cancelform [noform:5
+/dismount
+/cancelform
 /cast Nature's Swiftness
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Healing Touch(Rank 10)
 
@@ -14,3 +14,13 @@ Nature's Swiftness, Entangling Roots if shift, Hibernate if ctrl, else healing t
 /cancelform
 /cast Nature's Swiftness
 /cast [mod:shift,harm]Entangling Roots; [mod:ctrl,harm]Hibernate;[@mouseover,help,nodead][help][@player]Healing Touch
+
+
+
+Nature's Swiftness, Hibernate/Healing Touch
+
+#showtooltip
+/stopcasting
+/cancelform
+/cast Nature's Swiftness
+/cast [harm,exists,nodead]Hibernate;[@mouseover,help,nodead][help][@player]Healing Touch
