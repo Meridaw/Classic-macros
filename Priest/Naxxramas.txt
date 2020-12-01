@@ -16,6 +16,16 @@ Shield wall, taunt
 
 
 
+Mind Control, Shield wall, taunt
+
+/cast [nopet,harm] Mind Control
+/target [pet] Instructor Razuvious
+/petattack
+/cast Shield Wall
+/cast Taunt
+
+
+
 Dismiss your Deathknight Understudy
 
 /say Releasing Deathknight Understudy.

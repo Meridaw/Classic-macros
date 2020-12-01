@@ -20,3 +20,12 @@ Spam PvP Pounce
 /cleartarget
 /targetenemyplayer
 /cast [harm, nodead] Pounce
+
+
+
+Cat Form, Prowl, Pounce
+
+#showtooltip
+/cancelform [noform:3]
+/use [noform:3] Cat Form; !Prowl
+/use [form:3, stealth] Pounce
