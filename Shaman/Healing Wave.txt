@@ -7,6 +7,7 @@ Lesser Healing Wave
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Lesser Healing Wave
 
 
+
 Healing Wave
 
 #showtooltip
@@ -14,3 +15,10 @@ Healing Wave
 /dismount
 /stand
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Healing Wave
+
+
+
+Healing Wave Rank 1 if shift is pressed, Rank 3 if CTRL, else max rank
+
+#showtooltip
+/cast [mod:shift,@mouseover,help][mod:shift,@target,help][mod:shift,@player]Healing Wave(Rank 1);[mod:ctrl,@mouseover,help][mod:ctrl,@target,help][mod:ctrl,@player]Healing Wave(Rank 3);[@mouseover,help][@target,help][@player]Healing Wave
