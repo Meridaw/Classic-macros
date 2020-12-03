@@ -1,0 +1,5 @@
+Chillwind Eko farming
+
+/tar Chillwind
+/script if UnitName("target") and not UnitIsDead("target") and not GetRaidTargetIndex("target") then SetRaidTargetIcon("target",8); end
+/cleartarget [dead]
