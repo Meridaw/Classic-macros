@@ -1,4 +1,14 @@
 Aspect of the Pack
 
+#showtooltip
 /cast [group] Aspect of the Pack
 /cast [nogroup] Aspect of the Cheetah
+
+
+
+Aspect of the Pack/Cheetah
+
+#showtooltip
+/cancelaura Aspect of the Cheetah
+/cancelaura Aspect of the Pack
+/cast [help] Aspect of the Pack; Aspect of the Cheetah

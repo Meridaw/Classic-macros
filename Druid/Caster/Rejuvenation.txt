@@ -4,3 +4,15 @@ Rejuvenation
 /cancelform [noform:5]
 /stand
 /cast [@mouseover,help][help,nodead][@targettarget,help,nodead][@player] Rejuvenation
+
+
+
+Rejuvenation rank 1 if alt pressed, rank 4 if ctrl pressed, else rank 11
+
+#showtooltip
+/dismount
+/cancelform
+/stand
+/cast [@mouseover, help, nomod][nomod] Rejuvenation(Rank 11)
+/cast [@mouseover, help, mod:ctrl][mod:ctrl] Rejuvenation(Rank 4)
+/cast [@mouseover, help, mod:alt][mod:alt] Rejuvenation(Rank 1)

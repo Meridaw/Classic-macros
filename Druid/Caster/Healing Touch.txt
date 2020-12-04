@@ -1,5 +1,6 @@
 Healing Touch Rank 3
 
+#showtooltip
 /dismount
 /cancelform
 /stand
@@ -9,6 +10,7 @@ Healing Touch Rank 3
 
 Healing Touch Rank 4
 
+#showtooltip
 /dismount
 /cancelform
 /stand
@@ -18,6 +20,7 @@ Healing Touch Rank 4
 
 Wushoolay's Charm of Nature, Healing Touch Rank 7
 
+#showtooltip
 /dismount
 /cancelform
 /stand
@@ -29,4 +32,7 @@ Wushoolay's Charm of Nature, Healing Touch Rank 7
 Wrath, Healing Touch
 
 #showtooltip
+/dismount
+/cancelform
+/stand
 /cast [harm,nodead] Wrath ; [help,nodead][@player] Healing Touch

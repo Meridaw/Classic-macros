@@ -8,7 +8,7 @@ Use this and hit it when you enter bug room.
 
 
 
-2 macros you should have for king fight
+Viper Sting Cho'Rush
 
 #showtooltip
 /tar Cho'Rush the Observer
@@ -17,7 +17,31 @@ Use this and hit it when you enter bug room.
 
 
 
+Distracting Shot Cho'Rush
+
 #showtooltip
 /tar Cho'Rush the Observer
 /cast Distracting Shot
 /tar King Gordok
+
+
+
+Viper Sting/Distracting Shot Cho
+
+#showtooltip 
+/tar Cho
+/cast [mod:shift]Concussive Shot;[mod:alt]Distracting Shot(Rank 3);[mod:ctrl]Distracting Shot;Viper Sting
+/stopcasting                         
+/tar King
+
+
+
+Viper pulling
+
+#showtooltip Viper Sting(Rank 1)
+/cast Viper Sting(Rank 1)
+/stopattack
+/stopcasting
+/stopmacro [@targettarget,noexists]
+/cast Furious Howl
+/petpassive
