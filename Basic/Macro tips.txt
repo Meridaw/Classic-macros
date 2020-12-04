@@ -15,3 +15,5 @@ Macro editing window can be brought up by typing /m in the chat window.
 /castsequence is buggy and the macro can randomly stop working without any error popups or feedback. If this happens to you, doing /reload will fix it.
 
 Shift clicking the item with the cursor in the macro window will paste the exact name there for you, so no worries with spelling errors.
+
+help includes exists so you can cut it.
