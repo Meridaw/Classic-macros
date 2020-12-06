@@ -1,5 +1,15 @@
+Thorium/Iron Grenade
+
 #showtooltip Iron Grenade
 /cancelform
 /stopcasting
 /use Thorium Grenade
 /use Iron Grenade
+
+
+
+Goblin Sapper Charge
+
+#showtooltip Goblin Sapper Charge
+/use Flame Deflector
+/use Goblin Sapper Charge

@@ -25,3 +25,19 @@ Quick tagging
 /cast Fire Blast
 /startattack
 /cast Arcane Explosion
+
+
+
+Scourge invasions
+
+#showtooltip
+/tar Shadow of doom
+/tar Lumbering Horror
+/tar Spirit of the 
+/tar Bone Witch
+/tar Ghoul
+/tar Skeletal
+/tar Spectral
+/cleartarget [dead][help]
+/targetenemy [noexists]
+/cast fire blast

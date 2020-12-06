@@ -5,3 +5,19 @@ If you want to sit in stealth and steal tags...
 /stopmacro [noexists]
 /cancelform
 /cast Moonfire(rank 1)
+
+
+
+Scourge invasions
+
+#showtooltip
+/tar Shadow of doom
+/tar Lumbering Horror
+/tar Spirit of the 
+/tar Bone Witch
+/tar Ghoul
+/tar Skeletal
+/tar Spectral
+/cleartarget [dead][help]
+/targetenemy [noexists]
+/cast Moonfire(rank 1)
