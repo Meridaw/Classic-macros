@@ -16,7 +16,7 @@ Cast max rank when you press, rank1 when you also press control (can be changed 
 
 
 
-Fireball
+Trinket + Combustion,Fireball
 
 #showtooltip Fireball
 /dismount
@@ -24,3 +24,14 @@ Fireball
 /use 13
 /use 14
 /castsequence reset=179 Combustion,Fireball
+
+
+
+Trinket + Fireball
+
+#showtooltip
+/dismount
+/stand
+/use 14
+/cast [@targettarget,harm,nodead][] Fireball
+/cqs
