@@ -1,0 +1,9 @@
+Cancel the queued spell without cancelling your current spell.
+
+/cqs 
+
+
+
+or
+
+/cancelqueuedspell
