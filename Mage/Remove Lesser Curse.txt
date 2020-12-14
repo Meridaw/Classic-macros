@@ -9,3 +9,9 @@ Remove Lesser Curse / counterspell on same key
 #showtooltip
 /stopcasting
 /cast [@mouseover, exists, nodead, help, nomod] [mod:shift, @player] [nomod, help, nodead, exists] Remove Lesser Curse; [@mouseover, harm, exists, nodead] [harm, exists, nodead] Counterspell
+
+
+
+Amplify Magic if shift, Dampen Magic if ctrl, else Remove Lesser Curse
+
+/cast [mod:shift, @mouseover] Amplify Magic; [mod:ctrl, @mouseover] Dampen Magic; [@mouseover] Remove Lesser Curse

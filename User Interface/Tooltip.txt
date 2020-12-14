@@ -1,0 +1,9 @@
+Hide
+
+/script GameTooltip:SetScript("OnShow", GameTooltip.Hide);
+
+
+
+Show
+
+/script GameTooltip:SetScript("OnShow", GameTooltip.Show);
