@@ -1,3 +1,11 @@
+Drain Soul
+
+#showtooltip Drain Soul
+/stopcasting [nochanneling:Drain Soul]
+/cast [nochanneling:Drain Soul] Drain Soul
+
+
+
 Drain Soul / Delete Shards
 
 #showtooltip
