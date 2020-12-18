@@ -1,3 +1,17 @@
-One button dps macro with Shred
+One button dps with Shred/Ferocious Bite
+
 #showtooltip Shred
+/cast [stealth] Ravage
+/startattack [combat]
+/stopmacro [nocombat]
 /castsequence reset=target Shred, Shred, Shred, Ferocious Bite
+
+
+
+One button dps with Claw/Ferocious Bite
+
+#showtooltip Claw
+/cast [stealth] Ravage
+/startattack [combat]
+/stopmacro [nocombat]
+/castsequence reset=target Claw, Claw, Claw, Ferocious Bite

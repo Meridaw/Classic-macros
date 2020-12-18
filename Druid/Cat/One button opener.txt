@@ -1,4 +1,15 @@
-One button opener
+One button Pounce, Rake, Rip
 
 #showtooltip 
+/startattack [combat, nostealth]
+/cast [noform:3] Cat Form; [nocombat, nostealth] Prowl
 /castsequence reset=target Pounce, Rake, Rip
+
+
+
+One button Pounce, Shred, Rake, Rip
+
+#showtooltip Pounce
+/startattack [combat, nostealth]
+/cast [noform:3] Cat Form; [nocombat, nostealth] Prowl
+/castsequence reset=target Pounce, Shred, Rake, Rip
