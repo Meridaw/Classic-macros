@@ -1,0 +1,7 @@
+Ambient sounds:
+
+/console Sound_AmbienceVolume 0 (or 1)
+
+All sounds:
+
+/console Sound_EnableAllSound 0 (or 1)

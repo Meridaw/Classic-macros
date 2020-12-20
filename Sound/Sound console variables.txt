@@ -1,0 +1,28 @@
+ChatAmbienceVolume - Volume setting for surroundings while in voice chat
+ChatMusicVolume - Volume setting for game music while in voice chat
+ChatSoundVolume - Volume setting for voice chat
+EnableMicrophone - Enables the Microphone
+EnableVoiceChat - Enables Voice Chat
+FootstepSounds - Enables/Disables footstep sound
+InboundChatVolume
+OutboundChatVolume
+Sound_ChaosMode - Plays random sounds depending on what it is set to (needs to be enabled)
+Sound_EnableSoftwareHRTF - Enables headphone designed sound subsystem
+Sound_VoiceChatInputDriverIndex - Device for voice input (Microphone)
+Sound_VoiceChatOutputDriverIndex - Device for voice output (Headset or secondary speakers)
+Sound_OutputDriverIndex - Audio Device Selected
+Sound_DSPBufferSize - Sound buffer size
+Sound_EnableSFX - Enables SoundFX
+Sound_EnableErrorSpeech - Enable error sounds ("Can't cast that yet!")
+Sound_EnableMusic - Enables Music
+Sound_EnableAllSound - Enables All Sound
+Sound_ListenerAtCharacter - Set sound center to player
+Sound_EnableEmoteSounds - Enable emote voices
+Sound_EnableArmorFoleySoundForSelf - Enable armor damage sounds for player
+Sound_EnableArmorFoleySoundForOthers - Enable armor damage sounds for NPCs and other PCs
+Sound_MaxCacheableSizeInBytes - Max sound size that will be cached, larger files will be streamed instead
+SoundMemoryCache - Sound cache memory size in MB
+Sound_EnableMode2 - Enables Alternate sound processing
+Sound_EnableMixMode2 - Enables and controls PCM Audio Quality
+Sound_EnableHardware - Enable Audio Hardware Acceleration
+useEnglishAudio - override the locale and use English audio

@@ -1,16 +1,17 @@
 Fishing
 
-#showtooltip
-/stopmacro [combat]
-/equip [noworn:Fishing Pole]Nat Pagle's Extreme Angler FC-5000
-/cast [worn:Fishing Pole]Fishing
+#showtooltip Fishing
+/console Sound_AmbienceVolume 0
+/console FootstepSounds 0
+/equip Nat Pagle's Extreme Angler FC-5000
+/cast Fishing
 
 
 
 Apply fishing pole baubles
 
-#showtooltip
-/use [mod:ctrl]Nightcrawlers;[mod:shift]Bright Baubles;[mod:alt]Aquadynamic Fish Attractor;Shiny Bauble
+#showtooltip Fishing
+/use Aquadynamic Fish Attractor
 /use 16
 /click StaticPopup1Button1
 
@@ -18,6 +19,7 @@ Apply fishing pole baubles
 
 Fishing silencer
 
+#showtooltip Fishing
 /run sfx=GetCVar("Sound_EnableSFX")
 /console Sound_EnableSFX 0
 /equip Nat Pagle's Extreme Angler FC-5000
