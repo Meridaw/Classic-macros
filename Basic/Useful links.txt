@@ -8,6 +8,7 @@ https://wow.gamepedia.com/Macro_conditionals
 https://wow.gamepedia.com/Macro_commands
 https://wow.gamepedia.com/Making_a_macro
 https://wow.gamepedia.com/MACRO_castsequence
+https://wowwiki.fandom.com/wiki/Console_variables
 
 
 Useful Sneaky or Complicated Macros:

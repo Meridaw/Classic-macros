@@ -1,0 +1,348 @@
+Here are several common ways accessing these vars and commands:
+
+wtf files - Config.wtf, in 'WTF', in WoW folder, stores game settings, like 'gxResolution', and 'locale' for the language.
+
+/console command - chat slash command to run a base game script command, like setting a CVar.
+
+wow.exe -Console - allows you to open "the console" in-game, opening and closing by using ~ key.
+
+Configuration UI - WoW's normal in-game configuration interface. Hit Esc to get to it.
+
+SetCVar() - WoW global API for changing settings using Macros or AddOns.
+
+Warning: changing CVars directly can cause issues. Like changing 'cameraDistanceMax' in Config.wtf may render the "Max Camera Distance" slider useless. In some cases you may have to quit the game, and manually remove the CVar line from the .wtf file. Any changes done though CVars are generally the same as setting them through the game Configuration UI and will be saved.
+
+
+The general text syntax for setting a variable:
+
+SET variableName "value"
+
+
+Startup
+These are general variables that are only relevant for starting the game (or which are only read during startup).
+
+accountList - Saves multiple account names for login screen
+accountName - Saves 1 account name for login screen
+accounttype - Saves what account type the user is playing on - Wow, BC, LK or CT
+blizzcon - Used by Blizzard to prevent tampering on Blizzcon computers
+checkAddonVersion - Disable loading of out-of-date addons
+CinematicJoystick
+coresDetected - # of CPU cores detected
+decorateAccountName -
+expansionMovie - Display Cataclysm intro at startup (This variable is reset to 0 after the video has been shown)
+forceEnglishNames -
+installType - Retail/Beta/PTR
+lastCharacterIndex - Number of last character that was used for logging in (initial selection for character screen)
+locale - Game language code (e.g. "enGB", "enUS", "deDE", "frFR" ...)
+heapAllocTracking - Enables/disables allocation tracking & dumping in SMemMalloc
+heapUsage -
+heapUsage2 -
+movie - Display intro movie at startup (doesn't work in Burning Crusade game client)
+movieSubtitle - Display subtitles for intro movies
+readContest - Whether the user has accepted the PTR contest rules
+readEULA - Whether the user has accepted the EULA
+readScanning - Whether the user has accepted the system scanning terms
+readTOS - Whether the user has accepted the Terms of Use
+realmList - Realm list server to use (e.g. "eu.logon.worldofwarcraft.com" or "us.logon.worldofwarcraft.com")
+realmListbn - Battle.net realm list server to use (default: "") - wow still uses realmList
+REMOVED 5.4.1 realmName - Name of most recently used realm, displayed in the lower right corner. (removed 5.4.1)
+showToolsUI - Enable the WoW Launcher
+timingMethod - Sets the CPU timing method used. 0 is none, 1 is normal precision(fps limited to 64), 2 is high precision
+patchlist - Address of wow patch server
+processAffinityMask - Which processor core to start WoW on
+
+
+Console
+These are commands that only affect the drop down menu
+
+help - Displays help and information for any command. (Eg. Help debug)
+fontcolor - Console Font Color
+bgcolor - Backdrop color
+highlightcolor - Console text highlight color
+fontsize - Font Size
+font - Name of Font to use in console
+consolelines - How many lines to display on screen at once
+clear - clears all console text
+proportionaltext - Spaces text out to cover the entire screen (E x a m p l e !)
+spacing - specifies inter-character spacing, in pixels
+settings - lists current console settings
+default - returns console to default settings
+closeconsole - closes console
+repeat - repeats a command when entered
+cvarlist - lists all cvars with their current & default settings
+cvar_default - sets all cvars to their defaults
+cvar_reset - resets config.wtf file to the settings you use when you log in for the first time
+
+
+Camera
+
+cameraBobbing
+cameraBobbingFrequency
+cameraBobbingLRAmplitude
+cameraBobbingSmoothSpeed
+cameraBobbingUDAmplitude
+cameraCustomViewSmoothing
+cameraDistance - Fixed value?
+cameraDistanceD - Camera distance (zoom). May or may not show forced camera movements from camera-world collisions (untested).
+cameraDistanceMax
+cameraDistanceMaxFactor - Sets factor by which cameraDistanceMax is multiplied
+cameraDistanceMoveSpeed - Default is 8.33.
+cameraDistanceSmoothSpeed - Default is 8.33. Values range from 0.002778-50. Changes speed at which you scroll-wheel zoom in/out.
+cameraDive - Default is 1.
+cameraFlyingMountHeightSmoothSpeed
+cameraFoVSmoothSpeed
+cameraGroundSmoothSpeed
+cameraHeightIgnoreStandState
+cameraHeightSmoothSpeed
+cameraPitch - Fixed value?
+cameraPitchD - Camera pitch. Doesn't seem to take forced camera movements because of camera-world collisions into consideration.
+cameraPitchMoveSpeed
+cameraPitchSmoothSpeed
+cameraPitchSmoothMin
+cameraPitchSmoothMax
+cameraPivot - Default is 1. Controls if your camera will stop when it hits the ground so you can look up without being blocked by your character model.
+cameraPivotDXMax
+cameraPivotDYMin
+camerasmooth
+cameraSmoothPitch
+cameraSmoothStyle - Default is 0. Possible values 0-2.
+cameraSmoothTrackingStyle
+cameraSmoothYaw
+cameraSmoothTimeMin
+cameraSmoothTimeMax
+cameraSubmergeFinalPitch
+cameraSubmergePitch
+cameraSurfacePitch
+cameraSurfaceFinalPitch
+cameraTargetSmoothSpeed
+cameraTerrainTilt
+cameraTerrainTiltTimeMin
+cameraTerrainTiltTimeMax
+cameraView
+cameraViewBlendStyle - Default is 1. Possible values 1-2. Camera moves from saved positions smoothly or instantly.
+cameraWaterCollision
+cameraYaw - Fixed value?
+cameraYawD - Camera yaw. May or may not show forced camera movements from camera-world collisions (untested).
+cameraYawMoveSpeed - Default is 230. Possible values 1-360. Changes the speed at which the camera can spin.
+cameraYawSmoothMax
+cameraYawSmoothMin
+cameraYawSmoothSpeed
+
+
+Controls
+
+assistAttack - Start attacking automatically after using /assist
+autoClearAFK - Clear AFK upon movement
+autoDismount - Dismount when trying to use an ability
+autoDismountFlying - ...even when flying
+AutoInteract - Right-click to move
+autoRangedCombat - Automatically switch between ranged and meelee attack
+autoSelfCast - Automatic self-casting
+autoStand - Stand up when trying to use an ability [Introduced in Patch 2.3]
+autoUnshift - Unshift/Unstealth/Leave shadowform when using an ability only usable "unshifted" [Introduced in Patch 2.3]
+deselectOnClick - Sticky targeting
+enableWowMouse - Enables the Steelseries Gaming Mouse
+Joystick - Enable Joysticks
+mouseInvertPitch - Invert up-down mouse motion
+mouseInvertYaw - Invert left-right mouse motion
+mouseSpeed - Mouse speed
+stopAutoAttackOnTargetChange - Stop attacking when switching targets
+
+
+Engine
+
+asyncHandlerTimeout - A test of the engine - aka you're loading into instance, click out of wow, click back & wow has stopped responding.
+asyncThreadSleep - Engine option: Set based on asyncHandlerTimeout
+dbCompress - Database compression (?)
+Errors -
+ErrorFileLog -
+ErrorLevelMin -
+ErrorLevelMax -
+ErrorFilter -
+MemUsage -
+ShowErrors - Enables/Disables errors from being shown
+timingTestError -
+
+
+Graphics
+
+bspcache - Binary Space Partition Caching
+componentCompress - Fixes issues with characters being fully black caused by bad/old drivers.
+componentTextureLevel - Changes the quality of player textures. Older textures seem to be unaffected. (1: low quality, 0: high quality)
+componentThread -
+DesktopGamma - Matches Windows' Gamma Settings
+detailDoodadAlpha -
+DistCull - Sets distance for culling of objects near farclip
+extShadowQuality - Enables Dynamic Shadows (WoW 3.0)
+environmentDetail - Controls model draw distance for doodads (WoW 3.0)
+farclip - Set detailed draw distance; sets the fog distance. Only terrain will be visible past this distance.
+farclipoverride - Allows overriding of preset limit for farclip (WoW 3.0)
+ffx - Enable all pixel shaders
+ffxDeath - Enable full screen death effect
+ffxGlow - Enable full screen glow effect
+ffxNetherWorld - Enable full screen "nether world" effect, e.g. for a Mage's Invisibility
+ffxRectangle - Enables Widescreen Framebuffer
+ffxSpecial - Enables alternative on screen effects. (WoW 3.0 Wrath-Logo-Small.png)
+fixedFunction - Force fixed function pixel and vertex processing
+footstepBias - ?
+Gamma - Gamma level
+groundEffectDensity -
+groundEffectDist -
+gxApi - Graphics API to use
+gxAspect - Preserve aspect ratio for windowed mode
+gxColorBits - Color bits
+gxCursor - Enable hardware cursors
+gxDepthBits - Depth bits
+gxFixLag - Smooth mouse cursor
+gxMonitor - Сhoice of main monitor that is used for game
+gxMaximize - When using windowed mode, maximize the window
+gxMultisample - Enable anti-aliasing (e.g. "4" for 4x multisampling)
+gxMultisampleQuality - Quality for anti-aliasing (?)
+gxOverride - ?
+gxRefresh - Refresh rate in Hz
+gxResolution - Screen resolution (e.g. "1280x1024")
+gxRestart - Restarts the graphics engine
+gxTextureCacheSize - Set the cache size
+gxTripleBuffer - Enable Triple Buffering
+gxVSync - Enable VSync
+gxWindow - Windowed mode
+horizonfarclip - Set draw distance for the horizon (terrain). When larger than farclip, will show 'shadows' of terrain in the distance.
+horizonfarclip - Set draw distance for terrain closest to you.
+hwDetect - Perform hardware detection for best values
+hwPCF - Use hardware based Percentage Closer Filtering for shadows (Default on)
+lod - Level of detail, toggles the level of detail option in the graphics menu
+M2BatchDoodads - Enable handling of Detail Doodads in batches (combine doodads to reduce batch count)
+M2BatchParticles - combine particle emitters to reduce batch count
+M2Faster - end user control of scene optimization mode - (0-3)
+M2FasterDebug - Enables developer dynamic control (programmer control of scene optimization mode)
+M2UseClipPlanes - use clip planes for sorting transparent objects
+M2UseThreads - multithread model animations
+M2UseZFill - Enabled Z-Fill on transparent objects
+mapObjLightLOD - ?
+mapShadows - Toggle map shadows
+MaxFPS - Framerate Limitation
+maxFPSBk - Framerate Limitation while Wow isn't in focus
+MaxLights - Maximum number of hardware lights
+nearclip - Clipping range for small detail doodads
+objectFade -
+ObjectFadeZFill -
+occlusion - Disables rendering of objects that are entirely blocked by other graphics
+particleDensity - Particle density
+pixelShaders - Enable pixel shaders
+playerTextureLevels - Deprecated and replaced by componentTextureLevel
+PlayerFadeInRate - fade in rate for player mouseover
+PlayerFadeOutAlpha - min fade out alpha for player mouseover
+PlayerFadeOutRate - fade out rate for player mouseover
+shadowBias - Blob Shadow transparency levels
+shadowcull - ?
+shadowinstancing - Shadow optimization which prevents flickering
+shadowLevel - Level of detail for shadow mip maps
+shadowLOD - Enables or Disables Blob Shadows
+shadowscissor - ?
+showshadow - ?
+showfootprints - Enable footprints
+showfootprintparticles - ?
+showsmartrects - Deprecated in WoW 3.0
+SkyCloudLOD - Level of detail for Sky
+SmallCull - Affects the hiding ('culling') of small objects. Setting to 0 disables.
+specular - Enable specular shading
+spellEffectLevel - Spell Effect level
+SplineOpt - Loading Screen Spline for travel
+texLodBias - Texture Level of Detail Bias (?)
+terrainMipLevel - Terrain texture blending mode. (1: low quality, 0: high quality)
+textureFilteringMode - Texture filtering mode (?)
+textureCacheSize - Caches in memory textures when they are not in use for quick loading. (Min: 8388608, Max: 536870912, Default: 33554432)
+triangleStrips - Deprecated in WoW 3.0
+UIFaster - UI acceleration level
+unitDrawDist - Unit draw distance
+unitHighlights - Toggle model highlighting on targeted units
+useWeatherShaders - Enable weather shaders
+violenceLevel - Changes the violence level of the game
+waterLOD - Level of Detail for water (Locked)
+windowResizeLock - Locks so the game can't be resized while in windowed mode - see gxWindow
+weatherDensity - Level of weather effects
+worldBaseMip - Environment texture quality (2: low, 1: medium, 0: high)
+
+
+Interface
+
+BlockTrades - Block trade requests
+ChatBubbles - Enable chat bubbles
+ChatBubblesParty - Enable party chat bubbles
+colorChatNamesByClass - name will change to a color to match their class. default is 0.
+CombatDamage - Enable damage display over target
+CombatHealing - Enable healing display over target
+combatLogOn - Enable combat log (?)
+CombatLogPeriodicSpells - Enable periodic spells in combat log (?)
+flaggedTutorials - Enable/Disable tutorials for new players
+gameTip - Determine which Loading Screen tip will display next (increments per character Login)
+guildMemberNotify - Display notification when guild members log in or out
+lfgSelectedRoles - your current LFG role selection information
+minimapZoom - Minimap zoom level (?)
+minimapInsideZoom - Minimap inside zoom level (return the same zoom level as Minimap:GetZoom() when in indoors)
+ObjectSelectionCircle - Size of the targeting circle ('0' disables)
+PetMeleeDamage - Show pet melee damage
+PetSpellDamage - Show pet spell damage
+predictedHealth - Enables the Smooth filling Health Bar ('0' disables)
+predictedPower - Enables the Smooth filling Energy/Mana/Rage/Runic Bar ('0' disables)
+profanityFilter - Enable profanity filter
+rotateMinimap - Rotate minimap
+secureAbilityToggle - Keeps players from accidentally toggling off by hitting the button more than once in a short (3 sec?) period of time
+spamFilter - Enable spam filter
+screenshotFormat - Screenshot format
+screenshotQuality - Screenshot quality (0-10)
+showGameTips - Toggles displaying of loading screen game tips ('0' disables)
+showLootSpam - Show a message in the combat log with the amount of money looted when auto-looting
+ShowTargetCastbar - Show your target's cast bar
+ShowVKeyCastbar - Show target's cast bar under nameplates
+scriptErrors - (0/1) Whether or not the UI shows Lua errors
+scriptProfile - ?
+statusBarText - Show the Player status bar values as text on top of the normal HP/MP/Energy/Rage bars
+synchronizeSettings - Toggles the saving of UI settings to the server (0-1)
+UberTooltips - Show "extended" tooltips
+uiScale - Interface scale
+UnitNameRenderMode - ?
+UnitNameOwn - (0/1) Toggle Own Name
+UnitNameNPC - (0/1) Toggle NPC Name
+UnitNamePlayerGuild - (0/1) Toggle Guild Tags
+UnitNamePlayerPVPTitle - (0/1) Toggle Titles
+UnitNameFriendlyPlayerName - (0/1) Toggle Friendly Player Names
+UnitNameFriendlyPetName - (0/1) Toggle Friendly Pet Names
+UnitNameFriendlyCreationName - (0/1) Toggle Friendly Creation Names
+UnitNameEnemyPlayerName - (0/1) Toggle Enemy Player Names
+UnitNameEnemyPetName - (0/1) Toggle Enemy Pet Names
+UnitNameEnemyCreationName - (0/1) Toggle Enemy Creation Names
+UnitNameCompanionName - (0/1) Toggle Companion Names
+useUiScale - Enable interface scaling
+
+
+Sound
+
+ChatAmbienceVolume - Volume setting for surroundings while in voice chat
+ChatMusicVolume - Volume setting for game music while in voice chat
+ChatSoundVolume - Volume setting for voice chat
+EnableMicrophone - Enables the Microphone
+EnableVoiceChat - Enables Voice Chat
+FootstepSounds - Enables/Disables footstep sound
+InboundChatVolume
+OutboundChatVolume
+Sound_ChaosMode - Plays random sounds depending on what it is set to (needs to be enabled)
+Sound_EnableSoftwareHRTF - Enables headphone designed sound subsystem
+Sound_VoiceChatInputDriverIndex - Device for voice input (Microphone)
+Sound_VoiceChatOutputDriverIndex - Device for voice output (Headset or secondary speakers)
+Sound_OutputDriverIndex - Audio Device Selected
+Sound_DSPBufferSize - Sound buffer size
+Sound_EnableSFX - Enables SoundFX
+Sound_EnableErrorSpeech - Enable error sounds ("Can't cast that yet!")
+Sound_EnableMusic - Enables Music
+Sound_EnableAllSound - Enables All Sound
+Sound_ListenerAtCharacter - Set sound center to player
+Sound_EnableEmoteSounds - Enable emote voices
+Sound_EnableArmorFoleySoundForSelf - Enable armor damage sounds for player
+Sound_EnableArmorFoleySoundForOthers - Enable armor damage sounds for NPCs and other PCs
+Sound_MaxCacheableSizeInBytes - Max sound size that will be cached, larger files will be streamed instead
+SoundMemoryCache - Sound cache memory size in MB
+Sound_EnableMode2 - Enables Alternate sound processing
+Sound_EnableMixMode2 - Enables and controls PCM Audio Quality
+Sound_EnableHardware - Enable Audio Hardware Acceleration
+useEnglishAudio - override the locale and use English audio
