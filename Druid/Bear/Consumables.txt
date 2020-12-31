@@ -1,15 +1,16 @@
 Cancel bear form, use Healing Potion, enter Bear form
 
-/cast [form:1] Bear Form
+/cast [form:1] Dire Bear Form
 /use [form:0] Healing Potion
-/cast [noform:1] !Bear Form
+/cast [noform:1] !Dire Bear Form
+
 
 
 Cancel bear form, use Greater stoneshield potion, enter Bear form
 
-/cast [form:1] Bear Form
+/cast [form:1] Dire Bear Form
 /use [form:0] Greater stoneshield potion
-/cast [noform:1] !Bear Form
+/cast [noform:1] !Dire Bear Form
 
 
 
