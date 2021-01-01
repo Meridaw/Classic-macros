@@ -1,0 +1,6 @@
+Advanced Target Dummy
+
+/use [@cursor] Advanced Target Dummy
+/target [nodead] Advanced Target Dummy
+/use [help] Blessing of Protection
+/targetlasttarget
