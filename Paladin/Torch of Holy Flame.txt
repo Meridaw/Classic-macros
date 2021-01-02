@@ -1,0 +1,5 @@
+Equip/use Torch of Holy Flame if no combat, equip shield if combat.
+
+#showtooltip Torch of Holy Flame
+/use [nocombat] Torch of Holy Flame
+/equip [combat] Skullflame Shield
