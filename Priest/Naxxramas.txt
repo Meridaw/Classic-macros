@@ -1,21 +1,3 @@
-Target Instructor Razuvious, pop shield wall, taunt and start melee attacking with your mind controlled Understudy
-
-/target Instructor Razuvious
-/petattack
-/click PetActionButton4;
-/click PetActionButton5;
-
-
-
-Shield wall, taunt
-
-/target Instructor Razuvious
-/petattack
-/cast Shield Wall
-/cast Taunt
-
-
-
 Mind Control, Shield wall, taunt
 
 /cast [nopet,harm] Mind Control
