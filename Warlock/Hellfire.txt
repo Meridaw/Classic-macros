@@ -1,0 +1,5 @@
+Hellfire, Goblin Sapper Charge if shift is pressed
+
+#showtooltip
+/cast [nomod, nochanneling:Hellfire] Hellfire
+/use [mod:shift] Goblin Sapper Charge

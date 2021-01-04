@@ -15,12 +15,6 @@ Dismiss your Deathknight Understudy
 
 
 
-Sacrifices self, prevents and removes enrage from Grand Widow Faerlina
-
-/cast Widow's Embrace
-
-
-
 One button Grand Widow Faerlina/Instructor Razuvious
 
 #showtooltip
