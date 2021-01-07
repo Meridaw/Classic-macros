@@ -1,0 +1,8 @@
+/use 13
+/use 14
+/use Major Spellstone
+/use Sheen of Zanza
+/use Shadow Ward
+/cast Demonic Sacrifice
+/cast Sacrifice
+/use Gnomish Rocket Boots

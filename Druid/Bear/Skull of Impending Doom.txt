@@ -5,3 +5,13 @@ Free Action Potion/Skull of Impending Doom
 /use Free Action Potion
 /cast [noform:1] Dire Bear Form
 /use Skull of Impending Doom
+
+
+
+Use Barkskin, Dire Bear Form, Skull of Impending Doom if no two-hand. MCP if two-hand. 
+
+#showtooltip [worn:two-hand] 16;17
+/use [worn:two-hand] 16 
+/stopmacro [worn:two-hand]
+/castsequence [noform] Barkskin, !Dire Bear Form
+/use 17
