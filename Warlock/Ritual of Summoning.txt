@@ -8,6 +8,7 @@ Ritual of Summoning
 
 
 Summon Announcer (raid, party, whisper)
+
 #showtooltip
 /cast Ritual of Summoning
 /run s="Summoning " f=SendChatMessage z=GetMinimapZoneText() t=UnitName("target") j=strjoin f(j("",s,"you to ",z),"WHISPER",nil,t) f(j("",s,t," to ",z,", please assist."),(UnitInRaid("player") and "RAID" or "PARTY"))

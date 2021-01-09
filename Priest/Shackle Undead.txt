@@ -1,4 +1,4 @@
-Shackle Undead
+Shackle Undead, , Set Raid Target Icon Circle
 
 #showtooltip 
 /cancelform
@@ -6,3 +6,14 @@ Shackle Undead
 /stand
 /script setraidtargeticon("target",2) 
 /cast Shackle Undead
+
+
+
+Shackle Undead, Set Raid Target Icon Star
+
+#showtooltip Shackle Undead
+/cancelform
+/dismount
+/stand
+/cast [harm] Shackle Undead
+/run if UnitIsEnemy("player", "target") and GetRaidTargetIndex("target") == nil then SetRaidTarget("target", 1) end
