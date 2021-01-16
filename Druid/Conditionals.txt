@@ -1,0 +1,43 @@
+Forms are as follows:
+
+0: No form
+1: Bear Form, Shadowform, Stealth, Ghost Wolf, Battle Stance
+2: Cat Form, Vanish, Defensive Stance
+3: Travel Form, Berserker Stance
+4: Moonkin Form
+
+
+Learning Aquatic Form will shift the others down 1
+
+0: No form
+1: Bear Form, Shadowform, Stealth, Ghost Wolf, Battle Stance
+2: Aquatic Form, Vanish, Defensive Stance
+3: Cat Form, Berserker Stance
+4: Travel Form
+5: Moonkin Form
+
+
+[form] - In any form not 0
+[noform] - In form 0
+[form:0/1/2/3/4/5] - In form
+[noform:0/1/2/3/4/5] - Not in form
+[exists] - have a target
+[help] - Friendly
+[harm] - Enemy/attackable
+[dead] - Dead
+[party] - Party member
+[raid] - Raid member
+[nodead] - Not dead
+[combat] - In combat
+[nocombat] - Not in combat
+[stealth] - Stealth
+[nostealth] - Not in stealth
+[outdoors] - Outdoors
+[nooutdoors] - Not outdoors
+[indoors] - Not outdoors
+[noindoors] - Outdoors
+[swimming] - Swimming
+[noswimming] - Not swimming
+[mounted] - Mounted
+[nomounted] - Not mounted
+[cursor] - Cursor holding item/ability/macro

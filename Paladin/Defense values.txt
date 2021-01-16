@@ -1,0 +1,3 @@
+Defense values
+
+/run local d,p,b=GetDodgeChance(),GetParryChance(),GetBlockChance() SendChatMessage(format("Def-Values: %.2f%% + %.2f%% + %.2f%% = %.2f%%",d,p,b,d+p+b),"SAY")
