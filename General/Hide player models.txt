@@ -1,0 +1,1 @@
+/run local n,m if GetCVar("componentTexLoadLimit")=="0" then n=6 m=2 else n=0 m=1 end SetCVar("componentTexLoadLimit",n)SetCVar("graphicsTextureResolution",m)

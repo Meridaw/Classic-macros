@@ -1,0 +1,9 @@
+/target Mechanical Dragonling
+/target Arcanite Dragonling
+/target Mithril Dragonling
+/target Servant of Weldon Barov
+/target Battle Chicken
+/target Timbermaw Ancestor
+/targetfriendplayer
+/cast Blessing of Sacrifice(Rank 1)
+/targetlasttarget
