@@ -1,0 +1,16 @@
+Advanced Target Dummy
+
+/use [@cursor] Advanced Target Dummy
+/target [nodead] Advanced Target Dummy
+/use [help] Blessing of Protection
+/targetlasttarget
+
+
+
+Target Dummy
+
+#showtooltip Target Dummy
+/cast [@Cursor] Target Dummy
+/target [nodead] Target Dummy
+/use [help] Blessing of Protection(Rank 1)
+/targetlasttarget
