@@ -2,21 +2,7 @@ spammable Dire Bear Form
 
 #showtooltip Dire Bear Form
 /dismount
+/cancelaura Blessing of Salvation
+/cancelaura Greater Blessing of Salvation
 /cancelform [noform:1]
 /cast [noform:1] !Dire Bear Form
-
-
-
-Dire Bear Form with with powershifting
-
-#showtooltip Dire Bear Form(Shapeshift)
-/cast !Dire Bear Form(Shapeshift)
-
-
-
-Cast Bear form, Swap to action bar 3
-
-#showtooltip
-/cancelform
-/cast bear form
-/changeactionbar 3

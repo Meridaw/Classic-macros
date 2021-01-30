@@ -1,5 +1,7 @@
 Maul
 
-#showtooltip
+#showtooltip Maul
+/cancelaura Blessing of Salvation
+/cancelaura Greater Blessing of Salvation
 /startattack
 /cast !Maul
