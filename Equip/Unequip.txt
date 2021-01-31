@@ -1,3 +1,11 @@
+Unequip weapons to not suffer repair costs
+
+/run PickupInventoryItem(16) PutItemInBackpack()
+/run PickupInventoryItem(17) PutItemInBackpack()
+/run PickupInventoryItem(18) PutItemInBackpack()
+
+
+
 Unequips all to the starter backpack
 
 /script local t={1,3,5,6,7,8,9,10,16,17,18}; for k,v in pairs(t) do PickupInventoryItem(v); PutItemInBackpack(); end
@@ -9,9 +17,4 @@ Unequip to backpack most expensive slots first
 /run t={16,17,18,5,7,1,3,6,8,9,10}; n=GetContainerNumFreeSlots(0); for c,x in ipairs(t) do if n==0 then break end; PickupInventoryItem(x); if CursorHasItem() then PutItemInBackpack(); n=n-1; end; end;
 
 
-
-Unequip weapons to not suffer repair costs
-
-/run PickupInventoryItem(16) PutItemInBackpack()
-/run PickupInventoryItem(17) PutItemInBackpack()
-/run PickupInventoryItem(18) PutItemInBackpack()
+You can change "PutItemInBackpack();" to "PutItemInBag(x)" where x is a number from 20 to 23 (20 meaning the bag closest to the backpack and so on) to put the items in the bag you want.
