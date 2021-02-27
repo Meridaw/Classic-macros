@@ -15,7 +15,7 @@ ActionBar page 6 (Bottom Left ActionBar): slots 61 to 72
 
 
 
-Bags are numbered on the right, (4) (3) (2) (1) (0)
+Bags are numbered on the right, (23) (22) (21) (20) (0)
 Slots in bags are numbered like this:
 1 2 3 4
 5 6 7 8
