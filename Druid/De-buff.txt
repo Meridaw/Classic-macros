@@ -1,0 +1,3 @@
+De-buff
+
+/castsequence Thorns, Mark of the Wild,Scroll of Spirit III, Scroll of Intellect II,Scroll of Strength,Scroll of Stamina,Scroll of Protection,Innervate,Nature's Swiftness,Scarab Brooch, Regrowth, Rejuvenation, Juju Flurry, Juju Ember, Juju Escape

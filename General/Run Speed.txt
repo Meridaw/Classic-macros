@@ -1,0 +1,3 @@
+Find Run Speed
+
+/script ChatFrame1:AddMessage(string.format("Player speed: %d%%", (GetUnitSpeed("Player") / 7) * 100))

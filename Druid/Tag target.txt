@@ -21,3 +21,13 @@ Scourge invasions
 /cleartarget [dead][help]
 /targetenemy [noexists]
 /cast Moonfire(rank 1)
+
+
+
+Tips on farming tidal charm
+
+1) Prince spawns every 24-48 hours just like world bosses. 
+2) After server reset (tues) he will NOT be spawned. This leads to a nearly 100% spawn rate on Wednesday’s. 
+3) If you are a Druid, go get a hydrocane from Gnomer so u can stealth underwater forever in cat so you can camp it easier and AFK without getting seen. 
+4) Bring an ornate spyglass so you can search for him without swimming (use the item and spin slowly 360 Deg while spamming your /tar prince macro, your render distance is increased in this manner. 
+5) 4 spawn locations, one in each of the two ships that are next two each other. He spawns on the lower deck and you can pull him through the windows easily if you swim down from the outside of the ships.  3rd spawn is in the open area south and slightly east of the ships. It’s also of the “roofed building” -> right in a triangle of objects a little south of an archway. 4th spawn is at the base of the big “turtle shell” west of the “roofed” building.
